@@ -18,7 +18,7 @@ import time as tm
 
 dtype = "int32"
 niters = 150 # Number of iterations
-ntrials = 5000 # Number of times to repeat algorithm
+ntrials = 200 # Number of times to repeat algorithm
 
 def sigma(X,T):
     return 1./(1+np.exp(-X/T))
@@ -49,7 +49,7 @@ def getAdjArray(G):
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 7,3,1
+v,k,i = 5,2,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 

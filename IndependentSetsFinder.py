@@ -18,7 +18,7 @@ import time as tm
 
 dtype = "int32"
 niters = 150 # Number of iterations
-ntrials = 5000 # Number of times to repeat algorithm
+ntrials = 200 # Number of times to repeat algorithm
 
 def sigma(X,T):
     return 1./(1+np.exp(-X/T))
@@ -27,15 +27,13 @@ def isIndependent(a,A):
     return np.dot(a,np.dot(A,a.T))==0
    
 def genJohnsonGraph(v,k,i):
-    Jv = ''.join([chr(i) for i in range(v)]) # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
-    Jk = k
-    Ji = i
-    combos=list(it.combinations(Jv, Jk))
+    vset = ''.join([chr(c) for c in range(v)]) # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
+    combos=list(it.combinations(vset, k))
     edges=[]
     combos=[''.join(t[0] for t in x) for x in combos]
     for i,x in enumerate(combos):
         for y in combos[i:]:
-            if len(set(x) & set(y))==Ji:
+            if len(set(x) & set(y))==i:
                 edges.append((x,y))
                 edges.append((y,x))
     G = nx.empty_graph(0, create_using=nx.DiGraph())
@@ -45,11 +43,31 @@ def genJohnsonGraph(v,k,i):
 def getAdjArray(G):
     return np.array(nx.to_numpy_matrix(G)).astype(dtype)
 
+def findIndSet(A,niters):
+    N = np.shape(A)[0]
+    a = np.zeros((N,),dtype=dtype) # Initial active nodes
+    z = np.zeros((N,),dtype=dtype) 
+    for k in np.linspace(-2,2,niters): # Run network while annealing temperature
+        T = np.exp(-k)
+        idx = [j for j in range(N)]
+        random.shuffle(idx)
+        for i in idx:
+            new = np.random.random() < sigma(-2*z[i]+1,T)
+            old = a[i]
+            if old != new:     
+                if new<old:
+                    z -= A[i]
+                    a[i] = new
+                else:
+                    z += A[i]
+                    a[i] = new
+    return a
+
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 7,3,1
+v,k,i = 5,2,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 
@@ -73,22 +91,7 @@ best_set = np.zeros((N,),dtype=dtype)
 beta = 0
 betas = []
 for m in range(ntrials): # Do best of 50 attempts
-    a = np.zeros((N,),dtype=dtype) # Initial active nodes
-    z = np.zeros((N,),dtype=dtype) 
-    for k in np.linspace(-2,2,niters): # Run network while annealing temperature
-        T = np.exp(-k)
-        idx = [j for j in range(N)]
-        random.shuffle(idx)
-        for i in idx:
-            new = np.random.random() < sigma(-2*z[i]+1,T)
-            old = a[i]
-            if old != new:     
-                if new<old:
-                    z -= A[i]
-                    a[i] = new
-                else:
-                    z += A[i]
-                    a[i] = new
+    a = findIndSet(A,niters)
     betas.append(np.sum(a))
     if np.sum(a)>beta:
         best_set = a
@@ -114,13 +117,13 @@ There's got to be a better way to do this part
 IS_bin = np.zeros((beta,v),dtype=dtype)
 for k in range(beta):
     IS_bin[k][IS[k]]=1
-#print(IS,"\n") # Print indices
+print(IS,"\n") # Print indices
 #print(IS_bin) # Print binary
 
-# Histogram of independent set sizes (requires seaborn)
-import seaborn as sns
-sns.distplot(betas)
-plt.show()
+## Histogram of independent set sizes (requires seaborn)
+#import seaborn as sns
+#sns.distplot(betas)
+#plt.show()
 
 ## Optional other stuff
 #G = nx.from_numpy_matrix(A)

@@ -17,8 +17,8 @@ import itertools as it
 import time as tm
 
 dtype = "int32"
-niters = 150 # Number of iterations
-ntrials = 200 # Number of times to repeat algorithm
+niters = 100 # Number of iterations
+ntrials = 10 # Number of times to repeat algorithm
 
 def sigma(X,T):
     return 1./(1+np.exp(-X/T))
@@ -31,8 +31,8 @@ def genJohnsonGraph(v,k,i):
     combos=list(it.combinations(vset, k))
     edges=[]
     combos=[''.join(t[0] for t in x) for x in combos]
-    for i,x in enumerate(combos):
-        for y in combos[i:]:
+    for idx,x in enumerate(combos):
+        for y in combos[idx:]:
             if len(set(x) & set(y))==i:
                 edges.append((x,y))
                 edges.append((y,x))
@@ -67,7 +67,7 @@ def findIndSet(A,niters):
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 5,2,0
+v,k,i = 15,7,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 

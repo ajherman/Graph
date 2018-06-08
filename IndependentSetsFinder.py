@@ -17,33 +17,41 @@ import itertools as it
 import time as tm
 
 dtype = "int32"
-niters = 100 # Number of iterations
+niters = 150 # Number of iterations
+ntrials = 5000 # Number of times to repeat algorithm
 
 def sigma(X,T):
     return 1./(1+np.exp(-X/T))
     
 def isIndependent(a,A):
     return np.dot(a,np.dot(A,a.T))==0
-    
+   
+def genJohnsonGraph(v,k,i):
+    Jv = ''.join([chr(i) for i in range(v)]) # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
+    Jk = k
+    Ji = i
+    combos=list(it.combinations(Jv, Jk))
+    edges=[]
+    combos=[''.join(t[0] for t in x) for x in combos]
+    for i,x in enumerate(combos):
+        for y in combos[i:]:
+            if len(set(x) & set(y))==Ji:
+                edges.append((x,y))
+                edges.append((y,x))
+    G = nx.empty_graph(0, create_using=nx.DiGraph())
+    G.add_edges_from(e for e in edges)
+    return G
+
+def getAdjArray(G):
+    return np.array(nx.to_numpy_matrix(G)).astype(dtype)
+
 ##################
 # Adjacency matrix
 ##################
-
-# Jvki
-Jv = 'abcdefghij' # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
-Jk = 4
-Ji = 3
-combos=list(it.combinations(Jv, Jk))
-edges=[]
-combos=[''.join(t[0] for t in x) for x in combos]
-for i,x in enumerate(combos):
-    for y in combos[i:]:
-        if len(set(x) & set(y))==Ji:
-            edges.append((x,y))
-            edges.append((y,x))
-G = nx.empty_graph(0, create_using=nx.DiGraph())
-G.add_edges_from(e for e in edges)
-A=np.array(nx.to_numpy_matrix(G)).astype(dtype)
+# Generalize Johnson graph
+v,k,i = 7,3,1
+G = genJohnsonGraph(v,k,i)
+A = getAdjArray(G)
 
 ## Random
 #N = 20 # Number of vertices
@@ -64,7 +72,7 @@ N = np.shape(A)[0]
 best_set = np.zeros((N,),dtype=dtype)
 beta = 0
 betas = []
-for m in range(100): # Do best of 50 attempts
+for m in range(ntrials): # Do best of 50 attempts
     a = np.zeros((N,),dtype=dtype) # Initial active nodes
     z = np.zeros((N,),dtype=dtype) 
     for k in np.linspace(-2,2,niters): # Run network while annealing temperature
@@ -84,9 +92,9 @@ for m in range(100): # Do best of 50 attempts
     betas.append(np.sum(a))
     if np.sum(a)>beta:
         best_set = a
-        beta = np.sum(a) 
-    
+        beta = np.sum(a)  
 toc = tm.time()
+
 print("Run time: "+str(toc-tic)+"s")
 print("Independent set computed by stochastic algorithm")
 print(best_set)
@@ -99,11 +107,11 @@ print("Independence number according to the stochastic algorithm: " + str(beta))
 
 
 #prints the independent set
-IS = np.array([[ord(c)-97 for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
+IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
 '''
 There's got to be a better way to do this part
 '''
-IS_bin = np.zeros((beta,len(Jv)),dtype=dtype)
+IS_bin = np.zeros((beta,v),dtype=dtype)
 for k in range(beta):
     IS_bin[k][IS[k]]=1
 #print(IS,"\n") # Print indices

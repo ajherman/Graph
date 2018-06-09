@@ -19,13 +19,13 @@ from GraphFun import *
 
 dtype = "int32"
 niters = 100 # Number of iterations
-ntrials = 100 # Number of times to repeat algorithm
+ntrials = 20 # Number of times to repeat algorithm
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 5,2,0
+v,k,i = 11,5,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 
@@ -57,13 +57,27 @@ for m in range(ntrials): # Do best of 50 attempts
             beta = np.sum(a)  
 toc = tm.time()
 
-# Results
+# Results (slow)
 print("Run time: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))
 
 IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
+
+tic = tm.time()
+best_set2 = fastFindIndSet(A,niters,ntrials)
+beta2 = np.sum(best_set2)
+toc = tm.time()
+
+# Results (fast)
+print("Run time for fast version: "+str(toc-tic)+"s")
+print("Independence number according to the stochastic algorithm: " + str(beta2))
+
+IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set2)[0]],dtype=dtype)
+print("Independent set computed by stochastic algorithm")
+print(IS,"\n") # Print indices
+
 
 '''
 There's got to be a better way to do this part

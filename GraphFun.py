@@ -56,8 +56,30 @@ def findIndSet(A,niters,start=-2,stop=2):
 #### TODO ####
 ##############
 def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
-    print("Not implemented")
-    assert(0)
+    N = np.shape(A)[0]
+    a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    for k in np.linspace(start,stop,niters): # Run network while annealing temperature
+        T = np.exp(-k)
+        idx = np.random.permutation(N)
+        for i in idx:
+            new = np.random.random((ntrials,)) < sigma(-2*z[i]+1,T)
+            old = a[i]
+            sgn = np.sign(new-old)
+            z = z + np.outer(A[i],sgn)
+            a[i] = new
+
+    best_set = np.zeros((N,),dtype=dtype)
+    beta = 0
+    betas = []
+    for trial in range(ntrials):
+        aa = a[:,trial]
+        if isIndependent(aa,A):
+            betas.append(np.sum(aa))
+            if np.sum(aa)>beta:
+                best_set = aa
+                beta = np.sum(aa)  
+    return best_set
 
 def getIndependenceNumber(A):
     print("Not implemented")

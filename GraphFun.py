@@ -51,7 +51,7 @@ def findIndSet(A,niters,start=-2,stop=2):
                 no_change = False
     return a
 
-def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
+def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still be vectorized better
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
     z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
@@ -68,12 +68,9 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
     idx = np.argmax(np.sum(aa,axis=0))
     return aa[:,idx]
 
-##############
-#### TODO ####
-##############
-def getIndependenceNumber(A):
-    print("Not implemented")
-    assert(0)
+def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
+    best = fastFindIndSet(A,niters,ntrials,start,stop)
+    return np.sum(best)
 
-def getFracChromNumber(A): # For vertex transitive graphs only!!!!!!!!!!!!
-    return np.shape(A)[0]/getIndependenceNumber(A)
+def getFracChromNumber(A,niters,ntrials,start=-2,stop=2): # For vertex transitive graphs only!!!!!!!!!!!!
+    return np.shape(A)[0]/getIndependenceNumber(A,niters,ntrials,start=start,stop=stop)

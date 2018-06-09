@@ -62,6 +62,7 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still b
             new = np.random.random((ntrials,)) < sigma(-2*z[i]+1,T)
             old = a[i]
             sgn = np.sign(new-old)
+            print(np.mean(np.abs(sgn)))
             z = z + np.outer(A[i],sgn)
             a[i] = new
     aa = a[:,np.where(np.einsum('it,ij,jt->t',a,A,a)==0)[0]] # Consider only the sets that are actually independent

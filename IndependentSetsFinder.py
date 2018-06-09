@@ -43,6 +43,18 @@ A = getAdjArray(G)
 ######################
 # Find independent set
 ######################
+# Fast version
+tic = tm.time()
+best_set2 = fastFindIndSet(A,niters,ntrials)
+beta2 = np.sum(best_set2)
+toc = tm.time()
+print("Run time for fast version: "+str(toc-tic)+"s")
+print("Independence number according to the stochastic algorithm: " + str(beta2))
+IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set2)[0]],dtype=dtype)
+print("Independent set computed by stochastic algorithm")
+print(IS,"\n") # Print indices
+
+# Slow version
 tic = tm.time()
 N = np.shape(A)[0]
 best_set = np.zeros((N,),dtype=dtype)
@@ -56,35 +68,21 @@ for m in range(ntrials): # Do best of 50 attempts
             best_set = a
             beta = np.sum(a)  
 toc = tm.time()
-
-# Results (slow)
 print("Run time: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))
-
 IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
 
-tic = tm.time()
-best_set2 = fastFindIndSet(A,niters,ntrials)
-beta2 = np.sum(best_set2)
-toc = tm.time()
 
-# Results (fast)
-print("Run time for fast version: "+str(toc-tic)+"s")
-print("Independence number according to the stochastic algorithm: " + str(beta2))
-
-IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set2)[0]],dtype=dtype)
-print("Independent set computed by stochastic algorithm")
-print(IS,"\n") # Print indices
 
 
 '''
 There's got to be a better way to do this part
 '''
-IS_bin = np.zeros((beta,v),dtype=dtype)
-for k in range(beta):
-    IS_bin[k][IS[k]]=1
+#IS_bin = np.zeros((beta,v),dtype=dtype)
+#for k in range(beta):
+#    IS_bin[k][IS[k]]=1
 #print(IS_bin) # Print binary
 
 ## Histogram of independent set sizes (requires seaborn)

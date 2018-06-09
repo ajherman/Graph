@@ -51,10 +51,6 @@ def findIndSet(A,niters,start=-2,stop=2):
                 no_change = False
     return a
 
-
-##############
-#### TODO ####
-##############
 def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
@@ -68,19 +64,13 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
             sgn = np.sign(new-old)
             z = z + np.outer(A[i],sgn)
             a[i] = new
+    aa = a[:,np.where(np.einsum('it,ij,jt->t',a,A,a)==0)[0]] # Consider only the sets that are actually independent
+    idx = np.argmax(np.sum(aa,axis=0))
+    return aa[:,idx]
 
-    best_set = np.zeros((N,),dtype=dtype)
-    beta = 0
-    betas = []
-    for trial in range(ntrials):
-        aa = a[:,trial]
-        if isIndependent(aa,A):
-            betas.append(np.sum(aa))
-            if np.sum(aa)>beta:
-                best_set = aa
-                beta = np.sum(aa)  
-    return best_set
-
+##############
+#### TODO ####
+##############
 def getIndependenceNumber(A):
     print("Not implemented")
     assert(0)

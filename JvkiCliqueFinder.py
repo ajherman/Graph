@@ -90,8 +90,8 @@ toc = tm.time()
 print("Run time: "+str(toc-tic)+"s")
 print("Clique computed by stochastic algorithm")
 print(best_set)
-print("Is it actually independent?")
-if isIndependent(a,A):
+print("Is it actually a clique?")
+if isIndependent(best_set,A):
     print("YES")
 else:
     print("NO")

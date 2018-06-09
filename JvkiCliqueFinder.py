@@ -19,7 +19,7 @@ from GraphFun import *
 
 dtype = "int32"
 niters = 100 # Number of iterations
-ntrials = 100
+ntrials = 50
 
 ##################
 # Adjacency matrix
@@ -43,6 +43,7 @@ A = getAdjArray(G)
 
 # Get complement adjacenty array
 Ac = 1-A # Complement graph
+np.fill_diagonal(Ac,0)
 
 #############
 # Find Clique
@@ -53,15 +54,15 @@ best_set = np.zeros((N,),dtype=dtype)
 beta = 0
 betas = []
 for m in range(ntrials): # Do best of 50 attempts
-    a = findIndSet(Ac,niters)
+    a = findIndSet(Ac,niters,start=-2,stop=2)
     if isIndependent(a,Ac):
-        print(a)
         betas.append(np.sum(a))
         if np.sum(a)>beta:
             best_set = a
             beta = np.sum(a)  
 toc = tm.time()
 
+# Print independent set
 print("Run time: "+str(toc-tic)+"s")
 print("Clique computed by stochastic algorithm")
 print(best_set)
@@ -71,7 +72,4 @@ print("Clique number according to the stochastic algorithm: " + str(beta))
 IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
-
-#prints the independent set
-print([[n for n in G][i] for i in range(len(best_set)) if best_set[i]==1],'\n')
 

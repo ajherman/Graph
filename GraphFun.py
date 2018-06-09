@@ -31,11 +31,11 @@ def genJohnsonGraph(v,k,i):
 def getAdjArray(G):
     return np.array(nx.to_numpy_matrix(G)).astype(dtype)
 
-def findIndSet(A,niters):
+def findIndSet(A,niters,start=-2,stop=2):
     N = np.shape(A)[0]
     a = np.zeros((N,),dtype=dtype) # Initial active nodes
     z = np.zeros((N,),dtype=dtype) # This is kept equal to A*a 
-    for k in np.linspace(-2,2,niters): # Run network while annealing temperature
+    for k in np.linspace(start,stop,niters): # Run network while annealing temperature
         T = np.exp(-k)
         idx = np.random.permutation(N)
         no_change = True # Does a change at all in this iteration?  This is not currently being used.

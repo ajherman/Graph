@@ -50,3 +50,18 @@ def findIndSet(A,niters,start=-2,stop=2):
                 a[i] = new
                 no_change = False
     return a
+
+
+##############
+#### TODO ####
+##############
+def fastFindIndSet(A,niters,ntrials,start=-2,stop=2):
+    print("Not implemented")
+    assert(0)
+
+def getIndependenceNumber(A):
+    print("Not implemented")
+    assert(0)
+
+def getFracChromNumber(A): # For vertex transitive graphs only!!!!!!!!!!!!
+    return np.shape(A)[0]/getIndependenceNumber(A)

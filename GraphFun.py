@@ -5,8 +5,9 @@ import networkx.algorithms.approximation as nxaa
 import matplotlib.pyplot as plt
 import networkx.generators.directed
 import itertools as it
+import time
 
-dtype = "int32"
+dtype = "int8"
 
 def sigma(X,T):
     return 1./(1+np.exp(-X/T))
@@ -62,20 +63,16 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still b
             new = np.random.random((ntrials,)) < sigma(-2*z[i]+1,T)
             old = a[i]
 
-## This alternative isn't work, but not sure why...
-#            sub_idx = np.where(new<old)[0]
-#            add_idx = np.where(old<new)[0]
-#            all_idx = np.concatenate([add_idx,sub_idx])
-#            z[:,sub_idx] -= A[:,i:i+1]
-#            z[:,add_idx] += A[:,i:i+1]
-#            a[:,all_idx] = new[all_idx]
+#            z[:,old&~new] -= A[:,i:i+1]
+#            z[:,new&~old] += A[:,i:i+1]
+#            a[i,new^old]^=True
 
             sgn = np.sign(new-old)
             z = z + np.outer(A[i],sgn)
             a[i] = new
 
-    aa = a[:,np.where(np.einsum('it,ij,jt->t',a,A,a)==0)[0]] # Consider only the sets that are actually independent
-    return aa[:,np.argmax(np.sum(aa,axis=0))]
+    b = a[:,np.where(np.einsum('it,ij,jt->t',a,A,a)==0)[0]] # Consider only the sets that are actually independent
+    return b[:,np.argmax(np.sum(b,axis=0))]
 
 def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
     best = fastFindIndSet(A,niters,ntrials,start,stop)

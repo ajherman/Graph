@@ -16,17 +16,17 @@ def isIndependent(a,A):
     return np.dot(a,np.dot(A,a.T))==0
    
 def genJohnsonGraph(v,k,i):
-    vset = ''.join([chr(c) for c in range(v)]) # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
+    vset = ''.join([chr(c) for c in range(v)]) 
     combos=list(it.combinations(vset, k))
     edges=[]
     combos=[''.join(t[0] for t in x) for x in combos]
+    G = nx.empty_graph(0, create_using=nx.DiGraph())
+    G.add_nodes_from(combos)
     for idx,x in enumerate(combos):
         for y in combos[idx:]:
             if len(set(x) & set(y))==i:
-                edges.append((x,y))
-                edges.append((y,x))
-    G = nx.empty_graph(0, create_using=nx.DiGraph())
-    G.add_edges_from(e for e in edges)
+                G.add_edge(x,y)
+                G.add_edge(y,x)
     return G
 
 def getAdjArray(G):

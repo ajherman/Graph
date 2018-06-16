@@ -19,13 +19,13 @@ from GraphFun import *
 
 dtype = "int32"
 niters = 100 # Number of iterations
-ntrials = 20 # Number of times to repeat algorithm
+ntrials = 30 # Number of times to repeat algorithm
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 4,3,1
+v,k,i = 15,7,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 
@@ -66,7 +66,9 @@ for m in range(ntrials): # Do best of 50 attempts
         betas.append(np.sum(a))
         if np.sum(a)>beta:
             best_set = a
-            beta = np.sum(a)  
+            beta = np.sum(a) 
+    else:
+        print("Not independent")
 toc = tm.time()
 print("Run time: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))

@@ -12,8 +12,8 @@ from GraphFun import *
 
 dtype = "int32"
 niters = 100 # Number of iterations
-ntrials = 20 # Number of times to repeat algorithm
-max_v = 23
+ntrials = 40 # Number of times to repeat algorithm
+max_v = 21
 
 # Compute independence array
 alphas = np.zeros((max_v,max_v),dtype=dtype)

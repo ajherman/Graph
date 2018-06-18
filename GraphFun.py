@@ -78,5 +78,6 @@ def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
     best = fastFindIndSet(A,niters,ntrials,start,stop)
     return np.sum(best)
 
+#By Godsil page 142
 def getFracChromNumber(A,niters,ntrials,start=-2,stop=2): # For vertex transitive graphs only!!!!!!!!!!!!
     return np.shape(A)[0]/getIndependenceNumber(A,niters,ntrials,start=start,stop=stop)

@@ -16,17 +16,17 @@ def isIndependent(a,A):
     return np.dot(a,np.dot(A,a.T))==0
    
 def genJohnsonGraph(v,k,i):
-    vset = ''.join([chr(c) for c in range(v)]) # MUST BE IN ALPHABETICAL ORDER STARTING WITH A!!!
+    vset = ''.join([chr(c) for c in range(v)]) 
     combos=list(it.combinations(vset, k))
     edges=[]
     combos=[''.join(t[0] for t in x) for x in combos]
+    G = nx.empty_graph(0, create_using=nx.DiGraph())
+    G.add_nodes_from(combos)
     for idx,x in enumerate(combos):
         for y in combos[idx:]:
             if len(set(x) & set(y))==i:
-                edges.append((x,y))
-                edges.append((y,x))
-    G = nx.empty_graph(0, create_using=nx.DiGraph())
-    G.add_edges_from(e for e in edges)
+                G.add_edge(x,y)
+                G.add_edge(y,x)
     return G
 
 def getAdjArray(G):
@@ -56,23 +56,19 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still b
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
     z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
-    for k in np.linspace(start,stop,niters): # Run network while annealing temperature
-        T = np.exp(-k)
+    Ts = np.exp(-np.linspace(start,stop,niters))
+    for T in Ts: # Run network while annealing temperature
         idx = np.random.permutation(N)
         for i in idx:
             new = np.random.random((ntrials,)) < sigma(-2*z[i]+1,T)
             old = a[i]
-
-#            z[:,old&~new] -= A[:,i:i+1]
-#            z[:,new&~old] += A[:,i:i+1]
-#            a[i,new^old]^=True
-
+#            z[:,old&~new] -= A[:,i:i+1] #
+#            z[:,new&~old] += A[:,i:i+1] # Why isn't this faster?
+#            a[i,new^old]^=True          #
             sgn = np.sign(new-old)
             z = z + np.outer(A[i],sgn)
             a[i] = new
-
-    b = a[:,np.where(np.einsum('it,ij,jt->t',a,A,a)==0)[0]] # Consider only the sets that are actually independent
-    return b[:,np.argmax(np.sum(b,axis=0))]
+    return a[:,np.argmax(np.sum(a,axis=0))]
 
 def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
     best = fastFindIndSet(A,niters,ntrials,start,stop)

@@ -25,7 +25,7 @@ ntrials = 30 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 15,7,0
+v,k,i = 9,4,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 

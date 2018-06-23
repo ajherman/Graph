@@ -50,10 +50,10 @@ beta2 = np.sum(best_set2)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta2))
-IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set2)[0]],dtype=dtype)
+IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set2)[0]],dtype=dtype)
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
-
+print(best_set2)
 # Slow version
 tic = tm.time()
 N = np.shape(A)[0]
@@ -72,7 +72,8 @@ for m in range(ntrials): # Do best of 50 attempts
 toc = tm.time()
 print("Run time: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))
-IS = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(best_set)[0]],dtype=dtype)
+IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set)[0]],dtype=dtype)
+
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
 

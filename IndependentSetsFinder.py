@@ -18,17 +18,17 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 200 # Number of iterations
-ntrials = 60 # Number of times to repeat algorithm
+niters = 750 # Number of iterations
+ntrials = 2000 # Number of times to repeat algorithm
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 23,4,3
+v,k,i = 13,5,4
 
-G = genJohnsonGraph(v,k,i)
-A = getAdjArray(G)
+#G = genJohnsonGraph(v,k,i)
+#A = getAdjArray(G)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -56,6 +56,7 @@ IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set)[0]],dtyp
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
 print(best_set)
+print("Is independent: ",isIndependent(best_set,A))
 
 ## Fast version
 #tic = tm.time()

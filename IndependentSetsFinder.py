@@ -18,14 +18,14 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 100 # Number of iterations
-ntrials = 30 # Number of times to repeat algorithm
+niters = 200 # Number of iterations
+ntrials = 60 # Number of times to repeat algorithm
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 15,7,0
+v,k,i = 23,4,3
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 

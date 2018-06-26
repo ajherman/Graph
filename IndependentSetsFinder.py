@@ -26,6 +26,7 @@ ntrials = 60 # Number of times to repeat algorithm
 ##################
 # Generalize Johnson graph
 v,k,i = 23,4,3
+
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 

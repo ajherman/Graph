@@ -13,7 +13,7 @@ from GraphFun import *
 dtype = "int32"
 niters = 100 # Number of iterations
 ntrials = 100 # Number of times to repeat algorithm
-max_v = 23
+max_v = 21
 
 ## If starting from scratch (overwrites arrays if uncommented!)
 #alphas = -np.ones((max_v,max_v),dtype=dtype)
@@ -31,9 +31,10 @@ for v in range(max_v):
         # Get Johnson adjacency array
         G = genJohnsonGraph(v,k,k-1)
         A = getAdjArray(G)
+        B = adjArray2List(A)
 
         # Find an independent set
-        maxIndSetIndicator = fastFindIndSet(A,niters,ntrials,start=-2,stop=2.5)
+        maxIndSetIndicator = fastFindIndSet(B,niters,ntrials,start=-2,stop=2.5)
         maxIndSet = np.array([[ord(c) for c in G.nodes()[i]] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
 

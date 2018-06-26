@@ -9,13 +9,13 @@ import time
 
 dtype = "int8"
 
-def sigma(X,T):
+def sigma(X,T): # Logistic function
     return 1./(1+np.exp(-X/T))
     
-def isIndependent(a,A):
+def isIndependent(a,A): # Tests if vertices specified by binary vector, a, are independent for adjacency array, A
     return np.dot(a,np.dot(A,a.T))==0
    
-def genJohnsonGraph(v,k,i):
+def genJohnsonGraph(v,k,i): # Create J(v,k,i) graph
     vset = ''.join([chr(c) for c in range(v)]) 
     combos=list(it.combinations(vset, k))
     edges=[]
@@ -29,7 +29,14 @@ def genJohnsonGraph(v,k,i):
                 G.add_edge(y,x)
     return G
 
-def getAdjArray(G):
+def adjArray2List(A): # Creates adjacency list from array
+    N = np.shape(A)[0]
+    B = []
+    for j in range(N):
+        B.append(np.where(A[j])[0])
+    return B
+
+def getAdjArray(G): # Create adjacency array from graph 
     return np.array(nx.to_numpy_matrix(G)).astype(dtype)
 
 def findIndSet(A,niters,start=-2,stop=2):
@@ -52,7 +59,7 @@ def findIndSet(A,niters,start=-2,stop=2):
                 no_change = False
     return a
 
-def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still be vectorized better
+def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True): # I think this can still be vectorized better
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
     z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
@@ -60,14 +67,15 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2): # I think this can still b
     for T in Ts: # Run network while annealing temperature
         idx = np.random.permutation(N)
         for i in idx:
-            new = np.random.random((ntrials,)) < sigma(-2*z[i]+1,T)
-            old = a[i]
-#            z[:,old&~new] -= A[:,i:i+1] #
-#            z[:,new&~old] += A[:,i:i+1] # Why isn't this faster?
-#            a[i,new^old]^=True          #
-            sgn = np.sign(new-old)
-            z = z + np.outer(A[i],sgn)
+            rando = np.random.random((ntrials,))
+            s = sigma(-2*z[i]+1,T)
+            new = rando < s
+            delta = new-a[i]
             a[i] = new
+            if adjlist:
+                z[A[i]] += delta
+            else:
+                z += np.outer(A[i],delta)
     return a[:,np.argmax(np.sum(a,axis=0))]
 
 def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):

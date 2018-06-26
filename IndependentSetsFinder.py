@@ -25,57 +25,71 @@ ntrials = 30 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 9,4,0
+v,k,i = 15,7,0
 G = genJohnsonGraph(v,k,i)
 A = getAdjArray(G)
 
 ## Random
-#N = 20 # Number of vertices
-#q = 0.3 # Edge probability
+#N = 1000 # Number of vertices
+#q = 0.99999 # Edge probability
 #A = np.random.random((N,N))
 #A = 0.5*(A+A.T)
 #A = 1*(A<q)
 #A -= np.diag(np.diag(A))
-
+#
 ## Complete graph
 #A = np.ones((N,N))-np.eye(N)
 
 ######################
 # Find independent set
 ######################
-# Fast version
+# Super fast version
 tic = tm.time()
-best_set2 = fastFindIndSet(A,niters,ntrials)
-beta2 = np.sum(best_set2)
+B = adjArray2List(A)
+best_set = fastFindIndSet(B,niters,ntrials)
+beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")
-print("Independence number according to the stochastic algorithm: " + str(beta2))
-IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set2)[0]],dtype=dtype)
-print("Independent set computed by stochastic algorithm")
-print(IS,"\n") # Print indices
-print(best_set2)
-# Slow version
-tic = tm.time()
-N = np.shape(A)[0]
-best_set = np.zeros((N,),dtype=dtype)
-beta = 0
-betas = []
-for m in range(ntrials): # Do best of 50 attempts
-    a = findIndSet(A,niters)
-    if isIndependent(a,A):
-        betas.append(np.sum(a))
-        if np.sum(a)>beta:
-            best_set = a
-            beta = np.sum(a) 
-    else:
-        print("Not independent")
-toc = tm.time()
-print("Run time: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))
 IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set)[0]],dtype=dtype)
-
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
+print(best_set)
+
+## Fast version
+#tic = tm.time()
+#best_set2 = fastFindIndSet(A,niters,ntrials,adjlist=False)
+#beta2 = np.sum(best_set2)
+#toc = tm.time()
+#print("Run time for fast version: "+str(toc-tic)+"s")
+#print("Independence number according to the stochastic algorithm: " + str(beta2))
+#IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set2)[0]],dtype=dtype)
+#print("Independent set computed by stochastic algorithm")
+#print(IS,"\n") # Print indices
+#print(best_set2)
+#
+## Slow version
+#tic = tm.time()
+#N = np.shape(A)[0]
+#best_set = np.zeros((N,),dtype=dtype)
+#beta = 0
+#betas = []
+#for m in range(ntrials): # Do best of 50 attempts
+#    a = findIndSet(A,niters)
+#    if isIndependent(a,A):
+#        betas.append(np.sum(a))
+#        if np.sum(a)>beta:
+#            best_set = a
+#            beta = np.sum(a) 
+#    else:
+#        print("Not independent")
+#toc = tm.time()
+#print("Run time: "+str(toc-tic)+"s")
+#print("Independence number according to the stochastic algorithm: " + str(beta))
+#IS = np.array([[ord(c) for c in list(G)[i]] for i in np.where(best_set)[0]],dtype=dtype)
+#
+#print("Independent set computed by stochastic algorithm")
+#print(IS,"\n") # Print indices
 
 
 '''

@@ -18,8 +18,8 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 750 # Number of iterations
-ntrials = 2000 # Number of times to repeat algorithm
+niters = 15000 # Number of iterations
+ntrials = 1 # Number of times to repeat algorithm
 
 ##################
 # Adjacency matrix

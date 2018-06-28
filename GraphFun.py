@@ -15,44 +15,39 @@ def sigma(X,T): # Logistic function
 def isIndependent(a,A): # Tests if vertices specified by binary vector, a, are independent for adjacency array, A
     return np.dot(a,np.dot(A,a.T))==0
 
-def genJohnsonAdjListAlt(v,k,i): # Create J(v,k,i) graph
-    combos1=list(it.combinations([ii for ii in range(k)], i))
-    combos2=list(it.combinations([ii for ii in range(k,v)],k-i))
-    allcombos=[x+y for x in combos1 for y in combos2]
-    flip = np.zeros((len(allcombos),v),dtype=dtype)
-    for idx,c in enumerate(allcombos):
-        flip[idx,c]=1
-    neighbors=np.zeros(np.shape(flip),dtype=dtype)
-    vset = [ii for ii in range(v)]
-    combos=list(it.combinations(vset, k))
-    V = np.zeros((len(combos),v),dtype=dtype)
-    for idx,c in enumerate(combos):
-        V[idx,c]=1
-
-    hsh = {}
-    for ii,x in enumerate(V):
-        str_x = np.array2string(x,separator="")[1:-1]
-        hsh[str_x] = ii
-
-    adjList = [[] for v in V] 
-    for x in V:
-        idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
-        neighbors[:,idx] = flip
-        str_x = np.array2string(x,separator="")[1:-1]
-        for y in neighbors:
-            str_y = np.array2string(y,separator="")[1:-1]
-            adjList[hsh[str_x]].append(hsh[str_y]) 
-    return V,adjList
-
-def genJohnsonAdjList(v,k,i): # Create J(v,k,i) graph
-    vset = ''.join([chr(c) for c in range(v)]) 
-    combos=list(it.combinations(vset, k))
-    V=[''.join(t[0] for t in x) for x in combos]
-    adjList = [[] for v in V] 
-    for idx1,x in enumerate(combos):
-        for idx2,y in enumerate(combos):
-            if len(set(x) & set(y))==i:
-                adjList[idx1].append(idx2)
+def genJohnsonAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
+    if use_old_version:
+        vset = ''.join([chr(c) for c in range(v)]) 
+        combos=list(it.combinations(vset, k))
+        V=[''.join(t[0] for t in x) for x in combos]
+        adjList = [[] for v in V] 
+        for idx1,x in enumerate(combos):
+            for idx2,y in enumerate(combos):
+                if len(set(x) & set(y))==i:
+                    adjList[idx1].append(idx2)
+    else:
+        b = np.array([2**i for i in range(v)],dtype='uint64')
+        combos1=list(it.combinations([ii for ii in range(k)], i))
+        combos2=list(it.combinations([ii for ii in range(k,v)],k-i))
+        allcombos=[x+y for x in combos1 for y in combos2]
+        flip = np.zeros((len(allcombos),v),dtype=dtype)
+        for idx,c in enumerate(allcombos):
+            flip[idx,c]=1
+        neighbors=np.zeros(np.shape(flip),dtype=dtype)
+        vset = [ii for ii in range(v)]
+        combos=list(it.combinations(vset, k))
+        V = np.zeros((len(combos),v),dtype=dtype)
+        for idx,c in enumerate(combos):
+            V[idx,c]=1 
+        hsh = {np.dot(x,b):ii for ii,x in enumerate(V)}
+        adjList = [[] for v in V] 
+        for x in V:
+            idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
+            neighbors[:,idx] = flip
+            key_x = np.dot(x,b)
+            neighbor_keys = np.dot(neighbors,b)
+            for key_y in neighbor_keys:
+                adjList[hsh[key_x]].append(hsh[key_y]) 
     return V,adjList
 
 def genJohnsonGraph(v,k,i): # Create J(v,k,i) graph

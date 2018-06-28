@@ -25,8 +25,8 @@ ntrials = 100 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 20,10,0 #17,8,0 #13,5,4 # 19,9,8
-V,A = genJohnsonAdjList(v,k,i)
+v,k,i = 13,5,4 #17,8,0 #13,5,4 # 19,9,8
+#V,A = genJohnsonAdjList(v,k,i)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -44,16 +44,16 @@ V,A = genJohnsonAdjList(v,k,i)
 ######################
 # Super fast version
 tic = tm.time()
-best_set = fastFindIndSet(A,niters,ntrials)
+best_set = fastFindIndSet(A,niters,ntrials,-2,1.5)
 beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")
 print("Independence number according to the stochastic algorithm: " + str(beta))
-print("Best set: ")
+#print("Best set: ")
 #print(best_set)
-#IS = np.array([[ord(c) for c in V[i]] for i in np.where(best_set)[0]],dtype=dtype)
-#print("Independent set computed by stochastic algorithm")
-#print(IS,"\n") # Print indices
+IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
+print("Independent set computed by stochastic algorithm")
+print(IS,"\n") # Print indices
 
 '''
 There's got to be a better way to do this part

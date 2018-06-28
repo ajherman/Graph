@@ -67,6 +67,14 @@ print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2)
 '''
 There's got to be a better way to do this part
 '''
+# if you want to save the independent set in the binary form
+#np.savetxt("binary.txt",bestbinary,fmt='%i',newline='\r\n')
+
+# if you want to save the pairwise intersection matrix
+#np.savetxt("best121j13-5-4.txt",np.dot(bestbinary,bestbinary.T),fmt='%i',newline='\r\n')
+
+
+
 #IS_bin = np.zeros((beta,v),dtype=dtype)
 #for k in range(beta):
 #    IS_bin[k][IS[k]]=1

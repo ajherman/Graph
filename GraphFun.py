@@ -94,11 +94,12 @@ def findIndSet(A,niters,start=-2,stop=2):
                 no_change = False
     return a
 
-def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True): # I think this can still be vectorized better
+def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True): 
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
     z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
-    Ts = np.exp(-np.linspace(start,stop,niters))
+    Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
+    Ts += [1e-10,1e-10]
     for itr,T in enumerate(Ts): # Run network while annealing temperature
         print("Iteration: " + str(itr))
         idx = np.random.permutation(N)
@@ -121,3 +122,31 @@ def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
 #By Godsil page 142
 def getFracChromNumber(A,niters,ntrials,start=-2,stop=2): # For vertex transitive graphs only!!!!!!!!!!!!
     return np.shape(A)[0]/getIndependenceNumber(A,niters,ntrials,start=start,stop=stop)
+
+
+def drawGraph(G,layout='spectral',layout_array=None): # Taiyo's draw function
+    if layout=='spectral':
+        pos = nx.layout.spectral_layout(G)
+    elif layout=='spring':
+        pos = nx.layout.spring_layout(G,pos=nx.circular_layout(G),iterations=2)
+    elif layout=='shell':
+        pos = nx.layout.shell_layout(G,layout_array)
+    node_sizes = [3 + 10 * i for i in range(len(G))]
+    M = G.number_of_edges()
+    edge_colors = [i for i in range(2, M + 2)]
+    #nodes = nx.draw_networkx_nodes(G, pos, node_size=node_sizes, node_color='blue')
+    edges = nx.draw_networkx_edges(G, pos, node_size=node_sizes, arrowstyle='->',
+                                   arrowsize=10, edge_color=edge_colors,
+                                   edge_cmap=plt.cm.Blues, width=2)
+    nx.draw_networkx_labels(G,pos)
+    plt.figure(1,figsize=(12,12)) 
+    ax = plt.gca()
+    ax.set_axis_off()
+    plt.show()
+
+''' Example
+G = genJohnsonGraph(5,2,0)
+#drawGraph(G,layout='spectral')
+#drawGraph(G,layout='spring')
+#drawGraph(G,layout='shell',layout_array=[['45'],['12', '13', '23'],[ '14', '25', '34', '15', '24', '35']]) # Broken
+'''

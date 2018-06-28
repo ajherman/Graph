@@ -25,16 +25,8 @@ ntrials = 100 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 19,9,0 #17,8,0 #13,5,4 # 19,9,8
-tic=tm.time()
+v,k,i = 20,10,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
-toc=tm.time()
-print(toc-tic)
-
-tic=tm.time()
-V,A = genJohnsonAdjList(v,k,i,use_old_version=True)
-toc=tm.time()
-print(toc-tic)
 
 ## Random
 #N = 1000 # Number of vertices

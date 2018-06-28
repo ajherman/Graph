@@ -18,15 +18,18 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 100 # Number of iterations
-ntrials = 100 # Number of times to repeat algorithm
+niters = 100 #100000# Number of iterations
+ntrials = 20 # Number of times to repeat algorithm
+
+#niters = 30000 # gave 119
+#ntrials = 25
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 13,5,4 #17,8,0 #13,5,4 # 19,9,8
-#V,A = genJohnsonAdjList(v,k,i)
+v,k,i = 15,3,0 #17,8,0 #13,5,4 # 19,9,8
+V,A = genJohnsonAdjList(v,k,i)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -44,7 +47,7 @@ v,k,i = 13,5,4 #17,8,0 #13,5,4 # 19,9,8
 ######################
 # Super fast version
 tic = tm.time()
-best_set = fastFindIndSet(A,niters,ntrials,-2,1.5)
+best_set,oth_ind = fastFindIndSetExp(A,niters,ntrials,anneal=3,otherind=True)
 beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")
@@ -55,6 +58,12 @@ IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
 print("Independent set computed by stochastic algorithm")
 print(IS,"\n") # Print indices
 
+print("Sizes of independent sets found :")
+print(oth_ind)     
+
+bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
+print("number of pairwise intersections sizes *2? :")
+print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
 '''
 There's got to be a better way to do this part
 '''

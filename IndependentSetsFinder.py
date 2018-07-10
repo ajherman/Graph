@@ -28,7 +28,7 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
 
 ## Random

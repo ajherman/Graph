@@ -1,3 +1,7 @@
+#niters = 50000
+#ntrials = 50 
+#independent set size: 120
+#Run time for fast version: 2909.101972579956s
 
 
 0 1 2 3 8

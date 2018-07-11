@@ -18,7 +18,7 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 100 #100000# Number of iterations
+niters = 10000 #100000# Number of iterations
 ntrials = 20 # Number of times to repeat algorithm
 
 #niters = 30000 # gave 119

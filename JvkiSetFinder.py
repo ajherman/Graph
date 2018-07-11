@@ -33,7 +33,7 @@ maxIndSets = np.empty((max_v,max_v),dtype=object)
 # Compute independent sets
 for v in range(max_v):
     print(v)
-    for k in range(1,v//2+1):
+    for k in range(1,v+1):
 
         # Get Johnson adjacency array
         V,B = genJohnsonAdjList(v,k,ii)

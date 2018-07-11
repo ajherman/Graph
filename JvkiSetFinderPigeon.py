@@ -38,9 +38,9 @@ alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasTentative.txt",dtype=dt
 #maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsTentative.npy")
 
 # Compute independent sets
-for v in range(1,max_v):
+for v in range(ii,max_v):
     print(v)
-    for k in range(1,v//2+i//2+2):
+    for k in range(ii,v//2+i//2+2):
 
         # Get Johnson adjacency array
         V,B = genJohnsonAdjList(v,k,ii)

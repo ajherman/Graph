@@ -1,0 +1,21 @@
+Run time for fast version: 42.259182929992676s
+Independence number according to the stochastic algorithm: 13
+Independent set computed by stochastic algorithm
+[[ 0  4 13]
+ [ 0  4 14]
+ [ 0 13 14]
+ [ 1  5  8]
+ [ 2  3  9]
+ [ 2  3 10]
+ [ 2  9 10]
+ [ 3  9 10]
+ [ 4 13 14]
+ [ 5  6  8]
+ [ 5  7  8]
+ [ 5  8 11]
+ [ 5  8 12]]
+
+Sizes of independent sets found :
+[13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13 13]
+number of pairwise intersections sizes *2? :
+[112   0  44  13]

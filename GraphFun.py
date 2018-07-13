@@ -117,6 +117,31 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
         return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
+
+def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False): 
+    N = np.shape(A)[0]
+    a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
+    Ts += [1e-10,1e-10]
+    Ts+=Ts[-20:-1]*anneal
+    for itr,T in enumerate(Ts): # Run network while annealing temperature
+#        print("Iteration: " + str(itr))
+        idx = np.random.permutation(N)
+        for i in idx:
+            rando = np.random.random((ntrials,))
+            s = sigma(-2*z[i]+1,T)
+            new = rando < s
+            delta = new-a[i]
+            a[i] = new
+            if adjlist:
+                z[A[i]] += delta
+            else:
+                z += np.outer(A[i],delta)
+    if otherind:
+        return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
+    else:
+        return a[:,np.argmax(np.sum(a,axis=0))]
     
 def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
     best = fastFindIndSet(A,niters,ntrials,start,stop)

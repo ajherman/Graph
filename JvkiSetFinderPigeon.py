@@ -22,31 +22,31 @@ import time as tm
 #from GraphFun import *
 
 dtype = "int32"
-niters = 100 # Number of iterations
+niters = 128 # Number of iterations
 ntrials = 64 # Number of times to repeat algorithm
-max_v = 14
+max_v = 13
 ii=1#intersection number
 
 ## If starting from scratch (overwrites arrays if uncommented!)
-#alphas = -np.ones((max_v,max_v),dtype=dtype)
-# comment out this and all lines with maxIndSets if you only want the table.
-#maxIndSets = np.empty((max_v,max_v),dtype=object)
+alphas = -np.ones((max_v,max_v),dtype=dtype)
+## comment out this and all lines with maxIndSets if you only want the table.
+maxIndSets = np.empty((max_v,max_v),dtype=object)
 
 # Load arrays
-alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasTentative.txt",dtype=dtype)
+#alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
 #max_v = np.shape(alphas)[0]
-#maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsTentative.npy")
+#maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsPigeon.npy")
 
 # Compute independent sets
 for v in range(ii,max_v):
     print(v)
-    for k in range(ii,v//2+i//2+2):
+    for k in range(ii,v//2+ii//2+2):
 
         # Get Johnson adjacency array
         V,B = genJohnsonAdjList(v,k,ii)
         
         # Find an independent set
-        maxIndSetIndicator = fastFindIndSet(B,niters,ntrials,start=-2,stop=2)
+        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
 #        maxIndSet = np.array([V[i] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
 
@@ -56,6 +56,6 @@ for v in range(ii,max_v):
             alphas[v,k] = alpha
             np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",alphas,fmt='%5d',newline='\r\n')
 #            np.save("IndependentSets/maxJvk"+str(ii)+"IndSetsTentative.npy",maxIndSets)
-    for k in range(v//2+i//2+2,v+1):
+    for k in range(v//2+ii//2+2,v+1):
         alphas[v,k] = scis.binom(v, k)
         np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",alphas,fmt='%5d',newline='\r\n')

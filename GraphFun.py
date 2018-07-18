@@ -151,7 +151,6 @@ def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
 def getFracChromNumber(A,niters,ntrials,start=-2,stop=2): # For vertex transitive graphs only!!!!!!!!!!!!
     return np.shape(A)[0]/getIndependenceNumber(A,niters,ntrials,start=start,stop=stop)
 
-
 def drawGraph(G,layout='spectral',layout_array=None): # Taiyo's draw function
     if layout=='spectral':
         pos = nx.layout.spectral_layout(G)
@@ -178,3 +177,15 @@ G = genJohnsonGraph(5,2,0)
 #drawGraph(G,layout='spring')
 #drawGraph(G,layout='shell',layout_array=[['45'],['12', '13', '23'],[ '14', '25', '34', '15', '24', '35']]) # Broken
 '''
+
+def johnsonIndices(v,k):
+    V,K =  np.meshgrid(range(v[0],v[1]),range(k[0],k[1]))
+    return V,K,K-1
+
+def iFixedIndices(v,k,i=0): # i should be an int, v and k should be tuples.  Kneser graphs by default
+    V,K =  np.meshgrid(range(v[0],v[1]),range(k[0],k[1]))
+    return V,K,i*np.ones((v[1]-v[0],k[1]-k[0]),dtype=dtype)
+
+def vFixedIndices(v,k,i): # v should be an int, k and i should be tuples
+    K,I =  np.meshgrid(range(k[0],k[1]),range(i[0],i[1]))
+    return v*np.ones((k[1]-k[0],i[1]-i[0]),dtype=dtype),K,I

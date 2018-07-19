@@ -109,14 +109,8 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
             new = rando < s
             delta = new-a[i]
             a[i] = new
-            if adjlist:
-                z[A[i]] += delta
-            else:
-                z += np.outer(A[i],delta)
-    if otherind:
-        return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
-    else:
-        return a[:,np.argmax(np.sum(a,axis=0))]
+            z[A[i]] += delta
+    return a[:,np.argmax(np.sum(a,axis=0))]
 
 def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False): 
     N = np.shape(A)[0]

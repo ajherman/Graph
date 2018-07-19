@@ -38,9 +38,6 @@ V,A = genJohnsonAdjList(v,k,i)
 #A = 0.5*(A+A.T)
 #A = 1*(A<q)
 #A -= np.diag(np.diag(A))
-#
-## Complete graph
-#A = np.ones((N,N))-np.eye(N)
 
 ######################
 # Find independent set

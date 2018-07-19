@@ -45,7 +45,3 @@ for v,k,i in idx_set:
             np.save("IndependentSets/JvkiAlphas.npy",alphas)
             np.save("IndependentSets/JvkiIndependentSets.npy",maxIndSets)
 
-        # Save txt file showing a specific slice of values
-        display_alphas = alphas[sliceIdx('johnson',max_v)]
-        np.savetxt("IndependentSets/AlphaArray.txt",display_alphas,fmt='%5d')
-

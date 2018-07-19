@@ -44,7 +44,7 @@ V,A = genJohnsonAdjList(v,k,i)
 ######################
 # Super fast version
 tic = tm.time()
-best_set = fastFindIndSetAlt(A,niters,ntrials,-2,2)
+best_set = fastFindIndSet(A,niters,ntrials,-2,2)
 beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")

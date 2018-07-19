@@ -19,13 +19,13 @@ import networkx.generators.directed
 import itertools as it
 import scipy.special as scis
 import time as tm
-#from GraphFun import *
+from GraphFun import *
 
 dtype = "int32"
 niters = 128 # Number of iterations
 ntrials = 64 # Number of times to repeat algorithm
 max_v = 13
-ii=1#intersection number
+ii=1
 
 ## If starting from scratch (overwrites arrays if uncommented!)
 alphas = -np.ones((max_v,max_v),dtype=dtype)
@@ -38,15 +38,16 @@ maxIndSets = np.empty((max_v,max_v),dtype=object)
 #maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsPigeon.npy")
 
 # Compute independent sets
-for v in range(ii,max_v):
+for v in range(1,max_v):
     print(v)
-    for k in range(ii,v//2+ii//2+2):
+    for k in range(1,2): # range(ii,v//2+ii//2+2):
 
         # Get Johnson adjacency array
-        V,B = genJohnsonAdjList(v,k,ii)
-        
+        V,B = genJohnsonAdjList(v,k,1)
+        print(B)     
         # Find an independent set
-        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
+#        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
+        maxIndSetIndicator = fastFindIndSetAlt(B,niters,ntrials,start=-2,stop=2.5)
 #        maxIndSet = np.array([V[i] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
 

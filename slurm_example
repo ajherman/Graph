@@ -1,0 +1,35 @@
+#!/usr/bin/bash
+# Slurm Example from Jay, modified for consistency with the other scripts here.
+
+#SBATCH --job-name indsets
+#SBATCH --nodes=1                    # Use one node
+#SBATCH --ntasks=1                   # Run a single task       
+#SBATCH --cpus-per-task=20           # Number of CPU cores per task
+#SBATCH --output=temp.log
+
+
+pwd; hostname;
+echo "Starting at wall clock time:"
+date
+echo "Running CMT on $SLURM_CPUS_ON_NODE CPU cores"
+
+# These variables should already be set in .bashrc
+#module load gcc-7.2.0
+#export NETGENDIR=$HOME/NGserial/bin
+#export PYTHONPATH=$NETGENDIR/../`python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib(1,0,''))"`:$PYTHONPATH
+#export PATH=$HOME/NGserial/bin:/vol/apps/gcc/gcc-7.2.0/bin/:$PATH
+#export LD_LIBRARY_PATH=$HOME/NGserial/lib:$COMMON_INSTALL_DIR/lib:/opt/intel/mkl/lib/intel64:$LD_LIBRARY_PATH
+
+
+#export PYTHONPATH=$HOME/fiberamp:$PYTHONPATH
+
+export OMP_NUM_THREADS=20
+
+# The local installation of python3 is already in the path
+# so we shouldn't need to specify it.
+python3 $HOME/Graph/IndependentSetsFinderCoeus.py
+
+echo "Ending at wall clock time:"
+date
+
+

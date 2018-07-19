@@ -9,17 +9,17 @@ Created on Mon Feb 26 15:14:19 2018
 
 import numpy as np
 import random
-import networkx as nx
-import networkx.algorithms.approximation as nxaa
-import matplotlib.pyplot as plt
-import networkx.generators.directed
+#import networkx as nx
+#import networkx.algorithms.approximation as nxaa
+#import matplotlib.pyplot as plt
+#import networkx.generators.directed
 import itertools as it
 import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 100 #100000# Number of iterations
-ntrials = 20 # Number of times to repeat algorithm
+niters = 10 #100000# Number of iterations
+ntrials = 32 # Number of times to repeat algorithm
 
 #niters = 30000 # gave 119
 #ntrials = 25
@@ -31,6 +31,7 @@ ntrials = 20 # Number of times to repeat algorithm
 v,k,i = 18,6,3#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 #nned to do Generlized kneser 18,6,2
 V,A = genGKneserAdjList(v,k,i)
+
 
 ## Random
 #N = 1000 # Number of vertices
@@ -73,8 +74,6 @@ There's got to be a better way to do this part
 
 # if you want to save the pairwise intersection matrix
 #np.savetxt("best121j13-5-4.txt",np.dot(bestbinary,bestbinary.T),fmt='%i',newline='\r\n')
-
-
 
 #IS_bin = np.zeros((beta,v),dtype=dtype)
 #for k in range(beta):

@@ -1,9 +1,9 @@
 import numpy as np
 import random
-import networkx as nx
-import networkx.algorithms.approximation as nxaa
-import matplotlib.pyplot as plt
-import networkx.generators.directed
+#import networkx as nx
+#import networkx.algorithms.approximation as nxaa
+#import matplotlib.pyplot as plt
+#import networkx.generators.directed
 import itertools as it
 import time
 
@@ -153,6 +153,24 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
 
+def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2): # Fastest version so far, I think 
+    N = np.shape(A)[0]
+    degree = np.shape(A)[1]
+    a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
+    Ts += [1e-10,1e-10]
+    for itr,T in enumerate(Ts): # Run network while annealing temperature
+        precomputesigma = sigma(-2*np.arange(degree+1)+1,T)
+        randos = np.random.random((N,ntrials))
+        idx = np.random.permutation(N)
+        for i in idx:
+            new = randos[i] < precomputesigma[z[i]]
+            delta = new-a[i]
+            a[i] = new
+            z[A[i]] += delta
+    return a[:,np.argmax(np.sum(a,axis=0))]
+
 def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False): 
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
@@ -213,14 +231,14 @@ G = genJohnsonGraph(5,2,0)
 #drawGraph(G,layout='shell',layout_array=[['45'],['12', '13', '23'],[ '14', '25', '34', '15', '24', '35']]) # Broken
 '''
 
-def johnsonIndices(v,k):
-    V,K =  np.meshgrid(range(v[0],v[1]),range(k[0],k[1]))
-    return V,K,K-1
+def sliceIdx(mode,maxval,s=0): # Generates indices for indexing slice of 3d array
+    if mode == 'johnson': # Diagonal slice for Johnson graphs
+        V,K =  np.meshgrid(range(maxval),range(maxval),indexing='ij')
+        return V,K,K-1
+    elif mode == 'kneser': # Really, this give v,k,i for fixed i...but i defaults to 0 (i.e. Kneser graphs)
+        V,K =  np.meshgrid(range(maxval),range(maxval),indexing='ij')
+        return V,K,s*np.ones((maxval,maxval),dtype=dtype)
+    elif mode == 'fixedv':
+        K,I =  np.meshgrid(range(maxval),range(maxval),indexing='ij')
+        return maxval*np.ones((maxval,maxval),dtype=dtype),K,I
 
-def iFixedIndices(v,k,i=0): # i should be an int, v and k should be tuples.  Kneser graphs by default
-    V,K =  np.meshgrid(range(v[0],v[1]),range(k[0],k[1]))
-    return V,K,i*np.ones((v[1]-v[0],k[1]-k[0]),dtype=dtype)
-
-def vFixedIndices(v,k,i): # v should be an int, k and i should be tuples
-    K,I =  np.meshgrid(range(k[0],k[1]),range(i[0],i[1]))
-    return v*np.ones((k[1]-k[0],i[1]-i[0]),dtype=dtype),K,I

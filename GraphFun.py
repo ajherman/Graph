@@ -1,9 +1,9 @@
 import numpy as np
 import random
-import networkx as nx
-import networkx.algorithms.approximation as nxaa
-import matplotlib.pyplot as plt
-import networkx.generators.directed
+#import networkx as nx
+#import networkx.algorithms.approximation as nxaa
+#import matplotlib.pyplot as plt
+#import networkx.generators.directed
 import itertools as it
 import time
 
@@ -117,6 +117,24 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
         return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
+
+def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2): # Fastest version so far, I think 
+    N = np.shape(A)[0]
+    degree = np.shape(A)[1]
+    a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
+    Ts += [1e-10,1e-10]
+    for itr,T in enumerate(Ts): # Run network while annealing temperature
+        precomputesigma = sigma(-2*np.arange(degree+1)+1,T)
+        randos = np.random.random((N,ntrials))
+        idx = np.random.permutation(N)
+        for i in idx:
+            new = randos[i] < precomputesigma[z[i]]
+            delta = new-a[i]
+            a[i] = new
+            z[A[i]] += delta
+    return a[:,np.argmax(np.sum(a,axis=0))]
 
 def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False): 
     N = np.shape(A)[0]

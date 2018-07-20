@@ -19,7 +19,7 @@ import networkx.generators.directed
 import itertools as it
 import scipy.special as scis
 import time as tm
-#from GraphFun import *
+from GraphFun import *
 
 dtype = "int32"
 niters = 128 # Number of iterations
@@ -28,12 +28,12 @@ max_v = 13
 ii=1#intersection number
 
 ## If starting from scratch (overwrites arrays if uncommented!)
-alphas = -np.ones((max_v,max_v),dtype=dtype)
+#alphas = -np.ones((max_v,max_v),dtype=dtype)
 ## comment out this and all lines with maxIndSets if you only want the table.
-maxIndSets = np.empty((max_v,max_v),dtype=object)
+#maxIndSets = np.empty((max_v,max_v),dtype=object)
 
 # Load arrays
-#alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
+alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
 #max_v = np.shape(alphas)[0]
 #maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsPigeon.npy")
 
@@ -46,7 +46,7 @@ for v in range(ii,max_v):
         V,B = genJohnsonAdjList(v,k,ii)
         
         # Find an independent set
-        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
+        maxIndSetIndicator = fastFindIndSet(B,niters,ntrials,start=-2,stop=2)
 #        maxIndSet = np.array([V[i] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
 

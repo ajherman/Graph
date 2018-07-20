@@ -17,7 +17,7 @@ import time as tm
 dtype = "int32"
 niters = 100 # Number of iterations
 ntrials = 64 # Number of times to repeat algorithm
-max_v = 14
+max_v = 14 
 ii=1#intersection number
 
 ## If starting from scratch (overwrites arrays if uncommented!)

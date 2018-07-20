@@ -18,7 +18,7 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 10 #100000# Number of iterations
+niters = 5000 #100000# Number of iterations
 ntrials = 32 # Number of times to repeat algorithm
 
 #niters = 30000 # gave 119
@@ -28,9 +28,9 @@ ntrials = 32 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 18,6,3#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 13,6,1#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 #nned to do Generlized kneser 18,6,2
-V,A = genGKneserAdjList(v,k,i)
+V,A = genJohnsonAdjList(v,k,i)
 
 
 ## Random
@@ -49,7 +49,7 @@ V,A = genGKneserAdjList(v,k,i)
 ######################
 # Super fast version
 tic = tm.time()
-best_set,oth_ind = fastFindIndSetExp(A,niters,ntrials,anneal=3,otherind=True)
+best_set,oth_ind = fastFindIndSet(A,niters,ntrials,otherind=True)
 beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")

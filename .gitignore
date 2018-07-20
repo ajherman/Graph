@@ -1,3 +1,4 @@
 # Files to ignore
 
 *.npy
+!*Alphas.npy

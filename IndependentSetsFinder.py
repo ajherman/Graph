@@ -28,7 +28,7 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 8,4,1#13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
 
 ## Random
@@ -61,7 +61,7 @@ with open('output.txt', 'w') as f:
     IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
     my_print("Independent set computed by stochastic algorithm")
     my_print(IS,"\n") # Print indices
-    
+#    print(V[best_set.astype(bool)]) # Prints independent set in binary form
     my_print("Sizes of independent sets found :")
     my_print(oth_ind)     
     

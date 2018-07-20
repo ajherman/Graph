@@ -39,7 +39,7 @@ for v,k,i in idx_set:
 
         # If best so far...
         if alpha>alphas[v,k,i]:
-            maxIndSets[v,k,i] = maxIndSet
+            maxIndSets[v,k,i] = V[maxIndSet.astype(bool)]
             alphas[v,k,i] = alpha
             alphas[v,v-k,v-2*k+i] = alpha # Complement automorphism
             np.save("IndependentSets/JvkiAlphas.npy",alphas)

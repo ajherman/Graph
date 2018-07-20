@@ -9,3 +9,5 @@ Before jokes are approved for the master branch, they should be showcased here i
 TO DO:
 
 1) Speed up lines using Sigma in fastIndSetFinder()
+2) Make everything print to .txt files rather than console
+3) Some kind of genetic algorithms thing to replace doing parallel independent runs

@@ -29,7 +29,7 @@ ntrials = 32 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 18,6,1#8,4,1#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 13,6,2#8,4,1#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 #nned to do Generlized kneser 18,6,2
 # Generalize Johnson graph
 V,A = genJohnsonAdjList(v,k,i)
@@ -93,14 +93,13 @@ There's got to be a better way to do this part
 #plt.show()
 
 
-
-#=======
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 26 15:14:19 2018
 
 @author: TEA
 """
+
 """
 # Finding independent sets with Boltzmann machines
 
@@ -125,8 +124,9 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 8,4,1#13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 25,4,1 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
+#V,A=genKneserAdjList(v,k,i)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -141,18 +141,17 @@ V,A = genJohnsonAdjList(v,k,i)
 ######################
 # Super fast version
 tic = tm.time()
-best_set,oth_ind = fastFindIndSetExp(A,niters,ntrials,anneal=4,otherind=True)
+#best_set,oth_ind = fastFindIndSetExp(A,niters,ntrials,anneal=4,otherind=True)
+best_set = fastFindIndSetAlt(A,niters,ntrials)
 beta = np.sum(best_set)
 toc = tm.time()
+print(toc-tic)
+print(beta)
+s=V[best_set.astype(bool)]
+print(np.sum(s,axis=0))
 
 with open('output.txt', 'w') as f:
     def my_print(stri,stri2=''):
-        stri=str(stri)
-        stri2=str(stri2)
-        f.write(stri+stri2 + '\n')
-
-def my_print(stri,stri2=''):
-    with open('output.txt', 'w') as f:    
         stri=str(stri)
         stri2=str(stri2)
         f.write(stri+stri2 + '\n')
@@ -164,11 +163,12 @@ def my_print(stri,stri2=''):
     IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
     my_print("Independent set computed by stochastic algorithm")
     my_print(IS,"\n") # Print indices
-    
+#    print(V[best_set.astype(bool)]) # Prints independent set in binary form
     my_print("Sizes of independent sets found :")
-    my_print(oth_ind)     
+#    my_print(oth_ind)     
     
     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
     my_print("number of pairwise intersections sizes *2? :")
     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
+
 """

@@ -7,7 +7,7 @@ import random
 import itertools as it
 import time
 
-dtype = "int8"
+dtype = "int16"
 
 def sigma(X,T): # Logistic function
     return 1./(1+np.exp(-X/T))

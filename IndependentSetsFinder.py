@@ -28,8 +28,9 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 25,4,1 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
+#V,A=genKneserAdjList(v,k,i)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -50,7 +51,8 @@ beta = np.sum(best_set)
 toc = tm.time()
 print(toc-tic)
 print(beta)
-assert(0)
+s=V[best_set.astype(bool)]
+print(np.sum(s,axis=0))
 
 with open('output.txt', 'w') as f:
     def my_print(stri,stri2=''):
@@ -67,7 +69,7 @@ with open('output.txt', 'w') as f:
     my_print(IS,"\n") # Print indices
 #    print(V[best_set.astype(bool)]) # Prints independent set in binary form
     my_print("Sizes of independent sets found :")
-    my_print(oth_ind)     
+#    my_print(oth_ind)     
     
     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
     my_print("number of pairwise intersections sizes *2? :")

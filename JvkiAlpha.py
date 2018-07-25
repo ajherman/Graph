@@ -11,23 +11,25 @@ import itertools as it
 import time as tm
 from GraphFun import *
 
-# If starting from scratch (overwrites arrays if uncommented!)
-alphas = -np.ones((64,64,64),dtype=dtype)
-maxIndSets = np.empty((64,64,64),dtype=object)
+## If starting from scratch (overwrites arrays if uncommented!)
+#alphas = -np.ones((64,64,64),dtype=dtype)
+#maxIndSets = np.empty((64,64,64),dtype=object)
 
 dtype = "int16"
 niters = 100 # Number of iterations
 ntrials = 100 # Number of times to repeat algorithm
-max_v = 23
+max_v = 30
 
-idx_set = sorted([(v,k,i) for v in range(1,max_v) for k in range(1,v//2+1) for i in range(k)],key=lambda x: sc.special.binom(x[0],x[1])*sc.special.binom(x[1],x[2])*sc.special.binom(x[0]-x[1],x[1]-x[0])) # All Jvki graph in order of size
+#idx_set = sorted([(v,k,i) for v in range(1,max_v) for k in range(1,v//2+1) for i in range(k)],key=lambda x: sc.special.binom(x[0],x[1])*sc.special.binom(x[1],x[2])*sc.special.binom(x[0]-x[1],x[1]-x[0])) # All Jvki graph in order of size
 #idx_set = [(v,k,k-1) for v in range(13,23) for k in range(1,v//2+1)] # Johnson
 #idx_set = [(max_v,k,i) for k in range(1,max_v) for i in range(k)] # Fixed v
 #idx_set = [(v,k,1) for v in range(2,max_v) for k in range(2,v)] # Fixed i
+#idx_set = [(v,4,2) for v in range(4,max_v)]
+idx_set = [(v,4,1) for v in range(4,max_v)]
 
-## Load arrays
-#alphas = np.load("IndependentSets/JvkiAlphas.npy")
-#maxIndSets = np.load("IndependentSets/JvkiIndependentSets.npy")
+# Load arrays
+alphas = np.load("IndependentSets/JvkiAlphas.npy")
+maxIndSets = np.load("IndependentSets/JvkiIndependentSets.npy")
 
 # Compute independent sets
 for v,k,i in idx_set:

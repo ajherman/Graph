@@ -10,10 +10,18 @@ alphas = np.load("IndependentSets/JvkiAlphas.npy")
 #display_alphas = alphas[sliceIdx('johnson',21)]
 #np.savetxt("IndependentSets/JohnsonAlphas.txt",display_alphas,fmt='%5d')
 
-# Fixed v graphs
-vv = 15
-display_alphas = alphas[sliceIdx('fixedv',vv)]
-np.savetxt("IndependentSets/J"+str(vv)+"kiAlphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+## Fixed v graphs
+#vv = 15
+#display_alphas = alphas[sliceIdx('fixedv',vv)]
+#np.savetxt("IndependentSets/J"+str(vv)+"kiAlphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+
+### J(v,4,2)
+#display_alphas = alphas[[v for v in range(23)],23*[4],23*[2]]
+#np.savetxt("IndependentSets/Jv42Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+
+## J(v,4,1)
+display_alphas = alphas[[v for v in range(30)],30*[4],30*[1]]
+np.savetxt("IndependentSets/Jv41Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
 
 ## Fixed i graphs
 #ii = 1

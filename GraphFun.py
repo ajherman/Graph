@@ -155,7 +155,7 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
 
-def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2): # Fastest version so far, I think 
+def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2,otherind=False): # Fastest version so far, I think 
     N = np.shape(A)[0]
     degree = np.shape(A)[1]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
@@ -171,7 +171,10 @@ def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2): # Fastest version so fa
             delta = new-a[i]
             a[i] = new
             z[A[i]] += delta
-    return a[:,np.argmax(np.sum(a,axis=0))]
+    if otherind:
+        return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
+    else:
+        return a[:,np.argmax(np.sum(a,axis=0))]
 
 def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False): 
     N = np.shape(A)[0]

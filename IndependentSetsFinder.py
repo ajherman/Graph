@@ -19,7 +19,7 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 5000 #100000# Number of iterations
+niters = 128 #100000# Number of iterations
 ntrials = 32 # Number of times to repeat algorithm
 
 #niters = 30000 # gave 119
@@ -29,10 +29,13 @@ ntrials = 32 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 13,6,1#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 18,6,1#8,4,1#16,8,1 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 #nned to do Generlized kneser 18,6,2
+# Generalize Johnson graph
 V,A = genJohnsonAdjList(v,k,i)
 
+# Generalize kneser graph
+#V,A=genKneserAdjList(v,k,i)
 
 ## Random
 #N = 1000 # Number of vertices
@@ -50,7 +53,7 @@ V,A = genJohnsonAdjList(v,k,i)
 ######################
 # Super fast version
 tic = tm.time()
-best_set,oth_ind = fastFindIndSet(A,niters,ntrials,otherind=True)
+best_set,oth_ind = fastFindIndSetAlt(A,niters,ntrials,otherind=True)
 beta = np.sum(best_set)
 toc = tm.time()
 print("Run time for fast version: "+str(toc-tic)+"s")
@@ -70,6 +73,9 @@ print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2)
 '''
 There's got to be a better way to do this part
 '''
+# if you want to save the independent set in the set form
+#np.savetxt("indset13-6-1.txt",IS,fmt='%i',newline='\r\n')
+
 # if you want to save the independent set in the binary form
 #np.savetxt("binary.txt",bestbinary,fmt='%i',newline='\r\n')
 
@@ -87,14 +93,15 @@ There's got to be a better way to do this part
 #plt.show()
 
 
-=======
+
+#=======
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 26 15:14:19 2018
 
 @author: TEA
 """
-
+"""
 # Finding independent sets with Boltzmann machines
 
 import numpy as np
@@ -143,6 +150,12 @@ with open('output.txt', 'w') as f:
         stri=str(stri)
         stri2=str(stri2)
         f.write(stri+stri2 + '\n')
+
+def my_print(stri,stri2=''):
+    with open('output.txt', 'w') as f:    
+        stri=str(stri)
+        stri2=str(stri2)
+        f.write(stri+stri2 + '\n')
     
     my_print("Run time for fast version: "+str(toc-tic)+"s")
     my_print("Independence number according to the stochastic algorithm: " + str(beta))
@@ -158,3 +171,4 @@ with open('output.txt', 'w') as f:
     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
     my_print("number of pairwise intersections sizes *2? :")
     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
+"""

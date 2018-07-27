@@ -28,7 +28,7 @@ ntrials = 50 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 10,(5,),(2,4) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 13,(6,),(2,) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 tic = time.time()
 V,A = genGenJohnsonAdjList(v,k,i)
 toc = time.time()
@@ -77,3 +77,25 @@ with open('output.txt', 'w') as f:
     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
     my_print("number of pairwise intersections sizes *2? :")
     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
+######################
+# Find independent set
+######################
+# Super fast version
+tic = tm.time()
+best_set,oth_ind = fastFindIndSetAlt(A,niters,ntrials,otherind=True)
+beta = np.sum(best_set)
+toc = tm.time()
+print("Run time for fast version: "+str(toc-tic)+"s")
+print("Independence number according to the stochastic algorithm: " + str(beta))
+#print("Best set: ")
+#print(best_set)
+IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
+print("Independent set computed by stochastic algorithm")
+print(IS,"\n") # Print indices
+
+print("Sizes of independent sets found :")
+print(oth_ind)     
+
+bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
+print("number of pairwise intersections sizes *2? :")
+print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))

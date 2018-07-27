@@ -28,12 +28,12 @@ max_v = 13
 ii=1
 
 ## If starting from scratch (overwrites arrays if uncommented!)
-alphas = -np.ones((max_v,max_v),dtype=dtype)
+#alphas = -np.ones((max_v,max_v),dtype=dtype)
 ## comment out this and all lines with maxIndSets if you only want the table.
-maxIndSets = np.empty((max_v,max_v),dtype=object)
+#maxIndSets = np.empty((max_v,max_v),dtype=object)
 
 # Load arrays
-#alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
+alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
 #max_v = np.shape(alphas)[0]
 #maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsPigeon.npy")
 
@@ -46,8 +46,9 @@ for v in range(1,max_v):
         V,B = genJohnsonAdjList(v,k,1)
         print(B)     
         # Find an independent set
-#        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
-        maxIndSetIndicator = fastFindIndSetAlt(B,niters,ntrials,start=-2,stop=2.5)
+        
+        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
+
 #        maxIndSet = np.array([V[i] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
 

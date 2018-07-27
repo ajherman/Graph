@@ -28,7 +28,7 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 25,4,1 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 16,4,2 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 V,A = genJohnsonAdjList(v,k,i)
 #V,A=genKneserAdjList(v,k,i)
 
@@ -52,6 +52,44 @@ toc = tm.time()
 print(toc-tic)
 print(beta)
 s=V[best_set.astype(bool)]
+count1=0
+count3=0
+for i in range(20):
+    for j in range(i):
+        r=np.dot(s[:,i],s[:,j])
+        if r==1:
+#            print(str(i)+" - " + str(j)) 
+#            idx=np.where(s[:,i]*s[:,j]==1)[0][0]
+#            print(np.where(s[idx]==1)[0])
+            count1+=1
+        elif r==3:
+            count3+=1
+        else:
+            print(r)
+            assert(0)
+print(count1)
+print(count3)
+print('')
+count0=0
+count1=0
+count3=0
+for i in range(85):
+    for j in range(i):
+        r=np.dot(s[i],s[j])
+        if r==0:
+            count0+=1
+        elif r==1:
+            count1+=1
+        elif r==3:
+            count3+=1
+        else:
+            print(r)
+            assert(0)
+print(count0)
+print(count1)
+print(count3)
+print('')
+
 print(np.sum(s,axis=0))
 
 with open('output.txt', 'w') as f:

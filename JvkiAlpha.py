@@ -25,7 +25,9 @@ max_v = 30
 #idx_set = [(max_v,k,i) for k in range(1,max_v) for i in range(k)] # Fixed v
 #idx_set = [(v,k,1) for v in range(2,max_v) for k in range(2,v)] # Fixed i
 #idx_set = [(v,4,2) for v in range(4,max_v)]
-idx_set = [(v,4,1) for v in range(4,max_v)]
+#idx_set = [(v,5,1) for v in range(5,max_v)]
+#idx_set = [(v,8,1) for v in range(12,max_v)]
+idx_set = [(v,7,1) for v in range(16,max_v)]
 
 # Load arrays
 alphas = np.load("IndependentSets/JvkiAlphas.npy")

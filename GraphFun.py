@@ -50,6 +50,45 @@ def genJohnsonAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
                 adjList[hsh[key_x]].append(hsh[key_y]) 
     return V,adjList
 
+def genGenJohnsonAdjList(v,k,i): # Create J(v,k,i) graph 
+    # Prototype neighbor list
+    flip = {r:None for r in k}
+    neighbors = {r:None for r in k}
+    for rr in k:
+        allcombos = []
+        for r in k:
+            for s in i:
+                tmp1 = list(it.combinations([ii for ii in range(rr)], s))
+                tmp2 = list(it.combinations([ii for ii in range(rr,v)],r-s))
+                allcombos += [x+y for x in tmp1 for y in tmp2]
+        flip[rr] = np.zeros((len(allcombos),v),dtype=dtype)
+        for idx,c in enumerate(allcombos):
+            flip[rr][idx,c]=1
+        neighbors[rr]=np.zeros(np.shape(flip[rr]),dtype=dtype)
+
+    # Vertex list
+    b = np.array([2**ii for ii in range(v)],dtype='uint64')
+    vset = [ii for ii in range(v)]
+    combos = []
+    for r in k:
+        combos+=list(it.combinations(vset, r))
+    V = np.zeros((len(combos),v),dtype=dtype)
+    for idx,c in enumerate(combos):
+        V[idx,c]=1 
+    hsh = {np.dot(x,b):ii for ii,x in enumerate(V)}
+    
+    # Adjacency list
+    adjList = [[] for v in V] 
+    for x in V:
+        r = np.sum(x,dtype=dtype)
+        idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
+        neighbors[r][:,idx] = flip[r]
+        key_x = np.dot(x,b)
+        neighbor_keys = np.dot(neighbors[r],b)
+        for key_y in neighbor_keys:
+            adjList[hsh[key_x]].append(hsh[key_y]) 
+    return V,adjList
+
 def genKneserAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph 
     if use_old_version:
         vset = ''.join([chr(c) for c in range(v)]) 

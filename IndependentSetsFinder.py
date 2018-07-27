@@ -18,8 +18,8 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 100 #100000# Number of iterations
-ntrials = 20 # Number of times to repeat algorithm
+niters = 200 #100000# Number of iterations
+ntrials = 50 # Number of times to repeat algorithm
 
 #niters = 30000 # gave 119
 #ntrials = 25
@@ -28,9 +28,11 @@ ntrials = 20 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 16,4,2 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
-V,A = genJohnsonAdjList(v,k,i)
-#V,A=genKneserAdjList(v,k,i)
+v,k,i = 10,(5,),(2,4) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+tic = time.time()
+V,A = genGenJohnsonAdjList(v,k,i)
+toc = time.time()
+print("Time to build adjacency list: " + str(toc-tic))
 
 ## Random
 #N = 1000 # Number of vertices
@@ -49,48 +51,11 @@ tic = tm.time()
 best_set = fastFindIndSetAlt(A,niters,ntrials)
 beta = np.sum(best_set)
 toc = tm.time()
-print(toc-tic)
-print(beta)
+print("Time to compute independent set: "+str(toc-tic))
+print("Independence number: " + str(beta))
 s=V[best_set.astype(bool)]
-count1=0
-count3=0
-for i in range(20):
-    for j in range(i):
-        r=np.dot(s[:,i],s[:,j])
-        if r==1:
-#            print(str(i)+" - " + str(j)) 
-#            idx=np.where(s[:,i]*s[:,j]==1)[0][0]
-#            print(np.where(s[idx]==1)[0])
-            count1+=1
-        elif r==3:
-            count3+=1
-        else:
-            print(r)
-            assert(0)
-print(count1)
-print(count3)
-print('')
-count0=0
-count1=0
-count3=0
-for i in range(85):
-    for j in range(i):
-        r=np.dot(s[i],s[j])
-        if r==0:
-            count0+=1
-        elif r==1:
-            count1+=1
-        elif r==3:
-            count3+=1
-        else:
-            print(r)
-            assert(0)
-print(count0)
-print(count1)
-print(count3)
-print('')
-
-print(np.sum(s,axis=0))
+print("Independent set: ")
+print(s)
 
 with open('output.txt', 'w') as f:
     def my_print(stri,stri2=''):

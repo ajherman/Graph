@@ -77,25 +77,3 @@ with open('output.txt', 'w') as f:
     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
     my_print("number of pairwise intersections sizes *2? :")
     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
-######################
-# Find independent set
-######################
-# Super fast version
-tic = tm.time()
-best_set,oth_ind = fastFindIndSetAlt(A,niters,ntrials,otherind=True)
-beta = np.sum(best_set)
-toc = tm.time()
-print("Run time for fast version: "+str(toc-tic)+"s")
-print("Independence number according to the stochastic algorithm: " + str(beta))
-#print("Best set: ")
-#print(best_set)
-IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
-print("Independent set computed by stochastic algorithm")
-print(IS,"\n") # Print indices
-
-print("Sizes of independent sets found :")
-print(oth_ind)     
-
-bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
-print("number of pairwise intersections sizes *2? :")
-print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))

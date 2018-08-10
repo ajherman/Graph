@@ -22,32 +22,32 @@ import time as tm
 from GraphFun import *
 
 dtype = "int32"
-niters = 128 # Number of iterations
-ntrials = 64 # Number of times to repeat algorithm
-max_v = 13
+niters = 250 # Number of iterations
+ntrials = 32 # Number of times to repeat algorithm
+max_v = 15
 ii=1
 
 ## If starting from scratch (overwrites arrays if uncommented!)
-#alphas = -np.ones((max_v,max_v),dtype=dtype)
+alphas = -np.ones((max_v,max_v),dtype=dtype)
 ## comment out this and all lines with maxIndSets if you only want the table.
 #maxIndSets = np.empty((max_v,max_v),dtype=object)
 
 # Load arrays
-alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
+#alphas = np.loadtxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",dtype=dtype)
 #max_v = np.shape(alphas)[0]
 #maxIndSets = np.load("IndependentSets/maxJvk"+str(ii)+"IndSetsPigeon.npy")
 
 # Compute independent sets
-for v in range(1,max_v):
+for v in range(ii+1,max_v):
     print(v)
-    for k in range(1,2): # range(ii,v//2+ii//2+2):
+    for k in range(ii,max(v//2+ii//2+2, v)):
 
         # Get Johnson adjacency array
-        V,B = genJohnsonAdjList(v,k,1)
-        print(B)     
+        V,B = genJohnsonAdjList(v,k,ii)
+        #print(B)     
         # Find an independent set
         
-        maxIndSetIndicator = fastFindIndSetExp(B,niters,ntrials,anneal=3,start=-2,stop=2)
+        maxIndSetIndicator = fastFindIndSetAlt(B,niters,ntrials,start=-2,stop=2)#,nneal=3)
 
 #        maxIndSet = np.array([V[i] for i in np.where(maxIndSetIndicator)[0]],dtype=dtype)
         alpha = np.sum(maxIndSetIndicator)
@@ -56,8 +56,8 @@ for v in range(1,max_v):
         if alpha>alphas[v,k]:
 #            maxIndSets[v,k] = maxIndSet
             alphas[v,k] = alpha
-            np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",alphas,fmt='%5d',newline='\r\n')
+            np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeont.txt",alphas,fmt='%5d',newline='\r\n')
 #            np.save("IndependentSets/maxJvk"+str(ii)+"IndSetsTentative.npy",maxIndSets)
     for k in range(v//2+ii//2+2,v+1):
         alphas[v,k] = scis.binom(v, k)
-        np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeon.txt",alphas,fmt='%5d',newline='\r\n')
+        np.savetxt("IndependentSets/Jvk"+str(ii)+"AlphasPigeont.txt",alphas,fmt='%5d',newline='\r\n')

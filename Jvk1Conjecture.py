@@ -1,12 +1,6 @@
 # Finding independent sets with Boltzmann machines
 
 import numpy as np
-import random
-import networkx as nx
-import networkx.algorithms.approximation as nxaa
-import matplotlib.pyplot as plt
-import networkx.generators.directed
-import itertools as it
 import time as tm
 from GraphFun import *
 from scipy.special import binom

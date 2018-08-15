@@ -6,7 +6,6 @@ import numpy as np
 from GraphFun import *
 import time
 import scipy.special
-import math
 
 niters = 150
 ntrials = 100

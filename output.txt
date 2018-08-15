@@ -1,10 +1,10 @@
-Run time for fast version: 0.05962324142456055s
+Run time for fast version: 0.07205319404602051s
 Independence number according to the stochastic algorithm: 4
 Independent set computed by stochastic algorithm
-[[0 1 2]
- [0 1 4]
- [0 2 4]
- [1 2 4]]
+[[0 1 5]
+ [0 2 5]
+ [0 3 5]
+ [0 4 5]]
 
 Sizes of independent sets found :
 number of pairwise intersections sizes *2? :

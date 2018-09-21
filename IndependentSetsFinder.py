@@ -80,7 +80,7 @@ ntrials = 50 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 15,(6,),(3,) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 11,(5,),(1,) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 tic = time.time()
 V,A = genGenJohnsonAdjList(v,k,i)
 toc = time.time()
@@ -130,6 +130,14 @@ with open('output.txt', 'w') as f:
     my_print("number of pairwise intersections sizes *2? :")
     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
 #>>>>>>> d50f11fc6cce0441d22598501be3ad8ab45a2a6b
+# if you want to save the independent set in the binary form
+#change v k and i
+#np.savetxt("jv-k-ibin.txt",s,fmt='%i',newline='\r\n')
+
+# if you want to save the pairwise intersection matrix
+#change v k and i
+#np.savetxt("jv-k-i.txt",np.dot(s,s.T),fmt='%i',newline='\r\n')    
+
 #######################
 ## Find independent set
 #######################

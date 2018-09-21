@@ -11,7 +11,7 @@ import itertools as it
 import time as tm
 from GraphFun import *
 
-## If starting from scratch (overwrites arrays if uncommented!)
+# If starting from scratch (overwrites arrays if uncommented!)
 #alphas = -np.ones((64,64,64),dtype=dtype)
 #maxIndSets = np.empty((64,64,64),dtype=object)
 

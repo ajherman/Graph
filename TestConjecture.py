@@ -7,11 +7,19 @@ from GraphFun import *
 import time
 import scipy.special
 
+niters = 150
+ntrials = 100
+
+v,k,i=16,4,2
+
 IS = np.load("IndependentSets/JvkiIndependentSets.npy")
 
 def getInfo(v,k,i):
-    if not IS[v,k,i] is None:
-        X = IS[v,k,i]
+    if True not IS[v,k,i] is None:
+#        X = IS[v,k,i]
+        V,A = genJohnsonAdjList(v,k,i)
+        best_set = fastFindIndSetAlt(A,niters,ntrials)
+        X=V[best_set.astype(bool)] 
         n = len(X)
         adj = np.zeros((n,n),dtype='bool')
         for j1 in range(n):
@@ -40,10 +48,13 @@ def getInfo(v,k,i):
                         if not reached[w2]:
                             stack.append(w2)
                             reached[w2]=True
+            
+            order = [idx for c in components for idx in c]
+            
             sizes = [len(c) for c in components]
             types = []
             for c in components:
-                x = X[c] 
+                x = X[c]
                 s=np.sum(x,axis=0)
                 types.append(s)
             types = np.stack(types,axis=0)
@@ -57,14 +68,14 @@ def getInfo(v,k,i):
                 for r in range(len(s)):
                     if s[r]==tt:
                         blocks[r].append(w)
-            
+           
             classes = []
             for b in blocks:
                 classes.append(np.sum(X[:,b],axis=1))
             classes=np.stack(classes).T
             classes = set([tuple(c) for c in classes])
             blocks = [len(b) for b in blocks]
-           
+          
             some = 0
             for c in classes:
                 prod = 1
@@ -77,7 +88,7 @@ def getInfo(v,k,i):
 
             complete = [blocks]+[list(c) for c in classes]
 
-            return np.array(complete)
+            return np.array(complete),n
 
         else:
             print("Set did not partition")
@@ -86,12 +97,9 @@ def getInfo(v,k,i):
         print("Independent set not yet computed")
         return None
 
+blocks,n = getInfo(v,k,i)
+print(v,k,i)
+print("Set size: ",n)
+print(blocks)
+print("")
 
-for v in range(1,64):
-    for k in range(1,v//2+1):
-        for i in range(k):
-            if not (v==2*k and i==0):
-                blocks = getInfo(v,k,i)
-                print(v,k,i)
-                print(blocks)
-                print("")

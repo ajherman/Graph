@@ -11,12 +11,6 @@
 #  that prints slices that we want to look at in GraphFun
 
 import numpy as np
-import random
-import networkx as nx
-import networkx.algorithms.approximation as nxaa
-import matplotlib.pyplot as plt
-import networkx.generators.directed
-import itertools as it
 import scipy.special as scis
 import time as tm
 from GraphFun import *

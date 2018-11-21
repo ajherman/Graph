@@ -40,7 +40,7 @@ np.savetxt("IndependentSets/Jv71Alphas.txt",display_alphas,fmt='%5d',newline='\r
 #np.savetxt("IndependentSets/Jv81Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
 
 
-## Fixed i graphs
-#ii = 1
-#display_alphas = alphas[sliceIdx('kneser',21,s=ii)]
-#np.savetxt("IndependentSets/Jvk"+str(ii)+"Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+# Fixed i graphs
+ii = 1
+display_alphas = alphas[sliceIdx('kneser',21,s=ii)]
+np.savetxt("IndependentSets/Jvk"+str(ii)+"Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')

@@ -10,13 +10,13 @@ import scipy.special
 niters = 150
 ntrials = 100
 
-v,k,i=16,4,2
+v,k,i=20,5,2
 
 IS = np.load("IndependentSets/JvkiIndependentSets.npy")
 
 def getInfo(v,k,i):
-    if True not IS[v,k,i] is None:
-#        X = IS[v,k,i]
+    if not IS[v,k,i] is None:
+        X = IS[v,k,i]
         V,A = genJohnsonAdjList(v,k,i)
         best_set = fastFindIndSetAlt(A,niters,ntrials)
         X=V[best_set.astype(bool)] 

@@ -19,7 +19,15 @@ def exponent(k,i):
     return len(best_p),best_p
 
 # Example
-n,p=exponent(k,i)
-print("An asymptotic lower bound on the independence number of J(v,"+str(k)+","+str(i)+") is v^"+str(n))
-print("Block sizes: ",set(p))
+for k in range(3,30):
+    print(k)
+    for i in range(2,k):
+        n,p=exponent(k,i)
+        if n<k-i-1:
+            print(True)
+        elif n >k-i-1:
+            print(False)
+#
+#            print("An asymptotic lower bound on the independence number of J(v,"+str(k)+","+str(i)+") is v^"+str(n))
+#            print("Block sizes: ",set(p))
 

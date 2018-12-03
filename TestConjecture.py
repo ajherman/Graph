@@ -10,7 +10,7 @@ import scipy.special
 niters = 150
 ntrials = 100
 
-v,k,i=20,5,2
+v,k,i=7,4,3
 
 IS = np.load("IndependentSets/JvkiIndependentSets.npy")
 

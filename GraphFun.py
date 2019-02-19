@@ -11,16 +11,16 @@ dtype = "int16"
 
 def sigma(X,T): # Logistic function
     return 1./(1+np.exp(-X/T))
-    
+
 def isIndependent(a,A): # Tests if vertices specified by binary vector, a, are independent for adjacency array, A
     return np.dot(a,np.dot(A,a.T))==0
 
 def genJohnsonAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
     if use_old_version:
-        vset = ''.join([chr(c) for c in range(v)]) 
+        vset = ''.join([chr(c) for c in range(v)])
         combos=list(it.combinations(vset, k))
         V=[''.join(t[0] for t in x) for x in combos]
-        adjList = [[] for v in V] 
+        adjList = [[] for v in V]
         for idx1,x in enumerate(combos):
             for idx2,y in enumerate(combos):
                 if len(set(x) & set(y))==i:
@@ -38,19 +38,19 @@ def genJohnsonAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
         combos=list(it.combinations(vset, k))
         V = np.zeros((len(combos),v),dtype=dtype)
         for idx,c in enumerate(combos):
-            V[idx,c]=1 
+            V[idx,c]=1
         hsh = {np.dot(x,b):ii for ii,x in enumerate(V)}
-        adjList = [[] for v in V] 
+        adjList = [[] for v in V]
         for x in V:
             idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
             neighbors[:,idx] = flip
             key_x = np.dot(x,b)
             neighbor_keys = np.dot(neighbors,b)
             for key_y in neighbor_keys:
-                adjList[hsh[key_x]].append(hsh[key_y]) 
+                adjList[hsh[key_x]].append(hsh[key_y])
     return V,adjList
 
-def genGenJohnsonAdjList(v,k,i): # Create J(v,k,i) graph 
+def genGenJohnsonAdjList(v,k,i): # Create J(v,k,i) graph
     # Prototype neighbor list
     flip = {r:None for r in k}
     neighbors = {r:None for r in k}
@@ -74,11 +74,11 @@ def genGenJohnsonAdjList(v,k,i): # Create J(v,k,i) graph
         combos+=list(it.combinations(vset, r))
     V = np.zeros((len(combos),v),dtype=dtype)
     for idx,c in enumerate(combos):
-        V[idx,c]=1 
+        V[idx,c]=1
     hsh = {np.dot(x,b):ii for ii,x in enumerate(V)}
-    
+
     # Adjacency list
-    adjList = [[] for v in V] 
+    adjList = [[] for v in V]
     for x in V:
         r = np.sum(x,dtype=dtype)
         idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
@@ -86,15 +86,15 @@ def genGenJohnsonAdjList(v,k,i): # Create J(v,k,i) graph
         key_x = np.dot(x,b)
         neighbor_keys = np.dot(neighbors[r],b)
         for key_y in neighbor_keys:
-            adjList[hsh[key_x]].append(hsh[key_y]) 
+            adjList[hsh[key_x]].append(hsh[key_y])
     return V,adjList
 
-def genKneserAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph 
+def genKneserAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
     if use_old_version:
-        vset = ''.join([chr(c) for c in range(v)]) 
+        vset = ''.join([chr(c) for c in range(v)])
         combos=list(it.combinations(vset, k))
         V=[''.join(t[0] for t in x) for x in combos]
-        adjList = [[] for v in V] 
+        adjList = [[] for v in V]
         for idx1,x in enumerate(combos):
             for idx2,y in enumerate(combos):
                 if len(set(x) & set(y))<i:
@@ -114,20 +114,20 @@ def genKneserAdjList(v,k,i,use_old_version=False): # Create J(v,k,i) graph
         combos=list(it.combinations(vset, k))
         V = np.zeros((len(combos),v),dtype=dtype)
         for idx,c in enumerate(combos):
-            V[idx,c]=1 
+            V[idx,c]=1
         hsh = {np.dot(x,b):ii for ii,x in enumerate(V)}
-        adjList = [[] for v in V] 
+        adjList = [[] for v in V]
         for x in V:
             idx = np.concatenate([np.where(x==1)[0],np.where(x==0)[0]])
             neighbors[:,idx] = flip
             key_x = np.dot(x,b)
             neighbor_keys = np.dot(neighbors,b)
             for key_y in neighbor_keys:
-                adjList[hsh[key_x]].append(hsh[key_y]) 
+                adjList[hsh[key_x]].append(hsh[key_y])
     return V,adjList
 
 def genJohnsonGraph(v,k,i): # Create J(v,k,i) graph
-    vset = ''.join([chr(c) for c in range(v)]) 
+    vset = ''.join([chr(c) for c in range(v)])
     combos=list(it.combinations(vset, k))
     edges=[]
     combos=[''.join(t[0] for t in x) for x in combos]
@@ -147,13 +147,13 @@ def adjArray2List(A): # Creates adjacency list from array
         B.append(np.where(A[j])[0])
     return B
 
-def getAdjArray(G): # Create adjacency array from graph 
+def getAdjArray(G): # Create adjacency array from graph
     return np.array(nx.to_numpy_matrix(G)).astype(dtype)
 
 def findIndSet(A,niters,start=-2,stop=2):
     N = np.shape(A)[0]
     a = np.zeros((N,),dtype=dtype) # Initial active nodes
-    z = np.zeros((N,),dtype=dtype) # This is kept equal to A*a 
+    z = np.zeros((N,),dtype=dtype) # This is kept equal to A*a
     for k in np.linspace(start,stop,niters): # Run network while annealing temperature
         T = np.exp(-k)
         idx = np.random.permutation(N)
@@ -161,7 +161,7 @@ def findIndSet(A,niters,start=-2,stop=2):
         for i in idx:
             new = np.random.random() < sigma(-2*z[i]+1,T)
             old = a[i]
-            if old != new:     
+            if old != new:
                 if new<old:
                     z -= A[i]
                 else:
@@ -170,10 +170,10 @@ def findIndSet(A,niters,start=-2,stop=2):
                 no_change = False
     return a
 
-def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False): 
+def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False):
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
-    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a
     Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
     Ts += [1e-10,1e-10]
     for itr,T in enumerate(Ts): # Run network while annealing temperature
@@ -194,11 +194,11 @@ def fastFindIndSet(A,niters,ntrials,start=-2,stop=2,adjlist=True,otherind=False)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
 
-def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2,otherind=False): # Fastest version so far, I think 
+def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2,otherind=False): # Fastest version so far, I think
     N = np.shape(A)[0]
     degree = np.shape(A)[1]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
-    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a
     Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
     Ts += [1e-10,1e-10]
     for itr,T in enumerate(Ts): # Run network while annealing temperature
@@ -215,10 +215,10 @@ def fastFindIndSetAlt(A,niters,ntrials,start=-2,stop=2,otherind=False): # Fastes
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
 
-def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False): 
+def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,otherind=False):
     N = np.shape(A)[0]
     a = np.zeros((N,ntrials),dtype=dtype) # Initial active nodes
-    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a 
+    z = np.zeros((N,ntrials),dtype=dtype) # This is kept equal to A*a
     Ts = list(np.exp(-np.linspace(start,stop,niters-2)))
     Ts += [1e-10,1e-10]
     Ts+=Ts[-20:-1]*anneal
@@ -239,7 +239,7 @@ def fastFindIndSetExp(A,niters,ntrials,start=-2,stop=2,adjlist=True,anneal=0,oth
         return a[:,np.argmax(np.sum(a,axis=0))], np.sum(a,0)
     else:
         return a[:,np.argmax(np.sum(a,axis=0))]
-    
+
 def getIndependenceNumber(A,niters,ntrials,start=-2,stop=2):
     best = fastFindIndSet(A,niters,ntrials,start,stop)
     return np.sum(best)
@@ -263,7 +263,7 @@ def drawGraph(G,layout='spectral',layout_array=None): # Taiyo's draw function
                                    arrowsize=10, edge_color=edge_colors,
                                    edge_cmap=plt.cm.Blues, width=2)
     nx.draw_networkx_labels(G,pos)
-    plt.figure(1,figsize=(12,12)) 
+    plt.figure(1,figsize=(12,12))
     ax = plt.gca()
     ax.set_axis_off()
     plt.show()
@@ -285,4 +285,3 @@ def sliceIdx(mode,maxval,s=0): # Generates indices for indexing slice of 3d arra
     elif mode == 'fixedv':
         K,I =  np.meshgrid(range(maxval),range(maxval),indexing='ij')
         return maxval*np.ones((maxval,maxval),dtype=dtype),K,I
-

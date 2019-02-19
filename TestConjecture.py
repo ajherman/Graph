@@ -10,12 +10,15 @@ import scipy.special
 niters = 150
 ntrials = 100
 
-v,k,i=16,4,2
-
+v,k,i=12,4,1
+ 
 IS = np.load("IndependentSets/JvkiIndependentSets.npy")
 
+#print(np.where(np.logical_not(IS==None)))
+#assert(False)
+
 def getInfo(v,k,i):
-    if True not IS[v,k,i] is None:
+    if True:# IS[v,k,i] is None:
 #        X = IS[v,k,i]
         V,A = genJohnsonAdjList(v,k,i)
         best_set = fastFindIndSetAlt(A,niters,ntrials)
@@ -95,7 +98,7 @@ def getInfo(v,k,i):
             assert(0)
     else:
         print("Independent set not yet computed")
-        return None
+        return None, None
 
 blocks,n = getInfo(v,k,i)
 print(v,k,i)

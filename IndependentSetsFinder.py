@@ -23,9 +23,9 @@ ntrials = 50 # Number of times to repeat algorithm
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 12,5,4 #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 18,(6,),(3,) #15,8,3 #13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 tic = time.time()
-V,A = genJohnsonAdjList(v,k,i)
+V,A = genGenJohnsonAdjList(v,k,i)
 toc = time.time()
 print("Time to build adjacency list: " + str(toc-tic))
 
@@ -51,27 +51,27 @@ print("Independence number: " + str(beta))
 s=V[best_set.astype(bool)]
 print("Independent set: ")
 print(s)
-#
-# with open('output.txt', 'w') as f:
-#     def my_print(stri,stri2=''):
-#         stri=str(stri)
-#         stri2=str(stri2)
-#         f.write(stri+stri2 + '\n')
-#
-#     my_print("Run time for fast version: "+str(toc-tic)+"s")
-#     my_print("Independence number according to the stochastic algorithm: " + str(beta))
-#     #print("Best set: ")
-#     #print(best_set)
-#     IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
-#     my_print("Independent set computed by stochastic algorithm")
-#     my_print(IS,"\n") # Print indices
-# #    print(V[best_set.astype(bool)]) # Prints independent set in binary form
-#     my_print("Sizes of independent sets found :")
-# #    my_print(oth_ind)
-#
-#     bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
-#     my_print("number of pairwise intersections sizes *2? :")
-#     my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
+
+with open('output.txt', 'w') as f:
+    def my_print(stri,stri2=''):
+        stri=str(stri)
+        stri2=str(stri2)
+        f.write(stri+stri2 + '\n')
+
+    my_print("Run time for fast version: "+str(toc-tic)+"s")
+    my_print("Independence number according to the stochastic algorithm: " + str(beta))
+    #print("Best set: ")
+    #print(best_set)
+    IS = np.array([np.where(V[i])[0] for i in np.where(best_set)[0]],dtype=dtype)
+    my_print("Independent set computed by stochastic algorithm")
+    my_print(IS,"\n") # Print indices
+#    print(V[best_set.astype(bool)]) # Prints independent set in binary form
+    my_print("Sizes of independent sets found :")
+#    my_print(oth_ind)
+
+    bestbinary=np.array([V[i] for i in np.where(best_set)[0]])
+    my_print("number of pairwise intersections sizes *2? :")
+    my_print(np.bincount(np.reshape(np.dot(bestbinary,bestbinary.T),len(bestbinary)**2).astype(int)))
 
 
 ##for saving

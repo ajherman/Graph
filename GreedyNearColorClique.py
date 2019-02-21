@@ -19,17 +19,17 @@ import collections
 from GraphFun import *
 
 dtype = "int32"
-niters = 10 # Number of iterations
+niters = 10000 # Number of iterations
 
 
 ##################
 # Adjacency matrix
 ##################
 # Generalize Johnson graph
-v,k,i = 12,5,4#7,3,1#13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
+v,k,i = 8,4,1#7,3,1#13,5,4 #15,3,0 #17,8,0 #13,5,4 # 19,9,8
 # V,A = genJohnsonAdjList(v,k,i)
 
-V,A = genGenJohnsonAdjList(v,[k],[j for j in range(0,i)]+[j for j in range(i+1,k)])
+V,A = genGenJohnsonAdjList(v,[k],[1]) #for j in range(0,i)]+[j for j in range(i+1,k)])
 # print(A)
 ## Random
 #N = 1000 # Number of vertices
@@ -49,7 +49,7 @@ V,A = genGenJohnsonAdjList(v,[k],[j for j in range(0,i)]+[j for j in range(i+1,k
 # print(most)
 # [(2, 3), (3, 2), (1, 1)]
 n=len(V)
-near=2
+near=0
 minChi=np.inf
 Cbest=np.array([0 for x in range(n)])
 for ii in range(niters):

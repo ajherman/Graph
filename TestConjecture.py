@@ -1,5 +1,5 @@
 '''
-The getInfo() function is embarrassingly inefficient, but it does what we want.  Basically, if you give it a v,k,i, it will return an array whose first row are the sizes of blocks of [v] (a partition) and whose other rows give you options for how many things to take from each block.  For all of the cases I've tested (except J(2k,k,0)) this is always a full description...meaning that every possible combination is actually used and together they account for the entire independent set.  So, that's cool!  Basically, these give a more compact way to discuss one of these independent sets.  However, some of them are still pretty big (particularly Johnson graphs) and I think there may be further tricks to make the descriptions even more compact.  
+The getInfo() function is embarrassingly inefficient, but it does what we want.  Basically, if you give it a v,k,i, it will return an array whose first row are the sizes of blocks of [v] (a partition) and whose other rows give you options for how many things to take from each block.  For all of the cases I've tested (except J(2k,k,0)) this is always a full description...meaning that every possible combination is actually used and together they account for the entire independent set.  So, that's cool!  Basically, these give a more compact way to discuss one of these independent sets.  However, some of them are still pretty big (particularly Johnson graphs) and I think there may be further tricks to make the descriptions even more compact.
 '''
 
 import numpy as np
@@ -11,7 +11,7 @@ niters = 150
 ntrials = 100
 
 v,k,i=12,4,1
- 
+
 IS = np.load("IndependentSets/JvkiIndependentSets.npy")
 
 #print(np.where(np.logical_not(IS==None)))
@@ -22,7 +22,7 @@ def getInfo(v,k,i):
 #        X = IS[v,k,i]
         V,A = genJohnsonAdjList(v,k,i)
         best_set = fastFindIndSetAlt(A,niters,ntrials)
-        X=V[best_set.astype(bool)] 
+        X=V[best_set.astype(bool)]
         n = len(X)
         adj = np.zeros((n,n),dtype='bool')
         for j1 in range(n):
@@ -42,7 +42,7 @@ def getInfo(v,k,i):
                     if not reached[w]:
                         stack.append(w)
                         reached[w]=True
-                        break 
+                        break
                 while stack!=[]:
                     w1 = stack.pop()
                     components[-1].append(w1)
@@ -51,9 +51,9 @@ def getInfo(v,k,i):
                         if not reached[w2]:
                             stack.append(w2)
                             reached[w2]=True
-            
+
             order = [idx for c in components for idx in c]
-            
+
             sizes = [len(c) for c in components]
             types = []
             for c in components:
@@ -71,14 +71,14 @@ def getInfo(v,k,i):
                 for r in range(len(s)):
                     if s[r]==tt:
                         blocks[r].append(w)
-           
+
             classes = []
             for b in blocks:
                 classes.append(np.sum(X[:,b],axis=1))
             classes=np.stack(classes).T
             classes = set([tuple(c) for c in classes])
             blocks = [len(b) for b in blocks]
-          
+
             some = 0
             for c in classes:
                 prod = 1
@@ -105,4 +105,3 @@ print(v,k,i)
 print("Set size: ",n)
 print(blocks)
 print("")
-

@@ -15,6 +15,18 @@ alphas = np.load("IndependentSets/JvkiAlphas.npy")
 #display_alphas = alphas[sliceIdx('fixedv',vv)]
 #np.savetxt("IndependentSets/J"+str(vv)+"kiAlphas.txt",display_alphas,fmt='%5d',newline='\r\n')
 
+# J(v,3,2)
+display_alphas = alphas[[v for v in range(23)],23*[3],23*[2]]
+np.savetxt("IndependentSets/Jv32Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+
+## J(v,4,3)
+#display_alphas = alphas[[v for v in range(23)],23*[4],23*[3]]
+#np.savetxt("IndependentSets/Jv43Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+
+## J(v,6,5)
+#display_alphas = alphas[[v for v in range(23)],23*[6],23*[5]]
+#np.savetxt("IndependentSets/Jv65Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+
 ### J(v,4,2)
 #display_alphas = alphas[[v for v in range(23)],23*[4],23*[2]]
 #np.savetxt("IndependentSets/Jv42Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
@@ -32,8 +44,8 @@ alphas = np.load("IndependentSets/JvkiAlphas.npy")
 #np.savetxt("IndependentSets/Jv61Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
 
 ## J(v,7,1)
-display_alphas = alphas[[v for v in range(30)],30*[7],30*[1]]
-np.savetxt("IndependentSets/Jv71Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
+#display_alphas = alphas[[v for v in range(30)],30*[7],30*[1]]
+#np.savetxt("IndependentSets/Jv71Alphas.txt",display_alphas,fmt='%5d',newline='\r\n')
 
 ### J(v,8,1)
 #display_alphas = alphas[[v for v in range(30)],30*[8],30*[1]]

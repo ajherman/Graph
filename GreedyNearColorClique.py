@@ -19,7 +19,7 @@ import collections
 from GraphFun import *
 
 dtype = "int32"
-niters = 10000 # Number of iterations
+niters = 1000 # Number of iterations
 
 
 ##################

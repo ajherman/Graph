@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import networkx.generators.directed
 import itertools as it
 import time as tm
-from GraphFun import *
+from chromatic.GraphFun import *
 
 dtype = "int32"
 niters = 100 # Number of iterations

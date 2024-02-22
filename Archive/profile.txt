@@ -1,2 +1,0 @@
-Command line: ['IndependentSetsFinder.py']
-Total duration: 0s

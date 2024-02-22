@@ -8,6 +8,7 @@ from GraphFun import *
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+from matplotlib.lines import Line2D
 matplotlib.rcParams['animation.convert_path'] = 'magick'
 
 parser = argparse.ArgumentParser()
@@ -18,6 +19,8 @@ parser.add_argument("--T", type=float, default=0.02, help="Temperature")
 parser.add_argument("--lam", type=float, default=1.0, help="Regularization parameter")
 parser.add_argument("--representation", type=str, default="softmax", help="Representation")
 parser.add_argument("--lr", type=float, default=0.1, help="Learning rate")
+parser.add_argument("--batch-size", type=int, default=10, help="Batch size")
+parser.add_argument("--make-movie", type=bool, default=True, help="Make gif")
 args = parser.parse_args()
 
 n_steps = args.n_steps
@@ -27,18 +30,10 @@ T = args.T
 lam = args.lam
 representation = args.representation
 lr = args.lr
+B=args.batch_size
+make_movie = args.make_movie
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
-# class energyModel(torch.nn.Module):
-#     def __init__(self, A, lam=1.0):
-#         super(energyModel, self).__init__()
-#         self.A = A
-#         self.lam = lam
-
-#     def forward(self, x):
-#         energy = x.t()@self.A@x+self.lam*torch.norm(x,1)
-#         return energy
 
 G = genJohnsonGraph(10,4,3)
 A = getAdjArray(G)
@@ -49,12 +44,12 @@ N = A.shape[0] # Number of vertices
 
 # Init x
 if representation == "softmax":
-    x = torch.randn((N,c),requires_grad=True, device=device) # Logits
+    x = torch.randn((B,N,c),requires_grad=True, device=device) # Logits
     x.data = 10*x.data
 elif representation == "quantum":
-    x = torch.randn((N,c),requires_grad=True, device=device) # Logits
+    x = torch.randn((B,N,c),requires_grad=True, device=device) # Logits
     # x.data = 10*x.data
-    x.data = torch.nn.functional.normalize(x.data,dim=1)
+    x.data = torch.nn.functional.normalize(x.data,dim=-1)
     
 # Optimizer
 optimizer = torch.optim.Adam([x], lr=lr)
@@ -66,6 +61,13 @@ vals = []
 points =[]
 losses = []
 
+# def edge_penalty(p):
+#     return 0
+def f(x):
+    # return (2*torch.asin(x)/np.pi)**2
+    return x**2
+    # return 1-torch.sqrt(1-x**2)
+    # return x**2/(1-x**2)
 
 # Ts = torch.linspace(T,0.02,n_steps)
 # Ts = torch.logspace(2,-1,n_steps)
@@ -81,21 +83,35 @@ for step in range(n_steps):
     elif representation == "quantum":
         beta = 1/T
         y = (beta*x)**2
+    # elif representation == "absolute":
+    #     beta = 1/T
+    #     y = torch.abs(x)
 
-
-    p = y/torch.sum(y,dim=1,keepdim=True)
+    p = y/torch.sum(y,dim=-1,keepdim=True)
 
     points.append(p.detach()) # Collect points
 
     # Calculate loss
-    loss = torch.sum(A*(p@p.t())) # Covariance matrix
-    # loss = torch.norm(A*(p@p.t())) # Covariance matrix
+    # multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
+    # multi_loss = torch.sum(A*((p@p.transpose(-1,-2)))**3,dim=(-1,-2)) # Covariance matrix
+    # multi_loss = torch.sum(A*(torch.asin(p@p.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix # Unstable
 
-    losses.append(loss.item())
+    # z = p #torch.abs(x)
+    w = torch.abs(x)
+    z = w/torch.sqrt(torch.sum(w**2,dim=-1,keepdim=True))
+    # multi_loss = torch.sum((A*(z@z.transpose(-1,-2)))**2,dim=(-1,-2)) # Covariance matrix
+    # multi_loss = torch.sum((A*(torch.asin(z@z.transpose(-1,-2))*2/np.pi)**2),dim=(-1,-2)) # Covariance matrix
+    multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
+
+
+    # loss = torch.norm(A*(p@p.t())) # Covariance matrix
+    losses.append(multi_loss.detach())
+    loss = torch.sum(multi_loss) 
     loss.backward()
+    # torch.nn.utils.clip_grad_norm_([x], max_norm=0.1,norm_type='inf')
     optimizer.step()
     if representation == "quantum":
-        x.data = torch.nn.functional.normalize(x.data,dim=1)
+        x.data = torch.nn.functional.normalize(x.data,dim=-1)
     
 
 # print("Loss: ",loss.item())
@@ -119,43 +135,67 @@ for step in range(n_steps):
 #     y = torch.exp(beta*x)
 #     coloring = y/torch.sum(y,dim=1,keepdim=True)
 
-coloring = torch.softmax(20*p,dim=1)
+coloring = torch.softmax(50*p,dim=-1)
 ##################################
 
-minmax=coloring.max(1)[0].min(0)[0].item()
+minmax=coloring.max(1)[0].min(0)[0]
 print(minmax)
 # coloring = torch.softmax(beta*x,dim=1)
 # print(p)
 print(p>0.5)
-val = torch.sum(A*(coloring@coloring.t())).item()
-print(val)
-points = torch.stack(points).cpu().numpy()
-# Create random matrix the projects to 2 dimensions from N dimensions
-R = np.random.randn(2,c)
+val = torch.sum(A*(coloring@coloring.transpose(1,2)),dim=(-1,-2))
+best,idx=torch.min(val,0)
+print("Final losses: ",val)
+print("Best: ",best)
 
-# R = np.array([[1/np.sqrt(3),1/np.sqrt(3),1/np.sqrt(3)],
-#               [1/np.sqrt(2),-1/np.sqrt(2),0],
-#               [1/np.sqrt(6),1/np.sqrt(6),-2/np.sqrt(6)]])
+if make_movie:
+    points = torch.stack([point[idx] for point in points])
 
-in_plane = points@R.T #-np.array([1]+[0]*(c-1))/np.sqrt(c)
-xmin,ymin=1.1*np.min(in_plane,axis=(0,1))
-xmax,ymax=1.1*np.max(in_plane,axis=(0,1))
-# print(in_plane.shape)
-# assert(0)
-# Animate points of in_plane as moving scatter plot
-# print(animation.writers.list())
-# matplotlib.rcParams['animation.convert_path'] = '/usr/bin/convert'
-# assert(0)
+    # Get 
+    coloring = torch.softmax(50*points,dim=-1)  # Get actual colorings
+    points = points.cpu().numpy() # Collect points from best trial
+    losses = torch.round(0.5*torch.sum(A*(coloring@coloring.transpose(-1,-2)),dim=(-1,-2))).int()
+    losses = losses.cpu().numpy()
 
-fig, ax = plt.subplots()
-scat = ax.scatter(in_plane[0,:,0], in_plane[0,:,1],s=30)
+    # losses = torch.stack([loss[idx] for loss in losses]).cpu().numpy() # Collect losses from best trial
 
-ax.set_xlim([xmin,xmax])
-ax.set_ylim([ymin,ymax])
 
-def update(frame_number):
-    scat.set_offsets(in_plane[frame_number])
+    # Create random matrix the projects to 2 dimensions from N dimensions
+    if c>3:
+        R = np.random.randn(2,c)
+    else:
+        R = np.array([
+            [1/np.sqrt(2),-1/np.sqrt(2),0],
+            [1/np.sqrt(6),1/np.sqrt(6),-2/np.sqrt(6)]])
 
-ani = animation.FuncAnimation(fig, update, frames=n_steps, interval=50)
-ani.save('test.gif', writer='imagemagick', fps=30)
-plt.close(fig)
+    in_plane = points@R.T 
+    xmin,ymin=1.1*np.min(in_plane,axis=(0,1))
+    xmax,ymax=1.1*np.max(in_plane,axis=(0,1))
+
+    fig, ax = plt.subplots()
+    scat = ax.scatter(in_plane[0,:,0], in_plane[0,:,1],s=30)
+    
+
+    # Create a Line2D object for plotting the edges
+    line = Line2D([], [], color='k', alpha=0.1, linewidth=1)
+    ax.add_line(line)
+
+    # Add edges between points i and j whenever A[i,j]==1
+    edges = [(i,j) for i in range(N) for j in range(i) if A[i, j] == 1]
+
+    ax.set_title(f"Loss: {losses[0]: >10} \nFinal loss: {best.item()}", loc='left')
+    ax.set_xlim([xmin,xmax])
+    ax.set_ylim([ymin,ymax])
+
+    def update(frame_number):
+        scat.set_offsets(in_plane[frame_number])
+
+        x_pairs = [in_plane[frame_number,edge,0] for edge in edges]
+        y_pairs = [in_plane[frame_number,edge,1] for edge in edges]
+        line.set_data(x_pairs, y_pairs)
+
+        ax.set_title(f"Loss: {losses[frame_number]: >10} \nFinal loss: {best.item()}", loc='left')
+
+    ani = animation.FuncAnimation(fig, update, frames=n_steps, interval=50)
+    ani.save('test3.gif', writer='imagemagick', fps=30)
+    plt.close(fig)

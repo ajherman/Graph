@@ -1,6 +1,6 @@
 import numpy as np
 import random
-#import networkx as nx
+import networkx as nx
 #import networkx.algorithms.approximation as nxaa
 #import matplotlib.pyplot as plt
 #import networkx.generators.directed

@@ -20,7 +20,7 @@ parser.add_argument("--lam", type=float, default=1.0, help="Regularization param
 parser.add_argument("--representation", type=str, default="softmax", help="Representation")
 parser.add_argument("--lr", type=float, default=0.1, help="Learning rate")
 parser.add_argument("--batch-size", type=int, default=10, help="Batch size")
-parser.add_argument("--make-movie", type=bool, default=True, help="Make gif")
+parser.add_argument("--make-movie", action="store_true", help="Make movie")
 args = parser.parse_args()
 
 n_steps = args.n_steps
@@ -35,7 +35,7 @@ make_movie = args.make_movie
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-G = genJohnsonGraph(10,4,3)
+G = genJohnsonGraph(5,2,0) #(10,4,3)
 A = getAdjArray(G)
 
 A = torch.tensor(A,dtype=torch.float32, device=device)
@@ -92,16 +92,16 @@ for step in range(n_steps):
     points.append(p.detach()) # Collect points
 
     # Calculate loss
-    # multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
+    multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum(A*((p@p.transpose(-1,-2)))**3,dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum(A*(torch.asin(p@p.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix # Unstable
 
     # z = p #torch.abs(x)
-    w = torch.abs(x)
-    z = w/torch.sqrt(torch.sum(w**2,dim=-1,keepdim=True))
+    # w = torch.abs(x)
+    # z = w/torch.sqrt(torch.sum(w**2,dim=-1,keepdim=True))
     # multi_loss = torch.sum((A*(z@z.transpose(-1,-2)))**2,dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum((A*(torch.asin(z@z.transpose(-1,-2))*2/np.pi)**2),dim=(-1,-2)) # Covariance matrix
-    multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
+    # multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
 
 
     # loss = torch.norm(A*(p@p.t())) # Covariance matrix

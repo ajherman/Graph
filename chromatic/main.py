@@ -37,6 +37,12 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 G = genJohnsonGraph(5,2,0) #(10,4,3)
 A = getAdjArray(G)
+# A = torch.tensor([
+# [0,1,0,0,1],
+# [1,0,1,0,0],
+# [0,1,0,1,0],
+# [0,0,1,0,1],
+# [1,0,0,1,0]])
 
 A = torch.tensor(A,dtype=torch.float32, device=device)
 N = A.shape[0] # Number of vertices

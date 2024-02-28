@@ -1,3 +1,5 @@
+#from mpi4py import MPI
+
 import argparse
 import numpy as np 
 import torch
@@ -23,6 +25,8 @@ parser.add_argument("--batch-size", type=int, default=10, help="Batch size")
 parser.add_argument("--make-movie", action="store_true", help="Make movie")
 args = parser.parse_args()
 
+
+
 n_steps = args.n_steps
 c = args.c
 # beta = args.beta
@@ -34,19 +38,14 @@ B=args.batch_size
 make_movie = args.make_movie
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+print("Device: ",device)
 
-G = genJohnsonGraph(5,2,0) #(10,4,3)
+G = genJohnsonGraph(10,4,3)
 A = getAdjArray(G)
-# A = torch.tensor([
-# [0,1,0,0,1],
-# [1,0,1,0,0],
-# [0,1,0,1,0],
-# [0,0,1,0,1],
-# [1,0,0,1,0]])
-
 A = torch.tensor(A,dtype=torch.float32, device=device)
 N = A.shape[0] # Number of vertices
 
+mask = torch.ones(N,N,device=device)
 
 # Init x
 if representation == "softmax":
@@ -67,13 +66,14 @@ vals = []
 points =[]
 losses = []
 
-# def edge_penalty(p):
-#     return 0
-def f(x):
-    # return (2*torch.asin(x)/np.pi)**2
-    return x**2
-    # return 1-torch.sqrt(1-x**2)
-    # return x**2/(1-x**2)
+## Stuff I'm working on...
+# # def edge_penalty(p):
+# #     return 0
+# def f(x):
+#     # return (2*torch.asin(x)/np.pi)**2
+#     return x**2
+#     # return 1-torch.sqrt(1-x**2)
+#     # return x**2/(1-x**2)
 
 # Ts = torch.linspace(T,0.02,n_steps)
 # Ts = torch.logspace(2,-1,n_steps)
@@ -88,17 +88,19 @@ for step in range(n_steps):
 
     elif representation == "quantum":
         beta = 1/T
-        y = (beta*x)**2
+        y = x**2
     # elif representation == "absolute":
     #     beta = 1/T
     #     y = torch.abs(x)
 
     p = y/torch.sum(y,dim=-1,keepdim=True)
 
-    points.append(p.detach()) # Collect points
+    if make_movie:
+        points.append(p.detach()) # Collect points
+
 
     # Calculate loss
-    multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
+    multi_loss = 0.5*torch.sum((mask*A)*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum(A*((p@p.transpose(-1,-2)))**3,dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum(A*(torch.asin(p@p.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix # Unstable
 
@@ -109,9 +111,21 @@ for step in range(n_steps):
     # multi_loss = torch.sum((A*(torch.asin(z@z.transpose(-1,-2))*2/np.pi)**2),dim=(-1,-2)) # Covariance matrix
     # multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
 
-
-    # loss = torch.norm(A*(p@p.t())) # Covariance matrix
-    losses.append(multi_loss.detach())
+    if step%100==0:
+        best = torch.min(multi_loss)
+        print(f"Step {step}: Loss: {multi_loss.mean().item():.2f} Best: {best.item():.2f}")
+        if step<0.9*n_steps:
+            # mask = (torch.rand_like(A) < 0.9).float()
+            # mask = 1-0.2*torch.rand_like(A)
+            # mask = 1-0.4*torch.rand_like(A)
+            mask = 1-(1-step/n_steps)*torch.rand_like(A)
+        else:
+            mask = torch.ones_like(A)
+        torch.cuda.empty_cache()
+    
+    if make_movie:
+        losses.append(multi_loss.detach())
+        
     loss = torch.sum(multi_loss) 
     loss.backward()
     # torch.nn.utils.clip_grad_norm_([x], max_norm=0.1,norm_type='inf')
@@ -148,11 +162,13 @@ minmax=coloring.max(1)[0].min(0)[0]
 print(minmax)
 # coloring = torch.softmax(beta*x,dim=1)
 # print(p)
-print(p>0.5)
+# print(p>0.5)
 val = torch.sum(A*(coloring@coloring.transpose(1,2)),dim=(-1,-2))
 best,idx=torch.min(val,0)
-print("Final losses: ",val)
-print("Best: ",best)
+# print("Final losses: ",val)
+print("Best: ",best.item())
+if best<10.1:
+    np.save('best_'+str(int(best.item()))+'.npy',p>0.5)
 
 if make_movie:
     points = torch.stack([point[idx] for point in points])
@@ -200,8 +216,8 @@ if make_movie:
         y_pairs = [in_plane[frame_number,edge,1] for edge in edges]
         line.set_data(x_pairs, y_pairs)
 
-        ax.set_title(f"Loss: {losses[frame_number]: >10} \nFinal loss: {best.item()}", loc='left')
+        ax.set_title(f"Step: {frame_number} \nLoss: {losses[frame_number]: >10} \nFinal loss: {best.item()}", loc='left')
 
-    ani = animation.FuncAnimation(fig, update, frames=n_steps, interval=50)
+    ani = animation.FuncAnimation(fig, update, frames=len(points), interval=50)
     ani.save('test3.gif', writer='imagemagick', fps=30)
     plt.close(fig)

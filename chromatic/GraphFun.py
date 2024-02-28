@@ -148,7 +148,7 @@ def adjArray2List(A): # Creates adjacency list from array
     return B
 
 def getAdjArray(G): # Create adjacency array from graph
-    return np.array(nx.to_numpy_matrix(G)).astype(dtype)
+    return nx.to_numpy_array(G).astype(dtype)
 
 def findIndSet(A,niters,start=-2,stop=2):
     N = np.shape(A)[0]

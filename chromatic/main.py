@@ -35,7 +35,7 @@ make_movie = args.make_movie
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-G = genJohnsonGraph(5,2,0) #(10,4,3)
+G = genJohnsonGraph(10,4,3) #(10,4,3)
 A = getAdjArray(G)
 # A = torch.tensor([
 # [0,1,0,0,1],
@@ -56,6 +56,12 @@ elif representation == "quantum":
     x = torch.randn((B,N,c),requires_grad=True, device=device) # Logits
     # x.data = 10*x.data
     x.data = torch.nn.functional.normalize(x.data,dim=-1)
+
+elif representation == "experimental":
+    x = torch.randn((B,N,c),requires_grad=True, device=device) # Logits
+    x.data = 10*x.data
+    x.data = torch.nn.functional.normalize(x.data,dim=-1)
+
     
 # Optimizer
 optimizer = torch.optim.Adam([x], lr=lr)
@@ -89,26 +95,36 @@ for step in range(n_steps):
     elif representation == "quantum":
         beta = 1/T
         y = (beta*x)**2
+    elif representation == "experimental":
+        y = x
     # elif representation == "absolute":
     #     beta = 1/T
     #     y = torch.abs(x)
 
-    p = y/torch.sum(y,dim=-1,keepdim=True)
+    if representation == "experimental":
+        q = y**2
+        p = q/torch.sum(q,dim=-1,keepdim=True)
+    else:
+        p = y/torch.sum(y,dim=-1,keepdim=True)
+    # print(torch.min(y@y.transpose(-1,-2)))
+    # print(torch.max(y@y.transpose(-1,-2)))
 
     points.append(p.detach()) # Collect points
 
     # Calculate loss
-    multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
-    # multi_loss = torch.sum(A*((p@p.transpose(-1,-2)))**3,dim=(-1,-2)) # Covariance matrix
-    # multi_loss = torch.sum(A*(torch.asin(p@p.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix # Unstable
+    if representation == "experimental":
+        multi_loss = 0.25*torch.sum(A*(y@y.transpose(-1,-2))**2,dim=(-1,-2)) #+ 5*torch.sum((torch.sum(y,dim=-1)-1)**2)
+    else:
+        multi_loss = torch.sum(A*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
+        # multi_loss = torch.sum(A*((p@p.transpose(-1,-2)))**3,dim=(-1,-2)) # Covariance matrix
+        # multi_loss = torch.sum(A*(torch.asin(p@p.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix # Unstable
 
-    # z = p #torch.abs(x)
-    # w = torch.abs(x)
-    # z = w/torch.sqrt(torch.sum(w**2,dim=-1,keepdim=True))
-    # multi_loss = torch.sum((A*(z@z.transpose(-1,-2)))**2,dim=(-1,-2)) # Covariance matrix
-    # multi_loss = torch.sum((A*(torch.asin(z@z.transpose(-1,-2))*2/np.pi)**2),dim=(-1,-2)) # Covariance matrix
-    # multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
-
+        # z = p #torch.abs(x)
+        # w = torch.abs(x)
+        # z = w/torch.sqrt(torch.sum(w**2,dim=-1,keepdim=True))
+        # multi_loss = torch.sum((A*(z@z.transpose(-1,-2)))**2,dim=(-1,-2)) # Covariance matrix
+        # multi_loss = torch.sum((A*(torch.asin(z@z.transpose(-1,-2))*2/np.pi)**2),dim=(-1,-2)) # Covariance matrix
+        # multi_loss = torch.sum((A*f(z@z.transpose(-1,-2))),dim=(-1,-2)) # Covariance matrix
 
     # loss = torch.norm(A*(p@p.t())) # Covariance matrix
     losses.append(multi_loss.detach())
@@ -116,7 +132,7 @@ for step in range(n_steps):
     loss.backward()
     # torch.nn.utils.clip_grad_norm_([x], max_norm=0.1,norm_type='inf')
     optimizer.step()
-    if representation == "quantum":
+    if representation == "quantum" or "experimental":
         x.data = torch.nn.functional.normalize(x.data,dim=-1)
     
 
@@ -141,18 +157,27 @@ for step in range(n_steps):
 #     y = torch.exp(beta*x)
 #     coloring = y/torch.sum(y,dim=1,keepdim=True)
 
-coloring = torch.softmax(50*p,dim=-1)
+coloring = torch.softmax(100*torch.abs(p),dim=-1)
 ##################################
 
 minmax=coloring.max(1)[0].min(0)[0]
+
 print(minmax)
 # coloring = torch.softmax(beta*x,dim=1)
 # print(p)
-print(p>0.5)
+print(coloring)
 val = torch.sum(A*(coloring@coloring.transpose(1,2)),dim=(-1,-2))
 best,idx=torch.min(val,0)
 print("Final losses: ",val)
 print("Best: ",best)
+
+print(multi_loss.min().detach().item())
+# C=torch.abs(y@y.transpose(-1,-2))
+# print(C)
+# B= torch.sum(((C<0.8)&(C>0.2)))
+# print(B.item())
+# print(torch.min(C))
+# print(torch.max(C))
 
 if make_movie:
     points = torch.stack([point[idx] for point in points])

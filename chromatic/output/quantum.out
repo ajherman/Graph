@@ -1,0 +1,29 @@
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Step 500: Average loss: 37.83 Min loss: 25.01
+
+Step 1000: Average loss: 37.39 Min loss: 24.03
+
+Step 1500: Average loss: 37.13 Min loss: 24.02
+
+Step 2000: Average loss: 36.88 Min loss: 24.02
+
+Step 2500: Average loss: 36.63 Min loss: 23.03
+
+Step 3000: Average loss: 36.35 Min loss: 23.03
+
+Step 3500: Average loss: 36.13 Min loss: 23.03
+
+Step 4000: Average loss: 35.86 Min loss: 23.03
+
+Step 4500: Average loss: 35.68 Min loss: 23.03
+
+Step 5000: Average loss: 35.48 Min loss: 23.03
+
+Best:  23.0
+Class sizes:  tensor([25., 23., 22., 24., 22., 24., 21., 24., 25.], device='cuda:0')
+Class proportions:  tensor([0.1190, 0.1095, 0.1048, 0.1143, 0.1048, 0.1143, 0.1000, 0.1143, 0.1190],
+       device='cuda:0')
+MovieWriter imagemagick unavailable; using Pillow instead.

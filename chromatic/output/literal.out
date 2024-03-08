@@ -1,0 +1,34 @@
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Step 500: Average loss: 108.59 Min loss: 91.33
+
+Step 1000: Average loss: 106.56 Min loss: 86.61
+
+Step 1500: Average loss: 105.83 Min loss: 84.01
+
+Step 2000: Average loss: 105.38 Min loss: 82.08
+
+Step 2500: Average loss: 105.07 Min loss: 83.67
+
+Step 3000: Average loss: 104.85 Min loss: 83.08
+
+Step 3500: Average loss: 104.64 Min loss: 80.28
+
+Step 4000: Average loss: 104.52 Min loss: 82.32
+
+Step 4500: Average loss: 104.41 Min loss: 81.83
+
+Step 5000: Average loss: 104.30 Min loss: 81.46
+
+Best:  8.0
+Traceback (most recent call last):
+  File "/home/ajherman/Graph/chromatic/main.py", line 164, in <module>
+    np.save('best_'+str(int(best.item()))+'.npy',p[idx])
+  File "<__array_function__ internals>", line 180, in save
+  File "/home/ajherman/.pyenv/versions/mambaforge/lib/python3.10/site-packages/numpy/lib/npyio.py", line 521, in save
+    arr = np.asanyarray(arr)
+  File "/home/ajherman/.pyenv/versions/mambaforge/lib/python3.10/site-packages/torch/_tensor.py", line 1062, in __array__
+    return self.numpy()
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.

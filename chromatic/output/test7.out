@@ -1,0 +1,21 @@
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Still masking
+Step 500: Average loss: 38.91 Min loss: 30.50
+
+Still masking
+Step 1000: Average loss: 47.81 Min loss: 37.48
+
+Still masking
+Step 1500: Average loss: 52.68 Min loss: 42.05
+
+Still masking
+Step 2000: Average loss: 56.46 Min loss: 40.54
+
+Still masking
+Step 2500: Average loss: 60.97 Min loss: 42.96
+
+Still masking
+slurmstepd-gpu01: error: *** STEP 5810327.0 ON gpu01 CANCELLED AT 2024-03-02T14:52:41 ***

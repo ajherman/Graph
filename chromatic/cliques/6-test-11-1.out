@@ -1,0 +1,12 @@
+n = 6, k = 11, i = 1
+
+Minimum sum: 51
+
+All solutions with sum 51:
+
+1-intersecting regions:
+[[6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.11590695381164551 seconds.

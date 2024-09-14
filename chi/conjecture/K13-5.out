@@ -1,0 +1,20 @@
+=================
+J( 13 , 5 , 0 )
+=================
+
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Step 500: Average loss: 9610.07 Min loss: 8316.01
+
+Step 1000: Average loss: 9601.17 Min loss: 8316.01
+
+Step 1500: Average loss: 9599.03 Min loss: 8316.03
+
+Step 2000: Average loss: 9597.13 Min loss: 8316.03
+
+Best:  8316.0
+Class sizes:  tensor([792., 495.], device='cuda:0')
+Class proportions:  tensor([0.6154, 0.3846], device='cuda:0')
+Poljak Tuza:  8316.0

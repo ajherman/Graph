@@ -1,0 +1,12 @@
+n = 6, k = 12, i = 2
+
+Minimum sum: 42
+
+All solutions with sum 42:
+
+1-intersecting regions:
+[[2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.0848386287689209 seconds.

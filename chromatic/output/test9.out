@@ -1,8 +1,0 @@
-Device:  cuda:0 
-
-Device:  cuda:0 
-
-Step 0: Average loss: 0.00 Min loss: 0.00
-
-slurmstepd-gpu04: error: *** STEP 5811418.1 ON gpu04 CANCELLED AT 2024-03-08T09:37:02 ***
-slurmstepd-gpu01: error: *** STEP 5811418.0 ON gpu01 CANCELLED AT 2024-03-08T09:37:02 ***

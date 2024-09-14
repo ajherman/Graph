@@ -1,24 +1,33 @@
 import numpy as np
 from itertools import combinations_with_replacement as cwr
+from ortools.sat.python import cp_model
 import math
+import time
+import argparse
 
-n=6
-k,i = 12,4
+np.set_printoptions(threshold=np.inf)
 
-# x = [0]*(2**n-1)
-# for j in range(i):
-#     x[0] = j
-#     for c in cwr(range(3),5):
-#         x[1:n+1] = c
+# from mpi4py import MPI
 
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description="Enumerate all cliques in a graph.")
+parser.add_argument("--n", type=int, default=6, help="Clique size")
+parser.add_argument("--k", type=int, default=8, help="Vertex size")
+parser.add_argument("--i", type=int, default=3, help="Intersection size")
+
+args = parser.parse_args()
+
+n,k,i = args.n, args.k, args.i
+
+print(f"n = {n}, k = {k}, i = {i}")
+
+tic = time.time()
 
 v = (k-i)*n+i # Flower
 # Iterate over all 2^n-1 tuples with non-negative integer values summing to at most v
-    # Bit representations of each region (also used to enforce that each vertex region should sum to 1)
-V=np.array([[int(x) for x in format(j, '0{}b'.format(n))] for j in range(1,2**n)]).T
 
-# print(V.shape)
-# assert(0)
+# Bit representations of each region (also used to enforce that each vertex region should sum to 1)
+V=np.array([[int(x) for x in format(j, '0{}b'.format(n))] for j in range(1,2**n)]).T
 
 # Regions contained in each pair of vertices should sum to q
 Q=[]
@@ -31,24 +40,16 @@ A = np.vstack([V,Q])
 
 r = np.sum(V, axis=0)
 idx=np.argsort(r)
-# print(r)
-# print(len(r))
-# print(idx)
 
 splits = [math.comb(n, i) for i in range(1,n+1)]
 splits = np.cumsum(splits)
 splits = [0] + splits.tolist()
-# print(splits)
-# assert(0)
 
 A = A[:,idx]
-# assert(0)
 
 # Right-hand side of equality constraints
 b = k*np.ones(n*(n+1)//2, dtype=int)
 b[n:] = i
-
-from ortools.sat.python import cp_model
 
 def solve_min_sum(A, b):
     # Initialize the constraint programming model
@@ -58,7 +59,7 @@ def solve_min_sum(A, b):
     num_vars = len(A[0])
     
     # Create non-negative integer variables
-    x = [model.NewIntVar(0, 12, f'x[{j}]') for j in range(num_vars)]
+    x = [model.NewIntVar(0, max(b[-1],b[0]-b[-1]), f'x[{j}]') for j in range(num_vars)]
 
     # Add constraints Ax = b
     for i in range(num_rows):
@@ -87,7 +88,7 @@ def find_all_solutions_with_min_sum(A, b, min_sum):
     num_vars = len(A[0])
 
     # Create non-negative integer variables
-    x = [model.NewIntVar(0, max(b), f'x[{i}]') for i in range(num_vars)]
+    x = [model.NewIntVar(0, max(b[-1],b[0]-b[-1]), f'x[{i}]') for i in range(num_vars)]
 
     # Add constraints Ax = b
     for i in range(num_rows):
@@ -129,32 +130,41 @@ def find_all_solutions_with_min_sum(A, b, min_sum):
 # Step 1: Find the minimum sum
 min_sum = solve_min_sum(A, b)
 
+print("\nMinimum sum:", min_sum)
+
 # Step 2: Find all solutions with the minimum sum
 if min_sum is not None:
     solutions = find_all_solutions_with_min_sum(A, b, min_sum)
-    print(f"All solutions with minimum sum {min_sum}:")
+    print(f"\nAll solutions with sum {min_sum}:")
     # sol_sum = np.sum(solutions, axis=0)
     # idx = np.where(sol_sum>0)
     # solutions = solutions[:,idx]
-
-    for i in range(len(splits)-1):
-        print(f"{i+1}-intersecting regions:")
-        region = solutions[:,splits[i]:splits[i+1]]
-        if np.sum(region)>0:
-            print(region)
-        else:
-            print("None")
+    with open(f"cliques/{n}-cliques.txt", "a") as f:
+        f.write(f"\nk={k},i={i} : \n")
+        profile_str = ['' for j in range(len(solutions))]
+        for i in range(len(splits)-1):
+            region = solutions[:,splits[i]:splits[i+1]]
+            if np.sum(region)>0:
+                print(f"\n{i+1}-intersecting regions:")
+                for j in range(len(region)):
+                    profile_str[j] += "| <"+str(i+1)+"> vals:"+str(np.unique(region[j]))[1:-1]+", total:"+str(np.sum(region[j]))+" |"
+                print(region)  
+                # Write to log file
+                # f.write(f"{i+1} ") # This was original
+            else:
+                pass
+        for x in set(profile_str):
+            # f.write(str(i))
+            f.write(x)
+            f.write("\n")
+        f.write("\n")
+        f.close()
+            # print(f"\n{i+1}-intersecting regions:")
+            # print("None")
     # for sol in solutions:
     #     print(sol)
 else:
     print("No solution found.")
 
-
-# print(A_eq)
-
-# x = [0]*(2**n-1)
-
-# idx=0
-# b = [0]*(n*(n+1)//2)
-# while True:
-#     if 
+toc = time.time()
+print("Elapsed time:", toc-tic, "seconds.")

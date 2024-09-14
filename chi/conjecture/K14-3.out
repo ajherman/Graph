@@ -1,0 +1,24 @@
+=================
+J( 14 , 3 , 0 )
+=================
+
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Step 500: Average loss: 12130.69 Min loss: 11900.00
+
+Step 1000: Average loss: 12130.22 Min loss: 11900.00
+
+Step 1500: Average loss: 12130.23 Min loss: 11900.00
+
+Step 2000: Average loss: 12130.24 Min loss: 11900.00
+
+Best:  11900.0
+Class sizes:  tensor([182., 182.], device='cuda:0')
+Class proportions:  tensor([0.5000, 0.5000], device='cuda:0')
+Poljak Tuza:  12045.0
+Counterexample to Poljak-Tuza conjecture: J( 14 , 3 , 0 )
+Not a counterexample to theorem
+Best found:  11900.0
+Poljak Tuza bound:  12045.0

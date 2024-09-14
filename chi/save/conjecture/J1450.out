@@ -1,0 +1,12 @@
+====================
+J( 14 , 5 , 0 )
+====================
+
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Traceback (most recent call last):
+  File "/home/ajherman/Graph/chromatic/main.py", line 95, in <module>
+    multi_loss = 0.5*torch.sum((mask*A)*(p@p.transpose(-1,-2)),dim=(-1,-2)) # Covariance matrix
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 14.93 GiB. GPU 0 has a total capacity of 44.40 GiB of which 13.31 GiB is free. Including non-PyTorch memory, this process has 31.09 GiB memory in use. Of the allocated memory 15.08 GiB is allocated by PyTorch, and 14.89 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

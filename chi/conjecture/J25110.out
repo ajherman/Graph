@@ -1,0 +1,7 @@
+=================
+J( 25 , 11 , 0 )
+=================
+
+Device:  cuda:0 
+
+slurmstepd-gpu05: error: *** STEP 5811550.33 ON gpu05 CANCELLED AT 2024-03-10T22:22:55 ***

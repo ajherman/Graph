@@ -1,0 +1,18 @@
+=================
+J( 14 , 5 , 0 )
+=================
+
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Step 500: Average loss: 39253.52 Min loss: 37015.69
+
+Best:  36036.0
+Class sizes:  tensor([1287.,  715.], device='cuda:0')
+Class proportions:  tensor([0.6429, 0.3571], device='cuda:0')
+Poljak Tuza:  36036.0
+Traceback (most recent call last):
+  File "/home/ajherman/Graph/chromatic/main.py", line 218, in <module>
+    in_plane = points@R.T 
+ValueError: matmul: Input operand 1 has a mismatch in its core dimension 0, with gufunc signature (n?,k),(k,m?)->(n?,m?) (size 3 is different from 2)

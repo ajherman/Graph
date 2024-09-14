@@ -3,9 +3,9 @@ from math import comb
 import matplotlib.pyplot as plt
 import numpy as np
 
-n = 4 # Clique size
+n = 6 # Clique size
 q = 0.5 # Overlap
-symmetric = False
+symmetric = True
 
 if symmetric:
     ##############################################

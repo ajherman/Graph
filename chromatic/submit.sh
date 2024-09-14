@@ -1,22 +1,21 @@
 #!/bin/bash
 #SBATCH --job-name my_job
-#SBATCH --ntasks 3
-#SBATCH --nodes 3
-#SBATCH --partition gpu
-#SBATCH --gres=gpu:3
-#conda activate pytorch
+#SBATCH --ntasks 1
+#SBATCH --nodes 1
+#SBATCH --partition medium
 
-# srun -o output/test7.out --ntasks=1 -N 1 python3 -u main.py --c 7 --representation quantum --batch-size 5000 --n-steps 5000 &
+module load openmpi-3.0.1/gcc-9.2.0
 
-# srun -o output/test8.out --ntasks=1 -N 1 python3 -u main.py --c 8 --representation quantum --batch-size 5000 --n-steps 5000 &
+max_k=15
+n=6
 
-# srun -o output/test9.out --ntasks=1 -N 1 python3 -u main.py --c 9 --representation quantum --batch-size 5000 --n-steps 5000 &
+for k in $(seq 2 $max_k); do
+for i in $(seq 1 $((k-1))); do
+echo "Running k=$k, i=$i..."
+srun -o cliques/$n-test-$k-$i.out --ntasks=1 -N 1 python -u enumerate_cliques.py --n $n --k $k --i $i
+done
+done 
 
-srun -o output/quantum.out --ntasks=1 -N 1 python3 -u main.py --vki 10 4 3 --c 9 --representation quantum --batch-size 1000 --n-steps 5000 --make-movie &
+# srun -o test.out --ntasks=1 -N 1 python -u enumerate_cliques.py -n 6 -k 12 -i 6 &
 
-# srun -o output/literal.out --ntasks=1 -N 1 python3 -u main.py --vki 10 4 3 --c 9 --representation literal --lr 0.5 --batch-size 5000 --n-steps 5000 &
-
-wait
-
-
-
+srun sleep 1

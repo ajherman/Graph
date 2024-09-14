@@ -1,0 +1,12 @@
+n = 6, k = 13, i = 2
+
+Minimum sum: 48
+
+All solutions with sum 48:
+
+1-intersecting regions:
+[[3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08767271041870117 seconds.

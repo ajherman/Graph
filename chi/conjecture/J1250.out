@@ -1,0 +1,12 @@
+=================
+J( 12 , 5 , 0 )
+=================
+
+Device:  cuda:0 
+
+Step 0: Average loss: 0.00 Min loss: 0.00
+
+Best:  1386.0
+Class sizes:  tensor([330., 462.], device='cuda:0')
+Class proportions:  tensor([0.4167, 0.5833], device='cuda:0')
+Poljak Tuza:  1386.0

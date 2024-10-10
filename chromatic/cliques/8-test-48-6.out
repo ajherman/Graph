@@ -1,0 +1,12 @@
+n = 8, k = 48, i = 6
+
+Minimum sum: 216
+
+All solutions with sum 216:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40903377532958984 seconds.

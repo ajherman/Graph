@@ -1,0 +1,12 @@
+n = 8, k = 18, i = 1
+
+Minimum sum: 116
+
+All solutions with sum 116:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.8275010585784912 seconds.

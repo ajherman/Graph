@@ -1,0 +1,12 @@
+n = 8, k = 36, i = 35
+
+Minimum sum: 37
+
+All solutions with sum 37:
+
+7-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+8-intersecting regions:
+[[29]]
+Elapsed time: 0.6391043663024902 seconds.

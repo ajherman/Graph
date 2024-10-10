@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 1
+
+Minimum sum: 508
+
+All solutions with sum 508:
+
+1-intersecting regions:
+[[60 60 60 60 60 60 60 60]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5771143436431885 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 60, i = 7
+
+Minimum sum: 284
+
+All solutions with sum 284:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.4485633373260498 seconds.

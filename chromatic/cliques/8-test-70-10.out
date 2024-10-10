@@ -1,0 +1,10 @@
+n = 8, k = 70, i = 10
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+2-intersecting regions:
+[[10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+  10 10 10 10]]
+Elapsed time: 0.4494311809539795 seconds.

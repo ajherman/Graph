@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 6
+
+Minimum sum: 248
+
+All solutions with sum 248:
+
+1-intersecting regions:
+[[10 10 10 10 10 10 10 10]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.3978598117828369 seconds.

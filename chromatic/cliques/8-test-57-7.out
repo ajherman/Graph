@@ -1,0 +1,12 @@
+n = 8, k = 57, i = 7
+
+Minimum sum: 260
+
+All solutions with sum 260:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.40210533142089844 seconds.

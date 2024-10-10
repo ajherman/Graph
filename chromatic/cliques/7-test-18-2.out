@@ -1,0 +1,12 @@
+n = 7, k = 18, i = 2
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.20842981338500977 seconds.

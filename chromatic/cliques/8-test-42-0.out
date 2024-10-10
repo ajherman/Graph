@@ -1,0 +1,9 @@
+n = 8, k = 42, i = 0
+
+Minimum sum: 336
+
+All solutions with sum 336:
+
+1-intersecting regions:
+[[42 42 42 42 42 42 42 42]]
+Elapsed time: 0.32338666915893555 seconds.

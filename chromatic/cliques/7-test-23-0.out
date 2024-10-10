@@ -1,0 +1,9 @@
+n = 7, k = 23, i = 0
+
+Minimum sum: 161
+
+All solutions with sum 161:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23]]
+Elapsed time: 0.1070713996887207 seconds.

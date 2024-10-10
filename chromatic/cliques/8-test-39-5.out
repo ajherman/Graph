@@ -1,0 +1,12 @@
+n = 8, k = 39, i = 5
+
+Minimum sum: 172
+
+All solutions with sum 172:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4018990993499756 seconds.

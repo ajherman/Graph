@@ -1,0 +1,34 @@
+n = 4, k = 10, i = 5
+
+Minimum sum: 17
+
+All solutions with sum 17:
+
+1-intersecting regions:
+[[0 0 0 1]
+ [0 0 0 0]
+ [0 1 0 0]
+ [1 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[2 2 2 1 1 1]
+ [2 2 2 2 2 2]
+ [1 2 1 2 1 2]
+ [1 1 2 1 2 2]
+ [2 1 1 2 2 1]]
+
+3-intersecting regions:
+[[1 2 2 2]
+ [1 1 1 1]
+ [2 2 1 2]
+ [2 2 2 1]
+ [2 1 2 2]]
+
+4-intersecting regions:
+[[0]
+ [1]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.08827853202819824 seconds.

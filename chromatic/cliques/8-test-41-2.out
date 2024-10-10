@@ -1,0 +1,12 @@
+n = 8, k = 41, i = 2
+
+Minimum sum: 272
+
+All solutions with sum 272:
+
+1-intersecting regions:
+[[27 27 27 27 27 27 27 27]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.47063350677490234 seconds.

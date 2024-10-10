@@ -1,0 +1,12 @@
+n = 7, k = 20, i = 1
+
+Minimum sum: 119
+
+All solutions with sum 119:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.22085952758789062 seconds.

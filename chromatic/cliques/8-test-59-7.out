@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 7
+
+Minimum sum: 276
+
+All solutions with sum 276:
+
+1-intersecting regions:
+[[10 10 10 10 10 10 10 10]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.40024614334106445 seconds.

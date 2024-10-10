@@ -1,0 +1,12 @@
+n = 6, k = 22, i = 2
+
+Minimum sum: 102
+
+All solutions with sum 102:
+
+1-intersecting regions:
+[[12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08898067474365234 seconds.

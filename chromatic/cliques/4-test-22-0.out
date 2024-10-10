@@ -1,0 +1,9 @@
+n = 4, k = 22, i = 0
+
+Minimum sum: 88
+
+All solutions with sum 88:
+
+1-intersecting regions:
+[[22 22 22 22]]
+Elapsed time: 0.013685464859008789 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 17, i = 1
+
+Minimum sum: 62
+
+All solutions with sum 62:
+
+1-intersecting regions:
+[[14 14 14 14]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1]]
+Elapsed time: 0.025883913040161133 seconds.

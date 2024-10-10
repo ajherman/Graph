@@ -1,0 +1,12 @@
+n = 8, k = 31, i = 2
+
+Minimum sum: 192
+
+All solutions with sum 192:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.43892455101013184 seconds.

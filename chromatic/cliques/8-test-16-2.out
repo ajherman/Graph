@@ -1,0 +1,12 @@
+n = 8, k = 16, i = 2
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5853409767150879 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 22, i = 2
+
+Minimum sum: 76
+
+All solutions with sum 76:
+
+1-intersecting regions:
+[[16 16 16 16]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.020218849182128906 seconds.

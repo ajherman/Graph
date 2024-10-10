@@ -1,0 +1,12 @@
+n = 8, k = 46, i = 44
+
+Minimum sum: 48
+
+All solutions with sum 48:
+
+7-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+8-intersecting regions:
+[[32]]
+Elapsed time: 0.7480194568634033 seconds.

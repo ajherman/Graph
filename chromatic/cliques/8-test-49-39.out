@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 39
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+Elapsed time: 1.6167373657226562 seconds.

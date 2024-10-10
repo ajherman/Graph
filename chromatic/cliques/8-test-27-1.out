@@ -1,0 +1,12 @@
+n = 8, k = 27, i = 1
+
+Minimum sum: 188
+
+All solutions with sum 188:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7646031379699707 seconds.

@@ -1,0 +1,12 @@
+n = 6, k = 25, i = 16
+
+Minimum sum: 36
+
+All solutions with sum 36:
+
+4-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+
+5-intersecting regions:
+[[1 1 1 1 1 1]]
+Elapsed time: 0.1908888816833496 seconds.

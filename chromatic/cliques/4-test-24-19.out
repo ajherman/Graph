@@ -1,0 +1,12 @@
+n = 4, k = 24, i = 19
+
+Minimum sum: 29
+
+All solutions with sum 29:
+
+3-intersecting regions:
+[[5 5 5 5]]
+
+4-intersecting regions:
+[[9]]
+Elapsed time: 0.03160262107849121 seconds.

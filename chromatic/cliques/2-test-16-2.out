@@ -1,0 +1,12 @@
+n = 2, k = 16, i = 2
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+1-intersecting regions:
+[[14 14]]
+
+2-intersecting regions:
+[[2]]
+Elapsed time: 0.010874032974243164 seconds.

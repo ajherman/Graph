@@ -1,0 +1,12 @@
+n = 9, k = 11, i = 1
+
+Minimum sum: 63
+
+All solutions with sum 63:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.7015902996063232 seconds.

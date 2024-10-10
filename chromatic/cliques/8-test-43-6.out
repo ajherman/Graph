@@ -1,0 +1,12 @@
+n = 8, k = 43, i = 6
+
+Minimum sum: 176
+
+All solutions with sum 176:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4055948257446289 seconds.

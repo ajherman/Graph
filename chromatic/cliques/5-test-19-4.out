@@ -1,0 +1,12 @@
+n = 5, k = 19, i = 4
+
+Minimum sum: 55
+
+All solutions with sum 55:
+
+1-intersecting regions:
+[[3 3 3 3 3]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.03824901580810547 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 23, i = 1
+
+Minimum sum: 156
+
+All solutions with sum 156:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7546083927154541 seconds.

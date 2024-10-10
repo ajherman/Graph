@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 5
+
+Minimum sum: 324
+
+All solutions with sum 324:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4553823471069336 seconds.

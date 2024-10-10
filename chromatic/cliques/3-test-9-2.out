@@ -1,0 +1,12 @@
+n = 3, k = 9, i = 2
+
+Minimum sum: 21
+
+All solutions with sum 21:
+
+1-intersecting regions:
+[[5 5 5]]
+
+2-intersecting regions:
+[[2 2 2]]
+Elapsed time: 0.011837959289550781 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 53, i = 0
+
+Minimum sum: 424
+
+All solutions with sum 424:
+
+1-intersecting regions:
+[[53 53 53 53 53 53 53 53]]
+Elapsed time: 0.2535209655761719 seconds.

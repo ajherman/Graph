@@ -1,0 +1,12 @@
+n = 8, k = 36, i = 4
+
+Minimum sum: 176
+
+All solutions with sum 176:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.42766332626342773 seconds.

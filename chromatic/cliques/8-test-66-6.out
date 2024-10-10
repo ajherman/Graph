@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 6
+
+Minimum sum: 360
+
+All solutions with sum 360:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24 24]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4437439441680908 seconds.

@@ -1,0 +1,9 @@
+n = 5, k = 11, i = 0
+
+Minimum sum: 55
+
+All solutions with sum 55:
+
+1-intersecting regions:
+[[11 11 11 11 11]]
+Elapsed time: 0.025515317916870117 seconds.

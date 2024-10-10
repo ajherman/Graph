@@ -1,0 +1,12 @@
+n = 4, k = 23, i = 21
+
+Minimum sum: 25
+
+All solutions with sum 25:
+
+3-intersecting regions:
+[[2 2 2 2]]
+
+4-intersecting regions:
+[[17]]
+Elapsed time: 0.024280548095703125 seconds.

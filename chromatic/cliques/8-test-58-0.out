@@ -1,0 +1,9 @@
+n = 8, k = 58, i = 0
+
+Minimum sum: 464
+
+All solutions with sum 464:
+
+1-intersecting regions:
+[[58 58 58 58 58 58 58 58]]
+Elapsed time: 0.2528057098388672 seconds.

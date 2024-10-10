@@ -1,0 +1,9 @@
+n = 7, k = 13, i = 0
+
+Minimum sum: 91
+
+All solutions with sum 91:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13]]
+Elapsed time: 0.1356794834136963 seconds.

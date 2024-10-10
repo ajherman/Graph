@@ -1,0 +1,12 @@
+n = 6, k = 24, i = 2
+
+Minimum sum: 114
+
+All solutions with sum 114:
+
+1-intersecting regions:
+[[14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08184242248535156 seconds.

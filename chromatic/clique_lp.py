@@ -3,7 +3,7 @@ from math import comb
 import matplotlib.pyplot as plt
 import numpy as np
 
-n = 6 # Clique size
+n = 5 # Clique size
 q = 0.5 # Overlap
 symmetric = True
 
@@ -65,7 +65,7 @@ if symmetric:
             print(q)
             assert(0)
 
-    offset = 1e-1
+    offset = 1e-3
     SOLNS_VEC = np.array(SOLNS_VEC).T+offset
     SOLNS_VEC = np.cumsum(SOLNS_VEC,axis=0)
 
@@ -73,7 +73,8 @@ if symmetric:
 
     for i in range(n):
         plt.plot(Q,SOLNS_VEC[i],label=str(n-i))
-    plt.plot(Q,n/(Q*(n-1)+1),label='n/(q(n-1)+1)',color='black',linestyle='--')
+    # plt.plot(Q,n/(Q*(n-1)+1),label='n/(q(n-1)+1)',color='black',linestyle='--')
+    plt.plot(Q,(n/np.ceil(Q*(n-1)+1))*((np.ceil(Q*(n-1)+1)-Q*(n-1)-1)/np.floor(Q*(n-1)+1)+1),label='n/(q(n-1)+1)',color='black',linestyle='--',linewidth=1)
     plt.legend()
 
     # Add vertical lines at specific intervals
@@ -82,7 +83,7 @@ if symmetric:
         plt.axvline(x=pos)
     plt.xticks(tic_pos)
 
-    plt.show()
+    plt.savefig(f'clique_lp_n={n}_q={q}.png')
 
 else:
     ##################################

@@ -1,0 +1,12 @@
+n = 6, k = 23, i = 4
+
+Minimum sum: 78
+
+All solutions with sum 78:
+
+1-intersecting regions:
+[[3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.0790104866027832 seconds.

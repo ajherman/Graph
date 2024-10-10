@@ -1,0 +1,9 @@
+n = 9, k = 12, i = 0
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12 12]]
+Elapsed time: 0.777090311050415 seconds.

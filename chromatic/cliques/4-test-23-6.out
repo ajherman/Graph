@@ -1,0 +1,12 @@
+n = 4, k = 23, i = 6
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+1-intersecting regions:
+[[5 5 5 5]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+Elapsed time: 0.027357816696166992 seconds.

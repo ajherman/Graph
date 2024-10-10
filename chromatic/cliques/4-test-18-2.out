@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 2
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+1-intersecting regions:
+[[12 12 12 12]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.02280902862548828 seconds.

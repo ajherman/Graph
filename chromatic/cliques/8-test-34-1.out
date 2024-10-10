@@ -1,0 +1,12 @@
+n = 8, k = 34, i = 1
+
+Minimum sum: 244
+
+All solutions with sum 244:
+
+1-intersecting regions:
+[[27 27 27 27 27 27 27 27]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5390536785125732 seconds.

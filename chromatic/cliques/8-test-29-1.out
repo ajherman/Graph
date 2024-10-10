@@ -1,0 +1,12 @@
+n = 8, k = 29, i = 1
+
+Minimum sum: 204
+
+All solutions with sum 204:
+
+1-intersecting regions:
+[[22 22 22 22 22 22 22 22]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6589365005493164 seconds.

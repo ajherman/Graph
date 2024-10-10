@@ -1,0 +1,9 @@
+n = 7, k = 25, i = 0
+
+Minimum sum: 175
+
+All solutions with sum 175:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25]]
+Elapsed time: 0.10886836051940918 seconds.

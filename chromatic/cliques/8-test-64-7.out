@@ -1,0 +1,12 @@
+n = 8, k = 64, i = 7
+
+Minimum sum: 316
+
+All solutions with sum 316:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.3913743495941162 seconds.

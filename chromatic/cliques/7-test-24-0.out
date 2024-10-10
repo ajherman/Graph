@@ -1,0 +1,9 @@
+n = 7, k = 24, i = 0
+
+Minimum sum: 168
+
+All solutions with sum 168:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24]]
+Elapsed time: 0.1174933910369873 seconds.

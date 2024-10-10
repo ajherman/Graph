@@ -1,0 +1,12 @@
+n = 2, k = 15, i = 9
+
+Minimum sum: 21
+
+All solutions with sum 21:
+
+1-intersecting regions:
+[[6 6]]
+
+2-intersecting regions:
+[[9]]
+Elapsed time: 0.010819435119628906 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 36, i = 31
+
+Minimum sum: 41
+
+All solutions with sum 41:
+
+7-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+8-intersecting regions:
+[[1]]
+Elapsed time: 0.63838791847229 seconds.

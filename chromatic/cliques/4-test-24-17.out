@@ -1,0 +1,12 @@
+n = 4, k = 24, i = 17
+
+Minimum sum: 31
+
+All solutions with sum 31:
+
+3-intersecting regions:
+[[7 7 7 7]]
+
+4-intersecting regions:
+[[3]]
+Elapsed time: 0.026188135147094727 seconds.

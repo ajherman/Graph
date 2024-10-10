@@ -1,0 +1,9 @@
+n = 7, k = 9, i = 0
+
+Minimum sum: 63
+
+All solutions with sum 63:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9]]
+Elapsed time: 0.15092253684997559 seconds.

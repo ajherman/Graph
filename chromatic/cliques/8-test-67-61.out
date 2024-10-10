@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 61
+
+Minimum sum: 73
+
+All solutions with sum 73:
+
+7-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+8-intersecting regions:
+[[25]]
+Elapsed time: 0.5736818313598633 seconds.

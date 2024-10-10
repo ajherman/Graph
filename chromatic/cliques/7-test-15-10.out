@@ -1,0 +1,9 @@
+n = 7, k = 15, i = 10
+
+Minimum sum: 21
+
+All solutions with sum 21:
+
+5-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6094024181365967 seconds.

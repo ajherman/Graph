@@ -1,0 +1,12 @@
+n = 8, k = 40, i = 4
+
+Minimum sum: 208
+
+All solutions with sum 208:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.48477959632873535 seconds.

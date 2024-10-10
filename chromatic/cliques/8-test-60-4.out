@@ -1,0 +1,12 @@
+n = 8, k = 60, i = 4
+
+Minimum sum: 368
+
+All solutions with sum 368:
+
+1-intersecting regions:
+[[32 32 32 32 32 32 32 32]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.38878917694091797 seconds.

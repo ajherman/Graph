@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 1
+
+Minimum sum: 524
+
+All solutions with sum 524:
+
+1-intersecting regions:
+[[62 62 62 62 62 62 62 62]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.604933500289917 seconds.

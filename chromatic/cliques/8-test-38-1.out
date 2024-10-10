@@ -1,0 +1,12 @@
+n = 8, k = 38, i = 1
+
+Minimum sum: 276
+
+All solutions with sum 276:
+
+1-intersecting regions:
+[[31 31 31 31 31 31 31 31]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5222909450531006 seconds.

@@ -1,0 +1,12 @@
+n = 5, k = 24, i = 4
+
+Minimum sum: 80
+
+All solutions with sum 80:
+
+1-intersecting regions:
+[[8 8 8 8 8]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.04361701011657715 seconds.

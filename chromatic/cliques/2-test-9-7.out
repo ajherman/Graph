@@ -1,0 +1,12 @@
+n = 2, k = 9, i = 7
+
+Minimum sum: 11
+
+All solutions with sum 11:
+
+1-intersecting regions:
+[[2 2]]
+
+2-intersecting regions:
+[[7]]
+Elapsed time: 0.010880470275878906 seconds.

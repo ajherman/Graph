@@ -1,0 +1,12 @@
+n = 4, k = 14, i = 4
+
+Minimum sum: 32
+
+All solutions with sum 32:
+
+1-intersecting regions:
+[[2 2 2 2]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.02555060386657715 seconds.

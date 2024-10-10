@@ -1,0 +1,12 @@
+n = 6, k = 19, i = 2
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+1-intersecting regions:
+[[9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.07766127586364746 seconds.

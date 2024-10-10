@@ -1,0 +1,12 @@
+n = 8, k = 51, i = 6
+
+Minimum sum: 240
+
+All solutions with sum 240:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4403262138366699 seconds.

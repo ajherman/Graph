@@ -1,0 +1,12 @@
+n = 6, k = 22, i = 3
+
+Minimum sum: 87
+
+All solutions with sum 87:
+
+1-intersecting regions:
+[[7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08578848838806152 seconds.

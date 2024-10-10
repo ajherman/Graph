@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 6
+
+Minimum sum: 224
+
+All solutions with sum 224:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40668773651123047 seconds.

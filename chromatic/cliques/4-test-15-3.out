@@ -1,0 +1,12 @@
+n = 4, k = 15, i = 3
+
+Minimum sum: 42
+
+All solutions with sum 42:
+
+1-intersecting regions:
+[[6 6 6 6]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+Elapsed time: 0.023996591567993164 seconds.

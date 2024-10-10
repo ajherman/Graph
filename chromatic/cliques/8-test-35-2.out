@@ -1,0 +1,12 @@
+n = 8, k = 35, i = 2
+
+Minimum sum: 224
+
+All solutions with sum 224:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3996737003326416 seconds.

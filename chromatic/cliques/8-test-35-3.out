@@ -1,0 +1,12 @@
+n = 8, k = 35, i = 3
+
+Minimum sum: 196
+
+All solutions with sum 196:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.40302586555480957 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 57, i = 2
+
+Minimum sum: 400
+
+All solutions with sum 400:
+
+1-intersecting regions:
+[[43 43 43 43 43 43 43 43]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4647946357727051 seconds.

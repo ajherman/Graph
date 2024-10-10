@@ -1,0 +1,9 @@
+n = 4, k = 23, i = 0
+
+Minimum sum: 92
+
+All solutions with sum 92:
+
+1-intersecting regions:
+[[23 23 23 23]]
+Elapsed time: 0.013354063034057617 seconds.

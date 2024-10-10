@@ -1,0 +1,12 @@
+n = 8, k = 34, i = 4
+
+Minimum sum: 160
+
+All solutions with sum 160:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.47548532485961914 seconds.

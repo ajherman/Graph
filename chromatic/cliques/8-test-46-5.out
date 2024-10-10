@@ -1,0 +1,12 @@
+n = 8, k = 46, i = 5
+
+Minimum sum: 228
+
+All solutions with sum 228:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.40717124938964844 seconds.

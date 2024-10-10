@@ -1,0 +1,12 @@
+n = 8, k = 47, i = 3
+
+Minimum sum: 292
+
+All solutions with sum 292:
+
+1-intersecting regions:
+[[26 26 26 26 26 26 26 26]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.390866756439209 seconds.

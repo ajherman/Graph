@@ -1,0 +1,12 @@
+n = 8, k = 64, i = 8
+
+Minimum sum: 288
+
+All solutions with sum 288:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.4024848937988281 seconds.

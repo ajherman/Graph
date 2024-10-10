@@ -1,0 +1,12 @@
+n = 7, k = 22, i = 2
+
+Minimum sum: 112
+
+All solutions with sum 112:
+
+1-intersecting regions:
+[[10 10 10 10 10 10 10]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.21942496299743652 seconds.

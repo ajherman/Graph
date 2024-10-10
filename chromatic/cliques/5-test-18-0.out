@@ -1,0 +1,9 @@
+n = 5, k = 18, i = 0
+
+Minimum sum: 90
+
+All solutions with sum 90:
+
+1-intersecting regions:
+[[18 18 18 18 18]]
+Elapsed time: 0.0274355411529541 seconds.

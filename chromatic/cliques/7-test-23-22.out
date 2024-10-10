@@ -1,0 +1,12 @@
+n = 7, k = 23, i = 22
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[17]]
+Elapsed time: 0.26859283447265625 seconds.

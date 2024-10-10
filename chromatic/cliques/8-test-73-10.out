@@ -1,0 +1,13 @@
+n = 8, k = 73, i = 10
+
+Minimum sum: 304
+
+All solutions with sum 304:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+  10 10 10 10]]
+Elapsed time: 0.49161505699157715 seconds.

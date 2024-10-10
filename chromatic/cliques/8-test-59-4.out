@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 4
+
+Minimum sum: 360
+
+All solutions with sum 360:
+
+1-intersecting regions:
+[[31 31 31 31 31 31 31 31]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.39034128189086914 seconds.

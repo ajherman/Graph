@@ -1,0 +1,12 @@
+n = 8, k = 32, i = 3
+
+Minimum sum: 172
+
+All solutions with sum 172:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3942420482635498 seconds.

@@ -1,0 +1,12 @@
+n = 5, k = 12, i = 1
+
+Minimum sum: 50
+
+All solutions with sum 50:
+
+1-intersecting regions:
+[[8 8 8 8 8]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.04173731803894043 seconds.

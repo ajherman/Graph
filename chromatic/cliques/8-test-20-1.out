@@ -1,0 +1,12 @@
+n = 8, k = 20, i = 1
+
+Minimum sum: 132
+
+All solutions with sum 132:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.815009593963623 seconds.

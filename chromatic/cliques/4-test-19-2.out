@@ -1,0 +1,12 @@
+n = 4, k = 19, i = 2
+
+Minimum sum: 64
+
+All solutions with sum 64:
+
+1-intersecting regions:
+[[13 13 13 13]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.024933576583862305 seconds.

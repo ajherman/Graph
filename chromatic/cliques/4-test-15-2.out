@@ -1,0 +1,12 @@
+n = 4, k = 15, i = 2
+
+Minimum sum: 48
+
+All solutions with sum 48:
+
+1-intersecting regions:
+[[9 9 9 9]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.025257110595703125 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 39, i = 2
+
+Minimum sum: 256
+
+All solutions with sum 256:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4665870666503906 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 62, i = 6
+
+Minimum sum: 328
+
+All solutions with sum 328:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4859018325805664 seconds.

@@ -1,0 +1,12 @@
+n = 5, k = 10, i = 6
+
+Minimum sum: 15
+
+All solutions with sum 15:
+
+3-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+
+4-intersecting regions:
+[[1 1 1 1 1]]
+Elapsed time: 0.04431462287902832 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 33
+
+Minimum sum: 52
+
+All solutions with sum 52:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+Elapsed time: 1.623734951019287 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 48, i = 4
+
+Minimum sum: 272
+
+All solutions with sum 272:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4064338207244873 seconds.

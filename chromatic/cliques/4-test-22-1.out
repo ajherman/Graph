@@ -1,0 +1,12 @@
+n = 4, k = 22, i = 1
+
+Minimum sum: 82
+
+All solutions with sum 82:
+
+1-intersecting regions:
+[[19 19 19 19]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1]]
+Elapsed time: 0.02763986587524414 seconds.

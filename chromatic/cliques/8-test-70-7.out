@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 7
+
+Minimum sum: 364
+
+All solutions with sum 364:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.3870069980621338 seconds.

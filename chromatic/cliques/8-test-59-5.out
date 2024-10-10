@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 5
+
+Minimum sum: 332
+
+All solutions with sum 332:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24 24]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.40177369117736816 seconds.

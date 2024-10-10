@@ -1,0 +1,12 @@
+n = 6, k = 16, i = 2
+
+Minimum sum: 66
+
+All solutions with sum 66:
+
+1-intersecting regions:
+[[6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08157467842102051 seconds.

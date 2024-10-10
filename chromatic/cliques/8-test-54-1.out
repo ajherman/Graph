@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 1
+
+Minimum sum: 404
+
+All solutions with sum 404:
+
+1-intersecting regions:
+[[47 47 47 47 47 47 47 47]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7587394714355469 seconds.

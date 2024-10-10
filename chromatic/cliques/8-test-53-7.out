@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 7
+
+Minimum sum: 228
+
+All solutions with sum 228:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.5640308856964111 seconds.

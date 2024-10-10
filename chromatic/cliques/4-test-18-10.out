@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 10
+
+Minimum sum: 28
+
+All solutions with sum 28:
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+
+3-intersecting regions:
+[[4 4 4 4]]
+Elapsed time: 0.02999567985534668 seconds.

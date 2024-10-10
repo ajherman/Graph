@@ -1,0 +1,12 @@
+n = 2, k = 14, i = 9
+
+Minimum sum: 19
+
+All solutions with sum 19:
+
+1-intersecting regions:
+[[5 5]]
+
+2-intersecting regions:
+[[9]]
+Elapsed time: 0.011110782623291016 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 8, i = 1
+
+Minimum sum: 26
+
+All solutions with sum 26:
+
+1-intersecting regions:
+[[5 5 5 5]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1]]
+Elapsed time: 0.027327537536621094 seconds.

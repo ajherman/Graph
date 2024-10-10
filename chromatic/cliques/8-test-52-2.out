@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 2
+
+Minimum sum: 360
+
+All solutions with sum 360:
+
+1-intersecting regions:
+[[38 38 38 38 38 38 38 38]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.47371339797973633 seconds.

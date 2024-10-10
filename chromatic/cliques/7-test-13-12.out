@@ -1,0 +1,12 @@
+n = 7, k = 13, i = 12
+
+Minimum sum: 14
+
+All solutions with sum 14:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[7]]
+Elapsed time: 0.3201446533203125 seconds.

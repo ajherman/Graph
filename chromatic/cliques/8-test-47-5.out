@@ -1,0 +1,12 @@
+n = 8, k = 47, i = 5
+
+Minimum sum: 236
+
+All solutions with sum 236:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.41737818717956543 seconds.

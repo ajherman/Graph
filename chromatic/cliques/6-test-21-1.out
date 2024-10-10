@@ -1,0 +1,12 @@
+n = 6, k = 21, i = 1
+
+Minimum sum: 111
+
+All solutions with sum 111:
+
+1-intersecting regions:
+[[16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.10389852523803711 seconds.

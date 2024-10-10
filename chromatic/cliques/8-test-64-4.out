@@ -1,0 +1,12 @@
+n = 8, k = 64, i = 4
+
+Minimum sum: 400
+
+All solutions with sum 400:
+
+1-intersecting regions:
+[[36 36 36 36 36 36 36 36]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.3813660144805908 seconds.

@@ -1,0 +1,9 @@
+n = 7, k = 14, i = 0
+
+Minimum sum: 98
+
+All solutions with sum 98:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14]]
+Elapsed time: 0.1442701816558838 seconds.

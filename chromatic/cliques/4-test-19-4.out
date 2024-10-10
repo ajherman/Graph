@@ -1,0 +1,12 @@
+n = 4, k = 19, i = 4
+
+Minimum sum: 52
+
+All solutions with sum 52:
+
+1-intersecting regions:
+[[7 7 7 7]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.025899410247802734 seconds.

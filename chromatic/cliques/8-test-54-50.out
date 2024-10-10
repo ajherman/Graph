@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 50
+
+Minimum sum: 58
+
+All solutions with sum 58:
+
+7-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+8-intersecting regions:
+[[26]]
+Elapsed time: 0.6187758445739746 seconds.

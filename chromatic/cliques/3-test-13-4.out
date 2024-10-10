@@ -1,0 +1,12 @@
+n = 3, k = 13, i = 4
+
+Minimum sum: 27
+
+All solutions with sum 27:
+
+1-intersecting regions:
+[[5 5 5]]
+
+2-intersecting regions:
+[[4 4 4]]
+Elapsed time: 0.012056350708007812 seconds.

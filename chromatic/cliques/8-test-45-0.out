@@ -1,0 +1,9 @@
+n = 8, k = 45, i = 0
+
+Minimum sum: 360
+
+All solutions with sum 360:
+
+1-intersecting regions:
+[[45 45 45 45 45 45 45 45]]
+Elapsed time: 0.26955270767211914 seconds.

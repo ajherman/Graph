@@ -1,0 +1,12 @@
+n = 6, k = 17, i = 3
+
+Minimum sum: 57
+
+All solutions with sum 57:
+
+1-intersecting regions:
+[[2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08205223083496094 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 66, i = 0
+
+Minimum sum: 528
+
+All solutions with sum 528:
+
+1-intersecting regions:
+[[66 66 66 66 66 66 66 66]]
+Elapsed time: 0.3074791431427002 seconds.

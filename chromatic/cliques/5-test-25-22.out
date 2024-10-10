@@ -1,0 +1,12 @@
+n = 5, k = 25, i = 22
+
+Minimum sum: 28
+
+All solutions with sum 28:
+
+4-intersecting regions:
+[[3 3 3 3 3]]
+
+5-intersecting regions:
+[[13]]
+Elapsed time: 0.05087733268737793 seconds.

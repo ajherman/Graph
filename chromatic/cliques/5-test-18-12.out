@@ -1,0 +1,12 @@
+n = 5, k = 18, i = 12
+
+Minimum sum: 25
+
+All solutions with sum 25:
+
+3-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+
+4-intersecting regions:
+[[3 3 3 3 3]]
+Elapsed time: 0.05699038505554199 seconds.

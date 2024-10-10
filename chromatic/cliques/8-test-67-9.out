@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 9
+
+Minimum sum: 284
+
+All solutions with sum 284:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.41307759284973145 seconds.

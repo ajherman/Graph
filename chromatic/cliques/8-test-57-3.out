@@ -1,0 +1,12 @@
+n = 8, k = 57, i = 3
+
+Minimum sum: 372
+
+All solutions with sum 372:
+
+1-intersecting regions:
+[[36 36 36 36 36 36 36 36]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.43683600425720215 seconds.

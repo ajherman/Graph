@@ -1,0 +1,12 @@
+n = 4, k = 20, i = 4
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+1-intersecting regions:
+[[8 8 8 8]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.023314237594604492 seconds.

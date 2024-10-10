@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 1
+
+Minimum sum: 436
+
+All solutions with sum 436:
+
+1-intersecting regions:
+[[51 51 51 51 51 51 51 51]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.61407470703125 seconds.

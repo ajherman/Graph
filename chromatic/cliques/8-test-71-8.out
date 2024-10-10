@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 8
+
+Minimum sum: 344
+
+All solutions with sum 344:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.3895719051361084 seconds.

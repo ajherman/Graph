@@ -1,0 +1,9 @@
+n = 8, k = 7, i = 6
+
+Minimum sum: 8
+
+All solutions with sum 8:
+
+7-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+Elapsed time: 0.8907461166381836 seconds.

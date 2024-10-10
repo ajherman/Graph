@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 2
+
+Minimum sum: 392
+
+All solutions with sum 392:
+
+1-intersecting regions:
+[[42 42 42 42 42 42 42 42]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3943192958831787 seconds.

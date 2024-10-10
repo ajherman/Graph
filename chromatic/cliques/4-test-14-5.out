@@ -1,0 +1,30 @@
+n = 4, k = 14, i = 5
+
+Minimum sum: 28
+
+All solutions with sum 28:
+
+1-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [0 1 1 0]
+ [0 0 1 1]
+ [0 1 0 1]
+ [1 0 0 1]]
+
+2-intersecting regions:
+[[4 3 4 4 5 4]
+ [3 4 4 4 4 5]
+ [4 4 3 5 4 4]
+ [5 4 4 4 4 3]
+ [4 5 4 4 3 4]
+ [4 4 5 3 4 4]]
+
+3-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [1 0 0 1]
+ [0 0 1 1]
+ [0 1 0 1]
+ [0 1 1 0]]
+Elapsed time: 0.06940555572509766 seconds.

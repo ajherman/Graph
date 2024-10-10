@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 2
+
+Minimum sum: 376
+
+All solutions with sum 376:
+
+1-intersecting regions:
+[[40 40 40 40 40 40 40 40]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3948497772216797 seconds.

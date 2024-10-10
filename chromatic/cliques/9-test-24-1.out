@@ -1,0 +1,12 @@
+n = 9, k = 24, i = 1
+
+Minimum sum: 180
+
+All solutions with sum 180:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.717261552810669 seconds.

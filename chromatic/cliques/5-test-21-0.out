@@ -1,0 +1,9 @@
+n = 5, k = 21, i = 0
+
+Minimum sum: 105
+
+All solutions with sum 105:
+
+1-intersecting regions:
+[[21 21 21 21 21]]
+Elapsed time: 0.03066849708557129 seconds.

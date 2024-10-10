@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 6
+
+Minimum sum: 296
+
+All solutions with sum 296:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.3992195129394531 seconds.

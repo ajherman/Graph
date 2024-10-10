@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 3
+
+Minimum sum: 54
+
+All solutions with sum 54:
+
+1-intersecting regions:
+[[9 9 9 9]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+Elapsed time: 0.023455381393432617 seconds.

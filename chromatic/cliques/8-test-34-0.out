@@ -1,0 +1,9 @@
+n = 8, k = 34, i = 0
+
+Minimum sum: 272
+
+All solutions with sum 272:
+
+1-intersecting regions:
+[[34 34 34 34 34 34 34 34]]
+Elapsed time: 0.25020933151245117 seconds.

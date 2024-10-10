@@ -1,0 +1,12 @@
+n = 8, k = 22, i = 2
+
+Minimum sum: 120
+
+All solutions with sum 120:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.550736665725708 seconds.

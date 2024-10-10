@@ -1,0 +1,34 @@
+n = 4, k = 25, i = 13
+
+Minimum sum: 41
+
+All solutions with sum 41:
+
+1-intersecting regions:
+[[0 0 0 1]
+ [0 0 0 0]
+ [0 1 0 0]
+ [1 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[4 4 4 3 3 3]
+ [4 4 4 4 4 4]
+ [3 4 3 4 3 4]
+ [3 3 4 3 4 4]
+ [4 3 3 4 4 3]]
+
+3-intersecting regions:
+[[4 5 5 5]
+ [4 4 4 4]
+ [5 5 4 5]
+ [5 5 5 4]
+ [5 4 5 5]]
+
+4-intersecting regions:
+[[0]
+ [1]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.09299230575561523 seconds.

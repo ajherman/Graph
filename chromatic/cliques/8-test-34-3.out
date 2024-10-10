@@ -1,0 +1,12 @@
+n = 8, k = 34, i = 3
+
+Minimum sum: 188
+
+All solutions with sum 188:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.487379789352417 seconds.

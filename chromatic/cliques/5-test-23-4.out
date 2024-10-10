@@ -1,0 +1,12 @@
+n = 5, k = 23, i = 4
+
+Minimum sum: 75
+
+All solutions with sum 75:
+
+1-intersecting regions:
+[[7 7 7 7 7]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.04478859901428223 seconds.

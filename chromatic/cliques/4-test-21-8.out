@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 8
+
+Minimum sum: 40
+
+All solutions with sum 40:
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+
+3-intersecting regions:
+[[1 1 1 1]]
+Elapsed time: 0.025536775588989258 seconds.

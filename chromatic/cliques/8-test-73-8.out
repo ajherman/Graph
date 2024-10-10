@@ -1,0 +1,12 @@
+n = 8, k = 73, i = 8
+
+Minimum sum: 360
+
+All solutions with sum 360:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.40511155128479004 seconds.

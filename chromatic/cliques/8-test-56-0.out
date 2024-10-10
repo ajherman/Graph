@@ -1,0 +1,9 @@
+n = 8, k = 56, i = 0
+
+Minimum sum: 448
+
+All solutions with sum 448:
+
+1-intersecting regions:
+[[56 56 56 56 56 56 56 56]]
+Elapsed time: 0.24960875511169434 seconds.

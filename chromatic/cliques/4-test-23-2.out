@@ -1,0 +1,12 @@
+n = 4, k = 23, i = 2
+
+Minimum sum: 80
+
+All solutions with sum 80:
+
+1-intersecting regions:
+[[17 17 17 17]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.025919675827026367 seconds.

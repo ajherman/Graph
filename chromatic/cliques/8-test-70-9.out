@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 9
+
+Minimum sum: 308
+
+All solutions with sum 308:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.4199666976928711 seconds.

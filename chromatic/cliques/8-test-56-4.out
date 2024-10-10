@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 4
+
+Minimum sum: 336
+
+All solutions with sum 336:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4894886016845703 seconds.

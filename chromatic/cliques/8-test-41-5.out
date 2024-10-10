@@ -1,0 +1,12 @@
+n = 8, k = 41, i = 5
+
+Minimum sum: 188
+
+All solutions with sum 188:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4026494026184082 seconds.

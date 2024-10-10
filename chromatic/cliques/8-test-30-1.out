@@ -1,0 +1,12 @@
+n = 8, k = 30, i = 1
+
+Minimum sum: 212
+
+All solutions with sum 212:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5650880336761475 seconds.

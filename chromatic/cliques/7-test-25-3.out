@@ -1,0 +1,12 @@
+n = 7, k = 25, i = 3
+
+Minimum sum: 112
+
+All solutions with sum 112:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.24825549125671387 seconds.

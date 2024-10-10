@@ -1,0 +1,12 @@
+n = 7, k = 15, i = 13
+
+Minimum sum: 17
+
+All solutions with sum 17:
+
+6-intersecting regions:
+[[2 2 2 2 2 2 2]]
+
+7-intersecting regions:
+[[3]]
+Elapsed time: 0.22941851615905762 seconds.

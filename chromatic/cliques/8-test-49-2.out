@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 2
+
+Minimum sum: 336
+
+All solutions with sum 336:
+
+1-intersecting regions:
+[[35 35 35 35 35 35 35 35]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3903839588165283 seconds.

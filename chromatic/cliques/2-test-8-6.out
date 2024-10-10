@@ -1,0 +1,12 @@
+n = 2, k = 8, i = 6
+
+Minimum sum: 10
+
+All solutions with sum 10:
+
+1-intersecting regions:
+[[2 2]]
+
+2-intersecting regions:
+[[6]]
+Elapsed time: 0.010718107223510742 seconds.

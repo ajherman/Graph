@@ -1,0 +1,12 @@
+n = 8, k = 36, i = 33
+
+Minimum sum: 39
+
+All solutions with sum 39:
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+8-intersecting regions:
+[[15]]
+Elapsed time: 0.607579231262207 seconds.

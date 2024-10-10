@@ -1,0 +1,9 @@
+n = 6, k = 4, i = 0
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+1-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.05867815017700195 seconds.

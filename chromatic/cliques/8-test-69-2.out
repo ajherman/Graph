@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 2
+
+Minimum sum: 496
+
+All solutions with sum 496:
+
+1-intersecting regions:
+[[55 55 55 55 55 55 55 55]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3871943950653076 seconds.

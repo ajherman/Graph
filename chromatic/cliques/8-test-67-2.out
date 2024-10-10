@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 2
+
+Minimum sum: 480
+
+All solutions with sum 480:
+
+1-intersecting regions:
+[[53 53 53 53 53 53 53 53]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.45343518257141113 seconds.

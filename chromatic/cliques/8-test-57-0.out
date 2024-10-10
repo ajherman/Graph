@@ -1,0 +1,9 @@
+n = 8, k = 57, i = 0
+
+Minimum sum: 456
+
+All solutions with sum 456:
+
+1-intersecting regions:
+[[57 57 57 57 57 57 57 57]]
+Elapsed time: 0.2587897777557373 seconds.

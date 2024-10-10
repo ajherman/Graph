@@ -1,0 +1,12 @@
+n = 8, k = 61, i = 7
+
+Minimum sum: 292
+
+All solutions with sum 292:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.419034481048584 seconds.

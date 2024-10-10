@@ -1,0 +1,12 @@
+n = 8, k = 50, i = 3
+
+Minimum sum: 316
+
+All solutions with sum 316:
+
+1-intersecting regions:
+[[29 29 29 29 29 29 29 29]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.39517760276794434 seconds.

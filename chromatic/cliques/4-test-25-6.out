@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 6
+
+Minimum sum: 64
+
+All solutions with sum 64:
+
+1-intersecting regions:
+[[7 7 7 7]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+Elapsed time: 0.01999807357788086 seconds.

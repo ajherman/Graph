@@ -1,0 +1,9 @@
+n = 2, k = 16, i = 0
+
+Minimum sum: 32
+
+All solutions with sum 32:
+
+1-intersecting regions:
+[[16 16]]
+Elapsed time: 0.01042485237121582 seconds.

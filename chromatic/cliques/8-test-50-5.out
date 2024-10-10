@@ -1,0 +1,12 @@
+n = 8, k = 50, i = 5
+
+Minimum sum: 260
+
+All solutions with sum 260:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.3982656002044678 seconds.

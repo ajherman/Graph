@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 60
+
+Minimum sum: 78
+
+All solutions with sum 78:
+
+7-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+8-intersecting regions:
+[[6]]
+Elapsed time: 0.925302267074585 seconds.

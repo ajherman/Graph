@@ -1,0 +1,12 @@
+n = 8, k = 25, i = 1
+
+Minimum sum: 172
+
+All solutions with sum 172:
+
+1-intersecting regions:
+[[18 18 18 18 18 18 18 18]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.808185338973999 seconds.

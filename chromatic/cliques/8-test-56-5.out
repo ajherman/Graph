@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 5
+
+Minimum sum: 308
+
+All solutions with sum 308:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.41327381134033203 seconds.

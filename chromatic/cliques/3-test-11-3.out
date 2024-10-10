@@ -1,0 +1,12 @@
+n = 3, k = 11, i = 3
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+1-intersecting regions:
+[[5 5 5]]
+
+2-intersecting regions:
+[[3 3 3]]
+Elapsed time: 0.01254892349243164 seconds.

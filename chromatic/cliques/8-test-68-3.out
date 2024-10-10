@@ -1,0 +1,12 @@
+n = 8, k = 68, i = 3
+
+Minimum sum: 460
+
+All solutions with sum 460:
+
+1-intersecting regions:
+[[47 47 47 47 47 47 47 47]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3985445499420166 seconds.

@@ -1,0 +1,9 @@
+n = 6, k = 13, i = 0
+
+Minimum sum: 78
+
+All solutions with sum 78:
+
+1-intersecting regions:
+[[13 13 13 13 13 13]]
+Elapsed time: 0.05702400207519531 seconds.

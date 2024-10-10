@@ -1,0 +1,9 @@
+n = 5, k = 20, i = 0
+
+Minimum sum: 100
+
+All solutions with sum 100:
+
+1-intersecting regions:
+[[20 20 20 20 20]]
+Elapsed time: 0.027153491973876953 seconds.

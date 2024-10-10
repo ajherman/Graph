@@ -1,0 +1,12 @@
+n = 5, k = 22, i = 21
+
+Minimum sum: 23
+
+All solutions with sum 23:
+
+4-intersecting regions:
+[[1 1 1 1 1]]
+
+5-intersecting regions:
+[[18]]
+Elapsed time: 0.04302716255187988 seconds.

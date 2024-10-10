@@ -1,0 +1,12 @@
+n = 5, k = 23, i = 3
+
+Minimum sum: 85
+
+All solutions with sum 85:
+
+1-intersecting regions:
+[[11 11 11 11 11]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.0432124137878418 seconds.

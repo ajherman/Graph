@@ -1,0 +1,12 @@
+n = 4, k = 12, i = 9
+
+Minimum sum: 15
+
+All solutions with sum 15:
+
+3-intersecting regions:
+[[3 3 3 3]]
+
+4-intersecting regions:
+[[3]]
+Elapsed time: 0.02307891845703125 seconds.

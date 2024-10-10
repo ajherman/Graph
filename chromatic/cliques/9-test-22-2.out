@@ -1,0 +1,12 @@
+n = 9, k = 22, i = 2
+
+Minimum sum: 126
+
+All solutions with sum 126:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.2874009609222412 seconds.

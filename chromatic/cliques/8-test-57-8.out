@@ -1,0 +1,12 @@
+n = 8, k = 57, i = 8
+
+Minimum sum: 232
+
+All solutions with sum 232:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.398439884185791 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 11
+
+Minimum sum: 34
+
+All solutions with sum 34:
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+
+3-intersecting regions:
+[[4 4 4 4]]
+Elapsed time: 0.03887510299682617 seconds.

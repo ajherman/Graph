@@ -1,0 +1,9 @@
+n = 3, k = 10, i = 0
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+1-intersecting regions:
+[[10 10 10]]
+Elapsed time: 0.012308359146118164 seconds.

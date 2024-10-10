@@ -1,0 +1,12 @@
+n = 8, k = 50, i = 2
+
+Minimum sum: 344
+
+All solutions with sum 344:
+
+1-intersecting regions:
+[[36 36 36 36 36 36 36 36]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3919100761413574 seconds.

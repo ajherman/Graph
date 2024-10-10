@@ -1,0 +1,12 @@
+n = 7, k = 13, i = 1
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.2366962432861328 seconds.

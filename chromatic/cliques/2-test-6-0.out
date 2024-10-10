@@ -1,0 +1,9 @@
+n = 2, k = 6, i = 0
+
+Minimum sum: 12
+
+All solutions with sum 12:
+
+1-intersecting regions:
+[[6 6]]
+Elapsed time: 0.010627508163452148 seconds.

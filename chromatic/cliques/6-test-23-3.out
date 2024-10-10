@@ -1,0 +1,12 @@
+n = 6, k = 23, i = 3
+
+Minimum sum: 93
+
+All solutions with sum 93:
+
+1-intersecting regions:
+[[8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08116793632507324 seconds.

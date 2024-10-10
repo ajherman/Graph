@@ -1,0 +1,12 @@
+n = 8, k = 19, i = 2
+
+Minimum sum: 96
+
+All solutions with sum 96:
+
+1-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5035228729248047 seconds.

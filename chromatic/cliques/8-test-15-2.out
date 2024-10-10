@@ -1,0 +1,12 @@
+n = 8, k = 15, i = 2
+
+Minimum sum: 64
+
+All solutions with sum 64:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.8067398071289062 seconds.

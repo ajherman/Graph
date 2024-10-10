@@ -1,0 +1,12 @@
+n = 6, k = 25, i = 4
+
+Minimum sum: 90
+
+All solutions with sum 90:
+
+1-intersecting regions:
+[[5 5 5 5 5 5]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.08142948150634766 seconds.

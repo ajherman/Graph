@@ -1,0 +1,9 @@
+n = 4, k = 13, i = 0
+
+Minimum sum: 52
+
+All solutions with sum 52:
+
+1-intersecting regions:
+[[13 13 13 13]]
+Elapsed time: 0.01740431785583496 seconds.

@@ -1,0 +1,12 @@
+n = 6, k = 17, i = 2
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+1-intersecting regions:
+[[7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08158516883850098 seconds.

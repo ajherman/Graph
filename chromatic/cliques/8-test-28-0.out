@@ -1,0 +1,9 @@
+n = 8, k = 28, i = 0
+
+Minimum sum: 224
+
+All solutions with sum 224:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+Elapsed time: 0.3395075798034668 seconds.

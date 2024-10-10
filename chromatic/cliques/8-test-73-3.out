@@ -1,0 +1,12 @@
+n = 8, k = 73, i = 3
+
+Minimum sum: 500
+
+All solutions with sum 500:
+
+1-intersecting regions:
+[[52 52 52 52 52 52 52 52]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.47838711738586426 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 57, i = 4
+
+Minimum sum: 344
+
+All solutions with sum 344:
+
+1-intersecting regions:
+[[29 29 29 29 29 29 29 29]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.5733823776245117 seconds.

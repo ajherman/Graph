@@ -1,0 +1,9 @@
+n = 8, k = 15, i = 0
+
+Minimum sum: 120
+
+All solutions with sum 120:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+Elapsed time: 0.35260629653930664 seconds.

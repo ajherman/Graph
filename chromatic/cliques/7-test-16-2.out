@@ -1,0 +1,12 @@
+n = 7, k = 16, i = 2
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.21703338623046875 seconds.

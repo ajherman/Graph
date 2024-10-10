@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 2
+
+Minimum sum: 472
+
+All solutions with sum 472:
+
+1-intersecting regions:
+[[52 52 52 52 52 52 52 52]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4008767604827881 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 18, i = 2
+
+Minimum sum: 88
+
+All solutions with sum 88:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4676632881164551 seconds.

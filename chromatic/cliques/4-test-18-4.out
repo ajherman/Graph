@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 4
+
+Minimum sum: 48
+
+All solutions with sum 48:
+
+1-intersecting regions:
+[[6 6 6 6]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.022937536239624023 seconds.

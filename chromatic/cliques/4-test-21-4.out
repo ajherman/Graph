@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 4
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+1-intersecting regions:
+[[9 9 9 9]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4]]
+Elapsed time: 0.02970266342163086 seconds.

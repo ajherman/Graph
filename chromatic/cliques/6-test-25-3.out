@@ -1,0 +1,12 @@
+n = 6, k = 25, i = 3
+
+Minimum sum: 105
+
+All solutions with sum 105:
+
+1-intersecting regions:
+[[10 10 10 10 10 10]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08330106735229492 seconds.

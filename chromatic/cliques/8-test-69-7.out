@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 7
+
+Minimum sum: 356
+
+All solutions with sum 356:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.4038431644439697 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 26, i = 23
+
+Minimum sum: 29
+
+All solutions with sum 29:
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+8-intersecting regions:
+[[5]]
+Elapsed time: 0.7114675045013428 seconds.

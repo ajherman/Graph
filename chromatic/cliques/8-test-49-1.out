@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 1
+
+Minimum sum: 364
+
+All solutions with sum 364:
+
+1-intersecting regions:
+[[42 42 42 42 42 42 42 42]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7123720645904541 seconds.

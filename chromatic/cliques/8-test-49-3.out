@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 3
+
+Minimum sum: 308
+
+All solutions with sum 308:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3979065418243408 seconds.

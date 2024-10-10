@@ -1,0 +1,9 @@
+n = 5, k = 22, i = 0
+
+Minimum sum: 110
+
+All solutions with sum 110:
+
+1-intersecting regions:
+[[22 22 22 22 22]]
+Elapsed time: 0.02772808074951172 seconds.

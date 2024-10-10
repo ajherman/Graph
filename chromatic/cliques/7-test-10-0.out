@@ -1,0 +1,9 @@
+n = 7, k = 10, i = 0
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[10 10 10 10 10 10 10]]
+Elapsed time: 0.14915990829467773 seconds.

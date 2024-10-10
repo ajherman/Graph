@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 2
+
+Minimum sum: 368
+
+All solutions with sum 368:
+
+1-intersecting regions:
+[[39 39 39 39 39 39 39 39]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3941357135772705 seconds.

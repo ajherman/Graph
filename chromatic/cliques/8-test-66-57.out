@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 57
+
+Minimum sum: 75
+
+All solutions with sum 75:
+
+7-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+8-intersecting regions:
+[[3]]
+Elapsed time: 1.1537580490112305 seconds.

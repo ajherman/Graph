@@ -1,0 +1,12 @@
+n = 8, k = 30, i = 3
+
+Minimum sum: 156
+
+All solutions with sum 156:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.46802210807800293 seconds.

@@ -1,0 +1,9 @@
+n = 5, k = 15, i = 0
+
+Minimum sum: 75
+
+All solutions with sum 75:
+
+1-intersecting regions:
+[[15 15 15 15 15]]
+Elapsed time: 0.030610322952270508 seconds.

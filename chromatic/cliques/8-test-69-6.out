@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 6
+
+Minimum sum: 384
+
+All solutions with sum 384:
+
+1-intersecting regions:
+[[27 27 27 27 27 27 27 27]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.3947784900665283 seconds.

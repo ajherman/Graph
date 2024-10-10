@@ -1,0 +1,12 @@
+n = 5, k = 19, i = 3
+
+Minimum sum: 65
+
+All solutions with sum 65:
+
+1-intersecting regions:
+[[7 7 7 7 7]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.042125701904296875 seconds.

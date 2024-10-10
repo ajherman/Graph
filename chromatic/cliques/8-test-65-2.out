@@ -1,0 +1,12 @@
+n = 8, k = 65, i = 2
+
+Minimum sum: 464
+
+All solutions with sum 464:
+
+1-intersecting regions:
+[[51 51 51 51 51 51 51 51]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.41596198081970215 seconds.

@@ -1,0 +1,9 @@
+n = 7, k = 22, i = 0
+
+Minimum sum: 154
+
+All solutions with sum 154:
+
+1-intersecting regions:
+[[22 22 22 22 22 22 22]]
+Elapsed time: 0.1087493896484375 seconds.

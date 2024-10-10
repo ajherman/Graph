@@ -1,0 +1,12 @@
+n = 2, k = 16, i = 8
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+1-intersecting regions:
+[[8 8]]
+
+2-intersecting regions:
+[[8]]
+Elapsed time: 0.0109710693359375 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 60, i = 3
+
+Minimum sum: 396
+
+All solutions with sum 396:
+
+1-intersecting regions:
+[[39 39 39 39 39 39 39 39]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.37616682052612305 seconds.

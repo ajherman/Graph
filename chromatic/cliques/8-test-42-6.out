@@ -1,0 +1,9 @@
+n = 8, k = 42, i = 6
+
+Minimum sum: 168
+
+All solutions with sum 168:
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.5649802684783936 seconds.

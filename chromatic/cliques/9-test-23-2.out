@@ -1,0 +1,12 @@
+n = 9, k = 23, i = 2
+
+Minimum sum: 135
+
+All solutions with sum 135:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.2438373565673828 seconds.

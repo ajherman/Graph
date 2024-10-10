@@ -1,0 +1,9 @@
+n = 4, k = 14, i = 0
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+1-intersecting regions:
+[[14 14 14 14]]
+Elapsed time: 0.01721334457397461 seconds.

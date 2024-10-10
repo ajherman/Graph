@@ -1,0 +1,12 @@
+n = 2, k = 15, i = 10
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+1-intersecting regions:
+[[5 5]]
+
+2-intersecting regions:
+[[10]]
+Elapsed time: 0.011241436004638672 seconds.

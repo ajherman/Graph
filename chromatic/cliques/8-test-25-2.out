@@ -1,0 +1,12 @@
+n = 8, k = 25, i = 2
+
+Minimum sum: 144
+
+All solutions with sum 144:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.495347261428833 seconds.

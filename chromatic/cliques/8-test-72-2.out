@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 2
+
+Minimum sum: 520
+
+All solutions with sum 520:
+
+1-intersecting regions:
+[[58 58 58 58 58 58 58 58]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.38030529022216797 seconds.

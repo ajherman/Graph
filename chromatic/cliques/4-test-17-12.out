@@ -1,0 +1,12 @@
+n = 4, k = 17, i = 12
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+3-intersecting regions:
+[[5 5 5 5]]
+
+4-intersecting regions:
+[[2]]
+Elapsed time: 0.027606487274169922 seconds.

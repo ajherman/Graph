@@ -1,0 +1,9 @@
+n = 6, k = 15, i = 3
+
+Minimum sum: 45
+
+All solutions with sum 45:
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08363175392150879 seconds.

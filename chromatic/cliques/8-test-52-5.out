@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 5
+
+Minimum sum: 276
+
+All solutions with sum 276:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4584696292877197 seconds.

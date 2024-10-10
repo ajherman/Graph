@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 39
+
+Minimum sum: 45
+
+All solutions with sum 45:
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+8-intersecting regions:
+[[21]]
+Elapsed time: 0.533738374710083 seconds.

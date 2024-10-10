@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 18
+
+Minimum sum: 32
+
+All solutions with sum 32:
+
+3-intersecting regions:
+[[7 7 7 7]]
+
+4-intersecting regions:
+[[4]]
+Elapsed time: 0.028344154357910156 seconds.

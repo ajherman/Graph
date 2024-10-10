@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 4
+
+Minimum sum: 352
+
+All solutions with sum 352:
+
+1-intersecting regions:
+[[30 30 30 30 30 30 30 30]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.44478392601013184 seconds.

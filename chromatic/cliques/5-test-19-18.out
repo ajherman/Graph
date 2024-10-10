@@ -1,0 +1,12 @@
+n = 5, k = 19, i = 18
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+4-intersecting regions:
+[[1 1 1 1 1]]
+
+5-intersecting regions:
+[[15]]
+Elapsed time: 0.04719114303588867 seconds.

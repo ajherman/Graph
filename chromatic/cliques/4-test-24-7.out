@@ -1,0 +1,12 @@
+n = 4, k = 24, i = 7
+
+Minimum sum: 54
+
+All solutions with sum 54:
+
+1-intersecting regions:
+[[3 3 3 3]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7]]
+Elapsed time: 0.02708601951599121 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 17, i = 1
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+1-intersecting regions:
+[[10 10 10 10 10 10 10 10]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.8449056148529053 seconds.

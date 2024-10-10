@@ -1,0 +1,13 @@
+n = 8, k = 72, i = 10
+
+Minimum sum: 296
+
+All solutions with sum 296:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+  10 10 10 10]]
+Elapsed time: 0.3958473205566406 seconds.

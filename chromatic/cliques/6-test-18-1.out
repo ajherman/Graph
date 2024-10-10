@@ -1,0 +1,12 @@
+n = 6, k = 18, i = 1
+
+Minimum sum: 93
+
+All solutions with sum 93:
+
+1-intersecting regions:
+[[13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.11213040351867676 seconds.

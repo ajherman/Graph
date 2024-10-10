@@ -1,0 +1,12 @@
+n = 8, k = 73, i = 4
+
+Minimum sum: 472
+
+All solutions with sum 472:
+
+1-intersecting regions:
+[[45 45 45 45 45 45 45 45]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.3917520046234131 seconds.

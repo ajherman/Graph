@@ -1,0 +1,12 @@
+n = 8, k = 37, i = 2
+
+Minimum sum: 240
+
+All solutions with sum 240:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.43494606018066406 seconds.

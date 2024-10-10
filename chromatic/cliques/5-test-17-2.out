@@ -1,0 +1,12 @@
+n = 5, k = 17, i = 2
+
+Minimum sum: 65
+
+All solutions with sum 65:
+
+1-intersecting regions:
+[[9 9 9 9 9]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.038942813873291016 seconds.

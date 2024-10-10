@@ -1,0 +1,12 @@
+n = 8, k = 35, i = 27
+
+Minimum sum: 44
+
+All solutions with sum 44:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+Elapsed time: 1.4599037170410156 seconds.

@@ -1,0 +1,12 @@
+n = 9, k = 24, i = 2
+
+Minimum sum: 144
+
+All solutions with sum 144:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.2517383098602295 seconds.

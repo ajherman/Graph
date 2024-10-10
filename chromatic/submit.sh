@@ -6,16 +6,19 @@
 
 module load openmpi-3.0.1/gcc-9.2.0
 
+min_k=1
 max_k=15
-n=6
-
-for k in $(seq 2 $max_k); do
-for i in $(seq 1 $((k-1))); do
-echo "Running k=$k, i=$i..."
-srun -o cliques/$n-test-$k-$i.out --ntasks=1 -N 1 python -u enumerate_cliques.py --n $n --k $k --i $i
+min_n=11
+max_n=14
+for n in $(seq $min_n $max_n); do
+for k in $(seq $min_k $max_k); do
+for i in $(seq 0 $((k-1))); do
+echo "Running n= $n, k=$k, i=$i..."
+srun --ntasks=1 -N 1 python -u clique_generator.py --n $n --k $k --i $i >> clique_log.out 2>> clique_err.out 
 done
 done 
+done
 
-# srun -o test.out --ntasks=1 -N 1 python -u enumerate_cliques.py -n 6 -k 12 -i 6 &
+# srun --ntasks=1 -N 1 python -u clique_generator.py --n 13 --k 4 --i 1 >> clique_log.out 2>> clique_err.out 
 
 srun sleep 1

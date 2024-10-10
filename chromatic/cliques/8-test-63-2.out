@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 2
+
+Minimum sum: 448
+
+All solutions with sum 448:
+
+1-intersecting regions:
+[[49 49 49 49 49 49 49 49]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5109484195709229 seconds.

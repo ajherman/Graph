@@ -1,0 +1,12 @@
+n = 8, k = 73, i = 2
+
+Minimum sum: 528
+
+All solutions with sum 528:
+
+1-intersecting regions:
+[[59 59 59 59 59 59 59 59]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.37818312644958496 seconds.

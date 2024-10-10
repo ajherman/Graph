@@ -1,0 +1,9 @@
+n = 4, k = 1, i = 0
+
+Minimum sum: 4
+
+All solutions with sum 4:
+
+1-intersecting regions:
+[[1 1 1 1]]
+Elapsed time: 0.01900458335876465 seconds.

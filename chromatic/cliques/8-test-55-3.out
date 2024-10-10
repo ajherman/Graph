@@ -1,0 +1,12 @@
+n = 8, k = 55, i = 3
+
+Minimum sum: 356
+
+All solutions with sum 356:
+
+1-intersecting regions:
+[[34 34 34 34 34 34 34 34]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.38164734840393066 seconds.

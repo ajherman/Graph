@@ -1,0 +1,9 @@
+n = 6, k = 11, i = 0
+
+Minimum sum: 66
+
+All solutions with sum 66:
+
+1-intersecting regions:
+[[11 11 11 11 11 11]]
+Elapsed time: 0.058049917221069336 seconds.

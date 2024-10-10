@@ -1,0 +1,9 @@
+n = 8, k = 59, i = 0
+
+Minimum sum: 472
+
+All solutions with sum 472:
+
+1-intersecting regions:
+[[59 59 59 59 59 59 59 59]]
+Elapsed time: 0.25010085105895996 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 9, i = 1
+
+Minimum sum: 44
+
+All solutions with sum 44:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.8207061290740967 seconds.

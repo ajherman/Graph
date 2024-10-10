@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 9
+
+Minimum sum: 276
+
+All solutions with sum 276:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.4410402774810791 seconds.

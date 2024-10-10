@@ -1,0 +1,12 @@
+n = 8, k = 48, i = 1
+
+Minimum sum: 356
+
+All solutions with sum 356:
+
+1-intersecting regions:
+[[41 41 41 41 41 41 41 41]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5861554145812988 seconds.

@@ -1,0 +1,12 @@
+n = 5, k = 19, i = 1
+
+Minimum sum: 85
+
+All solutions with sum 85:
+
+1-intersecting regions:
+[[15 15 15 15 15]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.04147982597351074 seconds.

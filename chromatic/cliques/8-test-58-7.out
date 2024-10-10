@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 7
+
+Minimum sum: 268
+
+All solutions with sum 268:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.40257763862609863 seconds.

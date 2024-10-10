@@ -1,0 +1,12 @@
+n = 8, k = 45, i = 3
+
+Minimum sum: 276
+
+All solutions with sum 276:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24 24]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.5039277076721191 seconds.

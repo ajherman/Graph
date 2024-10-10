@@ -1,0 +1,12 @@
+n = 8, k = 29, i = 4
+
+Minimum sum: 120
+
+All solutions with sum 120:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.3931124210357666 seconds.

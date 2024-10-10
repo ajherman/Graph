@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 3
+
+Minimum sum: 484
+
+All solutions with sum 484:
+
+1-intersecting regions:
+[[50 50 50 50 50 50 50 50]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.39096975326538086 seconds.

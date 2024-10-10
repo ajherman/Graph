@@ -1,0 +1,12 @@
+n = 4, k = 22, i = 6
+
+Minimum sum: 52
+
+All solutions with sum 52:
+
+1-intersecting regions:
+[[4 4 4 4]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+Elapsed time: 0.027311325073242188 seconds.

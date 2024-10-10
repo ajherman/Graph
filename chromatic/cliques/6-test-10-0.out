@@ -1,0 +1,9 @@
+n = 6, k = 10, i = 0
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+1-intersecting regions:
+[[10 10 10 10 10 10]]
+Elapsed time: 0.0594172477722168 seconds.

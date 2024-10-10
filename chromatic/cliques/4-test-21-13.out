@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 13
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+2-intersecting regions:
+[[1 1 1 1 1 1]]
+
+3-intersecting regions:
+[[6 6 6 6]]
+Elapsed time: 0.022275447845458984 seconds.

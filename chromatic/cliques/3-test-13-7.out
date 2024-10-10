@@ -1,0 +1,12 @@
+n = 3, k = 13, i = 7
+
+Minimum sum: 19
+
+All solutions with sum 19:
+
+2-intersecting regions:
+[[6 6 6]]
+
+3-intersecting regions:
+[[1]]
+Elapsed time: 0.011964797973632812 seconds.

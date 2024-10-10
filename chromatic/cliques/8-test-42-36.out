@@ -1,0 +1,9 @@
+n = 8, k = 42, i = 36
+
+Minimum sum: 48
+
+All solutions with sum 48:
+
+7-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+Elapsed time: 0.5954887866973877 seconds.

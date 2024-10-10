@@ -1,0 +1,12 @@
+n = 8, k = 26, i = 2
+
+Minimum sum: 152
+
+All solutions with sum 152:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5301589965820312 seconds.

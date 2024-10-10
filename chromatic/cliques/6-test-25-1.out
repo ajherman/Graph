@@ -1,0 +1,12 @@
+n = 6, k = 25, i = 1
+
+Minimum sum: 135
+
+All solutions with sum 135:
+
+1-intersecting regions:
+[[20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.09493780136108398 seconds.

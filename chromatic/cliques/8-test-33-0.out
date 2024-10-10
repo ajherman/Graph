@@ -1,0 +1,9 @@
+n = 8, k = 33, i = 0
+
+Minimum sum: 264
+
+All solutions with sum 264:
+
+1-intersecting regions:
+[[33 33 33 33 33 33 33 33]]
+Elapsed time: 0.25249314308166504 seconds.

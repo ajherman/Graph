@@ -1,0 +1,12 @@
+n = 7, k = 19, i = 2
+
+Minimum sum: 91
+
+All solutions with sum 91:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.14469003677368164 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 38, i = 2
+
+Minimum sum: 248
+
+All solutions with sum 248:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24 24]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.39556145668029785 seconds.

@@ -1,0 +1,12 @@
+n = 6, k = 23, i = 1
+
+Minimum sum: 123
+
+All solutions with sum 123:
+
+1-intersecting regions:
+[[18 18 18 18 18 18]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.10474038124084473 seconds.

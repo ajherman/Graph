@@ -1,0 +1,12 @@
+n = 5, k = 22, i = 12
+
+Minimum sum: 35
+
+All solutions with sum 35:
+
+3-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+
+4-intersecting regions:
+[[1 1 1 1 1]]
+Elapsed time: 0.06755399703979492 seconds.

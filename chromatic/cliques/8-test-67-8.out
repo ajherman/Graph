@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 8
+
+Minimum sum: 312
+
+All solutions with sum 312:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.3944721221923828 seconds.

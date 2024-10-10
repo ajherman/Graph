@@ -1,0 +1,12 @@
+n = 8, k = 39, i = 3
+
+Minimum sum: 228
+
+All solutions with sum 228:
+
+1-intersecting regions:
+[[18 18 18 18 18 18 18 18]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.4144141674041748 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 1
+
+Minimum sum: 396
+
+All solutions with sum 396:
+
+1-intersecting regions:
+[[46 46 46 46 46 46 46 46]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6109218597412109 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 12
+
+Minimum sum: 32
+
+All solutions with sum 32:
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+
+3-intersecting regions:
+[[5 5 5 5]]
+Elapsed time: 0.03083014488220215 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 65, i = 5
+
+Minimum sum: 380
+
+All solutions with sum 380:
+
+1-intersecting regions:
+[[30 30 30 30 30 30 30 30]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4504735469818115 seconds.

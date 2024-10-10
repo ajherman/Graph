@@ -1,0 +1,12 @@
+n = 6, k = 20, i = 19
+
+Minimum sum: 21
+
+All solutions with sum 21:
+
+5-intersecting regions:
+[[1 1 1 1 1 1]]
+
+6-intersecting regions:
+[[15]]
+Elapsed time: 0.13551664352416992 seconds.

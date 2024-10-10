@@ -1,0 +1,12 @@
+n = 8, k = 51, i = 7
+
+Minimum sum: 212
+
+All solutions with sum 212:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.40996551513671875 seconds.

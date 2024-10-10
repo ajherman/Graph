@@ -1,0 +1,9 @@
+n = 8, k = 28, i = 4
+
+Minimum sum: 112
+
+All solutions with sum 112:
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.62229323387146 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 62
+
+Minimum sum: 82
+
+All solutions with sum 82:
+
+7-intersecting regions:
+[[10 10 10 10 10 10 10 10]]
+
+8-intersecting regions:
+[[2]]
+Elapsed time: 0.8213198184967041 seconds.

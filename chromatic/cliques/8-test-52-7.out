@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 7
+
+Minimum sum: 220
+
+All solutions with sum 220:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.41525959968566895 seconds.

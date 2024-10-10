@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 7
+
+Minimum sum: 332
+
+All solutions with sum 332:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.37915515899658203 seconds.

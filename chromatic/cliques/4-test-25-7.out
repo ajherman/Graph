@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 7
+
+Minimum sum: 58
+
+All solutions with sum 58:
+
+1-intersecting regions:
+[[4 4 4 4]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7]]
+Elapsed time: 0.027364015579223633 seconds.

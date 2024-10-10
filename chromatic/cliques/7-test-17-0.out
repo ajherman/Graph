@@ -1,0 +1,9 @@
+n = 7, k = 17, i = 0
+
+Minimum sum: 119
+
+All solutions with sum 119:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17]]
+Elapsed time: 0.15007853507995605 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 64, i = 0
+
+Minimum sum: 512
+
+All solutions with sum 512:
+
+1-intersecting regions:
+[[64 64 64 64 64 64 64 64]]
+Elapsed time: 0.2572047710418701 seconds.

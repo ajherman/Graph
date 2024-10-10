@@ -1,0 +1,9 @@
+n = 6, k = 22, i = 0
+
+Minimum sum: 132
+
+All solutions with sum 132:
+
+1-intersecting regions:
+[[22 22 22 22 22 22]]
+Elapsed time: 0.06398415565490723 seconds.

@@ -1,0 +1,15 @@
+n = 9, k = 11, i = 9
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1 1]]
+
+8-intersecting regions:
+[[1 1 1 1 1 1 1 1 1]]
+
+9-intersecting regions:
+[[2]]
+Elapsed time: 2439.076346874237 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 13, i = 2
+
+Minimum sum: 40
+
+All solutions with sum 40:
+
+1-intersecting regions:
+[[7 7 7 7]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.023560762405395508 seconds.

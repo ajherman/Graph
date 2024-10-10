@@ -1,0 +1,9 @@
+n = 8, k = 60, i = 0
+
+Minimum sum: 480
+
+All solutions with sum 480:
+
+1-intersecting regions:
+[[60 60 60 60 60 60 60 60]]
+Elapsed time: 0.25644350051879883 seconds.

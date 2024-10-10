@@ -1,0 +1,12 @@
+n = 8, k = 38, i = 33
+
+Minimum sum: 43
+
+All solutions with sum 43:
+
+7-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+8-intersecting regions:
+[[3]]
+Elapsed time: 0.5799155235290527 seconds.

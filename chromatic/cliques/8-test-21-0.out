@@ -1,0 +1,9 @@
+n = 8, k = 21, i = 0
+
+Minimum sum: 168
+
+All solutions with sum 168:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+Elapsed time: 0.33140039443969727 seconds.

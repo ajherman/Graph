@@ -1,0 +1,34 @@
+n = 4, k = 13, i = 6
+
+Minimum sum: 23
+
+All solutions with sum 23:
+
+1-intersecting regions:
+[[0 0 0 0]
+ [1 0 0 0]
+ [0 0 1 0]
+ [0 1 0 0]
+ [0 0 0 1]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3]
+ [2 2 3 2 3 3]
+ [3 2 2 3 3 2]
+ [2 3 2 3 2 3]
+ [3 3 3 2 2 2]]
+
+3-intersecting regions:
+[[1 1 1 1]
+ [2 2 2 1]
+ [2 1 2 2]
+ [2 2 1 2]
+ [1 2 2 2]]
+
+4-intersecting regions:
+[[1]
+ [0]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.0997915267944336 seconds.

@@ -1,0 +1,9 @@
+n = 9, k = 25, i = 0
+
+Minimum sum: 225
+
+All solutions with sum 225:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25 25]]
+Elapsed time: 0.789238452911377 seconds.

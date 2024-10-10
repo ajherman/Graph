@@ -1,0 +1,12 @@
+n = 9, k = 12, i = 1
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.5290603637695312 seconds.

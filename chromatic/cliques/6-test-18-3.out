@@ -1,0 +1,12 @@
+n = 6, k = 18, i = 3
+
+Minimum sum: 63
+
+All solutions with sum 63:
+
+1-intersecting regions:
+[[3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.08391189575195312 seconds.

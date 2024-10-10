@@ -1,0 +1,12 @@
+n = 8, k = 29, i = 3
+
+Minimum sum: 148
+
+All solutions with sum 148:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3897252082824707 seconds.

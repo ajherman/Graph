@@ -1,0 +1,12 @@
+n = 8, k = 23, i = 2
+
+Minimum sum: 128
+
+All solutions with sum 128:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5700418949127197 seconds.

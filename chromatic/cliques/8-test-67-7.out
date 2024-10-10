@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 7
+
+Minimum sum: 340
+
+All solutions with sum 340:
+
+1-intersecting regions:
+[[18 18 18 18 18 18 18 18]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.39017605781555176 seconds.

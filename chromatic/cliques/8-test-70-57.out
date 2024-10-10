@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 57
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+6-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+Elapsed time: 1.0567691326141357 seconds.

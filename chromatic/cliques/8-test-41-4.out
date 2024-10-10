@@ -1,0 +1,12 @@
+n = 8, k = 41, i = 4
+
+Minimum sum: 216
+
+All solutions with sum 216:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.43257737159729004 seconds.

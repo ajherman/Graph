@@ -1,0 +1,12 @@
+n = 8, k = 55, i = 6
+
+Minimum sum: 272
+
+All solutions with sum 272:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.39450883865356445 seconds.

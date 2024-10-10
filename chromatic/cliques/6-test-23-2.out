@@ -1,0 +1,12 @@
+n = 6, k = 23, i = 2
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+1-intersecting regions:
+[[13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08925604820251465 seconds.

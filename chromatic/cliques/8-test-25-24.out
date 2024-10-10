@@ -1,0 +1,12 @@
+n = 8, k = 25, i = 24
+
+Minimum sum: 26
+
+All solutions with sum 26:
+
+7-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+8-intersecting regions:
+[[18]]
+Elapsed time: 1.0539860725402832 seconds.

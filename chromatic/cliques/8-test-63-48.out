@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 48
+
+Minimum sum: 80
+
+All solutions with sum 80:
+
+6-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+Elapsed time: 1.5764710903167725 seconds.

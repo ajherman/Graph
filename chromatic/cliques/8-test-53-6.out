@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 6
+
+Minimum sum: 256
+
+All solutions with sum 256:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.43292975425720215 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 33, i = 1
+
+Minimum sum: 236
+
+All solutions with sum 236:
+
+1-intersecting regions:
+[[26 26 26 26 26 26 26 26]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6625943183898926 seconds.

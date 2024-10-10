@@ -1,0 +1,9 @@
+n = 7, k = 12, i = 0
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12]]
+Elapsed time: 0.14450907707214355 seconds.

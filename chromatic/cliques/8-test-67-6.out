@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 6
+
+Minimum sum: 368
+
+All solutions with sum 368:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40889692306518555 seconds.

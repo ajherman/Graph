@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 9
+
+Minimum sum: 324
+
+All solutions with sum 324:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.47350645065307617 seconds.

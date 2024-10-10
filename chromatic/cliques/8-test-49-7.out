@@ -1,0 +1,9 @@
+n = 8, k = 49, i = 7
+
+Minimum sum: 196
+
+All solutions with sum 196:
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.3912622928619385 seconds.

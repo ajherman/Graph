@@ -1,0 +1,12 @@
+n = 8, k = 65, i = 6
+
+Minimum sum: 352
+
+All solutions with sum 352:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.404066801071167 seconds.

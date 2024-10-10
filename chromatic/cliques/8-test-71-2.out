@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 2
+
+Minimum sum: 512
+
+All solutions with sum 512:
+
+1-intersecting regions:
+[[57 57 57 57 57 57 57 57]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.6126863956451416 seconds.

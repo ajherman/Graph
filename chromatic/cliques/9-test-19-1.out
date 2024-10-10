@@ -1,0 +1,12 @@
+n = 9, k = 19, i = 1
+
+Minimum sum: 135
+
+All solutions with sum 135:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.648256540298462 seconds.

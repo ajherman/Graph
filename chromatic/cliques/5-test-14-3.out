@@ -1,0 +1,12 @@
+n = 5, k = 14, i = 3
+
+Minimum sum: 40
+
+All solutions with sum 40:
+
+1-intersecting regions:
+[[2 2 2 2 2]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.04008913040161133 seconds.

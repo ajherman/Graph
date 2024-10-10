@@ -1,0 +1,12 @@
+n = 4, k = 12, i = 6
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+
+3-intersecting regions:
+[[2 2 2 2]]
+Elapsed time: 0.0297243595123291 seconds.

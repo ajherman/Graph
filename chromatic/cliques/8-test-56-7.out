@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 7
+
+Minimum sum: 252
+
+All solutions with sum 252:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.4017143249511719 seconds.

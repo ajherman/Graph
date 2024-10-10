@@ -1,0 +1,12 @@
+n = 8, k = 46, i = 6
+
+Minimum sum: 200
+
+All solutions with sum 200:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.39811015129089355 seconds.

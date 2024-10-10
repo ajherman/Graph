@@ -1,0 +1,12 @@
+n = 7, k = 7, i = 1
+
+Minimum sum: 28
+
+All solutions with sum 28:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.2296602725982666 seconds.

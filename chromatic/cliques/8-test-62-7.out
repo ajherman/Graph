@@ -1,0 +1,12 @@
+n = 8, k = 62, i = 7
+
+Minimum sum: 300
+
+All solutions with sum 300:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.3921017646789551 seconds.

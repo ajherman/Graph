@@ -1,0 +1,9 @@
+n = 5, k = 4, i = 3
+
+Minimum sum: 5
+
+All solutions with sum 5:
+
+4-intersecting regions:
+[[1 1 1 1 1]]
+Elapsed time: 0.03942227363586426 seconds.

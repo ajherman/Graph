@@ -1,0 +1,9 @@
+n = 7, k = 21, i = 0
+
+Minimum sum: 147
+
+All solutions with sum 147:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21]]
+Elapsed time: 0.11032772064208984 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 45
+
+Minimum sum: 59
+
+All solutions with sum 59:
+
+7-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+8-intersecting regions:
+[[3]]
+Elapsed time: 0.7372868061065674 seconds.

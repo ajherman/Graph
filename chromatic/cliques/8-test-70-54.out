@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 54
+
+Minimum sum: 88
+
+All solutions with sum 88:
+
+6-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+
+7-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+Elapsed time: 1.333228349685669 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 12, i = 2
+
+Minimum sum: 36
+
+All solutions with sum 36:
+
+1-intersecting regions:
+[[6 6 6 6]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.02585744857788086 seconds.

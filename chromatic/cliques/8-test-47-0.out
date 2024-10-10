@@ -1,0 +1,9 @@
+n = 8, k = 47, i = 0
+
+Minimum sum: 376
+
+All solutions with sum 376:
+
+1-intersecting regions:
+[[47 47 47 47 47 47 47 47]]
+Elapsed time: 0.2511012554168701 seconds.

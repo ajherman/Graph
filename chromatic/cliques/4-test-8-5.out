@@ -1,0 +1,34 @@
+n = 4, k = 8, i = 5
+
+Minimum sum: 12
+
+All solutions with sum 12:
+
+1-intersecting regions:
+[[0 1 0 0]
+ [1 0 0 0]
+ [0 0 0 1]
+ [0 0 1 0]
+ [0 0 0 0]]
+
+2-intersecting regions:
+[[0 1 0 1 0 1]
+ [0 0 1 0 1 1]
+ [1 1 1 0 0 0]
+ [1 0 0 1 1 0]
+ [1 1 1 1 1 1]]
+
+3-intersecting regions:
+[[2 2 1 2]
+ [2 2 2 1]
+ [1 2 2 2]
+ [2 1 2 2]
+ [1 1 1 1]]
+
+4-intersecting regions:
+[[1]
+ [1]
+ [1]
+ [1]
+ [2]]
+Elapsed time: 0.06038236618041992 seconds.

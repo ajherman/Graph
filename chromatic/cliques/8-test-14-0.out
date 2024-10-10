@@ -1,0 +1,9 @@
+n = 8, k = 14, i = 0
+
+Minimum sum: 112
+
+All solutions with sum 112:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+Elapsed time: 0.34738802909851074 seconds.

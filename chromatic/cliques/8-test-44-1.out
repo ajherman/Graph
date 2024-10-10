@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 1
+
+Minimum sum: 324
+
+All solutions with sum 324:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 1.5714077949523926 seconds.

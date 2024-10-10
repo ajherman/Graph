@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 6
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40978574752807617 seconds.

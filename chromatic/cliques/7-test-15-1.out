@@ -1,0 +1,12 @@
+n = 7, k = 15, i = 1
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.23061180114746094 seconds.

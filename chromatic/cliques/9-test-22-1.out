@@ -1,0 +1,12 @@
+n = 9, k = 22, i = 1
+
+Minimum sum: 162
+
+All solutions with sum 162:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.569889545440674 seconds.

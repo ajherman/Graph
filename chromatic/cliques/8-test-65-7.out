@@ -1,0 +1,12 @@
+n = 8, k = 65, i = 7
+
+Minimum sum: 324
+
+All solutions with sum 324:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.42244839668273926 seconds.

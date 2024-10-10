@@ -1,0 +1,13 @@
+n = 8, k = 71, i = 10
+
+Minimum sum: 288
+
+All solutions with sum 288:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10
+  10 10 10 10]]
+Elapsed time: 0.4089982509613037 seconds.

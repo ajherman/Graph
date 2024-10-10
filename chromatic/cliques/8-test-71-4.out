@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 4
+
+Minimum sum: 456
+
+All solutions with sum 456:
+
+1-intersecting regions:
+[[43 43 43 43 43 43 43 43]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.40348315238952637 seconds.

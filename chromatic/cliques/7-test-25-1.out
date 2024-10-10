@@ -1,0 +1,12 @@
+n = 7, k = 25, i = 1
+
+Minimum sum: 154
+
+All solutions with sum 154:
+
+1-intersecting regions:
+[[19 19 19 19 19 19 19]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.28380584716796875 seconds.

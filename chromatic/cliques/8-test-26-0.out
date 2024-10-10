@@ -1,0 +1,9 @@
+n = 8, k = 26, i = 0
+
+Minimum sum: 208
+
+All solutions with sum 208:
+
+1-intersecting regions:
+[[26 26 26 26 26 26 26 26]]
+Elapsed time: 0.34794187545776367 seconds.

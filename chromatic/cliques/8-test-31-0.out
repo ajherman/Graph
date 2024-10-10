@@ -1,0 +1,9 @@
+n = 8, k = 31, i = 0
+
+Minimum sum: 248
+
+All solutions with sum 248:
+
+1-intersecting regions:
+[[31 31 31 31 31 31 31 31]]
+Elapsed time: 0.2653083801269531 seconds.

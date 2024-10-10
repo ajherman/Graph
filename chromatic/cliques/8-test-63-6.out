@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 6
+
+Minimum sum: 336
+
+All solutions with sum 336:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4533510208129883 seconds.

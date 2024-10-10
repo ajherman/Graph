@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 2
+
+Minimum sum: 504
+
+All solutions with sum 504:
+
+1-intersecting regions:
+[[56 56 56 56 56 56 56 56]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4052238464355469 seconds.

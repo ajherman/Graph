@@ -1,0 +1,12 @@
+n = 8, k = 34, i = 2
+
+Minimum sum: 216
+
+All solutions with sum 216:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.43707895278930664 seconds.

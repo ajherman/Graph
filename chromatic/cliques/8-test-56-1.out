@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 1
+
+Minimum sum: 420
+
+All solutions with sum 420:
+
+1-intersecting regions:
+[[49 49 49 49 49 49 49 49]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5761451721191406 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 39, i = 34
+
+Minimum sum: 44
+
+All solutions with sum 44:
+
+7-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+8-intersecting regions:
+[[4]]
+Elapsed time: 0.577531099319458 seconds.

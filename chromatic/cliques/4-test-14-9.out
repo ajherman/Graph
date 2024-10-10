@@ -1,0 +1,34 @@
+n = 4, k = 14, i = 9
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+1-intersecting regions:
+[[1 0 0 0]
+ [0 0 0 1]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[0 0 1 0 1 1]
+ [1 1 1 0 0 0]
+ [0 1 0 1 0 1]
+ [1 1 1 1 1 1]
+ [1 0 0 1 1 0]]
+
+3-intersecting regions:
+[[4 4 4 3]
+ [3 4 4 4]
+ [4 4 3 4]
+ [3 3 3 3]
+ [4 3 4 4]]
+
+4-intersecting regions:
+[[1]
+ [1]
+ [1]
+ [2]
+ [1]]
+Elapsed time: 0.047296762466430664 seconds.

@@ -1,0 +1,12 @@
+n = 7, k = 25, i = 21
+
+Minimum sum: 29
+
+All solutions with sum 29:
+
+6-intersecting regions:
+[[4 4 4 4 4 4 4]]
+
+7-intersecting regions:
+[[1]]
+Elapsed time: 0.2316584587097168 seconds.

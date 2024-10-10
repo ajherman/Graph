@@ -1,0 +1,12 @@
+n = 8, k = 56, i = 51
+
+Minimum sum: 61
+
+All solutions with sum 61:
+
+7-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+8-intersecting regions:
+[[21]]
+Elapsed time: 0.5068693161010742 seconds.

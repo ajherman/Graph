@@ -1,0 +1,12 @@
+n = 8, k = 19, i = 1
+
+Minimum sum: 124
+
+All solutions with sum 124:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.8235580921173096 seconds.

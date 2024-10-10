@@ -1,0 +1,12 @@
+n = 4, k = 17, i = 5
+
+Minimum sum: 38
+
+All solutions with sum 38:
+
+1-intersecting regions:
+[[2 2 2 2]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5]]
+Elapsed time: 0.0258023738861084 seconds.

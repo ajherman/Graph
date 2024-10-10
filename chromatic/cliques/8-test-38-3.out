@@ -1,0 +1,12 @@
+n = 8, k = 38, i = 3
+
+Minimum sum: 220
+
+All solutions with sum 220:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.39508938789367676 seconds.

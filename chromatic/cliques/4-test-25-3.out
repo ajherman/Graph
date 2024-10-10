@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 3
+
+Minimum sum: 82
+
+All solutions with sum 82:
+
+1-intersecting regions:
+[[16 16 16 16]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+Elapsed time: 0.026318788528442383 seconds.

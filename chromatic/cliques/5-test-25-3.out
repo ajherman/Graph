@@ -1,0 +1,12 @@
+n = 5, k = 25, i = 3
+
+Minimum sum: 95
+
+All solutions with sum 95:
+
+1-intersecting regions:
+[[13 13 13 13 13]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.04474020004272461 seconds.

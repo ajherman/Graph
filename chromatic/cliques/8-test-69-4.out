@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 4
+
+Minimum sum: 440
+
+All solutions with sum 440:
+
+1-intersecting regions:
+[[41 41 41 41 41 41 41 41]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.40204620361328125 seconds.

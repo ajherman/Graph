@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 5
+
+Minimum sum: 252
+
+All solutions with sum 252:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.36757349967956543 seconds.

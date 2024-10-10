@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 6
+
+Minimum sum: 392
+
+All solutions with sum 392:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40265417098999023 seconds.

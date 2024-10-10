@@ -1,0 +1,12 @@
+n = 8, k = 19, i = 17
+
+Minimum sum: 21
+
+All solutions with sum 21:
+
+7-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+8-intersecting regions:
+[[5]]
+Elapsed time: 0.7140350341796875 seconds.

@@ -1,0 +1,30 @@
+n = 4, k = 23, i = 8
+
+Minimum sum: 46
+
+All solutions with sum 46:
+
+1-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [0 1 1 0]
+ [0 0 1 1]
+ [1 0 0 1]
+ [0 1 0 1]]
+
+2-intersecting regions:
+[[7 6 7 7 8 7]
+ [6 7 7 7 7 8]
+ [7 7 6 8 7 7]
+ [8 7 7 7 7 6]
+ [7 7 8 6 7 7]
+ [7 8 7 7 6 7]]
+
+3-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [1 0 0 1]
+ [0 0 1 1]
+ [0 1 1 0]
+ [0 1 0 1]]
+Elapsed time: 0.05574536323547363 seconds.

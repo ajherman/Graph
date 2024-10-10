@@ -1,0 +1,12 @@
+n = 8, k = 62, i = 1
+
+Minimum sum: 468
+
+All solutions with sum 468:
+
+1-intersecting regions:
+[[55 55 55 55 55 55 55 55]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5781936645507812 seconds.

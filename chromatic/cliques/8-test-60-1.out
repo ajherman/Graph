@@ -1,0 +1,12 @@
+n = 8, k = 60, i = 1
+
+Minimum sum: 452
+
+All solutions with sum 452:
+
+1-intersecting regions:
+[[53 53 53 53 53 53 53 53]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6417863368988037 seconds.

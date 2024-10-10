@@ -1,0 +1,12 @@
+n = 5, k = 25, i = 6
+
+Minimum sum: 65
+
+All solutions with sum 65:
+
+1-intersecting regions:
+[[1 1 1 1 1]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.04482412338256836 seconds.

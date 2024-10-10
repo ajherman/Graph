@@ -1,0 +1,9 @@
+n = 7, k = 24, i = 4
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.14159917831420898 seconds.

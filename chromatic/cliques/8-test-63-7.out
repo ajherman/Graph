@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 7
+
+Minimum sum: 308
+
+All solutions with sum 308:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.5058820247650146 seconds.

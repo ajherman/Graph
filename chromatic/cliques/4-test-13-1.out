@@ -1,0 +1,12 @@
+n = 4, k = 13, i = 1
+
+Minimum sum: 46
+
+All solutions with sum 46:
+
+1-intersecting regions:
+[[10 10 10 10]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1]]
+Elapsed time: 0.02736067771911621 seconds.

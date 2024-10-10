@@ -1,0 +1,9 @@
+n = 8, k = 37, i = 0
+
+Minimum sum: 296
+
+All solutions with sum 296:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+Elapsed time: 0.25506091117858887 seconds.

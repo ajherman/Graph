@@ -1,0 +1,12 @@
+n = 8, k = 62, i = 8
+
+Minimum sum: 272
+
+All solutions with sum 272:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.39936184883117676 seconds.

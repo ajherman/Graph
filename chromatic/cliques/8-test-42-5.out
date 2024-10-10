@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 5
+
+Minimum sum: 196
+
+All solutions with sum 196:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.5464057922363281 seconds.

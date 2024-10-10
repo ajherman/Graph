@@ -1,0 +1,12 @@
+n = 8, k = 68, i = 8
+
+Minimum sum: 320
+
+All solutions with sum 320:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.46946239471435547 seconds.

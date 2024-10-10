@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 3
+
+Minimum sum: 348
+
+All solutions with sum 348:
+
+1-intersecting regions:
+[[33 33 33 33 33 33 33 33]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3993861675262451 seconds.

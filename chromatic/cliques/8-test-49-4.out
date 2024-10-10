@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 4
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.43086886405944824 seconds.

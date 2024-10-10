@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 9
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+
+3-intersecting regions:
+[[3 3 3 3]]
+Elapsed time: 0.03544735908508301 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 11, i = 0
+
+Minimum sum: 88
+
+All solutions with sum 88:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11 11]]
+Elapsed time: 0.33793115615844727 seconds.

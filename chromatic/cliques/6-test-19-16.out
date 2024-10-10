@@ -1,0 +1,12 @@
+n = 6, k = 19, i = 16
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+5-intersecting regions:
+[[3 3 3 3 3 3]]
+
+6-intersecting regions:
+[[4]]
+Elapsed time: 0.09398221969604492 seconds.

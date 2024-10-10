@@ -1,0 +1,12 @@
+n = 5, k = 13, i = 3
+
+Minimum sum: 35
+
+All solutions with sum 35:
+
+1-intersecting regions:
+[[1 1 1 1 1]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.04498720169067383 seconds.

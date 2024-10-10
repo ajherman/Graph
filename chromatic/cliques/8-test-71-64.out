@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 64
+
+Minimum sum: 78
+
+All solutions with sum 78:
+
+7-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+8-intersecting regions:
+[[22]]
+Elapsed time: 0.5173115730285645 seconds.

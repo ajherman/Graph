@@ -1,0 +1,34 @@
+n = 4, k = 17, i = 11
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+1-intersecting regions:
+[[1 0 0 0]
+ [0 0 0 1]
+ [0 1 0 0]
+ [0 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[0 0 1 0 1 1]
+ [1 1 1 0 0 0]
+ [0 1 0 1 0 1]
+ [1 1 1 1 1 1]
+ [1 0 0 1 1 0]]
+
+3-intersecting regions:
+[[5 5 5 4]
+ [4 5 5 5]
+ [5 5 4 5]
+ [4 4 4 4]
+ [5 4 5 5]]
+
+4-intersecting regions:
+[[1]
+ [1]
+ [1]
+ [2]
+ [1]]
+Elapsed time: 0.0703423023223877 seconds.

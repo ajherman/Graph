@@ -1,0 +1,12 @@
+n = 5, k = 21, i = 1
+
+Minimum sum: 95
+
+All solutions with sum 95:
+
+1-intersecting regions:
+[[17 17 17 17 17]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.040843963623046875 seconds.

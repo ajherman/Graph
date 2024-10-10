@@ -1,0 +1,9 @@
+n = 8, k = 46, i = 0
+
+Minimum sum: 368
+
+All solutions with sum 368:
+
+1-intersecting regions:
+[[46 46 46 46 46 46 46 46]]
+Elapsed time: 0.3303239345550537 seconds.

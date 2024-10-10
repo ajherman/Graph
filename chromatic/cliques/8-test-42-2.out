@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 2
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5181443691253662 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 4
+
+Minimum sum: 240
+
+All solutions with sum 240:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4828975200653076 seconds.

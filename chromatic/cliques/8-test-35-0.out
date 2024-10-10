@@ -1,0 +1,9 @@
+n = 8, k = 35, i = 0
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+1-intersecting regions:
+[[35 35 35 35 35 35 35 35]]
+Elapsed time: 0.26532578468322754 seconds.

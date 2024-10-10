@@ -1,0 +1,9 @@
+n = 8, k = 48, i = 0
+
+Minimum sum: 384
+
+All solutions with sum 384:
+
+1-intersecting regions:
+[[48 48 48 48 48 48 48 48]]
+Elapsed time: 0.30925512313842773 seconds.

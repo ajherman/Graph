@@ -1,0 +1,12 @@
+n = 8, k = 26, i = 1
+
+Minimum sum: 180
+
+All solutions with sum 180:
+
+1-intersecting regions:
+[[19 19 19 19 19 19 19 19]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7870821952819824 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 18, i = 7
+
+Minimum sum: 34
+
+All solutions with sum 34:
+
+2-intersecting regions:
+[[5 5 5 5 5 5]]
+
+3-intersecting regions:
+[[1 1 1 1]]
+Elapsed time: 0.02925872802734375 seconds.

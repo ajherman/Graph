@@ -1,0 +1,12 @@
+n = 4, k = 17, i = 14
+
+Minimum sum: 20
+
+All solutions with sum 20:
+
+3-intersecting regions:
+[[3 3 3 3]]
+
+4-intersecting regions:
+[[8]]
+Elapsed time: 0.02492356300354004 seconds.

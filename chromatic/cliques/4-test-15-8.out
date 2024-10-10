@@ -1,0 +1,12 @@
+n = 4, k = 15, i = 8
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+
+3-intersecting regions:
+[[3 3 3 3]]
+Elapsed time: 0.04159855842590332 seconds.

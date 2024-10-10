@@ -1,0 +1,9 @@
+n = 8, k = 70, i = 60
+
+Minimum sum: 80
+
+All solutions with sum 80:
+
+7-intersecting regions:
+[[10 10 10 10 10 10 10 10]]
+Elapsed time: 0.7866275310516357 seconds.

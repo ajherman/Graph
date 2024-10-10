@@ -1,0 +1,9 @@
+n = 5, k = 24, i = 0
+
+Minimum sum: 120
+
+All solutions with sum 120:
+
+1-intersecting regions:
+[[24 24 24 24 24]]
+Elapsed time: 0.027153968811035156 seconds.

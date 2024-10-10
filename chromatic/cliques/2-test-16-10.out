@@ -1,0 +1,12 @@
+n = 2, k = 16, i = 10
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+1-intersecting regions:
+[[6 6]]
+
+2-intersecting regions:
+[[10]]
+Elapsed time: 0.011948585510253906 seconds.

@@ -1,0 +1,30 @@
+n = 4, k = 20, i = 7
+
+Minimum sum: 40
+
+All solutions with sum 40:
+
+1-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [0 1 1 0]
+ [0 0 1 1]
+ [0 1 0 1]
+ [1 0 0 1]]
+
+2-intersecting regions:
+[[6 5 6 6 7 6]
+ [5 6 6 6 6 7]
+ [6 6 5 7 6 6]
+ [7 6 6 6 6 5]
+ [6 7 6 6 5 6]
+ [6 6 7 5 6 6]]
+
+3-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [1 0 0 1]
+ [0 0 1 1]
+ [0 1 0 1]
+ [0 1 1 0]]
+Elapsed time: 0.050810813903808594 seconds.

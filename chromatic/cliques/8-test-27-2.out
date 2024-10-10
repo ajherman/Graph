@@ -1,0 +1,12 @@
+n = 8, k = 27, i = 2
+
+Minimum sum: 160
+
+All solutions with sum 160:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5238585472106934 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 64, i = 9
+
+Minimum sum: 260
+
+All solutions with sum 260:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.3996298313140869 seconds.

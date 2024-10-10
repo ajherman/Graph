@@ -1,0 +1,9 @@
+n = 8, k = 61, i = 0
+
+Minimum sum: 488
+
+All solutions with sum 488:
+
+1-intersecting regions:
+[[61 61 61 61 61 61 61 61]]
+Elapsed time: 0.2541642189025879 seconds.

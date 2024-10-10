@@ -1,0 +1,9 @@
+n = 8, k = 55, i = 0
+
+Minimum sum: 440
+
+All solutions with sum 440:
+
+1-intersecting regions:
+[[55 55 55 55 55 55 55 55]]
+Elapsed time: 0.2521963119506836 seconds.

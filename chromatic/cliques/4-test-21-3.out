@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 3
+
+Minimum sum: 66
+
+All solutions with sum 66:
+
+1-intersecting regions:
+[[12 12 12 12]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+Elapsed time: 0.019250869750976562 seconds.

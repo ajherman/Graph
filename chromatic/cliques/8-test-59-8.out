@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 8
+
+Minimum sum: 248
+
+All solutions with sum 248:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.45731568336486816 seconds.

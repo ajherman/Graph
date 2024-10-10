@@ -1,0 +1,9 @@
+n = 8, k = 25, i = 0
+
+Minimum sum: 200
+
+All solutions with sum 200:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25]]
+Elapsed time: 0.8066089153289795 seconds.

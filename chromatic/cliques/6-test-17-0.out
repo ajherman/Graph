@@ -1,0 +1,9 @@
+n = 6, k = 17, i = 0
+
+Minimum sum: 102
+
+All solutions with sum 102:
+
+1-intersecting regions:
+[[17 17 17 17 17 17]]
+Elapsed time: 0.06495261192321777 seconds.

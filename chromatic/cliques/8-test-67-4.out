@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 4
+
+Minimum sum: 424
+
+All solutions with sum 424:
+
+1-intersecting regions:
+[[39 39 39 39 39 39 39 39]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4056370258331299 seconds.

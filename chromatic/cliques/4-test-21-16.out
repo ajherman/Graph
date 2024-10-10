@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 16
+
+Minimum sum: 26
+
+All solutions with sum 26:
+
+3-intersecting regions:
+[[5 5 5 5]]
+
+4-intersecting regions:
+[[6]]
+Elapsed time: 0.026273012161254883 seconds.

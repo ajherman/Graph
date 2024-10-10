@@ -1,0 +1,12 @@
+n = 8, k = 43, i = 4
+
+Minimum sum: 232
+
+All solutions with sum 232:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4196512699127197 seconds.

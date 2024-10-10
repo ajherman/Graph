@@ -1,0 +1,9 @@
+n = 9, k = 20, i = 0
+
+Minimum sum: 180
+
+All solutions with sum 180:
+
+1-intersecting regions:
+[[20 20 20 20 20 20 20 20 20]]
+Elapsed time: 0.7873201370239258 seconds.

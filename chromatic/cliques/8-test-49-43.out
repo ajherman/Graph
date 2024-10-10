@@ -1,0 +1,12 @@
+n = 8, k = 49, i = 43
+
+Minimum sum: 55
+
+All solutions with sum 55:
+
+7-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+8-intersecting regions:
+[[7]]
+Elapsed time: 0.4949612617492676 seconds.

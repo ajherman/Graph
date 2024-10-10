@@ -1,0 +1,12 @@
+n = 5, k = 25, i = 20
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+4-intersecting regions:
+[[5 5 5 5 5]]
+
+5-intersecting regions:
+[[5]]
+Elapsed time: 0.04561948776245117 seconds.

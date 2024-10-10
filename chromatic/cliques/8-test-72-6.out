@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 6
+
+Minimum sum: 408
+
+All solutions with sum 408:
+
+1-intersecting regions:
+[[30 30 30 30 30 30 30 30]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.39246392250061035 seconds.

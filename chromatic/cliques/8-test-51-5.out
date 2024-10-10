@@ -1,0 +1,12 @@
+n = 8, k = 51, i = 5
+
+Minimum sum: 268
+
+All solutions with sum 268:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.45993852615356445 seconds.

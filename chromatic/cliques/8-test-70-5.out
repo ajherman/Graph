@@ -1,0 +1,12 @@
+n = 8, k = 70, i = 5
+
+Minimum sum: 420
+
+All solutions with sum 420:
+
+1-intersecting regions:
+[[35 35 35 35 35 35 35 35]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.43343234062194824 seconds.

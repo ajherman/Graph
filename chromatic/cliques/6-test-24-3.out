@@ -1,0 +1,12 @@
+n = 6, k = 24, i = 3
+
+Minimum sum: 99
+
+All solutions with sum 99:
+
+1-intersecting regions:
+[[9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.09471344947814941 seconds.

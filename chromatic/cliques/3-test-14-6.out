@@ -1,0 +1,12 @@
+n = 3, k = 14, i = 6
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+1-intersecting regions:
+[[2 2 2]]
+
+2-intersecting regions:
+[[6 6 6]]
+Elapsed time: 0.011887550354003906 seconds.

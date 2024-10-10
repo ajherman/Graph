@@ -1,0 +1,12 @@
+n = 8, k = 21, i = 20
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+7-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+8-intersecting regions:
+[[14]]
+Elapsed time: 0.9122991561889648 seconds.

@@ -1,0 +1,9 @@
+n = 9, k = 16, i = 2
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.2868421077728271 seconds.

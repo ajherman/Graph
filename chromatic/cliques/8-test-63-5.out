@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 5
+
+Minimum sum: 364
+
+All solutions with sum 364:
+
+1-intersecting regions:
+[[28 28 28 28 28 28 28 28]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.45095014572143555 seconds.

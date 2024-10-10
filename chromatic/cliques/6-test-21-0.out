@@ -1,0 +1,9 @@
+n = 6, k = 21, i = 0
+
+Minimum sum: 126
+
+All solutions with sum 126:
+
+1-intersecting regions:
+[[21 21 21 21 21 21]]
+Elapsed time: 0.06378483772277832 seconds.

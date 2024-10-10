@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 1
+
+Minimum sum: 308
+
+All solutions with sum 308:
+
+1-intersecting regions:
+[[35 35 35 35 35 35 35 35]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.7321727275848389 seconds.

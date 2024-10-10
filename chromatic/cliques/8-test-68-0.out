@@ -1,0 +1,9 @@
+n = 8, k = 68, i = 0
+
+Minimum sum: 544
+
+All solutions with sum 544:
+
+1-intersecting regions:
+[[68 68 68 68 68 68 68 68]]
+Elapsed time: 0.2613062858581543 seconds.

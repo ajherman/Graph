@@ -1,0 +1,12 @@
+n = 8, k = 42, i = 4
+
+Minimum sum: 224
+
+All solutions with sum 224:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.596454381942749 seconds.

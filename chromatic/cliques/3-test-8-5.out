@@ -1,0 +1,12 @@
+n = 3, k = 8, i = 5
+
+Minimum sum: 11
+
+All solutions with sum 11:
+
+2-intersecting regions:
+[[3 3 3]]
+
+3-intersecting regions:
+[[2]]
+Elapsed time: 0.011875629425048828 seconds.

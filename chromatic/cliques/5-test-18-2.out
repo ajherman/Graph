@@ -1,0 +1,12 @@
+n = 5, k = 18, i = 2
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[10 10 10 10 10]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.03879952430725098 seconds.

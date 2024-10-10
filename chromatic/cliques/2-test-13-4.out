@@ -1,0 +1,12 @@
+n = 2, k = 13, i = 4
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+1-intersecting regions:
+[[9 9]]
+
+2-intersecting regions:
+[[4]]
+Elapsed time: 0.010947704315185547 seconds.

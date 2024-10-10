@@ -1,0 +1,12 @@
+n = 8, k = 43, i = 3
+
+Minimum sum: 260
+
+All solutions with sum 260:
+
+1-intersecting regions:
+[[22 22 22 22 22 22 22 22]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.40401339530944824 seconds.

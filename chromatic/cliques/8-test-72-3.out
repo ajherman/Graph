@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 3
+
+Minimum sum: 492
+
+All solutions with sum 492:
+
+1-intersecting regions:
+[[51 51 51 51 51 51 51 51]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.4342646598815918 seconds.

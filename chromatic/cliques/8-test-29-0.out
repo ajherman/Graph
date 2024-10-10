@@ -1,0 +1,9 @@
+n = 8, k = 29, i = 0
+
+Minimum sum: 232
+
+All solutions with sum 232:
+
+1-intersecting regions:
+[[29 29 29 29 29 29 29 29]]
+Elapsed time: 0.2477428913116455 seconds.

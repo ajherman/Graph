@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 55
+
+Minimum sum: 71
+
+All solutions with sum 71:
+
+7-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+8-intersecting regions:
+[[7]]
+Elapsed time: 0.8446533679962158 seconds.

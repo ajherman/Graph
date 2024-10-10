@@ -1,0 +1,9 @@
+n = 3, k = 13, i = 0
+
+Minimum sum: 39
+
+All solutions with sum 39:
+
+1-intersecting regions:
+[[13 13 13]]
+Elapsed time: 0.012202262878417969 seconds.

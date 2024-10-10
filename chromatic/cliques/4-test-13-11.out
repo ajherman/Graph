@@ -1,0 +1,12 @@
+n = 4, k = 13, i = 11
+
+Minimum sum: 15
+
+All solutions with sum 15:
+
+3-intersecting regions:
+[[2 2 2 2]]
+
+4-intersecting regions:
+[[7]]
+Elapsed time: 0.02368927001953125 seconds.

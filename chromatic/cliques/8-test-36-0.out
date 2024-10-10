@@ -1,0 +1,9 @@
+n = 8, k = 36, i = 0
+
+Minimum sum: 288
+
+All solutions with sum 288:
+
+1-intersecting regions:
+[[36 36 36 36 36 36 36 36]]
+Elapsed time: 0.263012170791626 seconds.

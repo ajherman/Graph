@@ -1,0 +1,12 @@
+n = 6, k = 20, i = 14
+
+Minimum sum: 27
+
+All solutions with sum 27:
+
+4-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+
+5-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.18746185302734375 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 68, i = 64
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+7-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+
+8-intersecting regions:
+[[40]]
+Elapsed time: 0.5898199081420898 seconds.

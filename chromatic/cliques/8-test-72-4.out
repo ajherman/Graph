@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 4
+
+Minimum sum: 464
+
+All solutions with sum 464:
+
+1-intersecting regions:
+[[44 44 44 44 44 44 44 44]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.39327478408813477 seconds.

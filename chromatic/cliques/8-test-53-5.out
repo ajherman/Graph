@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 5
+
+Minimum sum: 284
+
+All solutions with sum 284:
+
+1-intersecting regions:
+[[18 18 18 18 18 18 18 18]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.47663021087646484 seconds.

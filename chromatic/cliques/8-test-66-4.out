@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 4
+
+Minimum sum: 416
+
+All solutions with sum 416:
+
+1-intersecting regions:
+[[38 38 38 38 38 38 38 38]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.3960719108581543 seconds.

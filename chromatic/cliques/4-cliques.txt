@@ -1,0 +1,2254 @@
+
+n=4,k=2,i=0 : min v = 8 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] |
+
+
+n=4,k=2,i=1 : min v = 5 
+Disaster: n=4, k=2, i=1, before rounding=3.333333333333333
+Expected min: 4
+Actual min: 5
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=3,i=0 : min v = 12 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] |
+
+
+n=4,k=3,i=1 : min v = 6 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=3,i=2 : min v = 4 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=4,i=0 : min v = 16 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] |
+
+
+n=4,k=4,i=1 : min v = 10 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=4,i=2 : min v = 7 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=4,i=3 : min v = 5 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=5,i=0 : min v = 20 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] |
+
+
+n=4,k=5,i=1 : min v = 14 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=5,i=2 : min v = 10 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=5,i=3 : min v = 8 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=5,i=4 : min v = 6 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=6,i=0 : min v = 24 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] |
+
+
+n=4,k=6,i=1 : min v = 18 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=6,i=2 : min v = 12 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=6,i=3 : min v = 10 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=6,i=4 : min v = 8 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=6,i=5 : min v = 7 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=7,i=0 : min v = 28 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] |
+
+
+n=4,k=7,i=1 : min v = 22 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=7,i=2 : min v = 16 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=7,i=3 : min v = 13 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=7,i=4 : min v = 11 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=7,i=5 : min v = 9 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=7,i=6 : min v = 8 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=8,i=0 : min v = 32 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] |
+
+
+n=4,k=8,i=1 : min v = 26 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=8,i=2 : min v = 20 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=8,i=3 : min v = 16 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=8,i=4 : min v = 14 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=8,i=5 : min v = 12 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=8,i=6 : min v = 10 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=8,i=7 : min v = 9 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=9,i=0 : min v = 36 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] |
+
+
+n=4,k=9,i=1 : min v = 30 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=9,i=2 : min v = 24 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=9,i=3 : min v = 18 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=9,i=4 : min v = 16 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=9,i=5 : min v = 14 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=9,i=6 : min v = 12 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=9,i=7 : min v = 11 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=9,i=8 : min v = 10 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=10,i=0 : min v = 40 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] |
+
+
+n=4,k=10,i=1 : min v = 34 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=10,i=2 : min v = 28 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=10,i=3 : min v = 22 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=10,i=4 : min v = 19 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=10,i=5 : min v = 17 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=10,i=6 : min v = 15 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=10,i=7 : min v = 13 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=10,i=8 : min v = 12 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=10,i=9 : min v = 11 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=11,i=0 : min v = 44 
+| <1> vals:[11], total:44, v sizes:[11], i sizes:[0] |
+
+
+n=4,k=11,i=1 : min v = 38 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=11,i=2 : min v = 32 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=11,i=3 : min v = 26 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=11,i=4 : min v = 22 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3 4], total:18, v sizes:[ 8 10], i sizes:[2 3 4] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=11,i=5 : min v = 20 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[1 3], total:12, v sizes:[3 7], i sizes:[1 3] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=11,i=6 : min v = 18 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[1 3], total:10, v sizes:[7 9], i sizes:[4 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[2 3], total:10, v sizes:[7 8], i sizes:[4 5 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=11,i=7 : min v = 16 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=11,i=8 : min v = 14 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=11,i=9 : min v = 13 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=11,i=10 : min v = 12 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[8], total:8, v sizes:[8], i sizes:[8] |
+
+
+n=4,k=12,i=0 : min v = 48 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] |
+
+
+n=4,k=12,i=1 : min v = 42 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=12,i=2 : min v = 36 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=12,i=3 : min v = 30 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=12,i=4 : min v = 24 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=12,i=5 : min v = 22 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=12,i=6 : min v = 20 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=12,i=7 : min v = 18 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=12,i=8 : min v = 16 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=12,i=9 : min v = 15 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=12,i=10 : min v = 14 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=12,i=11 : min v = 13 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=13,i=0 : min v = 52 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] |
+
+
+n=4,k=13,i=1 : min v = 46 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=13,i=2 : min v = 40 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=13,i=3 : min v = 34 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=13,i=4 : min v = 28 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=13,i=5 : min v = 25 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=13,i=6 : min v = 23 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=13,i=7 : min v = 21 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=13,i=8 : min v = 19 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=13,i=9 : min v = 17 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=13,i=10 : min v = 16 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=13,i=11 : min v = 15 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=13,i=12 : min v = 14 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=14,i=0 : min v = 56 
+| <1> vals:[14], total:56, v sizes:[14], i sizes:[0] |
+
+
+n=4,k=14,i=1 : min v = 50 
+| <1> vals:[11], total:44, v sizes:[11], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=14,i=2 : min v = 44 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=14,i=3 : min v = 38 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=14,i=4 : min v = 32 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=14,i=5 : min v = 28 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4 5], total:24, v sizes:[11 13], i sizes:[3 4 5] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=14,i=6 : min v = 26 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3 4], total:18, v sizes:[ 8 10], i sizes:[2 3 4] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[2 4], total:18, v sizes:[ 6 10], i sizes:[2 4] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=14,i=7 : min v = 24 
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[1 3], total:12, v sizes:[3 7], i sizes:[1 3] || <3> vals:[1 3], total:10, v sizes:[7 9], i sizes:[4 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[2 3], total:10, v sizes:[7 8], i sizes:[4 5 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=14,i=8 : min v = 22 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[3 4], total:14, v sizes:[10 11], i sizes:[6 7 8] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[2 4], total:14, v sizes:[10 12], i sizes:[6 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=14,i=9 : min v = 20 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=14,i=10 : min v = 18 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=14,i=11 : min v = 17 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=14,i=12 : min v = 16 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[8], total:8, v sizes:[8], i sizes:[8] |
+
+
+n=4,k=14,i=13 : min v = 15 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[11], total:11, v sizes:[11], i sizes:[11] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=1,i=0 : min v = 4 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] |
+
+
+n=4,k=15,i=0 : min v = 60 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] |
+
+
+n=4,k=15,i=1 : min v = 54 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=15,i=2 : min v = 48 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=15,i=3 : min v = 42 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=15,i=4 : min v = 36 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=15,i=5 : min v = 30 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=15,i=6 : min v = 28 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=15,i=7 : min v = 26 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=15,i=8 : min v = 24 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=15,i=9 : min v = 22 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=15,i=10 : min v = 20 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=15,i=11 : min v = 19 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=15,i=12 : min v = 18 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=15,i=13 : min v = 17 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=15,i=14 : min v = 16 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=16,i=0 : min v = 64 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] |
+
+
+n=4,k=16,i=1 : min v = 58 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=16,i=2 : min v = 52 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=16,i=3 : min v = 46 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=16,i=4 : min v = 40 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=16,i=5 : min v = 34 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=16,i=6 : min v = 31 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=7 : min v = 29 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=8 : min v = 27 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=9 : min v = 25 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=16,i=10 : min v = 23 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=16,i=11 : min v = 21 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=16,i=12 : min v = 20 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=16,i=13 : min v = 19 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=16,i=14 : min v = 18 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=16,i=15 : min v = 17 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=17,i=0 : min v = 68 
+| <1> vals:[17], total:68, v sizes:[17], i sizes:[0] |
+
+
+n=4,k=17,i=1 : min v = 62 
+| <1> vals:[14], total:56, v sizes:[14], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=17,i=2 : min v = 56 
+| <1> vals:[11], total:44, v sizes:[11], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=17,i=3 : min v = 50 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=17,i=4 : min v = 44 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=17,i=5 : min v = 38 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=17,i=6 : min v = 34 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5 6], total:30, v sizes:[14 16], i sizes:[4 5 6] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=17,i=7 : min v = 32 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4 5], total:24, v sizes:[11 13], i sizes:[3 4 5] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[3 5], total:24, v sizes:[ 9 13], i sizes:[3 5] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=17,i=8 : min v = 30 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3 4], total:18, v sizes:[ 8 10], i sizes:[2 3 4] || <3> vals:[2 3], total:10, v sizes:[7 8], i sizes:[4 5 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[2 4], total:18, v sizes:[ 6 10], i sizes:[2 4] || <3> vals:[1 3], total:10, v sizes:[7 9], i sizes:[4 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=17,i=9 : min v = 28 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[3 4], total:14, v sizes:[10 11], i sizes:[6 7 8] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[1 3], total:12, v sizes:[3 7], i sizes:[1 3] || <3> vals:[2 4], total:14, v sizes:[10 12], i sizes:[6 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=17,i=10 : min v = 26 
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[3 5], total:18, v sizes:[13 15], i sizes:[ 8 10] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[4 5], total:18, v sizes:[13 14], i sizes:[ 8  9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=17,i=11 : min v = 24 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=17,i=12 : min v = 22 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=17,i=13 : min v = 21 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=17,i=14 : min v = 20 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[8], total:8, v sizes:[8], i sizes:[8] |
+
+
+n=4,k=17,i=15 : min v = 19 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[11], total:11, v sizes:[11], i sizes:[11] |
+
+
+n=4,k=17,i=16 : min v = 18 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[14], total:14, v sizes:[14], i sizes:[14] |
+
+
+n=4,k=18,i=0 : min v = 72 
+| <1> vals:[18], total:72, v sizes:[18], i sizes:[0] |
+
+
+n=4,k=18,i=1 : min v = 66 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=18,i=2 : min v = 60 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=18,i=3 : min v = 54 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=18,i=4 : min v = 48 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=18,i=5 : min v = 42 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=18,i=6 : min v = 36 
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=18,i=7 : min v = 34 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=18,i=8 : min v = 32 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=18,i=9 : min v = 30 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=18,i=10 : min v = 28 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=18,i=11 : min v = 26 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=18,i=12 : min v = 24 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] |
+
+
+n=4,k=18,i=13 : min v = 23 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=18,i=14 : min v = 22 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=18,i=15 : min v = 21 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=18,i=16 : min v = 20 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=18,i=17 : min v = 19 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[15], total:15, v sizes:[15], i sizes:[15] |
+
+
+n=4,k=19,i=0 : min v = 76 
+| <1> vals:[19], total:76, v sizes:[19], i sizes:[0] |
+
+
+n=4,k=19,i=1 : min v = 70 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=19,i=2 : min v = 64 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=19,i=3 : min v = 58 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=19,i=4 : min v = 52 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=19,i=5 : min v = 46 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=19,i=6 : min v = 40 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=19,i=7 : min v = 37 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6], total:33, v sizes:[15 17], i sizes:[5 6] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=19,i=8 : min v = 35 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=19,i=9 : min v = 33 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=19,i=10 : min v = 31 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=19,i=11 : min v = 29 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=19,i=12 : min v = 27 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[5 6], total:23, v sizes:[17 18], i sizes:[11 12] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=19,i=13 : min v = 25 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=19,i=14 : min v = 24 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=19,i=15 : min v = 23 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=19,i=16 : min v = 22 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=19,i=17 : min v = 21 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=19,i=18 : min v = 20 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[16], total:16, v sizes:[16], i sizes:[16] |
+
+
+n=4,k=20,i=0 : min v = 80 
+| <1> vals:[20], total:80, v sizes:[20], i sizes:[0] |
+
+
+n=4,k=20,i=1 : min v = 74 
+| <1> vals:[17], total:68, v sizes:[17], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=20,i=2 : min v = 68 
+| <1> vals:[14], total:56, v sizes:[14], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=20,i=3 : min v = 62 
+| <1> vals:[11], total:44, v sizes:[11], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=20,i=4 : min v = 56 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=20,i=5 : min v = 50 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=20,i=6 : min v = 44 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=20,i=7 : min v = 40 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6 7], total:36, v sizes:[17 19], i sizes:[5 6 7] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=20,i=8 : min v = 38 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5 6], total:30, v sizes:[14 16], i sizes:[4 5 6] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6], total:33, v sizes:[15 17], i sizes:[5 6] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[4 6], total:30, v sizes:[12 16], i sizes:[4 6] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=20,i=9 : min v = 36 
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[3 5], total:24, v sizes:[ 9 13], i sizes:[3 5] || <3> vals:[1 3], total:10, v sizes:[7 9], i sizes:[4 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4 5], total:24, v sizes:[11 13], i sizes:[3 4 5] || <3> vals:[2 3], total:10, v sizes:[7 8], i sizes:[4 5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=20,i=10 : min v = 34 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3 4], total:18, v sizes:[ 8 10], i sizes:[2 3 4] || <3> vals:[3 4], total:14, v sizes:[10 11], i sizes:[6 7 8] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[2 4], total:18, v sizes:[ 6 10], i sizes:[2 4] || <3> vals:[2 4], total:14, v sizes:[10 12], i sizes:[6 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=20,i=11 : min v = 32 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[4 5], total:18, v sizes:[13 14], i sizes:[ 8  9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[1 3], total:12, v sizes:[3 7], i sizes:[1 3] || <3> vals:[3 5], total:18, v sizes:[13 15], i sizes:[ 8 10] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=20,i=12 : min v = 30 
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[4 6], total:22, v sizes:[16 18], i sizes:[10 12] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[5 6], total:22, v sizes:[16 17], i sizes:[10 11 12] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=20,i=13 : min v = 28 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[5 6], total:23, v sizes:[17 18], i sizes:[11 12] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=20,i=14 : min v = 26 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=20,i=15 : min v = 25 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=20,i=16 : min v = 24 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[8], total:8, v sizes:[8], i sizes:[8] |
+
+
+n=4,k=20,i=17 : min v = 23 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[11], total:11, v sizes:[11], i sizes:[11] |
+
+
+n=4,k=20,i=18 : min v = 22 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[14], total:14, v sizes:[14], i sizes:[14] |
+
+
+n=4,k=20,i=19 : min v = 21 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[17], total:17, v sizes:[17], i sizes:[17] |
+
+
+n=4,k=21,i=0 : min v = 84 
+| <1> vals:[21], total:84, v sizes:[21], i sizes:[0] |
+
+
+n=4,k=21,i=1 : min v = 78 
+| <1> vals:[18], total:72, v sizes:[18], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=21,i=2 : min v = 72 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=21,i=3 : min v = 66 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=21,i=4 : min v = 60 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=21,i=5 : min v = 54 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=21,i=6 : min v = 48 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=21,i=7 : min v = 42 
+| <2> vals:[7], total:42, v sizes:[21], i sizes:[7] |
+
+
+n=4,k=21,i=8 : min v = 40 
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=21,i=9 : min v = 38 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=21,i=10 : min v = 36 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=21,i=11 : min v = 34 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=21,i=12 : min v = 32 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=21,i=13 : min v = 30 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[6], total:24, v sizes:[18], i sizes:[12] |
+
+
+n=4,k=21,i=14 : min v = 28 
+| <3> vals:[7], total:28, v sizes:[21], i sizes:[14] |
+
+
+n=4,k=21,i=15 : min v = 27 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=21,i=16 : min v = 26 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=21,i=17 : min v = 25 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=21,i=18 : min v = 24 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=21,i=19 : min v = 23 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[15], total:15, v sizes:[15], i sizes:[15] |
+
+
+n=4,k=21,i=20 : min v = 22 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[18], total:18, v sizes:[18], i sizes:[18] |
+
+
+n=4,k=22,i=0 : min v = 88 
+| <1> vals:[22], total:88, v sizes:[22], i sizes:[0] |
+
+
+n=4,k=22,i=1 : min v = 82 
+| <1> vals:[19], total:76, v sizes:[19], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=22,i=2 : min v = 76 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=22,i=3 : min v = 70 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=22,i=4 : min v = 64 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=22,i=5 : min v = 58 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=22,i=6 : min v = 52 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=22,i=7 : min v = 46 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[7], total:42, v sizes:[21], i sizes:[7] |
+
+
+n=4,k=22,i=8 : min v = 43 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[6 7], total:39, v sizes:[18 20], i sizes:[6 7] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[7], total:42, v sizes:[21], i sizes:[7] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=22,i=9 : min v = 41 
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6], total:33, v sizes:[15 17], i sizes:[5 6] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=22,i=10 : min v = 39 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=22,i=11 : min v = 37 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=22,i=12 : min v = 35 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=22,i=13 : min v = 33 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[5 6], total:23, v sizes:[17 18], i sizes:[11 12] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=22,i=14 : min v = 31 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[6 7], total:27, v sizes:[20 21], i sizes:[13 14] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=22,i=15 : min v = 29 
+| <3> vals:[7], total:28, v sizes:[21], i sizes:[14] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=22,i=16 : min v = 28 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=22,i=17 : min v = 27 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=22,i=18 : min v = 26 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=22,i=19 : min v = 25 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=22,i=20 : min v = 24 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[16], total:16, v sizes:[16], i sizes:[16] |
+
+
+n=4,k=22,i=21 : min v = 23 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[19], total:19, v sizes:[19], i sizes:[19] |
+
+
+n=4,k=23,i=0 : min v = 92 
+| <1> vals:[23], total:92, v sizes:[23], i sizes:[0] |
+
+
+n=4,k=23,i=1 : min v = 86 
+| <1> vals:[20], total:80, v sizes:[20], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=23,i=2 : min v = 80 
+| <1> vals:[17], total:68, v sizes:[17], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=23,i=3 : min v = 74 
+| <1> vals:[14], total:56, v sizes:[14], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=23,i=4 : min v = 68 
+| <1> vals:[11], total:44, v sizes:[11], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=23,i=5 : min v = 62 
+| <1> vals:[8], total:32, v sizes:[8], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=23,i=6 : min v = 56 
+| <1> vals:[5], total:20, v sizes:[5], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=23,i=7 : min v = 50 
+| <1> vals:[2], total:8, v sizes:[2], i sizes:[0] || <2> vals:[7], total:42, v sizes:[21], i sizes:[7] |
+
+
+n=4,k=23,i=8 : min v = 46 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[6 7 8], total:42, v sizes:[20 22], i sizes:[6 7 8] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1 2] | COUNTER-EXAMPLE ODD-BALL
+All odd-balls
+All counter-examples
+
+
+n=4,k=23,i=9 : min v = 44 
+| <2> vals:[7], total:42, v sizes:[21], i sizes:[7] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6 7], total:36, v sizes:[17 19], i sizes:[5 6 7] || <3> vals:[1 2], total:6, v sizes:[4 5], i sizes:[2 3 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[5 7], total:36, v sizes:[15 19], i sizes:[5 7] || <3> vals:[0 2], total:6, v sizes:[4 6], i sizes:[2 4] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[6 7], total:39, v sizes:[18 20], i sizes:[6 7] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=23,i=10 : min v = 42 
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[4 6], total:30, v sizes:[12 16], i sizes:[4 6] || <3> vals:[1 3], total:10, v sizes:[7 9], i sizes:[4 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5 6], total:30, v sizes:[14 16], i sizes:[4 5 6] || <3> vals:[2 3], total:10, v sizes:[7 8], i sizes:[4 5 6] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6], total:33, v sizes:[15 17], i sizes:[5 6] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=23,i=11 : min v = 40 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4 5], total:24, v sizes:[11 13], i sizes:[3 4 5] || <3> vals:[3 4], total:14, v sizes:[10 11], i sizes:[6 7 8] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[3 5], total:24, v sizes:[ 9 13], i sizes:[3 5] || <3> vals:[2 4], total:14, v sizes:[10 12], i sizes:[6 8] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=23,i=12 : min v = 38 
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3 4], total:18, v sizes:[ 8 10], i sizes:[2 3 4] || <3> vals:[4 5], total:18, v sizes:[13 14], i sizes:[ 8  9 10] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[2 4], total:18, v sizes:[ 6 10], i sizes:[2 4] || <3> vals:[3 5], total:18, v sizes:[13 15], i sizes:[ 8 10] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=23,i=13 : min v = 36 
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[1 3], total:12, v sizes:[3 7], i sizes:[1 3] || <3> vals:[4 6], total:22, v sizes:[16 18], i sizes:[10 12] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2 3], total:12, v sizes:[5 7], i sizes:[1 2 3] || <3> vals:[5 6], total:22, v sizes:[16 17], i sizes:[10 11 12] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=23,i=14 : min v = 34 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+| <1> vals:[0 2], total:2, v sizes:[0 2], i sizes:[0] || <2> vals:[0 2], total:6, v sizes:[0 4], i sizes:[0 2] || <3> vals:[5 7], total:26, v sizes:[19 21], i sizes:[12 14] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[5 6], total:23, v sizes:[17 18], i sizes:[11 12] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <1> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1 2], total:6, v sizes:[2 4], i sizes:[0 1 2] || <3> vals:[6 7], total:26, v sizes:[19 20], i sizes:[12 13 14] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=23,i=15 : min v = 32 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[6 7], total:27, v sizes:[20 21], i sizes:[13 14] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=23,i=16 : min v = 30 
+| <3> vals:[7], total:28, v sizes:[21], i sizes:[14] || <4> vals:[2], total:2, v sizes:[2], i sizes:[2] |
+
+
+n=4,k=23,i=17 : min v = 29 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[5], total:5, v sizes:[5], i sizes:[5] |
+
+
+n=4,k=23,i=18 : min v = 28 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[8], total:8, v sizes:[8], i sizes:[8] |
+
+
+n=4,k=23,i=19 : min v = 27 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[11], total:11, v sizes:[11], i sizes:[11] |
+
+
+n=4,k=23,i=20 : min v = 26 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[14], total:14, v sizes:[14], i sizes:[14] |
+
+
+n=4,k=23,i=21 : min v = 25 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[17], total:17, v sizes:[17], i sizes:[17] |
+
+
+n=4,k=23,i=22 : min v = 24 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[20], total:20, v sizes:[20], i sizes:[20] |
+
+
+n=4,k=24,i=0 : min v = 96 
+| <1> vals:[24], total:96, v sizes:[24], i sizes:[0] |
+
+
+n=4,k=24,i=1 : min v = 90 
+| <1> vals:[21], total:84, v sizes:[21], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=24,i=2 : min v = 84 
+| <1> vals:[18], total:72, v sizes:[18], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=24,i=3 : min v = 78 
+| <1> vals:[15], total:60, v sizes:[15], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=24,i=4 : min v = 72 
+| <1> vals:[12], total:48, v sizes:[12], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=24,i=5 : min v = 66 
+| <1> vals:[9], total:36, v sizes:[9], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=24,i=6 : min v = 60 
+| <1> vals:[6], total:24, v sizes:[6], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=24,i=7 : min v = 54 
+| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] || <2> vals:[7], total:42, v sizes:[21], i sizes:[7] |
+
+
+n=4,k=24,i=8 : min v = 48 
+| <2> vals:[8], total:48, v sizes:[24], i sizes:[8] |
+
+
+n=4,k=24,i=9 : min v = 46 
+| <2> vals:[7], total:42, v sizes:[21], i sizes:[7] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |
+
+
+n=4,k=24,i=10 : min v = 44 
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] |
+
+
+n=4,k=24,i=11 : min v = 42 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] |
+
+
+n=4,k=24,i=12 : min v = 40 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] |
+
+
+n=4,k=24,i=13 : min v = 38 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] |
+
+
+n=4,k=24,i=14 : min v = 36 
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[6], total:24, v sizes:[18], i sizes:[12] |
+
+
+n=4,k=24,i=15 : min v = 34 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[7], total:28, v sizes:[21], i sizes:[14] |
+
+
+n=4,k=24,i=16 : min v = 32 
+| <3> vals:[8], total:32, v sizes:[24], i sizes:[16] |
+
+
+n=4,k=24,i=17 : min v = 31 
+| <3> vals:[7], total:28, v sizes:[21], i sizes:[14] || <4> vals:[3], total:3, v sizes:[3], i sizes:[3] |
+
+
+n=4,k=24,i=18 : min v = 30 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[6], total:6, v sizes:[6], i sizes:[6] |
+
+
+n=4,k=24,i=19 : min v = 29 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[9], total:9, v sizes:[9], i sizes:[9] |
+
+
+n=4,k=24,i=20 : min v = 28 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[12], total:12, v sizes:[12], i sizes:[12] |
+
+
+n=4,k=24,i=21 : min v = 27 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[15], total:15, v sizes:[15], i sizes:[15] |
+
+
+n=4,k=24,i=22 : min v = 26 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[18], total:18, v sizes:[18], i sizes:[18] |
+
+
+n=4,k=24,i=23 : min v = 25 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[21], total:21, v sizes:[21], i sizes:[21] |
+
+
+n=4,k=25,i=0 : min v = 100 
+| <1> vals:[25], total:100, v sizes:[25], i sizes:[0] |
+
+
+n=4,k=25,i=1 : min v = 94 
+| <1> vals:[22], total:88, v sizes:[22], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |
+
+
+n=4,k=25,i=2 : min v = 88 
+| <1> vals:[19], total:76, v sizes:[19], i sizes:[0] || <2> vals:[2], total:12, v sizes:[6], i sizes:[2] |
+
+
+n=4,k=25,i=3 : min v = 82 
+| <1> vals:[16], total:64, v sizes:[16], i sizes:[0] || <2> vals:[3], total:18, v sizes:[9], i sizes:[3] |
+
+
+n=4,k=25,i=4 : min v = 76 
+| <1> vals:[13], total:52, v sizes:[13], i sizes:[0] || <2> vals:[4], total:24, v sizes:[12], i sizes:[4] |
+
+
+n=4,k=25,i=5 : min v = 70 
+| <1> vals:[10], total:40, v sizes:[10], i sizes:[0] || <2> vals:[5], total:30, v sizes:[15], i sizes:[5] |
+
+
+n=4,k=25,i=6 : min v = 64 
+| <1> vals:[7], total:28, v sizes:[7], i sizes:[0] || <2> vals:[6], total:36, v sizes:[18], i sizes:[6] |
+
+
+n=4,k=25,i=7 : min v = 58 
+| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] || <2> vals:[7], total:42, v sizes:[21], i sizes:[7] |
+
+
+n=4,k=25,i=8 : min v = 52 
+| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[8], total:48, v sizes:[24], i sizes:[8] |
+
+
+n=4,k=25,i=9 : min v = 49 
+| <2> vals:[8], total:48, v sizes:[24], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[7 8], total:45, v sizes:[21 23], i sizes:[7 8] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=25,i=10 : min v = 47 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[6 7], total:39, v sizes:[18 20], i sizes:[6 7] || <3> vals:[1 2], total:7, v sizes:[5 6], i sizes:[3 4] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[7], total:42, v sizes:[21], i sizes:[7] || <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=25,i=11 : min v = 45 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[5 6], total:33, v sizes:[15 17], i sizes:[5 6] || <3> vals:[2 3], total:11, v sizes:[8 9], i sizes:[5 6] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[6], total:36, v sizes:[18], i sizes:[6] || <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=25,i=12 : min v = 43 
+| <2> vals:[5], total:30, v sizes:[15], i sizes:[5] || <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[4 5], total:27, v sizes:[12 14], i sizes:[4 5] || <3> vals:[3 4], total:15, v sizes:[11 12], i sizes:[7 8] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=25,i=13 : min v = 41 
+| <2> vals:[4], total:24, v sizes:[12], i sizes:[4] || <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[3 4], total:21, v sizes:[ 9 11], i sizes:[3 4] || <3> vals:[4 5], total:19, v sizes:[14 15], i sizes:[ 9 10] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=25,i=14 : min v = 39 
+| <2> vals:[3], total:18, v sizes:[9], i sizes:[3] || <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[2 3], total:15, v sizes:[6 8], i sizes:[2 3] || <3> vals:[5 6], total:23, v sizes:[17 18], i sizes:[11 12] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=25,i=15 : min v = 37 
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[1 2], total:9, v sizes:[3 5], i sizes:[1 2] || <3> vals:[6 7], total:27, v sizes:[20 21], i sizes:[13 14] | COUNTER-EXAMPLE ODD-BALL
+| <2> vals:[2], total:12, v sizes:[6], i sizes:[2] || <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+All counter-examples
+
+
+n=4,k=25,i=16 : min v = 35 
+| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <3> vals:[7], total:28, v sizes:[21], i sizes:[14] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] | COUNTER-EXAMPLE
+| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[7 8], total:31, v sizes:[23 24], i sizes:[15 16] | COUNTER-EXAMPLE ODD-BALL
+All counter-examples
+
+
+n=4,k=25,i=17 : min v = 33 
+| <3> vals:[8], total:32, v sizes:[24], i sizes:[16] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |
+
+
+n=4,k=25,i=18 : min v = 32 
+| <3> vals:[7], total:28, v sizes:[21], i sizes:[14] || <4> vals:[4], total:4, v sizes:[4], i sizes:[4] |
+
+
+n=4,k=25,i=19 : min v = 31 
+| <3> vals:[6], total:24, v sizes:[18], i sizes:[12] || <4> vals:[7], total:7, v sizes:[7], i sizes:[7] |
+
+
+n=4,k=25,i=20 : min v = 30 
+| <3> vals:[5], total:20, v sizes:[15], i sizes:[10] || <4> vals:[10], total:10, v sizes:[10], i sizes:[10] |
+
+
+n=4,k=25,i=21 : min v = 29 
+| <3> vals:[4], total:16, v sizes:[12], i sizes:[8] || <4> vals:[13], total:13, v sizes:[13], i sizes:[13] |
+
+
+n=4,k=25,i=22 : min v = 28 
+| <3> vals:[3], total:12, v sizes:[9], i sizes:[6] || <4> vals:[16], total:16, v sizes:[16], i sizes:[16] |
+
+
+n=4,k=25,i=23 : min v = 27 
+| <3> vals:[2], total:8, v sizes:[6], i sizes:[4] || <4> vals:[19], total:19, v sizes:[19], i sizes:[19] |
+
+
+n=4,k=25,i=24 : min v = 26 
+| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] || <4> vals:[22], total:22, v sizes:[22], i sizes:[22] |
+

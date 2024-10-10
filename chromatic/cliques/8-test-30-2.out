@@ -1,0 +1,12 @@
+n = 8, k = 30, i = 2
+
+Minimum sum: 184
+
+All solutions with sum 184:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16 16]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.39734864234924316 seconds.

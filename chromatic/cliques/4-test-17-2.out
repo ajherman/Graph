@@ -1,0 +1,12 @@
+n = 4, k = 17, i = 2
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+1-intersecting regions:
+[[11 11 11 11]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.025159120559692383 seconds.

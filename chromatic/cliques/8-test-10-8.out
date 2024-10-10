@@ -1,0 +1,15 @@
+n = 8, k = 10, i = 8
+
+Minimum sum: 18
+
+All solutions with sum 18:
+
+1-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+7-intersecting regions:
+[[1 1 1 1 1 1 1 1]]
+
+8-intersecting regions:
+[[2]]
+Elapsed time: 527.7027864456177 seconds.

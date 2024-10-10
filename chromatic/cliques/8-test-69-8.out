@@ -1,0 +1,12 @@
+n = 8, k = 69, i = 8
+
+Minimum sum: 328
+
+All solutions with sum 328:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.4051682949066162 seconds.

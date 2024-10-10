@@ -1,0 +1,9 @@
+n = 8, k = 41, i = 0
+
+Minimum sum: 328
+
+All solutions with sum 328:
+
+1-intersecting regions:
+[[41 41 41 41 41 41 41 41]]
+Elapsed time: 0.3097686767578125 seconds.

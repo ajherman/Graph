@@ -1,0 +1,12 @@
+n = 5, k = 21, i = 2
+
+Minimum sum: 85
+
+All solutions with sum 85:
+
+1-intersecting regions:
+[[13 13 13 13 13]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.04325222969055176 seconds.

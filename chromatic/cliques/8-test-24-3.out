@@ -1,0 +1,12 @@
+n = 8, k = 24, i = 3
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.6382489204406738 seconds.

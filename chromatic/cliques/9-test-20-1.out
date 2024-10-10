@@ -1,0 +1,12 @@
+n = 9, k = 20, i = 1
+
+Minimum sum: 144
+
+All solutions with sum 144:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.7262723445892334 seconds.

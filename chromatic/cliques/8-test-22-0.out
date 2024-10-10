@@ -1,0 +1,9 @@
+n = 8, k = 22, i = 0
+
+Minimum sum: 176
+
+All solutions with sum 176:
+
+1-intersecting regions:
+[[22 22 22 22 22 22 22 22]]
+Elapsed time: 0.3404662609100342 seconds.

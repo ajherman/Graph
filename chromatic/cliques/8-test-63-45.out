@@ -1,0 +1,9 @@
+n = 8, k = 63, i = 45
+
+Minimum sum: 84
+
+All solutions with sum 84:
+
+6-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 1.6407172679901123 seconds.

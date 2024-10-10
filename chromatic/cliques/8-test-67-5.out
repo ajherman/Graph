@@ -1,0 +1,12 @@
+n = 8, k = 67, i = 5
+
+Minimum sum: 396
+
+All solutions with sum 396:
+
+1-intersecting regions:
+[[32 32 32 32 32 32 32 32]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.40872883796691895 seconds.

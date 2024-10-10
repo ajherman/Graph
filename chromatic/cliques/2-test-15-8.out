@@ -1,0 +1,12 @@
+n = 2, k = 15, i = 8
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+1-intersecting regions:
+[[7 7]]
+
+2-intersecting regions:
+[[8]]
+Elapsed time: 0.011515140533447266 seconds.

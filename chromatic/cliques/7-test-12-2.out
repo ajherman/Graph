@@ -1,0 +1,9 @@
+n = 7, k = 12, i = 2
+
+Minimum sum: 42
+
+All solutions with sum 42:
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.17624688148498535 seconds.

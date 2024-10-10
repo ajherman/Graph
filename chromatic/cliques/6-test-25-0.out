@@ -1,0 +1,9 @@
+n = 6, k = 25, i = 0
+
+Minimum sum: 150
+
+All solutions with sum 150:
+
+1-intersecting regions:
+[[25 25 25 25 25 25]]
+Elapsed time: 0.05732583999633789 seconds.

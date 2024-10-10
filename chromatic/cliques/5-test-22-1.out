@@ -1,0 +1,12 @@
+n = 5, k = 22, i = 1
+
+Minimum sum: 100
+
+All solutions with sum 100:
+
+1-intersecting regions:
+[[18 18 18 18 18]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.04361534118652344 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 6
+
+Minimum sum: 184
+
+All solutions with sum 184:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.5496459007263184 seconds.

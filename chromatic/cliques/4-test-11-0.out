@@ -1,0 +1,9 @@
+n = 4, k = 11, i = 0
+
+Minimum sum: 44
+
+All solutions with sum 44:
+
+1-intersecting regions:
+[[11 11 11 11]]
+Elapsed time: 0.01738429069519043 seconds.

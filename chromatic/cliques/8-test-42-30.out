@@ -1,0 +1,9 @@
+n = 8, k = 42, i = 30
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+6-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.1916213035583496 seconds.

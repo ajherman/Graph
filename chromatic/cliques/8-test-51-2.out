@@ -1,0 +1,12 @@
+n = 8, k = 51, i = 2
+
+Minimum sum: 352
+
+All solutions with sum 352:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.4425351619720459 seconds.

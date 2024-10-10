@@ -1,0 +1,12 @@
+n = 8, k = 31, i = 4
+
+Minimum sum: 136
+
+All solutions with sum 136:
+
+1-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4536731243133545 seconds.

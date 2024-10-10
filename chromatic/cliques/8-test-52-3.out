@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 3
+
+Minimum sum: 332
+
+All solutions with sum 332:
+
+1-intersecting regions:
+[[31 31 31 31 31 31 31 31]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3973522186279297 seconds.

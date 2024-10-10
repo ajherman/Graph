@@ -1,0 +1,34 @@
+n = 4, k = 16, i = 9
+
+Minimum sum: 25
+
+All solutions with sum 25:
+
+1-intersecting regions:
+[[0 0 0 1]
+ [0 0 0 0]
+ [0 1 0 0]
+ [1 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[2 2 2 1 1 1]
+ [2 2 2 2 2 2]
+ [1 2 1 2 1 2]
+ [1 1 2 1 2 2]
+ [2 1 1 2 2 1]]
+
+3-intersecting regions:
+[[3 4 4 4]
+ [3 3 3 3]
+ [4 4 3 4]
+ [4 4 4 3]
+ [4 3 4 4]]
+
+4-intersecting regions:
+[[0]
+ [1]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.08870363235473633 seconds.

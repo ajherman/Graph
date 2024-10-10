@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 8
+
+Minimum sum: 280
+
+All solutions with sum 280:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.41245245933532715 seconds.

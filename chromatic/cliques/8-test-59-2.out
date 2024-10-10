@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 2
+
+Minimum sum: 416
+
+All solutions with sum 416:
+
+1-intersecting regions:
+[[45 45 45 45 45 45 45 45]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.41066837310791016 seconds.

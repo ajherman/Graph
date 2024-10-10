@@ -1,0 +1,9 @@
+n = 8, k = 56, i = 8
+
+Minimum sum: 224
+
+All solutions with sum 224:
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.3942584991455078 seconds.

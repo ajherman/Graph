@@ -1,0 +1,12 @@
+n = 5, k = 16, i = 1
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[12 12 12 12 12]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.043190717697143555 seconds.

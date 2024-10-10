@@ -1,0 +1,9 @@
+n = 8, k = 52, i = 0
+
+Minimum sum: 416
+
+All solutions with sum 416:
+
+1-intersecting regions:
+[[52 52 52 52 52 52 52 52]]
+Elapsed time: 0.2534749507904053 seconds.

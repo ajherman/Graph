@@ -1,0 +1,12 @@
+n = 7, k = 17, i = 1
+
+Minimum sum: 98
+
+All solutions with sum 98:
+
+1-intersecting regions:
+[[11 11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.23816251754760742 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 14, i = 2
+
+Minimum sum: 56
+
+All solutions with sum 56:
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5452909469604492 seconds.

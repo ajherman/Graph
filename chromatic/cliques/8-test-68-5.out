@@ -1,0 +1,12 @@
+n = 8, k = 68, i = 5
+
+Minimum sum: 404
+
+All solutions with sum 404:
+
+1-intersecting regions:
+[[33 33 33 33 33 33 33 33]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4274303913116455 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 4
+
+Minimum sum: 320
+
+All solutions with sum 320:
+
+1-intersecting regions:
+[[26 26 26 26 26 26 26 26]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.3978748321533203 seconds.

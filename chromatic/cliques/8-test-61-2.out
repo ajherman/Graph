@@ -1,0 +1,12 @@
+n = 8, k = 61, i = 2
+
+Minimum sum: 432
+
+All solutions with sum 432:
+
+1-intersecting regions:
+[[47 47 47 47 47 47 47 47]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.5189690589904785 seconds.

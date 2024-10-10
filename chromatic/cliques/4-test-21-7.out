@@ -1,0 +1,9 @@
+n = 4, k = 21, i = 7
+
+Minimum sum: 42
+
+All solutions with sum 42:
+
+2-intersecting regions:
+[[7 7 7 7 7 7]]
+Elapsed time: 0.019572019577026367 seconds.

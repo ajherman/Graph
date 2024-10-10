@@ -1,0 +1,9 @@
+n = 8, k = 49, i = 0
+
+Minimum sum: 392
+
+All solutions with sum 392:
+
+1-intersecting regions:
+[[49 49 49 49 49 49 49 49]]
+Elapsed time: 0.2600092887878418 seconds.

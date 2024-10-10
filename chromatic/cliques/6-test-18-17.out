@@ -1,0 +1,12 @@
+n = 6, k = 18, i = 17
+
+Minimum sum: 19
+
+All solutions with sum 19:
+
+5-intersecting regions:
+[[1 1 1 1 1 1]]
+
+6-intersecting regions:
+[[13]]
+Elapsed time: 0.15930819511413574 seconds.

@@ -1,0 +1,9 @@
+n = 4, k = 7, i = 0
+
+Minimum sum: 28
+
+All solutions with sum 28:
+
+1-intersecting regions:
+[[7 7 7 7]]
+Elapsed time: 0.01453852653503418 seconds.

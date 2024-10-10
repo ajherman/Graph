@@ -1,0 +1,12 @@
+n = 8, k = 33, i = 3
+
+Minimum sum: 180
+
+All solutions with sum 180:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.39884066581726074 seconds.

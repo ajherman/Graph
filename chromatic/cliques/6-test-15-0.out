@@ -1,0 +1,9 @@
+n = 6, k = 15, i = 0
+
+Minimum sum: 90
+
+All solutions with sum 90:
+
+1-intersecting regions:
+[[15 15 15 15 15 15]]
+Elapsed time: 0.06439208984375 seconds.

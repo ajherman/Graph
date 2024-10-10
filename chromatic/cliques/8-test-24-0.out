@@ -1,0 +1,9 @@
+n = 8, k = 24, i = 0
+
+Minimum sum: 192
+
+All solutions with sum 192:
+
+1-intersecting regions:
+[[24 24 24 24 24 24 24 24]]
+Elapsed time: 0.33055591583251953 seconds.

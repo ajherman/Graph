@@ -1,0 +1,12 @@
+n = 8, k = 53, i = 4
+
+Minimum sum: 312
+
+All solutions with sum 312:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.5536246299743652 seconds.

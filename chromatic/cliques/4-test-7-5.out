@@ -1,0 +1,12 @@
+n = 4, k = 7, i = 5
+
+Minimum sum: 9
+
+All solutions with sum 9:
+
+3-intersecting regions:
+[[2 2 2 2]]
+
+4-intersecting regions:
+[[1]]
+Elapsed time: 0.02506113052368164 seconds.

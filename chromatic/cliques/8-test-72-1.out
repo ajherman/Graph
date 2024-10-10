@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 1
+
+Minimum sum: 548
+
+All solutions with sum 548:
+
+1-intersecting regions:
+[[65 65 65 65 65 65 65 65]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.561863899230957 seconds.

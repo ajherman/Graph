@@ -1,0 +1,34 @@
+n = 4, k = 22, i = 14
+
+Minimum sum: 31
+
+All solutions with sum 31:
+
+1-intersecting regions:
+[[0 0 0 1]
+ [1 0 0 0]
+ [0 0 1 0]
+ [0 0 0 0]
+ [0 1 0 0]]
+
+2-intersecting regions:
+[[1 1 1 0 0 0]
+ [0 0 1 0 1 1]
+ [1 0 0 1 1 0]
+ [1 1 1 1 1 1]
+ [0 1 0 1 0 1]]
+
+3-intersecting regions:
+[[6 7 7 7]
+ [7 7 7 6]
+ [7 6 7 7]
+ [6 6 6 6]
+ [7 7 6 7]]
+
+4-intersecting regions:
+[[0]
+ [0]
+ [0]
+ [1]
+ [0]]
+Elapsed time: 0.0522916316986084 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 20, i = 6
+
+Minimum sum: 44
+
+All solutions with sum 44:
+
+1-intersecting regions:
+[[2 2 2 2]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+Elapsed time: 0.024839162826538086 seconds.

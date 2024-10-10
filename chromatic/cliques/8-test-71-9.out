@@ -1,0 +1,12 @@
+n = 8, k = 71, i = 9
+
+Minimum sum: 316
+
+All solutions with sum 316:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9]]
+Elapsed time: 0.4397008419036865 seconds.

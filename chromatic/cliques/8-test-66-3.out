@@ -1,0 +1,12 @@
+n = 8, k = 66, i = 3
+
+Minimum sum: 444
+
+All solutions with sum 444:
+
+1-intersecting regions:
+[[45 45 45 45 45 45 45 45]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.3997814655303955 seconds.

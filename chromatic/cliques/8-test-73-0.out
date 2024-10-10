@@ -1,0 +1,9 @@
+n = 8, k = 73, i = 0
+
+Minimum sum: 584
+
+All solutions with sum 584:
+
+1-intersecting regions:
+[[73 73 73 73 73 73 73 73]]
+Elapsed time: 0.25443220138549805 seconds.

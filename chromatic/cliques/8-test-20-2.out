@@ -1,0 +1,12 @@
+n = 8, k = 20, i = 2
+
+Minimum sum: 104
+
+All solutions with sum 104:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.620955228805542 seconds.

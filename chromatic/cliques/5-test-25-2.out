@@ -1,0 +1,12 @@
+n = 5, k = 25, i = 2
+
+Minimum sum: 105
+
+All solutions with sum 105:
+
+1-intersecting regions:
+[[17 17 17 17 17]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.044579267501831055 seconds.

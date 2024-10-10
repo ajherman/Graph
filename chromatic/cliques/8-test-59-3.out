@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 3
+
+Minimum sum: 388
+
+All solutions with sum 388:
+
+1-intersecting regions:
+[[38 38 38 38 38 38 38 38]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.4029219150543213 seconds.

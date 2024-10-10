@@ -1,0 +1,9 @@
+n = 8, k = 72, i = 0
+
+Minimum sum: 576
+
+All solutions with sum 576:
+
+1-intersecting regions:
+[[72 72 72 72 72 72 72 72]]
+Elapsed time: 0.2524690628051758 seconds.

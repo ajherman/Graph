@@ -1,0 +1,12 @@
+n = 7, k = 23, i = 20
+
+Minimum sum: 26
+
+All solutions with sum 26:
+
+6-intersecting regions:
+[[3 3 3 3 3 3 3]]
+
+7-intersecting regions:
+[[5]]
+Elapsed time: 0.24172472953796387 seconds.

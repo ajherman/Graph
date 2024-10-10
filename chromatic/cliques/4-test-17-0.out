@@ -1,0 +1,9 @@
+n = 4, k = 17, i = 0
+
+Minimum sum: 68
+
+All solutions with sum 68:
+
+1-intersecting regions:
+[[17 17 17 17]]
+Elapsed time: 0.017121315002441406 seconds.

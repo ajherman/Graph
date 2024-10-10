@@ -1,0 +1,12 @@
+n = 7, k = 20, i = 2
+
+Minimum sum: 98
+
+All solutions with sum 98:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.13999319076538086 seconds.

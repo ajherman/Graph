@@ -1,0 +1,9 @@
+n = 8, k = 69, i = 0
+
+Minimum sum: 552
+
+All solutions with sum 552:
+
+1-intersecting regions:
+[[69 69 69 69 69 69 69 69]]
+Elapsed time: 0.24781107902526855 seconds.

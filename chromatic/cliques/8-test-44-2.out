@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 2
+
+Minimum sum: 296
+
+All solutions with sum 296:
+
+1-intersecting regions:
+[[30 30 30 30 30 30 30 30]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.564885139465332 seconds.

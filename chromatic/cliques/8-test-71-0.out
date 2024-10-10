@@ -1,0 +1,9 @@
+n = 8, k = 71, i = 0
+
+Minimum sum: 568
+
+All solutions with sum 568:
+
+1-intersecting regions:
+[[71 71 71 71 71 71 71 71]]
+Elapsed time: 0.2533228397369385 seconds.

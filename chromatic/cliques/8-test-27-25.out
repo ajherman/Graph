@@ -1,0 +1,12 @@
+n = 8, k = 27, i = 25
+
+Minimum sum: 29
+
+All solutions with sum 29:
+
+7-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+8-intersecting regions:
+[[13]]
+Elapsed time: 0.5901224613189697 seconds.

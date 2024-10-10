@@ -1,0 +1,12 @@
+n = 2, k = 10, i = 4
+
+Minimum sum: 16
+
+All solutions with sum 16:
+
+1-intersecting regions:
+[[6 6]]
+
+2-intersecting regions:
+[[4]]
+Elapsed time: 0.01068878173828125 seconds.

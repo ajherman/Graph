@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 3
+
+Minimum sum: 268
+
+All solutions with sum 268:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.545424222946167 seconds.

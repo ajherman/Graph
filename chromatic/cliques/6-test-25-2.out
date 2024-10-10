@@ -1,0 +1,12 @@
+n = 6, k = 25, i = 2
+
+Minimum sum: 120
+
+All solutions with sum 120:
+
+1-intersecting regions:
+[[15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.08625411987304688 seconds.

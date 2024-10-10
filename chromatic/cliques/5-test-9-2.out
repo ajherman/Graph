@@ -1,0 +1,12 @@
+n = 5, k = 9, i = 2
+
+Minimum sum: 25
+
+All solutions with sum 25:
+
+1-intersecting regions:
+[[1 1 1 1 1]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.04297018051147461 seconds.

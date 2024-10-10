@@ -1,0 +1,12 @@
+n = 8, k = 35, i = 4
+
+Minimum sum: 168
+
+All solutions with sum 168:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.4330894947052002 seconds.

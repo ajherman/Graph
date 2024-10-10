@@ -1,0 +1,9 @@
+n = 6, k = 18, i = 0
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+1-intersecting regions:
+[[18 18 18 18 18 18]]
+Elapsed time: 0.05970335006713867 seconds.

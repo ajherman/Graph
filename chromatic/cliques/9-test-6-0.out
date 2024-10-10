@@ -1,0 +1,9 @@
+n = 9, k = 6, i = 0
+
+Minimum sum: 54
+
+All solutions with sum 54:
+
+1-intersecting regions:
+[[6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.8021845817565918 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 3, i = 1
+
+Minimum sum: 17
+
+All solutions with sum 17:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2]]
+
+8-intersecting regions:
+[[1]]
+Elapsed time: 0.8801500797271729 seconds.

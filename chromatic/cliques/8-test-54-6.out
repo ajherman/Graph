@@ -1,0 +1,12 @@
+n = 8, k = 54, i = 6
+
+Minimum sum: 264
+
+All solutions with sum 264:
+
+1-intersecting regions:
+[[12 12 12 12 12 12 12 12]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.4230680465698242 seconds.

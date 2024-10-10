@@ -1,0 +1,12 @@
+n = 9, k = 21, i = 2
+
+Minimum sum: 117
+
+All solutions with sum 117:
+
+1-intersecting regions:
+[[5 5 5 5 5 5 5 5 5]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.338158130645752 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 1
+
+Minimum sum: 444
+
+All solutions with sum 444:
+
+1-intersecting regions:
+[[52 52 52 52 52 52 52 52]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5798072814941406 seconds.

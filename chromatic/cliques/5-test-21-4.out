@@ -1,0 +1,12 @@
+n = 5, k = 21, i = 4
+
+Minimum sum: 65
+
+All solutions with sum 65:
+
+1-intersecting regions:
+[[5 5 5 5 5]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.04375576972961426 seconds.

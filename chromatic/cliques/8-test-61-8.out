@@ -1,0 +1,12 @@
+n = 8, k = 61, i = 8
+
+Minimum sum: 264
+
+All solutions with sum 264:
+
+1-intersecting regions:
+[[5 5 5 5 5 5 5 5]]
+
+2-intersecting regions:
+[[8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8]]
+Elapsed time: 0.5284004211425781 seconds.

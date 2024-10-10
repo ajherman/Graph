@@ -1,0 +1,12 @@
+n = 9, k = 13, i = 1
+
+Minimum sum: 81
+
+All solutions with sum 81:
+
+1-intersecting regions:
+[[5 5 5 5 5 5 5 5 5]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.5568900108337402 seconds.

@@ -1,0 +1,9 @@
+n = 5, k = 19, i = 0
+
+Minimum sum: 95
+
+All solutions with sum 95:
+
+1-intersecting regions:
+[[19 19 19 19 19]]
+Elapsed time: 0.02866959571838379 seconds.

@@ -1,0 +1,9 @@
+n = 4, k = 19, i = 0
+
+Minimum sum: 76
+
+All solutions with sum 76:
+
+1-intersecting regions:
+[[19 19 19 19]]
+Elapsed time: 0.015778541564941406 seconds.

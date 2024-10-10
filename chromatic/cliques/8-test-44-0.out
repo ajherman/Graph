@@ -1,0 +1,9 @@
+n = 8, k = 44, i = 0
+
+Minimum sum: 352
+
+All solutions with sum 352:
+
+1-intersecting regions:
+[[44 44 44 44 44 44 44 44]]
+Elapsed time: 0.2669868469238281 seconds.

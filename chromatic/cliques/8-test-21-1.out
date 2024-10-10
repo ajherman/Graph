@@ -1,0 +1,12 @@
+n = 8, k = 21, i = 1
+
+Minimum sum: 140
+
+All solutions with sum 140:
+
+1-intersecting regions:
+[[14 14 14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.818795919418335 seconds.

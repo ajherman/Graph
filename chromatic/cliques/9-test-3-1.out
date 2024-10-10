@@ -1,0 +1,12 @@
+n = 9, k = 3, i = 1
+
+Minimum sum: 19
+
+All solutions with sum 19:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2 2]]
+
+9-intersecting regions:
+[[1]]
+Elapsed time: 7.679327964782715 seconds.

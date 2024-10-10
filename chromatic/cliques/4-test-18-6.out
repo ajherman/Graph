@@ -1,0 +1,9 @@
+n = 4, k = 18, i = 6
+
+Minimum sum: 36
+
+All solutions with sum 36:
+
+2-intersecting regions:
+[[6 6 6 6 6 6]]
+Elapsed time: 0.02573704719543457 seconds.

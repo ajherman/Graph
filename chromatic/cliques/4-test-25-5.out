@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 5
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[10 10 10 10]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5]]
+Elapsed time: 0.018834829330444336 seconds.

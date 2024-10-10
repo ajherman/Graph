@@ -1,0 +1,12 @@
+n = 9, k = 18, i = 2
+
+Minimum sum: 90
+
+All solutions with sum 90:
+
+1-intersecting regions:
+[[2 2 2 2 2 2 2 2 2]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 1.582671880722046 seconds.

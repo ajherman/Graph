@@ -1,0 +1,12 @@
+n = 8, k = 52, i = 1
+
+Minimum sum: 388
+
+All solutions with sum 388:
+
+1-intersecting regions:
+[[45 45 45 45 45 45 45 45]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6742942333221436 seconds.

@@ -1,0 +1,609 @@
+{
+    "1,0": {
+        "omega star": null,
+        "omega star ub": 2,
+        "omega star lb": 0,
+        "2": {
+            "status": "pending",
+            "min_sum": 2,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[1], total:2, v sizes:[1], i sizes:[0] |\n"
+            ],
+            "time": 0.014351129531860352,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        }
+    },
+    "2,0": {
+        "omega star": null,
+        "omega star ub": 3,
+        "omega star lb": 0,
+        "2": {
+            "status": "pending",
+            "min_sum": 4,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:4, v sizes:[2], i sizes:[0] |\n"
+            ],
+            "time": 0.02586531639099121,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:6, v sizes:[2], i sizes:[0] |\n"
+            ],
+            "time": 0.04237794876098633,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        }
+    },
+    "2,1": {
+        "omega star": null,
+        "omega star ub": 3,
+        "omega star lb": 3,
+        "2": {
+            "status": "pending",
+            "min_sum": 3,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[1], total:2, v sizes:[1], i sizes:[0] || <2> vals:[1], total:1, v sizes:[1], i sizes:[1] |\n"
+            ],
+            "time": 0.06024909019470215,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 3,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[1], total:3, v sizes:[2], i sizes:[1] |\n"
+            ],
+            "time": 0.07811546325683594,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        }
+    },
+    "3,0": {
+        "omega star": null,
+        "omega star ub": 4,
+        "omega star lb": 0,
+        "2": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[3], total:6, v sizes:[3], i sizes:[0] |\n"
+            ],
+            "time": 0.09656572341918945,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 9,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[3], total:9, v sizes:[3], i sizes:[0] |\n"
+            ],
+            "time": 0.11474990844726562,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 12,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[3], total:12, v sizes:[3], i sizes:[0] |\n"
+            ],
+            "time": 0.13817620277404785,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        }
+    },
+    "3,1": {
+        "omega star": null,
+        "omega star ub": 7,
+        "omega star lb": 7,
+        "2": {
+            "status": "pending",
+            "min_sum": 5,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:4, v sizes:[2], i sizes:[0] || <2> vals:[1], total:1, v sizes:[1], i sizes:[1] |\n"
+            ],
+            "time": 0.159454345703125,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[1], total:3, v sizes:[1], i sizes:[0] || <2> vals:[1], total:3, v sizes:[2], i sizes:[1] |\n"
+            ],
+            "time": 0.18070387840270996,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |\n"
+            ],
+            "time": 0.20668315887451172,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "5": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:4, v sizes:[0 2], i sizes:[0 1] || <3> vals:[0 1], total:2, v sizes:[1 2], i sizes:[0 1] |\n"
+            ],
+            "time": 0.2752668857574463,
+            "odd_balls": true,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        },
+        "6": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:3, v sizes:[1], i sizes:[0 1] || <3> vals:[0 1], total:4, v sizes:[2], i sizes:[0 1] |\n"
+            ],
+            "time": 0.4294133186340332,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "7": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <3> vals:[0 1], total:7, v sizes:[3], i sizes:[1] |\n"
+            ],
+            "time": 0.7620551586151123,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        }
+    },
+    "3,2": {
+        "omega star": null,
+        "omega star ub": 4,
+        "omega star lb": 4,
+        "2": {
+            "status": "pending",
+            "min_sum": 4,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[1], total:2, v sizes:[1], i sizes:[0] || <2> vals:[2], total:2, v sizes:[2], i sizes:[2] |\n"
+            ],
+            "time": 0.7761726379394531,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 4,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[1], total:3, v sizes:[2], i sizes:[1] || <3> vals:[1], total:1, v sizes:[1], i sizes:[1] |\n"
+            ],
+            "time": 0.7917490005493164,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 4,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <3> vals:[1], total:4, v sizes:[3], i sizes:[2] |\n"
+            ],
+            "time": 0.8127138614654541,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        }
+    },
+    "4,0": {
+        "omega star": null,
+        "omega star ub": 5,
+        "omega star lb": 0,
+        "2": {
+            "status": "pending",
+            "min_sum": 8,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[4], total:8, v sizes:[4], i sizes:[0] |\n"
+            ],
+            "time": 0.8280336856842041,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 12,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[4], total:12, v sizes:[4], i sizes:[0] |\n"
+            ],
+            "time": 0.8441908359527588,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 16,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[4], total:16, v sizes:[4], i sizes:[0] |\n"
+            ],
+            "time": 0.8643066883087158,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "5": {
+            "status": "pending",
+            "min_sum": 20,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[4], total:20, v sizes:[4], i sizes:[0] |\n"
+            ],
+            "time": 0.8960471153259277,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        }
+    },
+    "4,1": {
+        "omega star": null,
+        "omega star ub": 13,
+        "omega star lb": 11,
+        "2": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[3], total:6, v sizes:[3], i sizes:[0] || <2> vals:[1], total:1, v sizes:[1], i sizes:[1] |\n"
+            ],
+            "time": 0.9137139320373535,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 9,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:6, v sizes:[2], i sizes:[0] || <2> vals:[1], total:3, v sizes:[2], i sizes:[1] |\n"
+            ],
+            "time": 0.9315767288208008,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 10,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[1], total:4, v sizes:[1], i sizes:[0] || <2> vals:[1], total:6, v sizes:[3], i sizes:[1] |\n"
+            ],
+            "time": 0.9548563957214355,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "5": {
+            "status": "pending",
+            "min_sum": 10,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[1], total:10, v sizes:[4], i sizes:[1] |\n"
+            ],
+            "time": 1.0030052661895752,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "6": {
+            "status": "pending",
+            "min_sum": 11,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:9, v sizes:[3], i sizes:[0 1] || <3> vals:[0 1], total:2, v sizes:[1], i sizes:[0 1] |\n"
+            ],
+            "time": 1.1332480907440186,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "7": {
+            "status": "pending",
+            "min_sum": 12,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:6, v sizes:[0 2], i sizes:[0 1] || <3> vals:[0 1], total:5, v sizes:[2 3], i sizes:[0 1] |\n"
+            ],
+            "time": 5.465537786483765,
+            "odd_balls": true,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        },
+        "8": {
+            "status": "pending",
+            "min_sum": 12,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:4, v sizes:[1], i sizes:[0 1] || <3> vals:[0 1], total:8, v sizes:[3], i sizes:[0 1] |\n"
+            ],
+            "time": 75.27169990539551,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "9": {
+            "status": "pending",
+            "min_sum": 12,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <3> vals:[0 1], total:12, v sizes:[4], i sizes:[1] |\n"
+            ],
+            "time": 248.30342316627502,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "10": {
+            "status": "pending",
+            "min_sum": 13,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:3, v sizes:[0 1], i sizes:[0 1] || <3> vals:[0 1], total:6, v sizes:[1 3], i sizes:[0 1] || <4> vals:[0 1], total:4, v sizes:[1 2], i sizes:[0 1] |\n",
+                "| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <3> vals:[0 1], total:9, v sizes:[0 3], i sizes:[0 1] || <4> vals:[0 1], total:3, v sizes:[1 3], i sizes:[0 1] |\n"
+            ],
+            "time": 9572.445071458817,
+            "odd_balls": true,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        },
+        "11": {
+            "status": "pending",
+            "min_sum": 13,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0 1] || <3> vals:[0 1], total:6, v sizes:[0 2], i sizes:[0 1] || <4> vals:[0 1], total:6, v sizes:[2 3], i sizes:[0 1] |\n"
+            ],
+            "time": 52490.06489086151,
+            "odd_balls": true,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        }
+    },
+    "4,2": {
+        "omega star": null,
+        "omega star ub": 13,
+        "omega star lb": 7,
+        "2": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:4, v sizes:[2], i sizes:[0] || <2> vals:[2], total:2, v sizes:[2], i sizes:[2] |\n"
+            ],
+            "time": 52490.09419083595,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": true,
+            "disaster": false
+        },
+        "3": {
+            "status": "pending",
+            "min_sum": 6,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[2], total:6, v sizes:[4], i sizes:[2] |\n"
+            ],
+            "time": 52490.110583782196,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "4": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0] || <2> vals:[0 1], total:3, v sizes:[0 2], i sizes:[0 1] || <3> vals:[0 1], total:3, v sizes:[2 3], i sizes:[1 2] |\n",
+                "| <2> vals:[1], total:6, v sizes:[3], i sizes:[1] || <4> vals:[1], total:1, v sizes:[1], i sizes:[1] |\n"
+            ],
+            "time": 52490.15460729599,
+            "odd_balls": false,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        },
+        "5": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <2> vals:[0 1], total:2, v sizes:[0 1], i sizes:[0 1] || <3> vals:[0 1], total:4, v sizes:[2 4], i sizes:[0 1 2] || <4> vals:[0 1], total:1, v sizes:[0 1], i sizes:[0 1] |\n"
+            ],
+            "time": 52490.24523425102,
+            "odd_balls": true,
+            "counter_examples": true,
+            "flower": false,
+            "disaster": false
+        },
+        "6": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <3> vals:[0 1], total:4, v sizes:[2], i sizes:[0 1] || <4> vals:[0 1], total:3, v sizes:[2], i sizes:[1 2] |\n"
+            ],
+            "time": 52490.69883275032,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "7": {
+            "status": "pending",
+            "min_sum": 7,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <4> vals:[0 1], total:7, v sizes:[4], i sizes:[2] |\n"
+            ],
+            "time": 52491.590391397476,
+            "odd_balls": false,
+            "counter_examples": false,
+            "flower": false,
+            "disaster": false
+        },
+        "8": {
+            "status": "pending",
+            "min_sum": 18,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:16, v sizes:[2], i sizes:[0] || <8> vals:[2], total:2, v sizes:[2], i sizes:[2] |\n"
+            ],
+            "time": 52653.64356923103,
+            "odd_balls": false,
+            "counter_examples": true,
+            "flower": true,
+            "disaster": true
+        },
+        "9": {
+            "status": "pending",
+            "min_sum": 20,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:18, v sizes:[2], i sizes:[0] || <9> vals:[2], total:2, v sizes:[2], i sizes:[2] |\n"
+            ],
+            "time": 54221.215161800385,
+            "odd_balls": false,
+            "counter_examples": true,
+            "flower": true,
+            "disaster": true
+        },
+        "10": {
+            "status": "pending",
+            "min_sum": 22,
+            "solutions": [],
+            "all solutions found": true,
+            "profiles": [
+                "| <1> vals:[2], total:20, v sizes:[2], i sizes:[0] || <10> vals:[2], total:2, v sizes:[2], i sizes:[2] |\n"
+            ],
+            "time": 60524.73952651024,
+            "odd_balls": false,
+            "counter_examples": true,
+            "flower": true,
+            "disaster": true
+        }
+    }
+}

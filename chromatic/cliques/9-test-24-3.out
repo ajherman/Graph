@@ -1,0 +1,9 @@
+n = 9, k = 24, i = 3
+
+Minimum sum: 108
+
+All solutions with sum 108:
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 1.5099599361419678 seconds.

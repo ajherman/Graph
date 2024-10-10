@@ -1,0 +1,9 @@
+n = 7, k = 16, i = 0
+
+Minimum sum: 112
+
+All solutions with sum 112:
+
+1-intersecting regions:
+[[16 16 16 16 16 16 16]]
+Elapsed time: 0.13468456268310547 seconds.

@@ -1,0 +1,9 @@
+n = 8, k = 23, i = 0
+
+Minimum sum: 184
+
+All solutions with sum 184:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+Elapsed time: 0.32669949531555176 seconds.

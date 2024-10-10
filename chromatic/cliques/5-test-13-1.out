@@ -1,0 +1,12 @@
+n = 5, k = 13, i = 1
+
+Minimum sum: 55
+
+All solutions with sum 55:
+
+1-intersecting regions:
+[[9 9 9 9 9]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.043453216552734375 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 29, i = 2
+
+Minimum sum: 176
+
+All solutions with sum 176:
+
+1-intersecting regions:
+[[15 15 15 15 15 15 15 15]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.3991389274597168 seconds.

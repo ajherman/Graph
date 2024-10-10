@@ -1,0 +1,12 @@
+n = 8, k = 61, i = 3
+
+Minimum sum: 404
+
+All solutions with sum 404:
+
+1-intersecting regions:
+[[40 40 40 40 40 40 40 40]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.39048075675964355 seconds.

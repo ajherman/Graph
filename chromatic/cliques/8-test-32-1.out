@@ -1,0 +1,12 @@
+n = 8, k = 32, i = 1
+
+Minimum sum: 228
+
+All solutions with sum 228:
+
+1-intersecting regions:
+[[25 25 25 25 25 25 25 25]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.5676212310791016 seconds.

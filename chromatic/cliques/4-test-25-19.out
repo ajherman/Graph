@@ -1,0 +1,12 @@
+n = 4, k = 25, i = 19
+
+Minimum sum: 31
+
+All solutions with sum 31:
+
+3-intersecting regions:
+[[6 6 6 6]]
+
+4-intersecting regions:
+[[7]]
+Elapsed time: 0.03460407257080078 seconds.

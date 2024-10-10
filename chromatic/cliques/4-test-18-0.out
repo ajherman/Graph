@@ -1,0 +1,9 @@
+n = 4, k = 18, i = 0
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+1-intersecting regions:
+[[18 18 18 18]]
+Elapsed time: 0.015414953231811523 seconds.

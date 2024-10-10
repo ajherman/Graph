@@ -1,0 +1,12 @@
+n = 8, k = 63, i = 3
+
+Minimum sum: 420
+
+All solutions with sum 420:
+
+1-intersecting regions:
+[[42 42 42 42 42 42 42 42]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.46358203887939453 seconds.

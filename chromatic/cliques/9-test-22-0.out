@@ -1,0 +1,9 @@
+n = 9, k = 22, i = 0
+
+Minimum sum: 198
+
+All solutions with sum 198:
+
+1-intersecting regions:
+[[22 22 22 22 22 22 22 22 22]]
+Elapsed time: 0.8240981101989746 seconds.

@@ -1,0 +1,9 @@
+n = 9, k = 4, i = 0
+
+Minimum sum: 36
+
+All solutions with sum 36:
+
+1-intersecting regions:
+[[4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.780174732208252 seconds.

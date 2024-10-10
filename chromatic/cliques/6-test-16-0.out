@@ -1,0 +1,9 @@
+n = 6, k = 16, i = 0
+
+Minimum sum: 96
+
+All solutions with sum 96:
+
+1-intersecting regions:
+[[16 16 16 16 16 16]]
+Elapsed time: 0.06261587142944336 seconds.

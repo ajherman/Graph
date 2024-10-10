@@ -1,0 +1,12 @@
+n = 8, k = 59, i = 6
+
+Minimum sum: 304
+
+All solutions with sum 304:
+
+1-intersecting regions:
+[[17 17 17 17 17 17 17 17]]
+
+2-intersecting regions:
+[[6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6]]
+Elapsed time: 0.40126824378967285 seconds.

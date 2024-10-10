@@ -1,0 +1,12 @@
+n = 8, k = 68, i = 61
+
+Minimum sum: 75
+
+All solutions with sum 75:
+
+7-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+8-intersecting regions:
+[[19]]
+Elapsed time: 0.5632519721984863 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 51, i = 4
+
+Minimum sum: 296
+
+All solutions with sum 296:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.39738035202026367 seconds.

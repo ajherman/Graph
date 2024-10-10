@@ -1,0 +1,9 @@
+n = 8, k = 50, i = 0
+
+Minimum sum: 400
+
+All solutions with sum 400:
+
+1-intersecting regions:
+[[50 50 50 50 50 50 50 50]]
+Elapsed time: 0.253403902053833 seconds.

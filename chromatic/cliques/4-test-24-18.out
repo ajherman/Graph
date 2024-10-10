@@ -1,0 +1,12 @@
+n = 4, k = 24, i = 18
+
+Minimum sum: 30
+
+All solutions with sum 30:
+
+3-intersecting regions:
+[[6 6 6 6]]
+
+4-intersecting regions:
+[[6]]
+Elapsed time: 0.02663564682006836 seconds.

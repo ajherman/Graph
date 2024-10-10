@@ -1,0 +1,12 @@
+n = 7, k = 25, i = 2
+
+Minimum sum: 133
+
+All solutions with sum 133:
+
+1-intersecting regions:
+[[13 13 13 13 13 13 13]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.202378511428833 seconds.

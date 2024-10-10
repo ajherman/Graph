@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 5
+
+Minimum sum: 436
+
+All solutions with sum 436:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.4012410640716553 seconds.

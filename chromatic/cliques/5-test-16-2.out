@@ -1,0 +1,12 @@
+n = 5, k = 16, i = 2
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+1-intersecting regions:
+[[8 8 8 8 8]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.041814327239990234 seconds.

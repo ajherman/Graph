@@ -1,0 +1,12 @@
+n = 8, k = 43, i = 1
+
+Minimum sum: 316
+
+All solutions with sum 316:
+
+1-intersecting regions:
+[[36 36 36 36 36 36 36 36]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.6091234683990479 seconds.

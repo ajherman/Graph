@@ -1,0 +1,34 @@
+n = 4, k = 22, i = 8
+
+Minimum sum: 43
+
+All solutions with sum 43:
+
+1-intersecting regions:
+[[0 0 0 0]
+ [1 0 0 0]
+ [0 1 0 0]
+ [0 0 0 1]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7]
+ [6 6 7 6 7 7]
+ [6 7 6 7 6 7]
+ [7 7 7 6 6 6]
+ [7 6 6 7 7 6]]
+
+3-intersecting regions:
+[[0 0 0 0]
+ [1 1 1 0]
+ [1 1 0 1]
+ [0 1 1 1]
+ [1 0 1 1]]
+
+4-intersecting regions:
+[[1]
+ [0]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.10051345825195312 seconds.

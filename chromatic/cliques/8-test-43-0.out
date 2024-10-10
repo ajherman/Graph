@@ -1,0 +1,9 @@
+n = 8, k = 43, i = 0
+
+Minimum sum: 344
+
+All solutions with sum 344:
+
+1-intersecting regions:
+[[43 43 43 43 43 43 43 43]]
+Elapsed time: 0.24898457527160645 seconds.

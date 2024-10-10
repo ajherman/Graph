@@ -1,0 +1,30 @@
+n = 4, k = 11, i = 4
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+1-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [0 1 1 0]
+ [0 0 1 1]
+ [1 0 0 1]
+ [0 1 0 1]]
+
+2-intersecting regions:
+[[3 2 3 3 4 3]
+ [2 3 3 3 3 4]
+ [3 3 2 4 3 3]
+ [4 3 3 3 3 2]
+ [3 3 4 2 3 3]
+ [3 4 3 3 2 3]]
+
+3-intersecting regions:
+[[1 0 1 0]
+ [1 1 0 0]
+ [1 0 0 1]
+ [0 0 1 1]
+ [0 1 1 0]
+ [0 1 0 1]]
+Elapsed time: 0.06462216377258301 seconds.

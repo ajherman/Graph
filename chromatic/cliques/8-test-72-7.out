@@ -1,0 +1,12 @@
+n = 8, k = 72, i = 7
+
+Minimum sum: 380
+
+All solutions with sum 380:
+
+1-intersecting regions:
+[[23 23 23 23 23 23 23 23]]
+
+2-intersecting regions:
+[[7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7]]
+Elapsed time: 0.4015476703643799 seconds.

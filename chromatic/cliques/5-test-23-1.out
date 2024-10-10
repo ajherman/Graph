@@ -1,0 +1,12 @@
+n = 5, k = 23, i = 1
+
+Minimum sum: 105
+
+All solutions with sum 105:
+
+1-intersecting regions:
+[[19 19 19 19 19]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.04801654815673828 seconds.

@@ -1,0 +1,12 @@
+n = 4, k = 24, i = 13
+
+Minimum sum: 38
+
+All solutions with sum 38:
+
+2-intersecting regions:
+[[3 3 3 3 3 3]]
+
+3-intersecting regions:
+[[5 5 5 5]]
+Elapsed time: 0.02934408187866211 seconds.

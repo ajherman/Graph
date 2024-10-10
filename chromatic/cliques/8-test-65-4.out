@@ -1,0 +1,12 @@
+n = 8, k = 65, i = 4
+
+Minimum sum: 408
+
+All solutions with sum 408:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+
+2-intersecting regions:
+[[4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4]]
+Elapsed time: 0.39106321334838867 seconds.

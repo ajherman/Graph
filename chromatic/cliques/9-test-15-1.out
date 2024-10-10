@@ -1,0 +1,12 @@
+n = 9, k = 15, i = 1
+
+Minimum sum: 99
+
+All solutions with sum 99:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 2.7668955326080322 seconds.

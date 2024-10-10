@@ -1,0 +1,9 @@
+n = 8, k = 38, i = 0
+
+Minimum sum: 304
+
+All solutions with sum 304:
+
+1-intersecting regions:
+[[38 38 38 38 38 38 38 38]]
+Elapsed time: 0.3014957904815674 seconds.

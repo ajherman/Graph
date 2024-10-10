@@ -1,0 +1,9 @@
+n = 2, k = 13, i = 0
+
+Minimum sum: 26
+
+All solutions with sum 26:
+
+1-intersecting regions:
+[[13 13]]
+Elapsed time: 0.010363340377807617 seconds.

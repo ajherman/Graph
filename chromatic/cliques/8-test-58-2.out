@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 2
+
+Minimum sum: 408
+
+All solutions with sum 408:
+
+1-intersecting regions:
+[[44 44 44 44 44 44 44 44]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.41367197036743164 seconds.

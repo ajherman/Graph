@@ -1,0 +1,9 @@
+n = 8, k = 8, i = 0
+
+Minimum sum: 64
+
+All solutions with sum 64:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+Elapsed time: 0.3470606803894043 seconds.

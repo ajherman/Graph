@@ -1,0 +1,12 @@
+n = 6, k = 16, i = 1
+
+Minimum sum: 81
+
+All solutions with sum 81:
+
+1-intersecting regions:
+[[11 11 11 11 11 11]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.127091646194458 seconds.

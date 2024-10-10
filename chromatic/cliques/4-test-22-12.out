@@ -1,0 +1,34 @@
+n = 4, k = 22, i = 12
+
+Minimum sum: 35
+
+All solutions with sum 35:
+
+1-intersecting regions:
+[[0 0 0 1]
+ [0 0 0 0]
+ [0 1 0 0]
+ [1 0 0 0]
+ [0 0 1 0]]
+
+2-intersecting regions:
+[[3 3 3 2 2 2]
+ [3 3 3 3 3 3]
+ [2 3 2 3 2 3]
+ [2 2 3 2 3 3]
+ [3 2 2 3 3 2]]
+
+3-intersecting regions:
+[[4 5 5 5]
+ [4 4 4 4]
+ [5 5 4 5]
+ [5 5 5 4]
+ [5 4 5 5]]
+
+4-intersecting regions:
+[[0]
+ [1]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.09684562683105469 seconds.

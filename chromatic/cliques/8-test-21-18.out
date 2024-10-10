@@ -1,0 +1,9 @@
+n = 8, k = 21, i = 18
+
+Minimum sum: 24
+
+All solutions with sum 24:
+
+7-intersecting regions:
+[[3 3 3 3 3 3 3 3]]
+Elapsed time: 0.711632490158081 seconds.

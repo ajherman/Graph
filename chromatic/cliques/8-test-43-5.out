@@ -1,0 +1,12 @@
+n = 8, k = 43, i = 5
+
+Minimum sum: 204
+
+All solutions with sum 204:
+
+1-intersecting regions:
+[[8 8 8 8 8 8 8 8]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.39833927154541016 seconds.

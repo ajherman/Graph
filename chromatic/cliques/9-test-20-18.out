@@ -1,0 +1,12 @@
+n = 9, k = 20, i = 18
+
+Minimum sum: 22
+
+All solutions with sum 22:
+
+8-intersecting regions:
+[[2 2 2 2 2 2 2 2 2]]
+
+9-intersecting regions:
+[[4]]
+Elapsed time: 2.0704689025878906 seconds.

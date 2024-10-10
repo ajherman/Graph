@@ -1,0 +1,34 @@
+n = 4, k = 16, i = 7
+
+Minimum sum: 29
+
+All solutions with sum 29:
+
+1-intersecting regions:
+[[1 0 0 0]
+ [0 0 0 0]
+ [0 0 1 0]
+ [0 1 0 0]
+ [0 0 0 1]]
+
+2-intersecting regions:
+[[3 3 4 3 4 4]
+ [4 4 4 4 4 4]
+ [4 3 3 4 4 3]
+ [3 4 3 4 3 4]
+ [4 4 4 3 3 3]]
+
+3-intersecting regions:
+[[2 2 2 1]
+ [1 1 1 1]
+ [2 1 2 2]
+ [2 2 1 2]
+ [1 2 2 2]]
+
+4-intersecting regions:
+[[0]
+ [1]
+ [0]
+ [0]
+ [0]]
+Elapsed time: 0.0946497917175293 seconds.

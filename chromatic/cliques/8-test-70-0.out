@@ -1,0 +1,9 @@
+n = 8, k = 70, i = 0
+
+Minimum sum: 560
+
+All solutions with sum 560:
+
+1-intersecting regions:
+[[70 70 70 70 70 70 70 70]]
+Elapsed time: 0.25420379638671875 seconds.

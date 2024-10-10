@@ -1,0 +1,12 @@
+n = 8, k = 28, i = 3
+
+Minimum sum: 140
+
+All solutions with sum 140:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7 7]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.5271420478820801 seconds.

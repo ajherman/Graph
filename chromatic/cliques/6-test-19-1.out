@@ -1,0 +1,12 @@
+n = 6, k = 19, i = 1
+
+Minimum sum: 99
+
+All solutions with sum 99:
+
+1-intersecting regions:
+[[14 14 14 14 14 14]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.10806488990783691 seconds.

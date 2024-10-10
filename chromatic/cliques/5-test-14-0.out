@@ -1,0 +1,9 @@
+n = 5, k = 14, i = 0
+
+Minimum sum: 70
+
+All solutions with sum 70:
+
+1-intersecting regions:
+[[14 14 14 14 14]]
+Elapsed time: 0.030206680297851562 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 28, i = 1
+
+Minimum sum: 196
+
+All solutions with sum 196:
+
+1-intersecting regions:
+[[21 21 21 21 21 21 21 21]]
+
+2-intersecting regions:
+[[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]]
+Elapsed time: 0.697779655456543 seconds.

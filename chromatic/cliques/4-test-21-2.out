@@ -1,0 +1,12 @@
+n = 4, k = 21, i = 2
+
+Minimum sum: 72
+
+All solutions with sum 72:
+
+1-intersecting regions:
+[[15 15 15 15]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2]]
+Elapsed time: 0.019797086715698242 seconds.

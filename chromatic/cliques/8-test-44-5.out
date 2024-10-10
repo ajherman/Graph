@@ -1,0 +1,12 @@
+n = 8, k = 44, i = 5
+
+Minimum sum: 212
+
+All solutions with sum 212:
+
+1-intersecting regions:
+[[9 9 9 9 9 9 9 9]]
+
+2-intersecting regions:
+[[5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5]]
+Elapsed time: 0.5236968994140625 seconds.

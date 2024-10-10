@@ -1,0 +1,9 @@
+n = 7, k = 7, i = 0
+
+Minimum sum: 49
+
+All solutions with sum 49:
+
+1-intersecting regions:
+[[7 7 7 7 7 7 7]]
+Elapsed time: 0.1437544822692871 seconds.

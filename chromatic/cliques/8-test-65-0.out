@@ -1,0 +1,9 @@
+n = 8, k = 65, i = 0
+
+Minimum sum: 520
+
+All solutions with sum 520:
+
+1-intersecting regions:
+[[65 65 65 65 65 65 65 65]]
+Elapsed time: 0.2976682186126709 seconds.

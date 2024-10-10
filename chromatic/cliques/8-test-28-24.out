@@ -1,0 +1,9 @@
+n = 8, k = 28, i = 24
+
+Minimum sum: 32
+
+All solutions with sum 32:
+
+7-intersecting regions:
+[[4 4 4 4 4 4 4 4]]
+Elapsed time: 0.5155956745147705 seconds.

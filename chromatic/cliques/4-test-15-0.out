@@ -1,0 +1,9 @@
+n = 4, k = 15, i = 0
+
+Minimum sum: 60
+
+All solutions with sum 60:
+
+1-intersecting regions:
+[[15 15 15 15]]
+Elapsed time: 0.01859259605407715 seconds.

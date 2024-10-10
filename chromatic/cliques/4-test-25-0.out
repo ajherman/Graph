@@ -1,0 +1,9 @@
+n = 4, k = 25, i = 0
+
+Minimum sum: 100
+
+All solutions with sum 100:
+
+1-intersecting regions:
+[[25 25 25 25]]
+Elapsed time: 0.018544673919677734 seconds.

@@ -1,0 +1,12 @@
+n = 8, k = 48, i = 2
+
+Minimum sum: 328
+
+All solutions with sum 328:
+
+1-intersecting regions:
+[[34 34 34 34 34 34 34 34]]
+
+2-intersecting regions:
+[[2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2]]
+Elapsed time: 0.45461106300354004 seconds.

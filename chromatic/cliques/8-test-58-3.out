@@ -1,0 +1,12 @@
+n = 8, k = 58, i = 3
+
+Minimum sum: 380
+
+All solutions with sum 380:
+
+1-intersecting regions:
+[[37 37 37 37 37 37 37 37]]
+
+2-intersecting regions:
+[[3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3]]
+Elapsed time: 0.5213272571563721 seconds.

@@ -68,6 +68,12 @@ def solve_min_sum(A, b, C=None, lb=None, ub=None):
         for i in range(n-1):
             model.Add(sum(C[i][j] * x[j] for j in range(num_vars)) >= 0)
 
+    if not lb is None:
+        model.Add(sum(x) >= lb)
+
+    if not ub is None:
+        model.Add(sum(x) <= ub)
+
     # Objective: minimize the sum of x
     model.Minimize(sum(x))
 

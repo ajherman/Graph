@@ -1,0 +1,4056 @@
+
+Working on n=02, k=01, i=00
+Already computed: 2 vertices, 1 vertices, 0 intersections
+Minimum sum: 2
+This is a flower.
+Elapsed time: 0.010205745697021484 seconds.
+
+Working on n=02, k=02, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 2 vertices, 0 intersections
+Minimum sum: 4
+This is a flower.
+Elapsed time: 0.007684469223022461 seconds.
+
+Working on n=02, k=02, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 2 vertices, 1 intersections
+Minimum sum: 3
+This is a flower.
+Elapsed time: 0.011631965637207031 seconds.
+
+Working on n=02, k=03, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 0 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.011599540710449219 seconds.
+
+Working on n=02, k=03, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 1 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.016177892684936523 seconds.
+
+Working on n=02, k=03, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 2 intersections
+Minimum sum: 4
+This is a flower.
+Elapsed time: 0.0074388980865478516 seconds.
+
+Working on n=02, k=04, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 0 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.021172523498535156 seconds.
+
+Working on n=02, k=04, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 1 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.012971162796020508 seconds.
+
+Working on n=02, k=04, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 2 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.08549737930297852 seconds.
+
+Working on n=02, k=04, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 3 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.012572050094604492 seconds.
+
+Working on n=02, k=05, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.01596689224243164 seconds.
+
+Working on n=02, k=05, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 1 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.019499778747558594 seconds.
+
+Working on n=02, k=05, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 2 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.015502691268920898 seconds.
+
+Working on n=02, k=05, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 3 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.01590728759765625 seconds.
+
+Working on n=02, k=05, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.011087417602539062 seconds.
+
+Working on n=02, k=06, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 0 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.01829051971435547 seconds.
+
+Working on n=02, k=06, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 1 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.011236190795898438 seconds.
+
+Working on n=02, k=06, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 2 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.018904685974121094 seconds.
+
+Working on n=02, k=06, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 3 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.024213075637817383 seconds.
+
+Working on n=02, k=06, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 4 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.015784502029418945 seconds.
+
+Working on n=02, k=06, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.01659107208251953 seconds.
+
+Working on n=02, k=07, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 0 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.016093969345092773 seconds.
+
+Working on n=02, k=07, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 1 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.008379697799682617 seconds.
+
+Working on n=02, k=07, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 2 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.0157473087310791 seconds.
+
+Working on n=02, k=07, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 3 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.01948237419128418 seconds.
+
+Working on n=02, k=07, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 4 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.013403892517089844 seconds.
+
+Working on n=02, k=07, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 5 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.014122962951660156 seconds.
+
+Working on n=02, k=07, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.00973963737487793 seconds.
+
+Working on n=02, k=08, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 0 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.01578664779663086 seconds.
+
+Working on n=02, k=08, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 1 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.01284027099609375 seconds.
+
+Working on n=02, k=08, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 2 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.02598285675048828 seconds.
+
+Working on n=02, k=08, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 3 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.01683950424194336 seconds.
+
+Working on n=02, k=08, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 4 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.01259756088256836 seconds.
+
+Working on n=02, k=08, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 5 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.011758565902709961 seconds.
+
+Working on n=02, k=08, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 6 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.009926319122314453 seconds.
+
+Working on n=02, k=08, i=07
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.016575336456298828 seconds.
+
+Working on n=02, k=09, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 0 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.008490324020385742 seconds.
+
+Working on n=02, k=09, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 1 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.011732101440429688 seconds.
+
+Working on n=02, k=09, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 2 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.016663551330566406 seconds.
+
+Working on n=02, k=09, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 3 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.01290130615234375 seconds.
+
+Working on n=02, k=09, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 4 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.016998767852783203 seconds.
+
+Working on n=02, k=09, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 5 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.01174783706665039 seconds.
+
+Working on n=02, k=09, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 6 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.009519100189208984 seconds.
+
+Working on n=02, k=09, i=07
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 7 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.009472370147705078 seconds.
+
+Working on n=02, k=09, i=08
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.01072382926940918 seconds.
+
+Working on n=02, k=10, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.015188455581665039 seconds.
+
+Working on n=02, k=10, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 1 intersections
+Minimum sum: 19
+This is a flower.
+Elapsed time: 0.024111509323120117 seconds.
+
+Working on n=02, k=10, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 2 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.018023967742919922 seconds.
+
+Working on n=02, k=10, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 3 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.01292729377746582 seconds.
+
+Working on n=02, k=10, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 4 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.009395599365234375 seconds.
+
+Working on n=02, k=10, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 5 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.011939048767089844 seconds.
+
+Working on n=02, k=10, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 6 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.01871490478515625 seconds.
+
+Working on n=02, k=10, i=07
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 7 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.02609109878540039 seconds.
+
+Working on n=02, k=10, i=08
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 8 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.012141227722167969 seconds.
+
+Working on n=02, k=10, i=09
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.018555164337158203 seconds.
+
+Working on n=03, k=01, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 1 vertices, 0 intersections
+Minimum sum: 3
+This is a flower.
+Elapsed time: 0.013679742813110352 seconds.
+
+Working on n=03, k=02, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 2 vertices, 0 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.019385337829589844 seconds.
+
+Working on n=03, k=02, i=01
+Loading data from clique_data.json
+Already computed: 3 vertices, 2 vertices, 1 intersections
+Minimum sum: 3
+Elapsed time: 0.016214609146118164 seconds.
+
+Working on n=03, k=03, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 3 vertices, 0 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.02338552474975586 seconds.
+
+Working on n=03, k=03, i=01
+Loading data from clique_data.json
+Minimum sum: 6
+Elapsed time: 0.02367877960205078 seconds.
+
+Working on n=03, k=03, i=02
+Loading data from clique_data.json
+Already computed: 3 vertices, 3 vertices, 2 intersections
+Minimum sum: 4
+Elapsed time: 0.013887643814086914 seconds.
+
+Working on n=03, k=04, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 4 vertices, 0 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.017340421676635742 seconds.
+
+Working on n=03, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.026012659072875977 seconds.
+
+Working on n=03, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 6
+Elapsed time: 0.02942943572998047 seconds.
+
+Working on n=03, k=04, i=03
+Loading data from clique_data.json
+Already computed: 3 vertices, 4 vertices, 3 intersections
+Minimum sum: 5
+Elapsed time: 0.020415544509887695 seconds.
+
+Working on n=03, k=05, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 5 vertices, 0 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.0209805965423584 seconds.
+
+Working on n=03, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.03699970245361328 seconds.
+
+Working on n=03, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.021484375 seconds.
+
+Working on n=03, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.033364057540893555 seconds.
+
+Working on n=03, k=05, i=04
+Loading data from clique_data.json
+Already computed: 3 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+Elapsed time: 0.020633697509765625 seconds.
+
+Working on n=03, k=06, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 6 vertices, 0 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.019848108291625977 seconds.
+
+Working on n=03, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.032219648361206055 seconds.
+
+Working on n=03, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.04325532913208008 seconds.
+
+Working on n=03, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.026508808135986328 seconds.
+
+Working on n=03, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 0.03098011016845703 seconds.
+
+Working on n=03, k=06, i=05
+Loading data from clique_data.json
+Already computed: 3 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+Elapsed time: 0.01915717124938965 seconds.
+
+Working on n=03, k=07, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 7 vertices, 0 intersections
+Minimum sum: 21
+This is a flower.
+Elapsed time: 0.015226125717163086 seconds.
+
+Working on n=03, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.03889131546020508 seconds.
+
+Working on n=03, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.025110960006713867 seconds.
+
+Working on n=03, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.034502267837524414 seconds.
+
+Working on n=03, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.023996591567993164 seconds.
+
+Working on n=03, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.027294397354125977 seconds.
+
+Working on n=03, k=07, i=06
+Loading data from clique_data.json
+Already computed: 3 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.023673295974731445 seconds.
+
+Working on n=03, k=08, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 8 vertices, 0 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.037590742111206055 seconds.
+
+Working on n=03, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.04399251937866211 seconds.
+
+Working on n=03, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.043941497802734375 seconds.
+
+Working on n=03, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.03049635887145996 seconds.
+
+Working on n=03, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.03191065788269043 seconds.
+
+Working on n=03, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.026506423950195312 seconds.
+
+Working on n=03, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.026502609252929688 seconds.
+
+Working on n=03, k=08, i=07
+Loading data from clique_data.json
+Already computed: 3 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.022185087203979492 seconds.
+
+Working on n=03, k=09, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 9 vertices, 0 intersections
+Minimum sum: 27
+This is a flower.
+Elapsed time: 0.022437095642089844 seconds.
+
+Working on n=03, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 0.039955854415893555 seconds.
+
+Working on n=03, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.03426790237426758 seconds.
+
+Working on n=03, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.024334430694580078 seconds.
+
+Working on n=03, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.036149024963378906 seconds.
+
+Working on n=03, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.033238887786865234 seconds.
+
+Working on n=03, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.0284576416015625 seconds.
+
+Working on n=03, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.03882455825805664 seconds.
+
+Working on n=03, k=09, i=08
+Loading data from clique_data.json
+Already computed: 3 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.03501701354980469 seconds.
+
+Working on n=03, k=10, i=00
+Loading data from clique_data.json
+Already computed: 3 vertices, 10 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.03424572944641113 seconds.
+
+Working on n=03, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 27
+Elapsed time: 0.03470945358276367 seconds.
+
+Working on n=03, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 0.03287339210510254 seconds.
+
+Working on n=03, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.03190183639526367 seconds.
+
+Working on n=03, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.036772727966308594 seconds.
+
+Working on n=03, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.033673763275146484 seconds.
+
+Working on n=03, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.0252530574798584 seconds.
+
+Working on n=03, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.03436446189880371 seconds.
+
+Working on n=03, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.025719881057739258 seconds.
+
+Working on n=03, k=10, i=09
+Loading data from clique_data.json
+Already computed: 3 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.02575206756591797 seconds.
+
+Working on n=04, k=01, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 1 vertices, 0 intersections
+Minimum sum: 4
+This is a flower.
+Elapsed time: 0.028397083282470703 seconds.
+
+Working on n=04, k=02, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 2 vertices, 0 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.03223061561584473 seconds.
+
+Working on n=04, k=02, i=01
+Loading data from clique_data.json
+Already computed: 4 vertices, 2 vertices, 1 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.01700139045715332 seconds.
+
+Working on n=04, k=03, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 3 vertices, 0 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.019510746002197266 seconds.
+
+Working on n=04, k=03, i=01
+Loading data from clique_data.json
+Minimum sum: 6
+Elapsed time: 0.028583288192749023 seconds.
+
+Working on n=04, k=03, i=02
+Loading data from clique_data.json
+Already computed: 4 vertices, 3 vertices, 2 intersections
+Minimum sum: 4
+Elapsed time: 0.016145706176757812 seconds.
+
+Working on n=04, k=04, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 4 vertices, 0 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.020737171173095703 seconds.
+
+Working on n=04, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.040955305099487305 seconds.
+
+Working on n=04, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.05086326599121094 seconds.
+
+Working on n=04, k=04, i=03
+Loading data from clique_data.json
+Already computed: 4 vertices, 4 vertices, 3 intersections
+Minimum sum: 5
+Elapsed time: 0.0257565975189209 seconds.
+
+Working on n=04, k=05, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 5 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.028102874755859375 seconds.
+
+Working on n=04, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.03276801109313965 seconds.
+
+Working on n=04, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.047394514083862305 seconds.
+
+Working on n=04, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 0.06369900703430176 seconds.
+
+Working on n=04, k=05, i=04
+Loading data from clique_data.json
+Already computed: 4 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+Elapsed time: 0.020877361297607422 seconds.
+
+Working on n=04, k=06, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 6 vertices, 0 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.01671576499938965 seconds.
+
+Working on n=04, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.04096364974975586 seconds.
+
+Working on n=04, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.030699491500854492 seconds.
+
+Working on n=04, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.03668951988220215 seconds.
+
+Working on n=04, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 0.037587642669677734 seconds.
+
+Working on n=04, k=06, i=05
+Loading data from clique_data.json
+Already computed: 4 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+Elapsed time: 0.024837732315063477 seconds.
+
+Working on n=04, k=07, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 7 vertices, 0 intersections
+Minimum sum: 28
+This is a flower.
+Elapsed time: 0.031238555908203125 seconds.
+
+Working on n=04, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 0.035954952239990234 seconds.
+
+Working on n=04, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 0.04068350791931152 seconds.
+
+Working on n=04, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.049623727798461914 seconds.
+
+Working on n=04, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.04170727729797363 seconds.
+
+Working on n=04, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.04180765151977539 seconds.
+
+Working on n=04, k=07, i=06
+Loading data from clique_data.json
+Already computed: 4 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.019092559814453125 seconds.
+
+Working on n=04, k=08, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 8 vertices, 0 intersections
+Minimum sum: 32
+This is a flower.
+Elapsed time: 0.023017168045043945 seconds.
+
+Working on n=04, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 0.038275957107543945 seconds.
+
+Working on n=04, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.05076432228088379 seconds.
+
+Working on n=04, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 0.05919790267944336 seconds.
+
+Working on n=04, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.048961639404296875 seconds.
+
+Working on n=04, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.048821449279785156 seconds.
+
+Working on n=04, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.04849052429199219 seconds.
+
+Working on n=04, k=08, i=07
+Loading data from clique_data.json
+Already computed: 4 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.0253446102142334 seconds.
+
+Working on n=04, k=09, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 9 vertices, 0 intersections
+Minimum sum: 36
+This is a flower.
+Elapsed time: 0.022849559783935547 seconds.
+
+Working on n=04, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 0.04145383834838867 seconds.
+
+Working on n=04, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 0.05045723915100098 seconds.
+
+Working on n=04, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.05040144920349121 seconds.
+
+Working on n=04, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 0.0438992977142334 seconds.
+
+Working on n=04, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.04767107963562012 seconds.
+
+Working on n=04, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.04568147659301758 seconds.
+
+Working on n=04, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.0527186393737793 seconds.
+
+Working on n=04, k=09, i=08
+Loading data from clique_data.json
+Already computed: 4 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.053908348083496094 seconds.
+
+Working on n=04, k=10, i=00
+Loading data from clique_data.json
+Already computed: 4 vertices, 10 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.027437925338745117 seconds.
+
+Working on n=04, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 34
+Elapsed time: 0.04408860206604004 seconds.
+
+Working on n=04, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 28
+Elapsed time: 0.05039072036743164 seconds.
+
+Working on n=04, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 0.051184892654418945 seconds.
+
+Working on n=04, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 0.060596466064453125 seconds.
+
+Working on n=04, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.06578183174133301 seconds.
+
+Working on n=04, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.05129671096801758 seconds.
+
+Working on n=04, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.055487871170043945 seconds.
+
+Working on n=04, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.05552172660827637 seconds.
+
+Working on n=04, k=10, i=09
+Loading data from clique_data.json
+Already computed: 4 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.044930219650268555 seconds.
+
+Working on n=05, k=01, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 1 vertices, 0 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.029805421829223633 seconds.
+
+Working on n=05, k=02, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 2 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.03361344337463379 seconds.
+
+Working on n=05, k=02, i=01
+Loading data from clique_data.json
+Already computed: 5 vertices, 2 vertices, 1 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.025680065155029297 seconds.
+
+Working on n=05, k=03, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 3 vertices, 0 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.02828383445739746 seconds.
+
+Working on n=05, k=03, i=01
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.05834603309631348 seconds.
+
+Working on n=05, k=03, i=02
+Loading data from clique_data.json
+Already computed: 5 vertices, 3 vertices, 2 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.0319979190826416 seconds.
+
+Working on n=05, k=04, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 4 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.0298306941986084 seconds.
+
+Working on n=05, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.15163207054138184 seconds.
+
+Working on n=05, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.06493496894836426 seconds.
+
+Working on n=05, k=04, i=03
+Loading data from clique_data.json
+Already computed: 5 vertices, 4 vertices, 3 intersections
+Minimum sum: 5
+Elapsed time: 0.03425741195678711 seconds.
+
+Working on n=05, k=05, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 5 vertices, 0 intersections
+Minimum sum: 25
+This is a flower.
+Elapsed time: 0.024410247802734375 seconds.
+
+Working on n=05, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.0629425048828125 seconds.
+
+Working on n=05, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.05575895309448242 seconds.
+
+Working on n=05, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 0.10503935813903809 seconds.
+
+Working on n=05, k=05, i=04
+Loading data from clique_data.json
+Already computed: 5 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+Elapsed time: 0.03881216049194336 seconds.
+
+Working on n=05, k=06, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 6 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.027765750885009766 seconds.
+
+Working on n=05, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.06922006607055664 seconds.
+
+Working on n=05, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.09985518455505371 seconds.
+
+Working on n=05, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.07256603240966797 seconds.
+
+Working on n=05, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.16075730323791504 seconds.
+
+Working on n=05, k=06, i=05
+Loading data from clique_data.json
+Already computed: 5 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+Elapsed time: 0.02474379539489746 seconds.
+
+Working on n=05, k=07, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 7 vertices, 0 intersections
+Minimum sum: 35
+This is a flower.
+Elapsed time: 0.026623964309692383 seconds.
+
+Working on n=05, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 25
+Elapsed time: 0.05639219284057617 seconds.
+
+Working on n=05, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.08639717102050781 seconds.
+
+Working on n=05, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.11502480506896973 seconds.
+
+Working on n=05, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.13167119026184082 seconds.
+
+Working on n=05, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.10078024864196777 seconds.
+
+Working on n=05, k=07, i=06
+Loading data from clique_data.json
+Already computed: 5 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.0273284912109375 seconds.
+
+Working on n=05, k=08, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 8 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.03534531593322754 seconds.
+
+Working on n=05, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 0.05525541305541992 seconds.
+
+Working on n=05, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.062591552734375 seconds.
+
+Working on n=05, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.09859442710876465 seconds.
+
+Working on n=05, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.10783100128173828 seconds.
+
+Working on n=05, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.10884714126586914 seconds.
+
+Working on n=05, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.05092740058898926 seconds.
+
+Working on n=05, k=08, i=07
+Loading data from clique_data.json
+Already computed: 5 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.032712459564208984 seconds.
+
+Working on n=05, k=09, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 9 vertices, 0 intersections
+Minimum sum: 45
+This is a flower.
+Elapsed time: 0.02171492576599121 seconds.
+
+Working on n=05, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 35
+Elapsed time: 0.04816484451293945 seconds.
+
+Working on n=05, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 25
+Elapsed time: 0.06487250328063965 seconds.
+
+Working on n=05, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.05148744583129883 seconds.
+
+Working on n=05, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.1125490665435791 seconds.
+
+Working on n=05, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.11893868446350098 seconds.
+
+Working on n=05, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.11027836799621582 seconds.
+
+Working on n=05, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.0664362907409668 seconds.
+
+Working on n=05, k=09, i=08
+Loading data from clique_data.json
+Already computed: 5 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.038262367248535156 seconds.
+
+Working on n=05, k=10, i=00
+Loading data from clique_data.json
+Already computed: 5 vertices, 10 vertices, 0 intersections
+Minimum sum: 50
+This is a flower.
+Elapsed time: 0.03036046028137207 seconds.
+
+Working on n=05, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 40
+Elapsed time: 0.06342458724975586 seconds.
+
+Working on n=05, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 0.05382037162780762 seconds.
+
+Working on n=05, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 0.17134380340576172 seconds.
+
+Working on n=05, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.06195878982543945 seconds.
+
+Working on n=05, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.16401052474975586 seconds.
+
+Working on n=05, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.06793522834777832 seconds.
+
+Working on n=05, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.23355937004089355 seconds.
+
+Working on n=05, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.07577013969421387 seconds.
+
+Working on n=05, k=10, i=09
+Loading data from clique_data.json
+Already computed: 5 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.023058414459228516 seconds.
+
+Working on n=06, k=01, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 1 vertices, 0 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.026333093643188477 seconds.
+
+Working on n=06, k=02, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 2 vertices, 0 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.026394367218017578 seconds.
+
+Working on n=06, k=02, i=01
+Loading data from clique_data.json
+Already computed: 6 vertices, 2 vertices, 1 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.028354406356811523 seconds.
+
+Working on n=06, k=03, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 3 vertices, 0 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.033861398696899414 seconds.
+
+Working on n=06, k=03, i=01
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.07872223854064941 seconds.
+
+Working on n=06, k=03, i=02
+Loading data from clique_data.json
+Already computed: 6 vertices, 3 vertices, 2 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.028638362884521484 seconds.
+
+Working on n=06, k=04, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 4 vertices, 0 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.04055333137512207 seconds.
+
+Working on n=06, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.08416485786437988 seconds.
+
+Working on n=06, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.1455388069152832 seconds.
+
+Working on n=06, k=04, i=03
+Loading data from clique_data.json
+Already computed: 6 vertices, 4 vertices, 3 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.021134614944458008 seconds.
+
+Working on n=06, k=05, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 5 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.02015972137451172 seconds.
+
+Working on n=06, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.0848548412322998 seconds.
+
+Working on n=06, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.14924097061157227 seconds.
+
+Working on n=06, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 0.3212621212005615 seconds.
+
+Working on n=06, k=05, i=04
+Loading data from clique_data.json
+Already computed: 6 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+Elapsed time: 0.02694249153137207 seconds.
+
+Working on n=06, k=06, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 6 vertices, 0 intersections
+Minimum sum: 36
+This is a flower.
+Elapsed time: 0.04089689254760742 seconds.
+
+Working on n=06, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.0843040943145752 seconds.
+
+Working on n=06, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.08516383171081543 seconds.
+
+Working on n=06, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.5316019058227539 seconds.
+
+Working on n=06, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 0.3642396926879883 seconds.
+
+Working on n=06, k=06, i=05
+Loading data from clique_data.json
+Already computed: 6 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+Elapsed time: 0.032088279724121094 seconds.
+
+Working on n=06, k=07, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 7 vertices, 0 intersections
+Minimum sum: 42
+This is a flower.
+Elapsed time: 0.027248382568359375 seconds.
+
+Working on n=06, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 27
+Elapsed time: 0.07897019386291504 seconds.
+
+Working on n=06, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.0743720531463623 seconds.
+
+Working on n=06, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.40099263191223145 seconds.
+
+Working on n=06, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.230621337890625 seconds.
+
+Working on n=06, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 0.22466731071472168 seconds.
+
+Working on n=06, k=07, i=06
+Loading data from clique_data.json
+Already computed: 6 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.03273653984069824 seconds.
+
+Working on n=06, k=08, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 8 vertices, 0 intersections
+Minimum sum: 48
+This is a flower.
+Elapsed time: 0.02606678009033203 seconds.
+
+Working on n=06, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 33
+Elapsed time: 0.09325408935546875 seconds.
+
+Working on n=06, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 0.06835603713989258 seconds.
+
+Working on n=06, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.1376795768737793 seconds.
+
+Working on n=06, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.09464716911315918 seconds.
+
+Working on n=06, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.6520261764526367 seconds.
+
+Working on n=06, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.28723883628845215 seconds.
+
+Working on n=06, k=08, i=07
+Loading data from clique_data.json
+Already computed: 6 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.019929170608520508 seconds.
+
+Working on n=06, k=09, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 9 vertices, 0 intersections
+Minimum sum: 54
+This is a flower.
+Elapsed time: 0.02955484390258789 seconds.
+
+Working on n=06, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 39
+Elapsed time: 0.08261513710021973 seconds.
+
+Working on n=06, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 0.08255553245544434 seconds.
+
+Working on n=06, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.0809628963470459 seconds.
+
+Working on n=06, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.13733839988708496 seconds.
+
+Working on n=06, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.5835731029510498 seconds.
+
+Working on n=06, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 0.4512162208557129 seconds.
+
+Working on n=06, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.853708028793335 seconds.
+
+Working on n=06, k=09, i=08
+Loading data from clique_data.json
+Already computed: 6 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.0227663516998291 seconds.
+
+Working on n=06, k=10, i=00
+Loading data from clique_data.json
+Already computed: 6 vertices, 10 vertices, 0 intersections
+Minimum sum: 60
+This is a flower.
+Elapsed time: 0.023268699645996094 seconds.
+
+Working on n=06, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 45
+Elapsed time: 0.07314038276672363 seconds.
+
+Working on n=06, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 0.0762624740600586 seconds.
+
+Working on n=06, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 25
+Elapsed time: 0.10092926025390625 seconds.
+
+Working on n=06, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 0.14195537567138672 seconds.
+
+Working on n=06, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.7898719310760498 seconds.
+
+Working on n=06, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 0.15480875968933105 seconds.
+
+Working on n=06, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.3166239261627197 seconds.
+
+Working on n=06, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.08578729629516602 seconds.
+
+Working on n=06, k=10, i=09
+Loading data from clique_data.json
+Already computed: 6 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.028589963912963867 seconds.
+
+Working on n=07, k=01, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 1 vertices, 0 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.021213769912719727 seconds.
+
+Working on n=07, k=02, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 2 vertices, 0 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.025461435317993164 seconds.
+
+Working on n=07, k=02, i=01
+Loading data from clique_data.json
+Already computed: 7 vertices, 2 vertices, 1 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.021630048751831055 seconds.
+
+Working on n=07, k=03, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 3 vertices, 0 intersections
+Minimum sum: 21
+This is a flower.
+Elapsed time: 0.02429819107055664 seconds.
+
+Working on n=07, k=03, i=01
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.2237992286682129 seconds.
+
+Working on n=07, k=03, i=02
+Loading data from clique_data.json
+Already computed: 7 vertices, 3 vertices, 2 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.02978801727294922 seconds.
+
+Working on n=07, k=04, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 4 vertices, 0 intersections
+Minimum sum: 28
+This is a flower.
+Elapsed time: 0.03661942481994629 seconds.
+
+Working on n=07, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.20224761962890625 seconds.
+
+Working on n=07, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 7
+Elapsed time: 0.4126319885253906 seconds.
+
+Working on n=07, k=04, i=03
+Loading data from clique_data.json
+Already computed: 7 vertices, 4 vertices, 3 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.027105331420898438 seconds.
+
+Working on n=07, k=05, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 5 vertices, 0 intersections
+Minimum sum: 35
+This is a flower.
+Elapsed time: 0.02593517303466797 seconds.
+
+Working on n=07, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 0.13748693466186523 seconds.
+
+Working on n=07, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 0.8107481002807617 seconds.
+
+Working on n=07, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 8
+Elapsed time: 2.219529151916504 seconds.
+
+Working on n=07, k=05, i=04
+Loading data from clique_data.json
+Already computed: 7 vertices, 5 vertices, 4 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.031094074249267578 seconds.
+
+Working on n=07, k=06, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 6 vertices, 0 intersections
+Minimum sum: 42
+This is a flower.
+Elapsed time: 0.0295562744140625 seconds.
+
+Working on n=07, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.2055196762084961 seconds.
+
+Working on n=07, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.1464366912841797 seconds.
+
+Working on n=07, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 1.6545681953430176 seconds.
+
+Working on n=07, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 9
+Elapsed time: 2.403423309326172 seconds.
+
+Working on n=07, k=06, i=05
+Loading data from clique_data.json
+Already computed: 7 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+Elapsed time: 0.02648782730102539 seconds.
+
+Working on n=07, k=07, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 7 vertices, 0 intersections
+Minimum sum: 49
+This is a flower.
+Elapsed time: 0.027350187301635742 seconds.
+
+Working on n=07, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 28
+Elapsed time: 0.20765924453735352 seconds.
+
+Working on n=07, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 1.1258695125579834 seconds.
+
+Working on n=07, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.9242720603942871 seconds.
+
+Working on n=07, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 3.3416106700897217 seconds.
+
+Working on n=07, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 10
+Elapsed time: 1.3961260318756104 seconds.
+
+Working on n=07, k=07, i=06
+Loading data from clique_data.json
+Already computed: 7 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.03789639472961426 seconds.
+
+Working on n=07, k=08, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 8 vertices, 0 intersections
+Minimum sum: 56
+This is a flower.
+Elapsed time: 0.03288602828979492 seconds.
+
+Working on n=07, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 35
+Elapsed time: 0.2063453197479248 seconds.
+
+Working on n=07, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 1.3143408298492432 seconds.
+
+Working on n=07, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 3.0928454399108887 seconds.
+
+Working on n=07, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 0.2991304397583008 seconds.
+
+Working on n=07, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 1.583937168121338 seconds.
+
+Working on n=07, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 1.7416818141937256 seconds.
+
+Working on n=07, k=08, i=07
+Loading data from clique_data.json
+Already computed: 7 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.02798938751220703 seconds.
+
+Working on n=07, k=09, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 9 vertices, 0 intersections
+Minimum sum: 63
+This is a flower.
+Elapsed time: 0.03723454475402832 seconds.
+
+Working on n=07, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 42
+Elapsed time: 0.20972514152526855 seconds.
+
+Working on n=07, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 28
+Elapsed time: 0.3068413734436035 seconds.
+
+Working on n=07, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.14432859420776367 seconds.
+
+Working on n=07, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 2.2279052734375 seconds.
+
+Working on n=07, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 2.169613838195801 seconds.
+
+Working on n=07, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 2.0612564086914062 seconds.
+
+Working on n=07, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 1.05892014503479 seconds.
+
+Working on n=07, k=09, i=08
+Loading data from clique_data.json
+Already computed: 7 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.03242230415344238 seconds.
+
+Working on n=07, k=10, i=00
+Loading data from clique_data.json
+Already computed: 7 vertices, 10 vertices, 0 intersections
+Minimum sum: 70
+This is a flower.
+Elapsed time: 0.03119826316833496 seconds.
+
+Working on n=07, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 49
+Elapsed time: 0.21668672561645508 seconds.
+
+Working on n=07, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 33
+Elapsed time: 0.41623520851135254 seconds.
+
+Working on n=07, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 1.2243940830230713 seconds.
+
+Working on n=07, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 21
+Elapsed time: 0.5529797077178955 seconds.
+
+Working on n=07, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 2.363389730453491 seconds.
+
+Working on n=07, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 2.279038906097412 seconds.
+
+Working on n=07, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 1.860034465789795 seconds.
+
+Working on n=07, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 1.2106914520263672 seconds.
+
+Working on n=07, k=10, i=09
+Loading data from clique_data.json
+Already computed: 7 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.027743816375732422 seconds.
+
+Working on n=08, k=01, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 1 vertices, 0 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.032034873962402344 seconds.
+
+Working on n=08, k=02, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 2 vertices, 0 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.036401987075805664 seconds.
+
+Working on n=08, k=02, i=01
+Loading data from clique_data.json
+Already computed: 8 vertices, 2 vertices, 1 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.030331850051879883 seconds.
+
+Working on n=08, k=03, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 3 vertices, 0 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.039566755294799805 seconds.
+
+Working on n=08, k=03, i=01
+Loading data from clique_data.json
+Already computed: 8 vertices, 3 vertices, 1 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.03498125076293945 seconds.
+
+Working on n=08, k=03, i=02
+Loading data from clique_data.json
+Already computed: 8 vertices, 3 vertices, 2 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.031458139419555664 seconds.
+
+Working on n=08, k=04, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 4 vertices, 0 intersections
+Minimum sum: 32
+This is a flower.
+Elapsed time: 0.03250694274902344 seconds.
+
+Working on n=08, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 0.3447577953338623 seconds.
+
+Working on n=08, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 18
+This is a flower.
+Elapsed time: 196.3519320487976 seconds.
+
+Working on n=08, k=04, i=03
+Loading data from clique_data.json
+Already computed: 8 vertices, 4 vertices, 3 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03588223457336426 seconds.
+
+Working on n=08, k=05, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 5 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.03417611122131348 seconds.
+
+Working on n=08, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 0.3496842384338379 seconds.
+
+Working on n=08, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 3.9670474529266357 seconds.
+
+Working on n=08, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 19
+This is a flower.
+Elapsed time: 393.0433156490326 seconds.
+
+Working on n=08, k=05, i=04
+Loading data from clique_data.json
+Already computed: 8 vertices, 5 vertices, 4 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03384804725646973 seconds.
+
+Working on n=08, k=06, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 6 vertices, 0 intersections
+Minimum sum: 48
+This is a flower.
+Elapsed time: 0.026116371154785156 seconds.
+
+Working on n=08, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 23
+Elapsed time: 0.6188321113586426 seconds.
+
+Working on n=08, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 12.617393016815186 seconds.
+
+Working on n=08, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 17.854657888412476 seconds.
+
+Working on n=08, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 20
+This is a flower.
+Elapsed time: 329.17493295669556 seconds.
+
+Working on n=08, k=06, i=05
+Loading data from clique_data.json
+Already computed: 8 vertices, 6 vertices, 5 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.033962249755859375 seconds.
+
+Working on n=08, k=07, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 7 vertices, 0 intersections
+Minimum sum: 56
+This is a flower.
+Elapsed time: 0.026386499404907227 seconds.
+
+Working on n=08, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 28
+Elapsed time: 0.43246984481811523 seconds.
+
+Working on n=08, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 3.823718786239624 seconds.
+
+Working on n=08, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 2.2122907638549805 seconds.
+
+Working on n=08, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 20.385305166244507 seconds.
+
+Working on n=08, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 21
+This is a flower.
+Elapsed time: 374.25063729286194 seconds.
+
+Working on n=08, k=07, i=06
+Loading data from clique_data.json
+Already computed: 8 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+Elapsed time: 0.0351409912109375 seconds.
+
+Working on n=08, k=08, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 8 vertices, 0 intersections
+Minimum sum: 64
+This is a flower.
+Elapsed time: 0.0272371768951416 seconds.
+
+Working on n=08, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 36
+Elapsed time: 0.39296770095825195 seconds.
+
+Working on n=08, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 0.4062056541442871 seconds.
+
+Working on n=08, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 3.15632963180542 seconds.
+
+Working on n=08, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 61.08836841583252 seconds.
+
+Working on n=08, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 1.9435925483703613 seconds.
+
+Working on n=08, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 283.2293555736542 seconds.
+
+Working on n=08, k=08, i=07
+Loading data from clique_data.json
+Already computed: 8 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.03616189956665039 seconds.
+
+Working on n=08, k=09, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 9 vertices, 0 intersections
+Minimum sum: 72
+This is a flower.
+Elapsed time: 0.02923750877380371 seconds.
+
+Working on n=08, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 44
+Elapsed time: 0.3845350742340088 seconds.
+
+Working on n=08, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 2.7189807891845703 seconds.
+
+Working on n=08, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 3.109727144241333 seconds.
+
+Working on n=08, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 34.27699875831604 seconds.
+
+Working on n=08, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 15.375165224075317 seconds.
+
+Working on n=08, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 3.2647242546081543 seconds.
+
+Working on n=08, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 17
+Elapsed time: 364.10813665390015 seconds.
+
+Working on n=08, k=09, i=08
+Loading data from clique_data.json
+Already computed: 8 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.036483049392700195 seconds.
+
+Working on n=08, k=10, i=00
+Loading data from clique_data.json
+Already computed: 8 vertices, 10 vertices, 0 intersections
+Minimum sum: 80
+This is a flower.
+Elapsed time: 0.028799772262573242 seconds.
+
+Working on n=08, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 52
+Elapsed time: 0.3904883861541748 seconds.
+
+Working on n=08, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 35
+Elapsed time: 1.7139818668365479 seconds.
+
+Working on n=08, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 2.3208255767822266 seconds.
+
+Working on n=08, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 9.340010166168213 seconds.
+
+Working on n=08, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 3.4428887367248535 seconds.
+
+Working on n=08, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 26.63067054748535 seconds.
+
+Working on n=08, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 4.508617877960205 seconds.
+
+Working on n=08, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 345.71397161483765 seconds.
+
+Working on n=08, k=10, i=09
+Loading data from clique_data.json
+Already computed: 8 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.036092519760131836 seconds.
+
+Working on n=09, k=01, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 1 vertices, 0 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.035070180892944336 seconds.
+
+Working on n=09, k=02, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 2 vertices, 0 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.029973268508911133 seconds.
+
+Working on n=09, k=02, i=01
+Loading data from clique_data.json
+Already computed: 9 vertices, 2 vertices, 1 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.02944803237915039 seconds.
+
+Working on n=09, k=03, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 3 vertices, 0 intersections
+Minimum sum: 27
+This is a flower.
+Elapsed time: 0.028847932815551758 seconds.
+
+Working on n=09, k=03, i=01
+Loading data from clique_data.json
+Already computed: 9 vertices, 3 vertices, 1 intersections
+Minimum sum: 19
+This is a flower.
+Elapsed time: 0.03348731994628906 seconds.
+
+Working on n=09, k=03, i=02
+Loading data from clique_data.json
+Already computed: 9 vertices, 3 vertices, 2 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.034337520599365234 seconds.
+
+Working on n=09, k=04, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 4 vertices, 0 intersections
+Minimum sum: 36
+This is a flower.
+Elapsed time: 0.02919459342956543 seconds.
+
+Working on n=09, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 2.0019237995147705 seconds.
+
+Working on n=09, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 20
+This is a flower.
+Elapsed time: 149.37911820411682 seconds.
+
+Working on n=09, k=04, i=03
+Loading data from clique_data.json
+Already computed: 9 vertices, 4 vertices, 3 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03743481636047363 seconds.
+
+Working on n=09, k=05, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 5 vertices, 0 intersections
+Minimum sum: 45
+This is a flower.
+Elapsed time: 0.03155779838562012 seconds.
+
+Working on n=09, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 2.1737940311431885 seconds.
+
+Working on n=09, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 36.080061197280884 seconds.
+
+Working on n=09, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 21
+This is a flower.
+Elapsed time: 168.52291917800903 seconds.
+
+Working on n=09, k=05, i=04
+Loading data from clique_data.json
+Already computed: 9 vertices, 5 vertices, 4 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.040374755859375 seconds.
+
+Working on n=09, k=06, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 6 vertices, 0 intersections
+Minimum sum: 54
+This is a flower.
+Elapsed time: 0.03809022903442383 seconds.
+
+Working on n=09, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 3.487370491027832 seconds.
+
+Working on n=09, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 7.953356742858887 seconds.
+
+Working on n=09, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 45.797210931777954 seconds.
+
+Working on n=09, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 22
+This is a flower.
+Elapsed time: 93.70928573608398 seconds.
+
+Working on n=09, k=06, i=05
+Loading data from clique_data.json
+Already computed: 9 vertices, 6 vertices, 5 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.0427553653717041 seconds.
+
+Working on n=09, k=07, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 7 vertices, 0 intersections
+Minimum sum: 63
+This is a flower.
+Elapsed time: 0.03635811805725098 seconds.
+
+Working on n=09, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 2.4193832874298096 seconds.
+
+Working on n=09, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 76.99828624725342 seconds.
+
+Working on n=09, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 50.9466495513916 seconds.
+
+Working on n=09, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 108.98048686981201 seconds.
+
+Working on n=09, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 23
+This is a flower.
+Elapsed time: 58.39848470687866 seconds.
+
+Working on n=09, k=07, i=06
+Loading data from clique_data.json
+Already computed: 9 vertices, 7 vertices, 6 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.037113189697265625 seconds.
+
+Working on n=09, k=08, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 8 vertices, 0 intersections
+Minimum sum: 72
+This is a flower.
+Elapsed time: 0.03615856170654297 seconds.
+
+Working on n=09, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 36
+Elapsed time: 2.2384915351867676 seconds.
+
+Working on n=09, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 24
+Elapsed time: 2.5141117572784424 seconds.
+
+Working on n=09, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 5.903342008590698 seconds.
+
+Working on n=09, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 10.080719709396362 seconds.
+
+Working on n=09, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 3.189091682434082 seconds.
+
+Working on n=09, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 24
+This is a flower.
+Elapsed time: 1770.0409319400787 seconds.
+
+Working on n=09, k=08, i=07
+Loading data from clique_data.json
+Already computed: 9 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+Elapsed time: 0.03842949867248535 seconds.
+
+Working on n=09, k=09, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 9 vertices, 0 intersections
+Minimum sum: 81
+This is a flower.
+Elapsed time: 0.035936594009399414 seconds.
+
+Working on n=09, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 45
+Elapsed time: 1.9928004741668701 seconds.
+
+Working on n=09, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 1.482532262802124 seconds.
+
+Working on n=09, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 23
+Elapsed time: 30.150718450546265 seconds.
+
+Working on n=09, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 7.63683557510376 seconds.
+
+Working on n=09, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 7.451081275939941 seconds.
+
+Working on n=09, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 7.712823390960693 seconds.
+
+Working on n=09, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 1384.7124531269073 seconds.
+
+Working on n=09, k=09, i=08
+Loading data from clique_data.json
+Already computed: 9 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.04242587089538574 seconds.
+
+Working on n=09, k=10, i=00
+Loading data from clique_data.json
+Already computed: 9 vertices, 10 vertices, 0 intersections
+Minimum sum: 90
+This is a flower.
+Elapsed time: 0.04127168655395508 seconds.
+
+Working on n=09, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 54
+Elapsed time: 2.019240140914917 seconds.
+
+Working on n=09, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 36
+Elapsed time: 1.457920789718628 seconds.
+
+Working on n=09, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 27
+Elapsed time: 7.2485151290893555 seconds.
+
+Working on n=09, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 75.25443959236145 seconds.
+
+Working on n=09, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 6.343823432922363 seconds.
+
+Working on n=09, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 32.40204954147339 seconds.
+
+Working on n=09, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 8.055838823318481 seconds.
+
+Working on n=09, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 1539.097529411316 seconds.
+
+Working on n=09, k=10, i=09
+Loading data from clique_data.json
+Already computed: 9 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.039742469787597656 seconds.
+
+Working on n=10, k=01, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 1 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.031260013580322266 seconds.
+
+Working on n=10, k=02, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.039014577865600586 seconds.
+
+Working on n=10, k=02, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 1 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.035096168518066406 seconds.
+
+Working on n=10, k=03, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.031031131744384766 seconds.
+
+Working on n=10, k=03, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 1 intersections
+Minimum sum: 21
+This is a flower.
+Elapsed time: 0.03184199333190918 seconds.
+
+Working on n=10, k=03, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 2 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03072381019592285 seconds.
+
+Working on n=10, k=04, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.03152632713317871 seconds.
+
+Working on n=10, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 26.199527502059937 seconds.
+
+Working on n=10, k=04, i=02
+Loading data from clique_data.json
+Minimum sum: 22
+This is a flower.
+Elapsed time: 4259.3726370334625 seconds.
+
+Working on n=10, k=04, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 3 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.0427706241607666 seconds.
+
+Working on n=10, k=05, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 0 intersections
+Minimum sum: 50
+This is a flower.
+Elapsed time: 0.03645491600036621 seconds.
+
+Working on n=10, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 32.36469507217407 seconds.
+
+Working on n=10, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 15.918198108673096 seconds.
+
+Working on n=10, k=05, i=03
+Loading data from clique_data.json
+Minimum sum: 23
+This is a flower.
+Elapsed time: 4245.765520572662 seconds.
+
+Working on n=10, k=05, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 4 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.043549299240112305 seconds.
+
+Working on n=10, k=06, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 0 intersections
+Minimum sum: 60
+This is a flower.
+Elapsed time: 0.04360699653625488 seconds.
+
+Working on n=10, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 25
+Elapsed time: 18.47793674468994 seconds.
+
+Working on n=10, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 17.8825945854187 seconds.
+
+Working on n=10, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 17.09791660308838 seconds.
+
+Working on n=10, k=06, i=04
+Loading data from clique_data.json
+Minimum sum: 24
+This is a flower.
+Elapsed time: 2798.388422012329 seconds.
+
+Working on n=10, k=06, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 5 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.04751157760620117 seconds.
+
+Working on n=10, k=07, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 0 intersections
+Minimum sum: 70
+This is a flower.
+Elapsed time: 0.04587912559509277 seconds.
+
+Working on n=10, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 32
+Elapsed time: 14.045672416687012 seconds.
+
+Working on n=10, k=07, i=02
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 26.110881805419922 seconds.
+
+Working on n=10, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 74.24106502532959 seconds.
+
+Working on n=10, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 464.31289553642273 seconds.
+
+Working on n=10, k=07, i=05
+Loading data from clique_data.json
+Minimum sum: 25
+This is a flower.
+Elapsed time: 1762.3849301338196 seconds.
+
+Working on n=10, k=07, i=06
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 6 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.04857587814331055 seconds.
+
+Working on n=10, k=08, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 0 intersections
+Minimum sum: 80
+This is a flower.
+Elapsed time: 0.05072665214538574 seconds.
+
+Working on n=10, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 39
+Elapsed time: 14.895081996917725 seconds.
+
+Working on n=10, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 25
+Elapsed time: 20.367645502090454 seconds.
+
+Working on n=10, k=08, i=03
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 7086.127728700638 seconds.
+
+Working on n=10, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 8357.13741159439 seconds.
+
+Working on n=10, k=08, i=05
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 875.9698395729065 seconds.
+
+Working on n=10, k=08, i=06
+Loading data from clique_data.json
+Minimum sum: 26
+This is a flower.
+Elapsed time: 4259.4432582855225 seconds.
+
+Working on n=10, k=08, i=07
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 7 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.04252910614013672 seconds.
+
+Working on n=10, k=09, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 0 intersections
+Minimum sum: 90
+This is a flower.
+Elapsed time: 0.03285932540893555 seconds.
+
+Working on n=10, k=09, i=01
+Loading data from clique_data.json
+Minimum sum: 45
+Elapsed time: 14.692543983459473 seconds.
+
+Working on n=10, k=09, i=02
+Loading data from clique_data.json
+Minimum sum: 30
+Elapsed time: 10.864474773406982 seconds.
+
+Working on n=10, k=09, i=03
+Loading data from clique_data.json
+Minimum sum: 23
+Elapsed time: 2862.4932520389557 seconds.
+
+Working on n=10, k=09, i=04
+Loading data from clique_data.json
+Minimum sum: 18
+Elapsed time: 16.14225196838379 seconds.
+
+Working on n=10, k=09, i=05
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 16.244858026504517 seconds.
+
+Working on n=10, k=09, i=06
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 41.20810604095459 seconds.
+
+Working on n=10, k=09, i=07
+Loading data from clique_data.json
+Minimum sum: 27
+This is a flower.
+Elapsed time: 11028.194023370743 seconds.
+
+Working on n=10, k=09, i=08
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.04863333702087402 seconds.
+
+Working on n=10, k=10, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 0 intersections
+Minimum sum: 100
+This is a flower.
+Elapsed time: 0.04490303993225098 seconds.
+
+Working on n=10, k=10, i=01
+Loading data from clique_data.json
+Minimum sum: 55
+Elapsed time: 14.251723289489746 seconds.
+
+Working on n=10, k=10, i=02
+Loading data from clique_data.json
+Minimum sum: 37
+Elapsed time: 37.6455864906311 seconds.
+
+Working on n=10, k=10, i=03
+Loading data from clique_data.json
+Minimum sum: 28
+Elapsed time: 62.67732214927673 seconds.
+
+Working on n=10, k=10, i=04
+Loading data from clique_data.json
+Minimum sum: 22
+Elapsed time: 16.732319593429565 seconds.
+
+Working on n=10, k=10, i=05
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 27691.08070898056 seconds.
+
+Working on n=10, k=10, i=06
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 17.697518825531006 seconds.
+
+Working on n=10, k=10, i=07
+Loading data from clique_data.json
+Minimum sum: 14
+Elapsed time: 17.6050124168396 seconds.
+
+Working on n=10, k=10, i=08
+Loading data from clique_data.json
+Minimum sum: 20
+Elapsed time: 8909.579285621643 seconds.
+
+Working on n=10, k=10, i=09
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.0444493293762207 seconds.
+
+Working on n=11, k=01, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 1 vertices, 0 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03422832489013672 seconds.
+
+Working on n=11, k=02, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 0 intersections
+Minimum sum: 22
+This is a flower.
+Elapsed time: 0.034240007400512695 seconds.
+
+Working on n=11, k=02, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 1 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.04509377479553223 seconds.
+
+Working on n=11, k=03, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 0 intersections
+Minimum sum: 33
+This is a flower.
+Elapsed time: 0.0366060733795166 seconds.
+
+Working on n=11, k=03, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 1 intersections
+Minimum sum: 23
+This is a flower.
+Elapsed time: 0.04470515251159668 seconds.
+
+Working on n=11, k=03, i=02
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 2 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.0432126522064209 seconds.
+
+Working on n=11, k=04, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 0 intersections
+Minimum sum: 44
+This is a flower.
+Elapsed time: 0.04218459129333496 seconds.
+
+Working on n=11, k=04, i=01
+Loading data from clique_data.json
+Minimum sum: 13
+Elapsed time: 99.77641987800598 seconds.
+
+Working on n=11, k=04, i=02
+Loading data from clique_data.json
+
+Working on n=02, k=01, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 1 vertices, 0 intersections
+Minimum sum: 2
+This is a flower.
+Elapsed time: 0.04785513877868652 seconds.
+
+Working on n=02, k=02, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 2 vertices, 0 intersections
+Minimum sum: 4
+This is a flower.
+Elapsed time: 0.03699183464050293 seconds.
+
+Working on n=02, k=02, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 2 vertices, 1 intersections
+Minimum sum: 3
+This is a flower.
+Elapsed time: 0.0354466438293457 seconds.
+
+Working on n=02, k=03, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 0 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.03788018226623535 seconds.
+
+Working on n=02, k=03, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 1 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.03586888313293457 seconds.
+
+Working on n=02, k=03, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 3 vertices, 2 intersections
+Minimum sum: 4
+This is a flower.
+Elapsed time: 0.03435039520263672 seconds.
+
+Working on n=02, k=04, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 0 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.03654170036315918 seconds.
+
+Working on n=02, k=04, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 1 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.035796403884887695 seconds.
+
+Working on n=02, k=04, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 2 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.034456729888916016 seconds.
+
+Working on n=02, k=04, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 4 vertices, 3 intersections
+Minimum sum: 5
+This is a flower.
+Elapsed time: 0.03531789779663086 seconds.
+
+Working on n=02, k=05, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.03799080848693848 seconds.
+
+Working on n=02, k=05, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 1 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.034732818603515625 seconds.
+
+Working on n=02, k=05, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 2 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.03288626670837402 seconds.
+
+Working on n=02, k=05, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 3 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.03630352020263672 seconds.
+
+Working on n=02, k=05, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 5 vertices, 4 intersections
+Minimum sum: 6
+This is a flower.
+Elapsed time: 0.03591561317443848 seconds.
+
+Working on n=02, k=06, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 0 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03751945495605469 seconds.
+
+Working on n=02, k=06, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 1 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.037130117416381836 seconds.
+
+Working on n=02, k=06, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 2 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.03641676902770996 seconds.
+
+Working on n=02, k=06, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 3 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.03495073318481445 seconds.
+
+Working on n=02, k=06, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 4 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.03518366813659668 seconds.
+
+Working on n=02, k=06, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 6 vertices, 5 intersections
+Minimum sum: 7
+This is a flower.
+Elapsed time: 0.037949323654174805 seconds.
+
+Working on n=02, k=07, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 0 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.033895015716552734 seconds.
+
+Working on n=02, k=07, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 1 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.034674644470214844 seconds.
+
+Working on n=02, k=07, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 2 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03461766242980957 seconds.
+
+Working on n=02, k=07, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 3 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03832054138183594 seconds.
+
+Working on n=02, k=07, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 4 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.03679370880126953 seconds.
+
+Working on n=02, k=07, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 5 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.0341801643371582 seconds.
+
+Working on n=02, k=07, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 7 vertices, 6 intersections
+Minimum sum: 8
+This is a flower.
+Elapsed time: 0.036092281341552734 seconds.
+
+Working on n=02, k=08, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 0 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.035233497619628906 seconds.
+
+Working on n=02, k=08, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 1 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.03659963607788086 seconds.
+
+Working on n=02, k=08, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 2 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.0369715690612793 seconds.
+
+Working on n=02, k=08, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 3 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.034696102142333984 seconds.
+
+Working on n=02, k=08, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 4 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03518486022949219 seconds.
+
+Working on n=02, k=08, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 5 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03486180305480957 seconds.
+
+Working on n=02, k=08, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 6 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.033579111099243164 seconds.
+
+Working on n=02, k=08, i=07
+Loading data from clique_data.json
+Already computed: 2 vertices, 8 vertices, 7 intersections
+Minimum sum: 9
+This is a flower.
+Elapsed time: 0.0345304012298584 seconds.
+
+Working on n=02, k=09, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 0 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.03456401824951172 seconds.
+
+Working on n=02, k=09, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 1 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.03516435623168945 seconds.
+
+Working on n=02, k=09, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 2 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.0347750186920166 seconds.
+
+Working on n=02, k=09, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 3 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.03394460678100586 seconds.
+
+Working on n=02, k=09, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 4 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.03600358963012695 seconds.
+
+Working on n=02, k=09, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 5 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.03535723686218262 seconds.
+
+Working on n=02, k=09, i=06
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 6 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03490710258483887 seconds.
+
+Working on n=02, k=09, i=07
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 7 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03438925743103027 seconds.
+
+Working on n=02, k=09, i=08
+Loading data from clique_data.json
+Already computed: 2 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.034677743911743164 seconds.
+
+Working on n=02, k=10, i=00
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.0367281436920166 seconds.
+
+Working on n=02, k=10, i=01
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 1 intersections
+Minimum sum: 19
+This is a flower.
+Elapsed time: 0.03454136848449707 seconds.
+
+Working on n=02, k=10, i=02
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 2 intersections
+Minimum sum: 18
+This is a flower.
+Elapsed time: 0.03460359573364258 seconds.
+
+Working on n=02, k=10, i=03
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 3 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.035286664962768555 seconds.
+
+Working on n=02, k=10, i=04
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 4 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.03554034233093262 seconds.
+
+Working on n=02, k=10, i=05
+Loading data from clique_data.json
+Already computed: 2 vertices, 10 vertices, 5 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.034415483474731445 seconds.
+
+Working on n=10, k=01, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 1 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.04587411880493164 seconds.
+
+Working on n=10, k=02, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.03474235534667969 seconds.
+
+Working on n=10, k=02, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 1 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.034119606018066406 seconds.
+
+Working on n=10, k=03, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.0364530086517334 seconds.
+
+Working on n=10, k=03, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 1 intersections
+Minimum sum: 21
+This is a flower.
+Elapsed time: 0.0349123477935791 seconds.
+
+Working on n=10, k=03, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 2 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03597617149353027 seconds.
+
+Working on n=10, k=04, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.03376364707946777 seconds.
+
+Working on n=10, k=04, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 1 intersections
+Minimum sum: 13
+Elapsed time: 0.0343475341796875 seconds.
+
+Working on n=10, k=04, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 2 intersections
+Minimum sum: 22
+This is a flower.
+Elapsed time: 0.03399991989135742 seconds.
+
+Working on n=10, k=04, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 3 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.037059783935546875 seconds.
+
+Working on n=10, k=05, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 0 intersections
+Minimum sum: 50
+This is a flower.
+Elapsed time: 0.03331422805786133 seconds.
+
+Working on n=10, k=05, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 1 intersections
+Minimum sum: 19
+Elapsed time: 0.03445315361022949 seconds.
+
+Working on n=10, k=05, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 2 intersections
+Minimum sum: 11
+Elapsed time: 0.03525495529174805 seconds.
+
+Working on n=10, k=05, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 3 intersections
+Minimum sum: 23
+This is a flower.
+Elapsed time: 0.03567075729370117 seconds.
+
+Working on n=10, k=05, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 5 vertices, 4 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.03487062454223633 seconds.
+
+Working on n=10, k=06, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 0 intersections
+Minimum sum: 60
+This is a flower.
+Elapsed time: 0.0355525016784668 seconds.
+
+Working on n=10, k=06, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 1 intersections
+Minimum sum: 25
+Elapsed time: 0.03529524803161621 seconds.
+
+Working on n=10, k=06, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 2 intersections
+Minimum sum: 15
+Elapsed time: 0.036351680755615234 seconds.
+
+Working on n=10, k=06, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 3 intersections
+Minimum sum: 11
+Elapsed time: 0.03523564338684082 seconds.
+
+Working on n=10, k=06, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 4 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.0350496768951416 seconds.
+
+Working on n=10, k=06, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 6 vertices, 5 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.04559755325317383 seconds.
+
+Working on n=10, k=07, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 0 intersections
+Minimum sum: 70
+This is a flower.
+Elapsed time: 0.03577232360839844 seconds.
+
+Working on n=10, k=07, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 1 intersections
+Minimum sum: 32
+Elapsed time: 0.03551483154296875 seconds.
+
+Working on n=10, k=07, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 2 intersections
+Minimum sum: 20
+Elapsed time: 0.034676313400268555 seconds.
+
+Working on n=10, k=07, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 3 intersections
+Minimum sum: 15
+Elapsed time: 0.035492897033691406 seconds.
+
+Working on n=10, k=07, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 4 intersections
+Minimum sum: 12
+Elapsed time: 0.035709381103515625 seconds.
+
+Working on n=10, k=07, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 5 intersections
+Minimum sum: 25
+This is a flower.
+Elapsed time: 0.03548789024353027 seconds.
+
+Working on n=10, k=07, i=06
+Loading data from clique_data.json
+Already computed: 10 vertices, 7 vertices, 6 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.034748077392578125 seconds.
+
+Working on n=10, k=08, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 0 intersections
+Minimum sum: 80
+This is a flower.
+Elapsed time: 0.036276817321777344 seconds.
+
+Working on n=10, k=08, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 1 intersections
+Minimum sum: 39
+Elapsed time: 0.035796165466308594 seconds.
+
+Working on n=10, k=08, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 2 intersections
+Minimum sum: 25
+Elapsed time: 0.0361933708190918 seconds.
+
+Working on n=10, k=08, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 3 intersections
+Minimum sum: 19
+Elapsed time: 0.034470558166503906 seconds.
+
+Working on n=10, k=08, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 4 intersections
+Minimum sum: 15
+Elapsed time: 0.03451943397521973 seconds.
+
+Working on n=10, k=08, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 5 intersections
+Minimum sum: 13
+Elapsed time: 0.035264015197753906 seconds.
+
+Working on n=10, k=08, i=06
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 6 intersections
+Minimum sum: 26
+This is a flower.
+Elapsed time: 0.03480219841003418 seconds.
+
+Working on n=10, k=08, i=07
+Loading data from clique_data.json
+Already computed: 10 vertices, 8 vertices, 7 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.03645777702331543 seconds.
+
+Working on n=10, k=09, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 0 intersections
+Minimum sum: 90
+This is a flower.
+Elapsed time: 0.0359799861907959 seconds.
+
+Working on n=10, k=09, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 1 intersections
+Minimum sum: 45
+Elapsed time: 0.03711819648742676 seconds.
+
+Working on n=10, k=09, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 2 intersections
+Minimum sum: 30
+Elapsed time: 0.03517270088195801 seconds.
+
+Working on n=10, k=09, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 3 intersections
+Minimum sum: 23
+Elapsed time: 0.03594779968261719 seconds.
+
+Working on n=10, k=09, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 4 intersections
+Minimum sum: 18
+Elapsed time: 0.03535890579223633 seconds.
+
+Working on n=10, k=09, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 5 intersections
+Minimum sum: 15
+Elapsed time: 0.03638195991516113 seconds.
+
+Working on n=10, k=09, i=06
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 6 intersections
+Minimum sum: 13
+Elapsed time: 0.03474164009094238 seconds.
+
+Working on n=10, k=09, i=07
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 7 intersections
+Minimum sum: 27
+This is a flower.
+Elapsed time: 0.03558039665222168 seconds.
+
+Working on n=10, k=09, i=08
+Loading data from clique_data.json
+Already computed: 10 vertices, 9 vertices, 8 intersections
+Minimum sum: 10
+Elapsed time: 0.035697221755981445 seconds.
+
+Working on n=10, k=10, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 0 intersections
+Minimum sum: 100
+This is a flower.
+Elapsed time: 0.03673052787780762 seconds.
+
+Working on n=10, k=10, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 1 intersections
+Minimum sum: 55
+Elapsed time: 0.035750627517700195 seconds.
+
+Working on n=10, k=10, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 2 intersections
+Minimum sum: 37
+Elapsed time: 0.03497195243835449 seconds.
+
+Working on n=10, k=10, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 3 intersections
+Minimum sum: 28
+Elapsed time: 0.03598451614379883 seconds.
+
+Working on n=10, k=10, i=04
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 4 intersections
+Minimum sum: 22
+Elapsed time: 0.03422713279724121 seconds.
+
+Working on n=10, k=10, i=05
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 5 intersections
+Minimum sum: 19
+Elapsed time: 0.03685355186462402 seconds.
+
+Working on n=10, k=10, i=06
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 6 intersections
+Minimum sum: 16
+Elapsed time: 0.034062862396240234 seconds.
+
+Working on n=10, k=10, i=07
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 7 intersections
+Minimum sum: 14
+Elapsed time: 0.0351870059967041 seconds.
+
+Working on n=10, k=10, i=08
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 8 intersections
+Minimum sum: 20
+Elapsed time: 0.04585671424865723 seconds.
+
+Working on n=10, k=10, i=09
+Loading data from clique_data.json
+Already computed: 10 vertices, 10 vertices, 9 intersections
+Minimum sum: 11
+Elapsed time: 0.03574371337890625 seconds.
+
+Working on n=11, k=01, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 1 vertices, 0 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.03583550453186035 seconds.
+
+Working on n=11, k=02, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 0 intersections
+Minimum sum: 22
+This is a flower.
+Elapsed time: 0.03382110595703125 seconds.
+
+Working on n=11, k=02, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 1 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03565835952758789 seconds.
+
+Working on n=11, k=03, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 0 intersections
+Minimum sum: 33
+This is a flower.
+Elapsed time: 0.03781914710998535 seconds.
+
+Working on n=11, k=03, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 1 intersections
+Minimum sum: 23
+This is a flower.
+Elapsed time: 0.03469514846801758 seconds.
+
+Working on n=11, k=03, i=02
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 2 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.03476071357727051 seconds.
+
+Working on n=11, k=04, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 0 intersections
+Minimum sum: 44
+This is a flower.
+Elapsed time: 0.03657817840576172 seconds.
+
+Working on n=11, k=04, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 1 intersections
+Minimum sum: 13
+Elapsed time: 0.045137643814086914 seconds.
+
+Working on n=11, k=04, i=02
+Loading data from clique_data.json
+
+Working on n=10, k=01, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 1 vertices, 0 intersections
+Minimum sum: 10
+This is a flower.
+Elapsed time: 0.0480351448059082 seconds.
+
+Working on n=10, k=02, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 0 intersections
+Minimum sum: 20
+This is a flower.
+Elapsed time: 0.03524327278137207 seconds.
+
+Working on n=10, k=02, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 2 vertices, 1 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.035204410552978516 seconds.
+
+Working on n=10, k=03, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 0 intersections
+Minimum sum: 30
+This is a flower.
+Elapsed time: 0.03615427017211914 seconds.
+
+Working on n=10, k=03, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 1 intersections
+Minimum sum: 21
+This is a flower.
+Elapsed time: 0.03656196594238281 seconds.
+
+Working on n=10, k=03, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 3 vertices, 2 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.034610748291015625 seconds.
+
+Working on n=10, k=04, i=00
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 0 intersections
+Minimum sum: 40
+This is a flower.
+Elapsed time: 0.03461337089538574 seconds.
+
+Working on n=10, k=04, i=01
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 1 intersections
+Minimum sum: 13
+Elapsed time: 0.03349804878234863 seconds.
+
+Working on n=10, k=04, i=02
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 2 intersections
+Minimum sum: 22
+This is a flower.
+Elapsed time: 0.03536343574523926 seconds.
+
+Working on n=10, k=04, i=03
+Loading data from clique_data.json
+Already computed: 10 vertices, 4 vertices, 3 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.03493070602416992 seconds.
+
+Working on n=11, k=01, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 1 vertices, 0 intersections
+Minimum sum: 11
+This is a flower.
+Elapsed time: 0.04448986053466797 seconds.
+
+Working on n=11, k=02, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 0 intersections
+Minimum sum: 22
+This is a flower.
+Elapsed time: 0.03549027442932129 seconds.
+
+Working on n=11, k=02, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 2 vertices, 1 intersections
+Minimum sum: 12
+This is a flower.
+Elapsed time: 0.03521013259887695 seconds.
+
+Working on n=11, k=03, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 0 intersections
+Minimum sum: 33
+This is a flower.
+Elapsed time: 0.0354924201965332 seconds.
+
+Working on n=11, k=03, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 1 intersections
+Minimum sum: 23
+This is a flower.
+Elapsed time: 0.036951541900634766 seconds.
+
+Working on n=11, k=03, i=02
+Loading data from clique_data.json
+Already computed: 11 vertices, 3 vertices, 2 intersections
+Minimum sum: 13
+This is a flower.
+Elapsed time: 0.03623390197753906 seconds.
+
+Working on n=11, k=04, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 0 intersections
+Minimum sum: 44
+This is a flower.
+Elapsed time: 0.035249948501586914 seconds.
+
+Working on n=11, k=04, i=01
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 1 intersections
+Minimum sum: 13
+Elapsed time: 0.03796219825744629 seconds.
+
+Working on n=11, k=04, i=02
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 2 intersections
+Minimum sum: 24
+This is a flower.
+Elapsed time: 0.036405324935913086 seconds.
+
+Working on n=11, k=04, i=03
+Loading data from clique_data.json
+Already computed: 11 vertices, 4 vertices, 3 intersections
+Minimum sum: 14
+This is a flower.
+Elapsed time: 0.037268638610839844 seconds.
+
+Working on n=11, k=05, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 5 vertices, 0 intersections
+Minimum sum: 55
+This is a flower.
+Elapsed time: 0.03622078895568848 seconds.
+
+Working on n=11, k=05, i=01
+Loading data from clique_data.json
+Minimum sum: 19
+Elapsed time: 72.05470180511475 seconds.
+
+Working on n=11, k=05, i=02
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 35.265981912612915 seconds.
+
+Working on n=11, k=05, i=03
+Loading data from clique_data.json
+Already computed: 11 vertices, 5 vertices, 3 intersections
+Minimum sum: 25
+This is a flower.
+Elapsed time: 0.03567910194396973 seconds.
+
+Working on n=11, k=05, i=04
+Loading data from clique_data.json
+Already computed: 11 vertices, 5 vertices, 4 intersections
+Minimum sum: 15
+This is a flower.
+Elapsed time: 0.03499197959899902 seconds.
+
+Working on n=11, k=06, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 6 vertices, 0 intersections
+Minimum sum: 66
+This is a flower.
+Elapsed time: 0.03486752510070801 seconds.
+
+Working on n=11, k=06, i=01
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 66.06820726394653 seconds.
+
+Working on n=11, k=06, i=02
+Loading data from clique_data.json
+Minimum sum: 16
+Elapsed time: 2450.234567642212 seconds.
+
+Working on n=11, k=06, i=03
+Loading data from clique_data.json
+Minimum sum: 11
+Elapsed time: 38.301703453063965 seconds.
+
+Working on n=11, k=06, i=04
+Loading data from clique_data.json
+Already computed: 11 vertices, 6 vertices, 4 intersections
+Minimum sum: 26
+This is a flower.
+Elapsed time: 0.03637361526489258 seconds.
+
+Working on n=11, k=06, i=05
+Loading data from clique_data.json
+Already computed: 11 vertices, 6 vertices, 5 intersections
+Minimum sum: 16
+This is a flower.
+Elapsed time: 0.03418731689453125 seconds.
+
+Working on n=11, k=07, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 7 vertices, 0 intersections
+Minimum sum: 77
+This is a flower.
+Elapsed time: 0.03503274917602539 seconds.
+
+Working on n=11, k=07, i=01
+Loading data from clique_data.json
+Minimum sum: 33
+Elapsed time: 55.71777653694153 seconds.
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=03
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 12877.346920013428 seconds.
+
+Working on n=11, k=07, i=04
+Loading data from clique_data.json
+Minimum sum: 12
+Elapsed time: 1430.5046980381012 seconds.
+
+Working on n=11, k=07, i=05
+Loading data from clique_data.json
+Already computed: 11 vertices, 7 vertices, 5 intersections
+Minimum sum: 27
+This is a flower.
+Elapsed time: 0.04691910743713379 seconds.
+
+Working on n=11, k=07, i=06
+Loading data from clique_data.json
+Already computed: 11 vertices, 7 vertices, 6 intersections
+Minimum sum: 17
+This is a flower.
+Elapsed time: 0.0358576774597168 seconds.
+
+Working on n=11, k=08, i=00
+Loading data from clique_data.json
+Already computed: 11 vertices, 8 vertices, 0 intersections
+Minimum sum: 88
+This is a flower.
+Elapsed time: 0.03587770462036133 seconds.
+
+Working on n=11, k=08, i=01
+Loading data from clique_data.json
+Minimum sum: 41
+Elapsed time: 66.26124405860901 seconds.
+
+Working on n=11, k=08, i=02
+Loading data from clique_data.json
+Minimum sum: 26
+Elapsed time: 228.48791074752808 seconds.
+
+Working on n=11, k=08, i=03
+Loading data from clique_data.json
+
+Working on n=11, k=08, i=04
+Loading data from clique_data.json
+Minimum sum: 15
+Elapsed time: 12047.162111520767 seconds.
+
+Working on n=11, k=08, i=05
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=03
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=04
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=05
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=06
+Loading data from clique_data.json
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+None
+<class 'NoneType'>
+
+
+Working on n=11, k=07, i=03
+Loading data from clique_data.json
+15
+<class 'int'>
+
+
+Working on n=11, k=07, i=04
+Loading data from clique_data.json
+12
+<class 'int'>
+
+
+Working on n=11, k=07, i=05
+Loading data from clique_data.json
+27
+<class 'int'>
+
+
+Working on n=11, k=07, i=06
+Loading data from clique_data.json
+17
+<class 'int'>
+
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+None
+<class 'NoneType'>
+
+Checking for smaller flowers
+
+Working on n=11, k=07, i=03
+Loading data from clique_data.json
+15
+<class 'int'>
+
+
+Working on n=11, k=07, i=04
+Loading data from clique_data.json
+12
+<class 'int'>
+
+
+Working on n=11, k=07, i=05
+Loading data from clique_data.json
+27
+<class 'int'>
+
+
+Working on n=11, k=07, i=06
+Loading data from clique_data.json
+17
+<class 'int'>
+
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+Computing general case
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+Computing general case
+Working on n=11, k=7, i=2
+
+Working on n=11, k=07, i=02
+Loading data from clique_data.json
+Computing general case
+Working on n=11, k=7, i=2
